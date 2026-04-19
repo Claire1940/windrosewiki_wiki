@@ -23,6 +23,13 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
 }
 
+function normalizeBrand(value: string) {
+  return value
+    .replace(/Lucid Blocks Wiki/gi, 'Windrose Wiki')
+    .replace(/Lucid Blocks/gi, 'Windrose')
+    .replace(/lucidblocks\\.wiki/gi, 'windrosewiki.wiki')
+}
+
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
 
@@ -214,7 +221,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://windrosewiki.wiki'
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -227,8 +234,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const t = await getTranslations(`pages.${contentType}`)
 
     try {
-      const title = t('metaTitle')
-      const description = t('metaDescription')
+      const title = normalizeBrand(t('metaTitle'))
+      const description = normalizeBrand(t('metaDescription'))
       const path = `/${contentType}`
 
       return {
@@ -254,12 +261,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Windrose Wiki`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse all ${contentType} content for Windrose Wiki`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         robots: {
           index: true,
@@ -288,14 +295,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const normalizedTitle = normalizeBrand(metadata.title)
+      const normalizedDescription = normalizeBrand(metadata.description)
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
-        description: metadata.description,
+        title: `${normalizedTitle} - Windrose Wiki`,
+        description: normalizedDescription,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
-          description: metadata.description,
+          title: normalizedTitle,
+          description: normalizedDescription,
           images: metadata.image ? [metadata.image] : [],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
         },
@@ -323,14 +332,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const normalizedTitle = normalizeBrand(metadata.title)
+          const normalizedDescription = normalizeBrand(metadata.description)
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
-            description: metadata.description,
+            title: `${normalizedTitle} - Windrose Wiki`,
+            description: normalizedDescription,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
-              description: metadata.description,
+              title: normalizedTitle,
+              description: normalizedDescription,
               images: metadata.image ? [metadata.image] : [],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
             },

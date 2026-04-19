@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Open-World Pirate Survival Adventure",
+    "title": "Windrose",
+    "description": "Windrose is a pirate survival adventure on Steam focused on ship combat, base building, open-world exploration, bosses, and co-op progression across land and sea.",
+    "getFreeCodesCTA": "Visit Windrose Official Site",
+    "playOnSteamCTA": "Play Windrose on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "1.5M+",
+        "label": "Steam Wishlists"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "138.5K",
+        "label": "Players In-Game"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "10.7K",
+        "label": "Steam Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "79K+",
+        "label": "Discord Members"
       }
     }
   },
@@ -784,26 +784,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Sail in Windrose?",
+    "description": "Join the official Windrose Discord to track patches, share builds, and stay updated with sea survival news.",
+    "joinCommunity": "Join Windrose Discord",
+    "joinGame": "Play Windrose on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Windrose Wiki",
+    "description": "Your complete Windrose resource hub for ships, bosses, maps, crafting, and sea survival guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Windrose Wiki. Not affiliated with the developers of Windrose.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

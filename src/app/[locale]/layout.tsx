@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -36,19 +36,23 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
-
-	// 将 keywords 字符串分割为数组
-	const keywordsString = t('keywords')
-	const keywords = keywordsString.split(',').map(k => k.trim())
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://windrosewiki.wiki'
+	const heroImage = new URL('/images/hero.webp', siteUrl).toString()
 
 	return {
-		title: t('title'),
-		description: t('description'),
-		keywords: keywords,
+		title: 'Windrose - guide, ships, bosses & map',
+		description:
+			'Windrose hub for guides, ships, bosses, maps, crafting, and updates. Track Steam release details, survival tips, and sea combat essentials in one place.',
+		keywords: [
+			'Windrose',
+			'Steam',
+			'pirate survival',
+			'ship combat',
+			'base building',
+			'bosses',
+			'map',
+			'guide',
+		],
 		robots: {
 			index: true,
 			follow: true,
@@ -64,24 +68,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			type: 'website',
 			locale: locale,
 			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			siteName: 'Windrose Wiki',
+			title: 'Windrose - guide, ships, bosses & map',
+			description:
+				'Windrose hub for guides, ships, bosses, maps, crafting, and updates. Track Steam release details, survival tips, and sea combat essentials in one place.',
 			images: [
 				{
-					url: `${siteUrl}/images/hero.webp`,
+					url: heroImage,
 					width: 1920,
 					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					alt: 'Windrose pirate survival hero artwork',
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
-			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			title: 'Windrose - guide, ships, bosses & map',
+			description:
+				'Windrose hub for guides, ships, bosses, maps, crafting, and updates. Track Steam release details, survival tips, and sea combat essentials in one place.',
+			images: [heroImage],
 		},
 		icons: {
 			icon: [
