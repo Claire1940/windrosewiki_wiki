@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Windrose Wiki - Crafting, Biomes & Achievements",
+      "description": "Windrose Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+      "keywords": "Windrose, Windrose wiki, crafting, biomes, achievements, survival, Steam",
+      "ogTitle": "Windrose Wiki - Crafting, Biomes & Achievements",
+      "ogDescription": "Windrose Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+      "twitterTitle": "Windrose Wiki - Crafting, Biomes & Achievements",
+      "twitterDescription": "Windrose Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
     }
   },
   "nav": {},
@@ -51,238 +51,253 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
+    "title": "Windrose Gameplay",
     "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Windrose",
+    "titleHighlight": "Module Navigator",
+    "subtitle": "Jump to every Windrose guide module and explore the sections in order.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Windrose Beginner Guide",
+        "description": "First 2-5 hours: camp setup, combat rhythm, and early progression."
       },
       {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "title": "Windrose Release Date",
+        "description": "Early Access launch timing, hotfix status, and 1.0 window."
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Windrose Multiplayer Guide",
+        "description": "Invite codes, host setup, world rules, and dedicated servers."
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Windrose Best Stats and Talents",
+        "description": "Safe early stat lanes, survival talents, and build priorities."
       },
       {
         "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Windrose Builds and Classes",
+        "description": "Compare core playstyles and choose a clear combat identity."
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Windrose Best Weapons",
+        "description": "Strong weapon options for early, mid, and current endgame."
       },
       {
         "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "title": "Windrose Ship Guide",
+        "description": "Unlock ships, compare roles, and plan meaningful upgrades."
       },
       {
         "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "title": "Windrose Boss Guide",
+        "description": "Boss locations, prep checklists, patterns, and reward unlocks."
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Windrose Crafting Stations",
+        "description": "Station unlock order, core functions, and priority upgrades."
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Windrose Resources Guide",
+        "description": "Key materials, spawn logic, and high-usage crafting routes."
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "title": "Windrose Map and Biomes",
+        "description": "Biome difficulty flow, routes, and exploration expectations."
       },
       {
         "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Windrose Fast Travel",
+        "description": "Bells, unlock flow, placement strategy, and travel limits."
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Windrose System Requirements",
+        "description": "Minimum and recommended specs with practical hardware notes."
       },
       {
         "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "title": "Windrose Dedicated Server Guide",
+        "description": "Always-on world setup, config basics, and admin workflow."
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Windrose Roadmap",
+        "description": "Track announced direction and the path to full release."
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Windrose Update Log",
+        "description": "Patch notes, balance changes, downtime, and stability fixes."
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+      "title": "Windrose Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Windrose gets much smoother once your opening route is structured. Secure coastal materials, establish a real starter camp, stabilize healing and food, then push caves, quests, and ship progression.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Scavenge the beach before you chase combat",
+          "description": "Start on the shoreline for safe, efficient gathering. This route gives you core materials for tools and shelter without forcing risky early fights."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Set a real day-one camp, not just a campfire",
+          "description": "Build a functional camp with respawn, crafting, cooking, and storage from the start so early deaths and inventory pressure do not reset momentum."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Fight like a stamina game, not a shooter",
+          "description": "Early combat rewards blocks, parries, dodges, and posture breaks. Firearms are best used as finishers after creating a safe opening."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Use map markers and bells to cut runback time",
+          "description": "Track resources and routes with markers, unlock your first bell quickly, and place travel points near dungeon entrances to remove repeated downtime."
+        },
+        {
+          "title": "Build forward camps before bosses and ruins",
+          "description": "A small forward camp turns difficult content into efficient retries. Keep a tent outside hard zones to reset quickly after wipe or unload."
+        },
+        {
+          "title": "Stabilize land progression before full sea progression",
+          "description": "Your biggest early gains come from base quality, survivability, and travel setup on land. Sailing value rises once those systems are stable."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Prioritize wood, plant fiber, nails, scallop shells, loose stone, and riverbank clay in the opening route.",
+        "Starter camp core: bonfire, workbench, cooking fire, bed, and tent.",
+        "Carry at least 10 bandages and two food types before longer combat routes.",
+        "Bandages heal over time, so create space first and then recover.",
+        "Place bells outside dungeons so return trips stay short and repeatable.",
+        "Before Thomas Richards, prepare a weapon, firearm, food, potions, bandages, and a full armor set."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+      "title": "Windrose Release Date",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Windrose is already live in Early Access. The useful release view is launch timing, current build status, and how the path toward 1.0 is developing.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "2026-03-23 - Pre-launch update",
+          "description": "The demo period remained active until Early Access while the team outlined launch-quality improvements from large player feedback batches."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "2026-04-09 - Release date confirmed",
+          "description": "The studio confirmed April 14, 2026 for Early Access launch with a base price of $29.99 and an announced Supporter Bundle."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "2026-04-14 - Early Access live",
+          "description": "Windrose launched on Steam and Epic Games Store with optional co-op, a long-form main story, multiple biomes, and playable ship progression."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "2026-04-17 - Launch-week hotfix",
+          "description": "Hotfix 0.10.0.2.54 improved online stability, outdated-server checks, invite code support, and boss scaling behavior for larger co-op groups."
+        },
+        {
+          "name": "Late 2027 to Late 2028 - Estimated 1.0 window",
+          "description": "Current Early Access planning points to a 1.5-2.5 year development window from launch, with major content growth targeted for full release."
         }
       ],
       "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+        "Windrose Early Access launch: April 14, 2026",
+        "Current platform status: Steam + Epic Games Store",
+        "Latest live update: Hotfix 0.10.0.2.54",
+        "Current 1.0 target window: Late 2027 to Late 2028"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+      "title": "Windrose Multiplayer Guide",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "Windrose co-op is straightforward once hosting, invite flow, world settings, and dedicated server options are mapped clearly.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Online co-op only",
+          "type": "Mode",
+          "description": "Windrose does not use local split-screen. Friends join from separate PCs online, and solo offline play is still available."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Convert a solo world into a co-op world",
+          "type": "Host Setup",
+          "description": "From Play -> Host a game, you can open an existing save, generate an invite code, and continue progression with friends in the same world."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Invite-code join flow",
+          "type": "Join Flow",
+          "description": "Players join through Connect to Server with an invite code. Once joined, the server can be saved for faster re-entry."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Configurable world rules for shared runs",
+          "type": "World Rules",
+          "description": "Hosts can tune shared quest progression, enemy scaling behavior, and password-protected access to match the group setup."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Player cap up to 8, comfort range around 4",
+          "type": "Player Cap",
+          "description": "Dedicated server configs can support up to 8 players, while smaller crews are usually smoother for consistency and performance."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Dedicated servers for always-on worlds",
+          "type": "Dedicated Server",
+          "description": "The official dedicated server app keeps worlds online when hosts are away, with invite code output and version matching as core operations."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
+      "title": "Windrose Best Stats and Talents",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "Windrose early progression is strongest when you commit to one damage lane, secure stamina and health first, and choose talents that keep boss attempts stable.",
       "solutions": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Do not split your damage stats",
+          "role": "Step 1",
+          "description": "Pick one damage lane and commit. Early split investment reduces combat efficiency more than a focused build with modest gear."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Build stamina and health before peak damage",
+          "role": "Step 2",
+          "description": "The safest opener invests in Endurance and Vitality first, then scales the damage stat that matches your primary weapon family."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Understand support stats before spending",
+          "role": "Step 3",
+          "description": "Mastery, Vitality, and Endurance each solve different combat pressure. Knowing their exact value prevents weak early allocation."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Prioritize survival talents early",
+          "role": "Step 4",
+          "description": "Stamina, health, and damage resistance talents reduce wipe chains and make early caves and first bosses much more manageable."
+        },
+        {
+          "name": "Match your talent tree to your playstyle",
+          "role": "Step 5",
+          "description": "Choose one tree based on fight style and commit long enough to feel the power curve, instead of scattering points across unrelated nodes."
         }
       ],
       "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+        "Strength scales clubs and halberds; Agility scales sabers, greatswords, and blunderbusses; Precision scales rapiers, pistols, and muskets.",
+        "Mastery grants +0.5% critical chance per point.",
+        "Vitality grants +13 health per point.",
+        "Endurance grants +5 stamina per point.",
+        "Marathon Runner increases stamina by +20 / +35 / +50.",
+        "Just a Flesh Wound provides 6% / 9% / 12% melee damage resistance.",
+        "Too Angry to Die revives you at 30% health after a killing blow.",
+        "Stout Frame grants +120 / +180 / +240 health.",
+        "Fencer focuses fast melee DPS, Crusher focuses bruiser pressure, Marksman focuses ranged output, and Defender adds universal survivability."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+      "title": "Windrose Builds and Classes",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "Qualia is one of the most important progression milestones in Windrose. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
       "cards": [
         {
           "name": "Personal Qualia",
@@ -294,7 +309,7 @@
         },
         {
           "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "description": "Windrose supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
         },
         {
           "name": "Progression Hub",
@@ -309,9 +324,9 @@
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+      "title": "Windrose Best Weapons",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "Windrose uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
       "regions": [
         {
           "name": "Fog Meadow",
@@ -336,9 +351,9 @@
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+      "title": "Windrose Ship Guide",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "Windrose mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
       "creatures": [
         {
           "name": "Manikins",
@@ -378,9 +393,9 @@
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+      "title": "Windrose Boss Guide",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Windrose. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
       "items": [
         {
           "name": "Hookshot",
@@ -421,9 +436,9 @@
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+      "title": "Windrose Crafting Stations",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Growth is part of real progression in Windrose. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
       "sections": [
         {
           "name": "Seed Progression",
@@ -450,9 +465,9 @@
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+      "title": "Windrose Resources Guide",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Windrose, a few practical upgrades can make the entire rest of the game much smoother.",
       "priorities": [
         {
           "name": "Personal Qualia",
@@ -487,9 +502,9 @@
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+      "title": "Windrose Map and Biomes",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "Windrose currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
       "groups": [
         {
           "name": "Exploration",
@@ -595,83 +610,83 @@
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+      "title": "Windrose Fast Travel",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "These are the core platform and access questions players keep asking before buying Windrose.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "Is Windrose singleplayer?",
+          "answer": "Yes. Windrose supports solo play."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "Is multiplayer or co-op planned in Windrose?",
+          "answer": "Windrose already supports online co-op and dedicated server play."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "Where can I play Windrose?",
+          "answer": "Windrose is available on Steam and Epic Games Store."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "How much does Windrose cost?",
+          "answer": "Windrose launched with a $29.99 base price and an optional Supporter Bundle."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "question": "Does Windrose support controllers?",
+          "answer": "Yes. Windrose supports controller input, though many players prefer keyboard and mouse for menu-heavy workflows."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "question": "Does Windrose work on Steam Deck?",
+          "answer": "Windrose can run on Steam Deck with compatibility-layer tuning based on current patch behavior."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "question": "Does Windrose work on Linux?",
+          "answer": "Windrose can be played through compatibility layers on Linux setups that match the active build requirements."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
+          "question": "Will Windrose support Mac or Android?",
+          "answer": "No official Mac or Android launch target has been confirmed for Windrose."
         },
         {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
+          "question": "Does Windrose have translations?",
+          "answer": "Windrose supports multiple interface languages, including English, German, Russian, and Portuguese (Brazil)."
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "Will Windrose keep getting updates?",
+          "answer": "Yes. Windrose is in active Early Access development with ongoing fixes and content iteration."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+      "title": "Windrose System Requirements",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "Windrose can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "question": "Does Windrose work on Steam Deck?",
+          "answer": "Windrose can run on Steam Deck, and performance depends on your selected compatibility layer and graphics profile."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "question": "What should I do if Windrose Steam Deck controls are not working?",
+          "answer": "Force compatibility mode, test a current Proton profile, and restart after control-layout sync."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "question": "Does Windrose support controllers?",
+          "answer": "Yes. Windrose supports controller input on PC and handheld setups."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "question": "Is Linux support possible for Windrose?",
+          "answer": "Yes. Windrose can be played through Linux compatibility layers when runtime dependencies are met."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "question": "What is the best Windrose input setup?",
+          "answer": "Keyboard and mouse remain the most efficient setup for precision menu navigation and combat timing."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+      "title": "Windrose Dedicated Server Guide",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "Windrose already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
       "settings": [
         {
           "name": "Display Settings",
@@ -696,9 +711,9 @@
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+      "title": "Windrose Roadmap",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Windrose is already receiving quick post-launch fixes and small usability updates.",
       "entries": [
         {
           "title": "Update 2.8.2",
@@ -718,7 +733,7 @@
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+      "title": "Windrose Update Log",
       "displayType": "steps",
       "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
       "steps": [
@@ -728,7 +743,7 @@
         },
         {
           "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "description": "Windrose requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
         },
         {
           "title": "Use Proton 9.0.4 on Steam Deck",
@@ -736,7 +751,7 @@
         },
         {
           "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "description": "Open Windows Run, paste %APPDATA%, go to windrose/logs, and gather the .txt files for troubleshooting."
         },
         {
           "title": "Report the Issue Properly",
@@ -746,33 +761,33 @@
     }
   },
   "faq": {
-    "title": "Frequently Asked",
+    "title": "Windrose Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything players ask most about Windrose right now.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is Windrose singleplayer or co-op?",
+        "answer": "Windrose supports solo play and online co-op. You can start alone and later host the same world for friends."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How does Windrose multiplayer joining work?",
+        "answer": "Windrose uses invite-code joining through Connect to Server, with saved server access after the first connection."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What should I prioritize in Windrose during the first hours?",
+        "answer": "Focus on coastal resource loops, a full starter camp, healing stock, and stamina-first combat habits before pushing harder zones."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "When did Windrose release in Early Access?",
+        "answer": "Windrose launched in Early Access on April 14, 2026, and continues receiving launch-window updates."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Where can I play Windrose today?",
+        "answer": "Windrose is available on Steam and Epic Games Store, with official updates posted through the game site and Steam news."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What is the current Windrose full-release window?",
+        "answer": "Current planning points to a late 2027 to late 2028 window for the Windrose 1.0 release cycle."
       }
     ]
   },
@@ -801,10 +816,10 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
+      "title": "Windrose Guides",
       "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaTitle": "Windrose Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Windrose guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
       "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
@@ -821,10 +836,10 @@
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
+      "title": "Windrose Crafting",
       "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "metaTitle": "Windrose Crafting - Apotheosis System & Recipes",
+      "metaDescription": "Master Windrose Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
       "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
@@ -841,10 +856,10 @@
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
+      "title": "Windrose Items",
       "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "metaTitle": "Windrose Items - Tools, Weapons & Gear Guide",
+      "metaDescription": "Complete item database for Windrose including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
       "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
@@ -861,10 +876,10 @@
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
+      "title": "Windrose Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaTitle": "Windrose Biomes - World Regions & Exploration",
+      "metaDescription": "Explore Windrose biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
@@ -881,10 +896,10 @@
       "all": "All Biomes"
     },
     "building": {
-      "title": "Lucid Blocks Building",
+      "title": "Windrose Building",
       "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "metaTitle": "Windrose Building - Qualia & Base Construction",
+      "metaDescription": "Master Windrose building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
       "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
@@ -901,10 +916,10 @@
       "all": "All Building Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "Windrose Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaTitle": "Windrose Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for Windrose including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
       "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
