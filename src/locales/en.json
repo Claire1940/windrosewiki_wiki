@@ -10,7 +10,16 @@
       "twitterDescription": "Windrose Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "server": "Server",
+    "map": "Map",
+    "resources": "Resources",
+    "builds": "Builds",
+    "ships": "Ships",
+    "mods": "Mods"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1526,125 +1535,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Windrose Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Windrose Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Windrose guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Windrose Guide",
+      "description": "Step-by-step Windrose guide hub for beginners and advanced players, covering combat basics, quest flow, fishing, and early progression routes.",
+      "metaTitle": "Windrose Guide - Beginner Tips, Walkthrough, and Boss Basics",
+      "metaDescription": "Read the Windrose guide hub for beginner setup, combat fundamentals, progression milestones, and practical walkthrough routes from shore to midgame.",
+      "categoryLabel": "STARTER & PROGRESSION",
+      "whatIs": "What is Windrose Guide?",
+      "whatIsDescription": "Windrose Guide is the core learning section for early and midgame progression. It collects practical articles such as beginner routes, first boss prep, fishing setup, save file basics, and efficient quest order so you can progress without wasted detours.",
+      "why": "Why read Windrose Guide?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Start Faster",
+        "step1Description": "Use tested opening routes to unlock tools, stations, and mobility options with fewer resets.",
+        "step2Title": "Avoid Common Mistakes",
+        "step2Description": "Learn stamina, block timing, and resource priorities before you overinvest in weak early choices.",
+        "step3Title": "Transition Smoothly",
+        "step3Description": "Move from tutorial islands to stable midgame with clear boss checkpoints and upgrade targets."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Windrose Guide Articles"
     },
-    "crafting": {
-      "title": "Windrose Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Windrose Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Windrose Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "release": {
+      "title": "Windrose Release",
+      "description": "Track Windrose release timing, platform status, Steam metrics, roadmap updates, pricing changes, and major Early Access milestones in one timeline.",
+      "metaTitle": "Windrose Release - Launch Time, Price, Roadmap, and Updates",
+      "metaDescription": "Follow Windrose release coverage including launch time, Steam activity, pricing, roadmap milestones, and official update cadence for Early Access.",
+      "categoryLabel": "RELEASE TRACKER",
+      "whatIs": "What is Windrose Release?",
+      "whatIsDescription": "Windrose Release focuses on official launch data and live ecosystem signals: release date and time, Steam and SteamDB trends, roadmap direction, pricing context, and update cadence. It is the fastest way to understand where the game stands right now.",
+      "why": "Why read Windrose Release?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Check Live Status",
+        "step1Description": "Verify timing, platform availability, and current update rhythm before planning long sessions.",
+        "step2Title": "Follow Roadmap Priorities",
+        "step2Description": "See which systems are expanding next so you can align builds and progression plans in advance.",
+        "step3Title": "Understand Value Timing",
+        "step3Description": "Compare price windows, demo phases, and activity spikes to decide the best moment to jump in."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Windrose Release Articles"
     },
-    "items": {
-      "title": "Windrose Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Windrose Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Windrose including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "server": {
+      "title": "Windrose Server",
+      "description": "Windrose server setup hub for co-op, dedicated hosting, player limits, crossplay status, join fixes, and performance-focused configuration.",
+      "metaTitle": "Windrose Server - Dedicated Hosting, Co-op Setup, and Fixes",
+      "metaDescription": "Configure Windrose server hosting with dedicated setup steps, co-op settings, connection fixes, and stable multiplayer performance guidance.",
+      "categoryLabel": "MULTIPLAYER & HOSTING",
+      "whatIs": "What is Windrose Server?",
+      "whatIsDescription": "Windrose Server covers multiplayer architecture from simple co-op to dedicated hosting. It includes setup flow, port and config basics, player-cap decisions, world rules, join error troubleshooting, and practical stability checks for long sessions.",
+      "why": "Why read Windrose Server?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Host Correctly",
+        "step1Description": "Set up dedicated or co-op worlds with clean config flow instead of trial-and-error restarts.",
+        "step2Title": "Fix Connection Issues",
+        "step2Description": "Resolve join failures, mismatched settings, and authentication problems with repeatable checks.",
+        "step3Title": "Keep Sessions Stable",
+        "step3Description": "Tune world rules and player counts for smoother latency, fewer crashes, and reliable save continuity."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Windrose Server Articles"
     },
-    "biomes": {
-      "title": "Windrose Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Windrose Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Windrose biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "map": {
+      "title": "Windrose Map",
+      "description": "Navigate the Windrose map with island routes, fast travel unlocks, chest locations, region progression, and practical exploration shortcuts.",
+      "metaTitle": "Windrose Map - Island Routes, Fast Travel, and Key Locations",
+      "metaDescription": "Use Windrose map coverage to find major regions, chest locations, travel shortcuts, and progression-safe routes between islands.",
+      "categoryLabel": "WORLD & ROUTES",
+      "whatIs": "What is Windrose Map?",
+      "whatIsDescription": "Windrose Map organizes location intelligence: full map structure, interactive route logic, fast travel anchors, major region unlock order, and high-value chest or signal-fire points. It helps you move with purpose instead of wandering blind.",
+      "why": "Why read Windrose Map?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Reach Objectives Faster",
+        "step1Description": "Follow proven island routes to key zones, bosses, and crafting unlock points without backtracking.",
+        "step2Title": "Secure Important Loot",
+        "step2Description": "Locate chest paths and utility spots that accelerate upgrades and supply loops.",
+        "step3Title": "Plan Safe Exploration",
+        "step3Description": "Use region order guidance to avoid overpushing into zones before your gear is ready."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Windrose Map Articles"
     },
-    "building": {
-      "title": "Windrose Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Windrose Building - Qualia & Base Construction",
-      "metaDescription": "Master Windrose building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "resources": {
+      "title": "Windrose Resources",
+      "description": "Farm Windrose resources efficiently with material locations, processing chains, trading loops, worker assignments, and economy-focused routing.",
+      "metaTitle": "Windrose Resources - Material Farming, Trading, and Craft Chains",
+      "metaDescription": "Find Windrose resources faster with guides for timber, iron, clay, gunpowder chains, provisioning sales, and merchant workflow planning.",
+      "categoryLabel": "MATERIALS & ECONOMY",
+      "whatIs": "What is Windrose Resources?",
+      "whatIsDescription": "Windrose Resources tracks the material economy behind every upgrade. It explains where to farm core inputs, when to refine them, how to route provision sales, and how worker or merchant assignments improve output across long progression cycles.",
+      "why": "Why read Windrose Resources?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Farm with Intent",
+        "step1Description": "Target the right nodes and biome loops for current upgrade goals instead of random gathering.",
+        "step2Title": "Unblock Crafting Chains",
+        "step2Description": "Map dependencies like fuel, ore, and workshop requirements so crafting does not stall mid-run.",
+        "step3Title": "Improve Economy Flow",
+        "step3Description": "Use selling and processing guidance to convert surplus into progression value more consistently."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Windrose Resources Articles"
     },
-    "support": {
-      "title": "Windrose Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Windrose Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Windrose including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "builds": {
+      "title": "Windrose Builds",
+      "description": "Optimize Windrose builds with stat planning, weapon families, armor choices, faction priorities, and role-based combat loadouts.",
+      "metaTitle": "Windrose Builds - Best Stats, Weapons, Armor, and Talents",
+      "metaDescription": "Build stronger Windrose loadouts with guides on stats, talent priorities, weapon tiers, armor sets, and faction progression choices.",
+      "categoryLabel": "BUILDS & LOADOUTS",
+      "whatIs": "What is Windrose Builds?",
+      "whatIsDescription": "Windrose Builds is the combat optimization section. It compares stat allocation paths, weapon families, armor tradeoffs, and talent priorities so you can shape a loadout that fits your playstyle and current progression stage.",
+      "why": "Why read Windrose Builds?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Allocate Stats Better",
+        "step1Description": "Understand practical breakpoints and avoid investing heavily into low-impact attributes too early.",
+        "step2Title": "Choose Gear by Role",
+        "step2Description": "Match weapons and armor to your preferred tempo, from safe sustain setups to high burst options.",
+        "step3Title": "Scale into Midgame",
+        "step3Description": "Use faction and talent planning to keep damage, survivability, and utility balanced as content rises."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Windrose Builds Articles"
+    },
+    "ships": {
+      "title": "Windrose Ships",
+      "description": "Master Windrose ships through vessel upgrades, wharf management, crew planning, cannon choices, and naval combat recovery tactics.",
+      "metaTitle": "Windrose Ships - Naval Combat, Upgrades, and Crew Management",
+      "metaDescription": "Learn Windrose ships from basic handling to frigate unlocks, wharf workflows, cannon setups, and ship-repair recovery in active combat loops.",
+      "categoryLabel": "NAVAL COMBAT",
+      "whatIs": "What is Windrose Ships?",
+      "whatIsDescription": "Windrose Ships is dedicated to sea gameplay: ship types, wharf progression, crew structure, boarding tools, repair priorities, and cannon strategy. It connects naval systems with land progression so your fleet scales with your campaign.",
+      "why": "Why read Windrose Ships?",
+      "whySteps": {
+        "step1Title": "Upgrade the Right Hull",
+        "step1Description": "Pick vessel progression paths that fit your resources and current combat objectives.",
+        "step2Title": "Win More Sea Fights",
+        "step2Description": "Apply cannon, boarding, and positioning guidance that improves consistency in naval encounters.",
+        "step3Title": "Recover from Losses",
+        "step3Description": "Use repair and rebuild flow to recover quickly when a ship is destroyed or critical parts are lost."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Windrose Ships Articles"
+    },
+    "mods": {
+      "title": "Windrose Mods",
+      "description": "Expand Windrose with safe modding practices, Nexus recommendations, compatibility checks, and setup flow for stable customized playthroughs.",
+      "metaTitle": "Windrose Mods - Nexus Picks, Setup Steps, and Compatibility",
+      "metaDescription": "Install Windrose mods confidently with Nexus guidance, load-order basics, compatibility checks, and practical setup notes for stable sessions.",
+      "categoryLabel": "MODDING",
+      "whatIs": "What is Windrose Mods?",
+      "whatIsDescription": "Windrose Mods covers curated community extensions, especially Nexus-based options, with focus on practical benefits and low-friction setup. It highlights what each mod changes, where conflicts appear, and how to keep your run stable.",
+      "why": "Why read Windrose Mods?",
+      "whySteps": {
+        "step1Title": "Choose High-Value Mods",
+        "step1Description": "Identify community packages that improve usability, progression clarity, or build flexibility.",
+        "step2Title": "Install with Fewer Conflicts",
+        "step2Description": "Use clean setup order and compatibility checks to prevent broken interfaces or save issues.",
+        "step3Title": "Maintain Stability",
+        "step3Description": "Keep your modded profile manageable so updates and rollbacks do not derail active campaigns."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Windrose Mods Articles"
     }
   }
 }

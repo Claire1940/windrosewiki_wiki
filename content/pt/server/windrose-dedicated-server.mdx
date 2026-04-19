@@ -1,0 +1,108 @@
+export const metadata = {
+  title: "Servidor Dedicado Windrose: Guia Completo de Configuração e Hospedagem 2026",
+  description: "Aprenda como hospedar um servidor dedicado Windrose usando SteamCMD. Nosso guia de 2026 cobre encaminhamento de portas, configuração e otimização de desempenho para seu mundo multiplayer.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Windrose+Dedicated+Server+Guide",
+  date: "2026-04-19",
+  author: "Equipe da Wiki Windrose"
+}
+
+Hospedar um **servidor dedicado Windrose** é a maneira definitiva de desfrutar de uma experiência multiplayer persistente sem as limitações da hospedagem peer-to-peer. Ao configurar um **servidor dedicado Windrose**, você garante que seu mundo permaneça acessível aos amigos mesmo quando você estiver offline, além de aliviar o esforço de hardware da sua máquina principal de jogos. Em 2026, o método mais eficiente para gerenciar seu servidor é através do SteamCMD, uma versão de linha de comando do cliente Steam que permite instalações limpas e sem interface gráfica (headless). Esta abordagem é particularmente benéfica para jogadores que desejam hospedar em uma máquina secundária ou em um Servidor Virtual Privado (VPS) enquanto jogam em seu computador principal ou em um dispositivo portátil como o Steam Deck.
+
+## Requisitos de Hardware e Sistema
+
+Antes de mergulhar na instalação, certifique-se de que seu hardware pode lidar com as demandas do jogo. Embora o servidor seja relativamente leve, o uso de recursos escala com o número de jogadores ativos e a complexidade do seu mundo.
+
+| Componente | Requisito Mínimo | Recomendado (8+ Jogadores) |
+|---|---|---|
+| **Sistema Operacional** | Windows 10/11 (64-bit) | Windows Server 2022 |
+| **Processador** | Quad-core 2.5 GHz+ | Hex-core 3.5 GHz+ |
+| **Memória (RAM)** | **8 GB** | **16 GB** |
+| **Armazenamento** | 5 GB de espaço disponível | 10 GB (SSD preferencial) |
+| **Rede** | 5 Mbps de Upload | 20 Mbps+ de Upload |
+
+> **💡 Dica:** Se você planeja hospedar e jogar na mesma máquina, certifique-se de ter pelo menos 16 GB de RAM para evitar travamentos durante sessões de jogo intensas.
+
+## Passo 1: Instalando o SteamCMD e os Arquivos do Servidor
+
+Para começar, você precisa baixar o utilitário SteamCMD da comunidade oficial de desenvolvedores da Valve. Crie uma pasta dedicada no seu drive C: chamada `SteamCMD` e extraia o conteúdo do arquivo zip baixado nela. Uma vez extraído, execute o `steamcmd.exe` para permitir que ele atualize e inicialize sua estrutura de arquivos.
+
+Quando o console estiver pronto, use os seguintes comandos para baixar os arquivos do **servidor dedicado Windrose**:
+
+| Comando | Finalidade |
+|---|---|
+| `force_install_dir c:\WindroseServer` | Define o diretório de instalação para os arquivos do servidor. |
+| `login anonymous` | Faz login nos servidores Steam sem exigir uma conta pessoal. |
+| `app_update 4129620 validate` | Baixa os arquivos do servidor (App ID: **4129620**) e verifica a integridade. |
+| `exit` | Fecha o console do SteamCMD após a conclusão do download. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/gwPMoqaxN5A"
+    title="How to Host a FREE Windrose Dedicated Server with SteamCMD (Easy Setup)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Passo 2: Configuração de Rede e Encaminhamento de Portas
+
+Para que jogadores fora da sua rede local possam entrar no seu **servidor dedicado Windrose**, você deve configurar o firewall do seu roteador. Este processo, conhecido como encaminhamento de portas (port forwarding), direciona o tráfego de entrada do jogo para a máquina específica que hospeda o servidor.
+
+Você precisa abrir as seguintes portas:
+
+| Número da Porta | Protocolo | Descrição |
+|---|---|---|
+| **7777** | UDP | Tráfego Principal de Dados do Jogo |
+| **7778** | UDP | Porta de Consulta / Integração Steam |
+
+> **⚠️ Aviso:** Alguns provedores de internet (ISPs) usam CGNAT, o que pode impedir o encaminhamento de portas tradicional. Se suas portas permanecerem fechadas após a configuração, entre em contato com seu provedor para solicitar um IP estático ou verifique se eles permitem o mapeamento manual de portas.
+
+## Passo 3: Personalizando as Configurações do Servidor
+
+Após rodar o servidor pela primeira vez usando o arquivo `start_server_foreground.bat`, vários arquivos de configuração serão gerados. Você pode encontrá-los no diretório do servidor para personalizar sua experiência.
+
+### Identidade e Segurança do Servidor
+Navegue até a pasta `R5` e localize `server description.json`. Abra-o com um editor de texto como o Bloco de Notas para modificar o seguinte:
+*   **Server Name (Nome do Servidor):** Altere isso para que seus amigos possam identificar facilmente sua sessão.
+*   **Password Protected (Protegido por Senha):** Defina como `true` para manter seu mundo privado.
+*   **Server Password (Senha do Servidor):** Insira uma senha segura para seus jogadores.
+
+### Parâmetros do Mundo e Dificuldade
+Para ajustar as mecânicas de jogo, navegue até `saved/profiles/default/RocksDB/[Versão]/worlds/`. Dentro da pasta do mundo, você encontrará o arquivo `world description.json`. Este arquivo permite ajustar o nível de desafio.
+
+| Parâmetro | Valor Padrão | Intervalo | Efeito |
+|---|---|---|---|
+| **mob_health_multiplier** | 1.0 | 0.2 - 5.0 | Aumenta ou diminui o HP dos inimigos. |
+| **difficulty_multiplier** | 1.0 | 0.5 - 3.0 | Escala a dificuldade geral do jogo. |
+| **island_id** | Default | N/A | Usado para identificar instâncias específicas do mundo. |
+
+## Passo 4: Iniciando e Entrando no Servidor
+
+Para iniciar seu **servidor dedicado Windrose**, use sempre o arquivo batch fornecido (`start_server_foreground.bat`). Isso garante que uma janela de console permaneça aberta, permitindo monitorar os logs e recuperar seu **Código de Convite** (Invite Code).
+
+1.  **Inicie o Servidor:** Clique duas vezes no arquivo batch e aguarde o "Invite Code" aparecer em texto verde.
+2.  **Recupere o Código:** Copie o código alfanumérico. Se você perdê-lo no console, ele geralmente fica armazenado nos logs JSON do servidor.
+3.  **Conecte-se no Jogo:** Abra o Windrose, selecione seu personagem e navegue até "Connect to Server". Insira o Código de Convite e a senha (se aplicável).
+
+Você pode encontrar documentação mais detalhada e parâmetros avançados no [Site Oficial do Windrose](https://playwinrows.com/dedicated-server-guide/).
+
+## FAQ
+
+**P: Como atualizo meu servidor dedicado Windrose quando um novo patch é lançado?**
+
+R: Para atualizar, basta executar o SteamCMD novamente e repetir os comandos `login anonymous` e `app_update 4129620 validate`. Isso substituirá os arquivos antigos pela versão mais recente, mantendo os dados salvos do seu mundo intactos.
+
+**P: Por que não posso hospedar e jogar usando a ferramenta da Biblioteca Steam?**
+
+R: Se você iniciar a ferramenta de servidor dedicado diretamente da sua Biblioteca Steam, a Steam considerará que você está "no jogo". Se tentar iniciar o cliente do jogo em outro dispositivo (como um Steam Deck), você receberá um erro. Usar o método SteamCMD evita totalmente esse conflito de conta.
+
+**P: Como desligo o servidor com segurança sem perder o progresso?**
+
+R: Clique na janela do console do servidor e pressione `Ctrl + C`. Isso envia um sinal de terminação que permite ao servidor salvar o estado atual do mundo antes de fechar. Evite clicar no "X" da janela ou encerrar o processo no Gerenciador de Tarefas, pois isso pode corromper os arquivos.
+
+**P: Posso rodar vários mundos no mesmo servidor?**
+
+R: Sim, você pode gerenciar várias instâncias de mundo definindo diferentes valores de `island_id` nos seus arquivos de configuração. No entanto, certifique-se de que seu hardware tenha RAM suficiente para lidar com a carga adicional de múltiplas zonas ativas.

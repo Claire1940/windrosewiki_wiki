@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Fabrication",
-    "items": "Objets",
-    "biomes": "Biomes",
-    "building": "Construction",
-    "support": "Support"
+    "guide": "Guide",
+    "release": "Release",
+    "server": "Server",
+    "map": "Map",
+    "resources": "Resources",
+    "builds": "Builds",
+    "ships": "Ships",
+    "mods": "Mods"
   },
   "common": {
     "home": "Accueil",

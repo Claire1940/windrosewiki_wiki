@@ -1,0 +1,130 @@
+export const metadata = {
+  title: "Localização do Arquivo de Save de Windrose: Guia Completo para PC 2026",
+  description: "Saiba exatamente onde encontrar a localização do arquivo de save de Windrose no PC. Siga nosso guia detalhado para fazer backup do seu progresso e editar arquivos de configuração.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Windrose+Save+File+Location",
+  date: "2026-04-19",
+  author: "Windrose Wiki Team"
+}
+
+Encontrar a **localização do arquivo de save de windrose** é uma prioridade para qualquer jogador dedicado que deseja proteger seu progresso ou resolver problemas técnicos. Seja para migrar seus dados para um novo computador ou simplesmente criar um backup manual antes de experimentar mods, conhecer a **localização do arquivo de save de windrose** garante que suas horas de exploração e crescimento de personagem permaneçam seguras. No cenário de jogos moderno de 2026, confiar apenas em salvamentos na nuvem pode, às vezes, levar a erros de sincronização, tornando o gerenciamento local de arquivos uma habilidade vital para entusiastas de PC.
+
+Este guia fornece um detalhamento abrangente da estrutura de diretórios usada pelo jogo, incluindo os caminhos específicos tanto para dados de personagem quanto para configurações do sistema. Seguindo estes passos, você poderá navegar pelas profundezas ocultas do sistema de arquivos do seu Windows para localizar as pastas exatas onde sua jornada está armazenada. Também exploraremos como modificar as configurações do jogo por meio dos arquivos de configuração encontrados no mesmo diretório.
+
+## Passo a Passo: Encontrando a Localização do Arquivo de Save de Windrose
+
+O jogo armazena seus dados dentro da pasta de dados de aplicativos locais do usuário, o que é uma prática comum para muitos títulos modernos desenvolvidos em meados da década de 2020. Acessar esta pasta requer navegar por vários subdiretórios. Como a pasta "AppData" fica oculta por padrão no Windows, você pode precisar ajustar suas configurações de visualização antes de prosseguir.
+
+Para acessar a **localização do arquivo de save de windrose** principal, siga estes passos precisos:
+
+1.  Abra o **Explorador de Arquivos** no seu PC.
+2.  Navegue até a sua unidade principal, geralmente a **Unidade C:**.
+3.  Abra a pasta **Usuários** e selecione a pasta correspondente ao seu nome de usuário ativo do Windows.
+4.  Localize a pasta **AppData**. Se não estiver visível, clique na guia **Exibir** no topo da janela, selecione **Mostrar** e marque **Itens ocultos**.
+5.  Prossiga pelo seguinte caminho: `Local` > `R5` > `Saved` > `SaveGames`.
+
+Dentro da pasta `SaveGames`, você encontrará seus arquivos de save principais. Esses arquivos contêm as estatísticas do seu personagem, o progresso no mundo e os dados do inventário.
+
+### Resumo do Diretório Principal
+
+| Nível da Pasta | Componente do Caminho | Finalidade |
+| :--- | :--- | :--- |
+| **Raiz** | C:\Users\[Usuário] | Seu perfil de usuário local do Windows. |
+| **Tipo de Dado** | AppData\Local | Dados de aplicativos locais para softwares instalados. |
+| **ID do Jogo** | R5 | A pasta interna do projeto para Windrose. |
+| **Armazenamento** | Saved\SaveGames | A principal **localização do arquivo de save de windrose** para dados do jogador. |
+
+## Localizações Alternativas de Dados de Save e Perfil
+
+Às vezes, os jogadores podem descobrir que a pasta `SaveGames` está vazia ou não contém os dados mais recentes. Isso geralmente acontece se o jogo usar um sistema baseado em perfil ou um formato de banco de dados como o RocksDB para gerenciar estados de mundo complexos. Se seus arquivos estiverem ausentes do local padrão, você deve verificar o diretório `SaveProfiles`.
+
+Navegue de volta para a pasta `Saved` e procure por um diretório chamado `SaveProfiles`. Lá dentro, você verá uma pasta rotulada com uma longa sequência de números (seu ID de Usuário exclusivo). Dentro desta pasta, o caminho `RocksDB` > `0.1 0.0` geralmente contém os pedaços de dados reais usados para reconstruir o mundo do seu jogo ao carregar.
+
+### Estrutura de Dados do Perfil
+
+| Nome da Pasta | Descrição |
+| :--- | :--- |
+| **SaveProfiles** | Contém dados de perfil de usuário individual. |
+| **[Número Longo]** | Seu ID interno exclusivo para o jogo. |
+| **RocksDB** | Um banco de dados de alto desempenho usado para armazenamento do estado do mundo. |
+| **0.1 0.0** | Arquivos de dados versionados específicos para o seu save atual. |
+
+> **💡 Dica:** Se você estiver transferindo saves para outro computador, é altamente recomendável copiar a pasta `R5` inteira em vez de apenas arquivos individuais para garantir que todos os links de perfil e banco de dados permaneçam intactos.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/SeHWNkfDZc0"
+    title="Windrose: Where Is The Save Game & Config Files Located On PC Tutorial"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Localizando e Editando Arquivos de Configuração
+
+Além da **localização do arquivo de save de windrose**, você pode precisar encontrar os arquivos de configuração para otimizar o desempenho do seu jogo. Se você estiver enfrentando baixas taxas de quadros ou problemas de resolução que não podem ser corrigidos pelo menu do jogo, editar o arquivo `gameusersettings.ini` é a solução padrão.
+
+Os arquivos de configuração estão localizados em um caminho semelhante aos dados de save. A partir da pasta `Saved`, navegue até `Config` e depois `Windows`. Aqui, você encontrará vários arquivos `.ini` que controlam como o jogo interage com seu hardware.
+
+### Principais Arquivos de Configuração
+
+| Nome do Arquivo | Função Principal |
+| :--- | :--- |
+| **gameusersettings.ini** | Controla resolução, qualidade gráfica e comandos (keybinds). |
+| **Engine.ini** | Configurações avançadas de renderização e ajustes de nível de engine. |
+| **Input.ini** | Dados personalizados de mapeamento de controle e teclado. |
+
+Para editar esses arquivos, clique com o botão direito sobre eles e selecione **Abrir com Bloco de Notas**. Você pode alterar manualmente valores como `ResolutionSizeX` ou `FrameRateLimit`. Sempre crie um backup desses arquivos antes de fazer alterações, pois valores incorretos podem impedir o jogo de iniciar.
+
+## Por Que Você Deve Fazer Backup Manual dos Seus Saves
+
+Embora a Steam Cloud seja uma ferramenta conveniente em 2026, ela não é infalível. Existem vários cenários onde conhecer a **localização do arquivo de save de windrose** e realizar backups manuais pode salvar seu progresso:
+
+*   **Conflitos de Nuvem:** Ocasionalmente, a nuvem pode substituir um save local mais novo por uma versão mais antiga do servidor.
+*   **Corrupção:** Se ocorrer uma queda de energia enquanto o jogo estiver salvando, o arquivo pode ser corrompido. Um backup local permite que você reverta para um estado anterior.
+*   **Modding:** Antes de instalar qualquer mod ou patch da comunidade, é prática padrão proteger seus dados de save.
+*   **Jogo Offline:** Se você joga extensivamente sem conexão à internet, seus arquivos locais são o único registro do seu progresso.
+
+> **⚠️ Aviso:** Nunca exclua arquivos dentro da pasta `RocksDB`, a menos que esteja seguindo um guia de recuperação específico, pois esses arquivos são interdependentes e a exclusão de um pode quebrar todo o perfil de save.
+
+## Resolução de Problemas de Pastas Ausentes
+
+Se você navegar até a pasta `Local` e não encontrar o diretório `R5`, existem algumas possibilidades a considerar. Primeiro, certifique-se de ter iniciado o jogo pelo menos uma vez e chegado a um ponto onde um save inicial pudesse ser criado. O diretório do jogo geralmente é gerado apenas após o primeiro evento de salvamento.
+
+Segundo, verifique se você está procurando no perfil de usuário correto. Se o seu PC tiver várias contas de usuário, a **localização do arquivo de save de windrose** será exclusiva da conta que estava ativa quando o jogo foi jogado. Você também pode acessar rapidamente a pasta AppData pressionando `Tecla Windows + R`, digitando `%localappdata%` e pressionando Enter. Este atalho ignora a necessidade de alternar manualmente os itens ocultos.
+
+Para mais informações sobre atualizações do jogo e suporte oficial, você pode visitar a [Central da Comunidade Steam de Windrose](https://steamcommunity.com/app/windrose) para as últimas notas de patch e discussões de usuários.
+
+## Melhores Práticas para Gerenciamento de Saves
+
+Gerenciar seus dados de forma eficaz envolve mais do que apenas saber o caminho do arquivo. Para manter um ambiente de jogo saudável ao longo de 2026, considere implementar uma rotina de manutenção regular.
+
+1.  **Backups Semanais:** Copie sua pasta `SaveGames` para uma unidade externa ou um diretório diferente no seu PC uma vez por semana.
+2.  **Convenções de Nomenclatura:** Ao fazer backups manuais, renomeie a pasta com a data atual (ex: `SaveGames_Backup_2026_04_19`).
+3.  **Verifique a Integridade:** Verifique periodicamente os arquivos do seu jogo através do seu inicializador (Steam/Epic) para garantir que a estrutura do diretório permaneça correta.
+
+| Ação | Frequência | Benefício |
+| :--- | :--- | :--- |
+| **Cópia Manual** | Semanalmente | Proteção contra perda de dados. |
+| **Verificação de Arquivos** | Após Atualizações | Corrige caminhos de diretório quebrados. |
+| **Limpeza de Configuração** | Mensalmente | Remove configurações redundantes de patches antigos. |
+
+## FAQ
+
+**P: Posso mover meus arquivos de save de Windrose para outro computador?**
+
+R: Sim. Você pode copiar a pasta `R5` inteira da **localização do arquivo de save de windrose** no seu PC antigo e colá-la no mesmo diretório na sua nova máquina. Certifique-se de que o jogo esteja instalado no novo PC primeiro para que a pasta `Local` exista.
+
+**P: O que devo fazer se o meu arquivo gameusersettings.ini estiver faltando?**
+
+R: Se o arquivo de configuração estiver faltando, inicie o jogo e altere qualquer configuração gráfica no menu. Isso forçará o jogo a gerar um novo arquivo `.ini` no diretório `Config\Windows`.
+
+**P: A localização do arquivo de save de windrose é a mesma para as versões da Steam e da Epic Games?**
+
+R: Geralmente, sim. A maioria das versões do jogo usa o caminho `%localappdata%\R5` independentemente da loja, pois isso é definido pela engine do jogo e não pelo inicializador.
+
+**P: Como restauro um arquivo de save corrompido?**
+
+R: Se você tiver um backup, basta excluir os arquivos corrompidos na pasta `SaveGames` e substituí-los pelas suas cópias de backup. Se você não tiver um backup, pode tentar usar o recurso "Versões Anteriores" no Windows clicando com o botão direito na pasta e selecionando "Restaurar versões anteriores", embora isso dependa das configurações de Cópia de Sombra (Shadow Copy) do seu sistema.

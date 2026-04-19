@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Guide",
+    "release": "Release",
+    "server": "Server",
+    "map": "Map",
+    "resources": "Resources",
+    "builds": "Builds",
+    "ships": "Ships",
+    "mods": "Mods"
   },
   "common": {
     "home": "Ana Sayfa",

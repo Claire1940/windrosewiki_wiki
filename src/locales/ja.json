@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "Guide",
+    "release": "Release",
+    "server": "Server",
+    "map": "Map",
+    "resources": "Resources",
+    "builds": "Builds",
+    "ships": "Ships",
+    "mods": "Mods"
   },
   "common": {
     "home": "ホーム",

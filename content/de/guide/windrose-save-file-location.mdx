@@ -1,0 +1,130 @@
+export const metadata = {
+  title: "Windrose Speicherort der Spielstände: Vollständiger PC-Guide 2026",
+  description: "Erfahren Sie genau, wo Sie den Windrose Speicherort der Spielstände auf dem PC finden. Folgen Sie unserem detaillierten Guide, um Ihren Fortschritt zu sichern und Konfigurationsdateien zu bearbeiten.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Windrose+Save+File+Location",
+  date: "2026-04-19",
+  author: "Windrose Wiki Team"
+}
+
+Den **Windrose Speicherort der Spielstände** zu finden, hat für jeden engagierten Spieler Priorität, der seinen Fortschritt schützen oder technische Probleme beheben möchte. Ganz gleich, ob Sie planen, Ihre Daten auf einen neuen Computer zu übertragen oder einfach nur ein manuelles Backup erstellen möchten, bevor Sie mit Mods experimentieren – die Kenntnis über den **Windrose Speicherort der Spielstände** stellt sicher, dass Ihre Stunden der Erkundung und Charakterentwicklung sicher bleiben. In der modernen Gaming-Landschaft des Jahres 2026 kann das ausschließliche Verlassen auf Cloud-Speicherstände manchmal zu Synchronisationsfehlern führen, was die lokale Dateiverwaltung zu einer wichtigen Fähigkeit für PC-Enthusiasten macht.
+
+Dieser Guide bietet eine umfassende Aufschlüsselung der vom Spiel verwendeten Verzeichnisstruktur, einschließlich der spezifischen Pfade für Charakterdaten und Systemkonfigurationen. Wenn Sie diese Schritte befolgen, können Sie durch die verborgenen Tiefen Ihres Windows-Dateisystems navigieren, um genau die Ordner zu finden, in denen Ihre Reise gespeichert ist. Wir werden auch untersuchen, wie Sie Ihre Spieleinstellungen über die Konfigurationsdateien im selben Verzeichnis anpassen können.
+
+## Schritt-für-Schritt: Den Windrose Speicherort der Spielstände finden
+
+Das Spiel speichert seine Daten im lokalen Anwendungsdatenordner des Benutzers, was eine Standardpraxis für viele moderne Titel ist, die Mitte der 2020er Jahre entwickelt wurden. Der Zugriff auf diesen Ordner erfordert das Navigieren durch mehrere Unterverzeichnisse. Da der Ordner „AppData“ in Windows standardmäßig ausgeblendet ist, müssen Sie möglicherweise Ihre Ansichtseinstellungen anpassen, bevor Sie fortfahren können.
+
+Um auf den primären **Windrose Speicherort der Spielstände** zuzugreifen, folgen Sie diesen präzisen Schritten:
+
+1.  Öffnen Sie den **Datei-Explorer** auf Ihrem PC.
+2.  Navigieren Sie zu Ihrem Hauptlaufwerk, normalerweise **Laufwerk C:**.
+3.  Öffnen Sie den Ordner **Benutzer** (Users) und wählen Sie den Ordner aus, der Ihrem aktiven Windows-Benutzernamen entspricht.
+4.  Suchen Sie den Ordner **AppData**. Falls dieser nicht sichtbar ist, klicken Sie oben im Fenster auf den Reiter **Ansicht**, wählen Sie **Einblenden** und setzen Sie ein Häkchen bei **Ausgeblendete Elemente**.
+5.  Folgen Sie dem Pfad: `Local` > `R5` > `Saved` > `SaveGames`.
+
+Im Ordner `SaveGames` finden Sie Ihre primären Save-Dateien. Diese Dateien enthalten Ihre Charakterwerte, den Weltfortschritt und Inventardaten.
+
+### Zusammenfassung des Hauptverzeichnisses
+
+| Ordnerebene | Pfadkomponente | Zweck |
+| :--- | :--- | :--- |
+| **Stammverzeichnis** | C:\Benutzer\[Benutzername] | Ihr lokales Windows-Benutzerprofil. |
+| **Datentyp** | AppData\Local | Lokale Anwendungsdaten für installierte Software. |
+| **Spiel-ID** | R5 | Der interne Projektordner für Windrose. |
+| **Speicherort** | Saved\SaveGames | Der primäre **Windrose Speicherort der Spielstände** für Spielerdaten. |
+
+## Alternative Speicherorte für Spieldaten und Profile
+
+Gelegentlich stellen Spieler fest, dass der Ordner `SaveGames` leer ist oder nicht die aktuellsten Daten enthält. Dies geschieht oft, wenn das Spiel ein profilbasiertes System oder ein Datenbankformat wie RocksDB verwendet, um komplexe Weltzustände zu verwalten. Falls Ihre Dateien am Standardort fehlen, sollten Sie das Verzeichnis `SaveProfiles` überprüfen.
+
+Navigieren Sie zurück zum Ordner `Saved` und suchen Sie nach einem Verzeichnis namens `SaveProfiles`. Darin sehen Sie einen Ordner, der mit einer langen Zahlenfolge beschriftet ist (Ihre eindeutige User-ID). Innerhalb dieses Ordners enthält der Pfad `RocksDB` > `0.1 0.0` oft die tatsächlichen Datenpakete, die zum Rekonstruieren Ihrer Spielwelt beim Laden verwendet werden.
+
+### Struktur der Profildaten
+
+| Ordnername | Beschreibung |
+| :--- | :--- |
+| **SaveProfiles** | Enthält individuelle Benutzerprofildaten. |
+| **[Lange Nummer]** | Ihre eindeutige interne ID für das Spiel. |
+| **RocksDB** | Eine Hochleistungsdatenbank für die Speicherung des Weltzustands. |
+| **0.1 0.0** | Spezifische versionsabhängige Datendateien für Ihren aktuellen Spielstand. |
+
+> **💡 Tipp:** Wenn Sie Spielstände auf einen anderen Computer übertragen, wird dringend empfohlen, den gesamten Ordner `R5` zu kopieren, anstatt nur einzelne Dateien, um sicherzustellen, dass alle Profil- und Datenbankverknüpfungen intakt bleiben.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/SeHWNkfDZc0"
+    title="Windrose: Where Is The Save Game & Config Files Located On PC Tutorial"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Konfigurationsdateien finden und bearbeiten
+
+Über den **Windrose Speicherort der Spielstände** hinaus müssen Sie möglicherweise die Konfigurationsdateien finden, um die Spielleistung zu optimieren. Wenn Sie niedrige Bildraten oder Auflösungsprobleme haben, die nicht über das In-Game-Menü behoben werden können, ist das Bearbeiten der Datei `gameusersettings.ini` die Standardlösung.
+
+Die Konfigurationsdateien befinden sich in einem ähnlichen Pfad wie die Speicherdaten. Navigieren Sie vom Ordner `Saved` zu `Config` und dann zu `Windows`. Hier finden Sie mehrere `.ini`-Dateien, die steuern, wie das Spiel mit Ihrer Hardware interagiert.
+
+### Wichtige Konfigurationsdateien
+
+| Dateiname | Hauptfunktion |
+| :--- | :--- |
+| **gameusersettings.ini** | Steuert Auflösung, Grafikqualität und Tastaturbelegung. |
+| **Engine.ini** | Erweiterte Rendering-Einstellungen und Optimierungen auf Engine-Ebene. |
+| **Input.ini** | Benutzerdefinierte Controller- und Tastatur-Mapping-Daten. |
+
+Um diese Dateien zu bearbeiten, klicken Sie mit der rechten Maustaste darauf und wählen Sie **Öffnen mit Editor** (Notepad). Sie können Werte wie `ResolutionSizeX` oder `FrameRateLimit` manuell ändern. Erstellen Sie immer eine Sicherungskopie dieser Dateien, bevor Sie Änderungen vornehmen, da falsche Werte den Start des Spiels verhindern können.
+
+## Warum Sie Ihre Spielstände manuell sichern sollten
+
+Obwohl die Steam Cloud im Jahr 2026 ein praktisches Tool ist, ist sie nicht unfehlbar. Es gibt mehrere Szenarien, in denen die Kenntnis des **Windrose Speicherorts der Spielstände** und die Durchführung manueller Backups Ihren Fortschritt retten können:
+
+*   **Cloud-Konflikte:** Gelegentlich kann die Cloud einen neueren lokalen Spielstand mit einer älteren Version vom Server überschreiben.
+*   **Dateibeschädigung:** Wenn während des Speichervorgangs ein Stromausfall auftritt, kann die Datei beschädigt werden. Ein lokales Backup ermöglicht es Ihnen, zu einem früheren Zustand zurückzukehren.
+*   **Modding:** Bevor Sie Community-Mods oder Patches installieren, ist es Standardpraxis, Ihre Speicherdaten zu sichern.
+*   **Offline-Spiel:** Wenn Sie viel ohne Internetverbindung spielen, sind Ihre lokalen Dateien der einzige Beleg für Ihren Fortschritt.
+
+> **⚠️ Warnung:** Löschen Sie niemals Dateien im Ordner `RocksDB`, es sei denn, Sie folgen einer spezifischen Wiederherstellungsanleitung, da diese Dateien voneinander abhängig sind und das Löschen einer Datei das gesamte Speicherprofil unbrauchbar machen kann.
+
+## Fehlerbehebung bei fehlenden Ordnern
+
+Wenn Sie zum Ordner `Local` navigieren und das Verzeichnis `R5` nicht finden können, gibt es einige Möglichkeiten. Stellen Sie zunächst sicher, dass Sie das Spiel mindestens einmal gestartet und einen Punkt erreicht haben, an dem ein erster Spielstand erstellt werden konnte. Das Spielverzeichnis wird oft erst nach dem ersten Speicherereignis generiert.
+
+Zweitens prüfen Sie, ob Sie im richtigen Benutzerprofil suchen. Wenn Ihr PC über mehrere Benutzerkonten verfügt, ist der **Windrose Speicherort der Spielstände** für das Konto spezifisch, das beim Spielen aktiv war. Sie können auch schnell auf den AppData-Ordner zugreifen, indem Sie `Windows-Taste + R` drücken, `%localappdata%` eingeben und die Eingabetaste drücken. Dieser Shortcut umgeht die Notwendigkeit, versteckte Elemente manuell einzublenden.
+
+Weitere Informationen zu Spiel-Updates und offiziellem Support finden Sie im [Windrose Steam Community Hub](https://steamcommunity.com/app/windrose) für die neuesten Patchnotizen und Benutzerdiskussionen.
+
+## Best Practices für die Verwaltung von Spielständen
+
+Ein effektives Datenmanagement erfordert mehr als nur die Kenntnis des Dateipfads. Um eine gesunde Spielumgebung während des gesamten Jahres 2026 aufrechtzuerhalten, sollten Sie eine regelmäßige Wartungsroutine einführen.
+
+1.  **Wöchentliche Backups:** Kopieren Sie Ihren Ordner `SaveGames` einmal pro Woche auf ein externes Laufwerk oder in ein anderes Verzeichnis auf Ihrem PC.
+2.  **Benennungskonventionen:** Wenn Sie manuelle Backups erstellen, benennen Sie den Ordner mit dem aktuellen Datum um (z. B. `SaveGames_Backup_2026_04_19`).
+3.  **Integrität prüfen:** Überprüfen Sie Ihre Spieldateien regelmäßig über Ihren Launcher (Steam/Epic), um sicherzustellen, dass die Verzeichnisstruktur korrekt bleibt.
+
+| Aktion | Häufigkeit | Vorteil |
+| :--- | :--- | :--- |
+| **Manuelle Kopie** | Wöchentlich | Schutz vor Datenverlust. |
+| **Dateiüberprüfung** | Nach Updates | Behebt fehlerhafte Verzeichnispfade. |
+| **Konfigurations-Cleanup** | Monatlich | Entfernt redundante Einstellungen alter Patches. |
+
+## FAQ
+
+**F: Kann ich meine Windrose-Spielstände auf einen anderen Computer übertragen?**
+
+A: Ja. Sie können den gesamten Ordner `R5` vom **Windrose Speicherort der Spielstände** auf Ihrem alten PC kopieren und in dasselbe Verzeichnis auf Ihrem neuen Rechner einfügen. Stellen Sie sicher, dass das Spiel auf dem neuen PC zuerst installiert wurde, damit der Ordner `Local` existiert.
+
+**F: Was soll ich tun, wenn meine Datei gameusersettings.ini fehlt?**
+
+A: Wenn die Konfigurationsdatei fehlt, starten Sie das Spiel und ändern Sie eine beliebige Grafikeinstellung im Menü. Dies zwingt das Spiel dazu, eine neue `.ini`-Datei im Verzeichnis `Config\Windows` zu erstellen.
+
+**F: Ist der Windrose Speicherort der Spielstände für die Steam- und Epic Games-Versionen gleich?**
+
+A: Im Allgemeinen ja. Die meisten Versionen des Spiels verwenden den Pfad `%localappdata%\R5`, unabhängig vom Store, da dies eher durch die Game-Engine als durch den Launcher definiert wird.
+
+**F: Wie stelle ich einen beschädigten Spielstand wieder her?**
+
+A: Wenn Sie ein Backup haben, löschen Sie einfach die beschädigten Dateien im Ordner `SaveGames` und ersetzen Sie diese durch Ihre Backup-Kopien. Wenn Sie kein Backup haben, können Sie versuchen, die Funktion „Vorgängerversionen“ in Windows zu nutzen, indem Sie mit der rechten Maustaste auf den Ordner klicken und „Vorgängerversionen wiederherstellen“ wählen, sofern dies in Ihren Systemeinstellungen (Schattenkopien) aktiviert ist.

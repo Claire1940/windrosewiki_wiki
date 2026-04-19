@@ -1,0 +1,119 @@
+export const metadata = {
+  title: "Windrose Server Hosting: Complete Dedicated Setup Guide 2026",
+  description: "Learn how to set up and optimize Windrose server hosting for a seamless multiplayer experience. Includes step-by-step G-Portal configuration and advanced world settings.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Windrose+Server+Hosting+Guide",
+  date: "2026-04-19",
+  author: "Windrose Wiki Team"
+}
+
+Setting up professional **windrose server hosting** is the most effective way to ensure a stable, lag-free environment for you and your crew as you navigate the high seas. In a game where precision sailing and cooperative exploration are core to the experience, relying on a local host can often lead to synchronization issues or progress loss if the host goes offline. By opting for dedicated **windrose server hosting**, you gain 24/7 uptime, better hardware resources, and the ability to customize world difficulty settings far beyond the standard in-game sliders. This guide will walk you through the entire process of selecting a provider, configuring your hardware slots, and diving into the file manager to fine-tune your world's difficulty and progression values for the ultimate 2026 gaming session.
+
+## Why Choose Dedicated Windrose Server Hosting?
+
+While Windrose allows for peer-to-peer connections, dedicated hosting offers several technical advantages that are essential for groups larger than two players. The game currently supports up to eight players, though developers often suggest a four-player group for the most balanced gameplay. A dedicated server handles the heavy lifting of world simulation, enemy AI, and physics calculations, which are particularly taxing during intense naval combat.
+
+| Feature | Local Hosting | Dedicated Hosting |
+| :--- | :--- | :--- |
+| **Uptime** | Only when host is online | **24/7 Availability** |
+| **Performance** | Tied to host's PC/Internet | **Enterprise-grade Hardware** |
+| **Player Cap** | Limited by host's RAM | **Up to 8 Players (Stable)** |
+| **Customization** | Basic in-game menus | **Full JSON File Access** |
+
+> **💡 Tip:** If you plan on playing with a group of four or more, a dedicated server is highly recommended to prevent "rubber-banding" during ship maneuvers.
+
+## Step-by-Step Server Configuration
+
+To begin your journey, you will need to select a reputable hosting provider. G-Portal is a primary partner for Windrose, offering streamlined setups that are ideal for beginners. Follow these steps to get your instance running in minutes.
+
+### 1. Ordering and Slot Selection
+Navigate to your chosen provider's website and search for Windrose in their game library. You will be presented with various "slot" options. In server hosting terms, a "slot" represents one player position.
+
+| Plan Type | Recommended Players | Duration Options |
+| :--- | :--- | :--- |
+| **Starter** | 6 Slots | 30 Days |
+| **Standard** | 6 Slots | 90 Days |
+| **Pro Crew** | 8 Slots | 30 / 90 / 365 Days |
+
+While the game supports 8 players, many hosting providers set a minimum of 6 slots for their basic packages. Choose the region closest to your physical location (e.g., Central Europe, US East, or Asia) to minimize latency.
+
+### 2. Initial Dashboard Setup
+Once your payment is processed, your server will appear in your "My Servers" dashboard. It will likely be in a "Stopped" state. Before clicking start, you must configure the basic identity of your server so your friends can find it.
+
+1.  **Server Name:** Choose a unique name (e.g., "Windrose Explorers 2026").
+2.  **Invite Code:** This is a unique alphanumeric string used to join the game.
+3.  **Password:** Always set a password to prevent random players from joining and griefing your world.
+4.  **Max Players:** Set this to match your purchased slots or a lower number if you want a more intimate experience.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/SDiadRy2WvQ"
+    title="WINDROSE Dedicated Server Setup | Host With GPORTAL Today"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Connecting to Your Server
+
+Joining a dedicated server in Windrose is slightly different from other survival games. Instead of a traditional server browser, the game utilizes the **Invite Code** system for direct connections.
+
+1.  Launch Windrose and create/select your character.
+2.  Select **Play** from the main menu.
+3.  Choose **Connect to Server**.
+4.  Enter the **Invite Code** provided in your hosting dashboard.
+5.  Click **Find**, select your server, and enter the password when prompted.
+
+> **Warning:** Ensure your server status is "Running" in the web dashboard before attempting to connect. If the server was recently restarted, it may take 60-90 seconds to become visible in the network.
+
+## Advanced World Customization
+
+One of the greatest benefits of **windrose server hosting** is the ability to modify the `world description.json` file. This allows you to scale difficulty, quest progression, and resource drops beyond the standard 100% limits.
+
+### Accessing the File Manager
+To make these changes, your server must be **stopped**. Navigate to the following directory in your provider's File Manager:
+`R5/saved/save/profiles/default/rocksDB/0.10/worlds/[YourWorldSeed]/`
+
+Locate the file named `world description.json`. It is highly recommended to download a backup of this file to your local PC before editing.
+
+### Understanding Difficulty Multipliers
+In the JSON file, values are represented as decimals. A value of `1.0` equals 100% (default). If you want to make the game significantly harder or easier, use the following logic:
+
+| Setting | JSON Value | In-Game Effect |
+| :--- | :--- | :--- |
+| **Default Difficulty** | `1.0` | Standard experience |
+| **Hardcore Combat** | `2.5` | 250% Enemy Damage/Health |
+| **Extreme Challenge** | `5.0` | 500% Difficulty (Maximum) |
+| **Relaxed Exploration** | `0.5` | 50% Difficulty (Casual) |
+
+You can also toggle `shared quest progression` within this file. Setting this to `true` ensures that when one player completes an objective, the entire crew receives credit, which is vital for maintaining group cohesion during long voyages.
+
+## Optimizing Server Performance
+
+To keep your **windrose server hosting** running smoothly throughout 2026, consider these maintenance tips:
+
+*   **Scheduled Restarts:** Configure your server to restart automatically once every 24 hours. This clears the RAM cache and resolves minor physics glitches that can accumulate over long sessions.
+*   **Automatic Updates:** Enable "Automatic Updates" in your dashboard. Windrose frequently releases hotfixes in Early Access, and players with mismatched versions will be unable to connect.
+*   **File Verification:** If you experience frequent crashes, use the "Verify Game Files" tool in your server dashboard to ensure the installation isn't corrupted.
+
+For more information on game mechanics and official patches, visit the [Windrose Steam Community Hub](https://store.steampowered.com/app/1404370/Wind_Rose/) for the latest developer updates.
+
+## FAQ
+
+**Q: How many players can a Windrose server handle?**
+
+A: Currently, **windrose server hosting** supports a maximum of 8 players. However, for the best performance and gameplay balance, a group size of 4 to 6 is recommended by the community and developers.
+
+**Q: Can I change my server's location after purchasing?**
+
+A: Most providers like G-Portal allow you to switch regions, but it may require a server reinstall. It is best to choose the location closest to the majority of your players during the initial setup to avoid high latency.
+
+**Q: What happens if I forget my Invite Code?**
+
+A: Your Invite Code is always visible in your server's "Basic Settings" or "Dashboard" tab. You can change it at any time, but remember that all players will need the new code to reconnect.
+
+**Q: Do I need to keep my PC on for the server to run?**
+
+A: No. The benefit of dedicated **windrose server hosting** is that the game world runs on the provider's hardware. You can turn off your computer, and your friends can continue playing as long as the server is active in the dashboard.

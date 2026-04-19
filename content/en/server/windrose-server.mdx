@@ -1,0 +1,128 @@
+export const metadata = {
+  title: "Windrose Server: Dedicated Hosting and Setup Guide 2026",
+  description: "Learn how to set up, manage, and optimize your Windrose server for the best multiplayer experience. Step-by-step guide for dedicated hosting and world transfers.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Windrose+Server+Guide",
+  date: "2026-04-19",
+  author: "Windrose Wiki Team"
+}
+
+As Windrose enters its early access phase in 2026, many explorers are looking for ways to enjoy the vast, procedurally generated worlds with their friends without the limitations of peer-to-peer hosting. Setting up a **windrose server** is the most effective way to ensure a persistent, high-performance environment where your progress is saved and your community can grow. Whether you are a casual group of sailors or a hardcore survival clan, managing your own **windrose server** provides the administrative control and stability needed to conquer the high seas. In this comprehensive guide, we will walk you through the entire process of renting a dedicated host, configuring your world settings, and even transferring your local solo progress to a live online environment.
+
+## Why Choose a Dedicated Windrose Server?
+
+While local hosting is an option for small groups, a dedicated **windrose server** offers several distinct advantages that improve the gameplay experience for everyone involved. In a standard local session, the world only exists while the host is online. With a dedicated setup, the world remains active 24/7, allowing players to log in and contribute to the base or explore new regions even when the original creator is away.
+
+Furthermore, dedicated hardware reduces the strain on your personal computer. Windrose uses complex world-generation algorithms and physics that can be taxing on CPU and RAM. Offloading these tasks to a high-performance data center ensures that your frame rates remain high even during intense naval combat or large-scale construction projects.
+
+| Feature | Local Hosting | Dedicated Server |
+| :--- | :--- | :--- |
+| **Availability** | Only when host is online | **24/7 Uptime** |
+| **Performance** | Dependent on host's PC | **High-performance hardware** |
+| **Player Capacity** | Usually limited (1-4) | **Up to 32+ slots** |
+| **Control** | Limited admin tools | **Full FTP and JSON access** |
+| **Persistence** | Host must save manually | **Auto-saves and backups** |
+
+## How to Set Up Your Windrose Server
+
+Most players opt for a managed hosting provider like G-Portal to handle the heavy lifting of server maintenance. These platforms offer a streamlined interface for those who want to get their **windrose server** up and running in minutes without diving into command-line interfaces.
+
+### Step 1: Ordering and Localization
+When selecting a provider, you should prioritize server location. Choosing a data center physically close to your player base will significantly reduce latency (ping), which is crucial for the timing-based combat in Windrose.
+
+1.  **Select Slots:** Determine how many players you expect. Most starting communities find 10-12 slots sufficient.
+2.  **Choose Location:** Pick a region (e.g., US East, London, or Tokyo) that minimizes distance for your group.
+3.  **Rental Period:** Most providers offer discounts for longer commitments (3 to 12 months).
+
+### Step 2: Basic Configuration
+Once your server is provisioned, you will land on a status dashboard. Before starting the engine, you need to define how players will find and access your world.
+
+| Setting | Description | Recommended Value |
+| :--- | :--- | :--- |
+| **Server Name** | The name that appears in the server browser. | Something unique to your group. |
+| **Invite Code** | A unique string used for direct connections. | Keep this private for your friends. |
+| **Password** | An extra layer of security for the server. | **Enabled** for private groups. |
+| **Max Players** | Limits how many people can join at once. | Match your rented slot count. |
+
+> **💡 Tip:** Always set a password if you are running a private game. While invite codes are unique, a password prevents unauthorized users from joining if the code is accidentally shared.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/huuK7WcRzrw"
+    title="Windrose Dedicated Server Setup with GPORTAL"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Connecting to Your New World
+
+Connecting to a **windrose server** is slightly different than in other survival games. Instead of a traditional server browser with a list of thousands of names, Windrose utilizes an "Invite Code" system to streamline the process.
+
+1.  Launch [Windrose on Steam](https://store.steampowered.com/app/2301130/Windrose/) and ensure your character is created.
+2.  Select **Play** from the main menu, then choose **Connect to Server**.
+3.  Enter your unique **Invite Code** provided in your server dashboard.
+4.  Input the password if prompted.
+
+Once you have connected for the first time, the server will be saved in your **Recently Played** list on the left side of the screen. This allows you to bypass the invite code entry for all future sessions. Note that during the 2026 early access period, initial loading times can take several minutes as the server synchronizes the world state with your client.
+
+## Advanced Setup: Customizing Difficulty and World Rules
+
+By default, a new **windrose server** will generate a world using "Normal" difficulty settings. However, many players prefer to tweak resource gathering rates, combat lethality, or crafting speeds. Currently, these settings are best managed by creating a world locally and then transferring it to the server.
+
+### Creating Your Custom Preset
+To customize your world rules, follow these steps on your own PC:
+1.  Open Windrose and go to **Solo Offline**.
+2.  Click **Create New**.
+3.  Adjust the sliders for difficulty, loot drops, and environmental hazards.
+4.  Confirm and create the world.
+5.  Hover over the world in your list to see its **Unique ID** (e.g., `World_12345`). Note the last five digits.
+
+## Transferring Local Saves to the Server
+
+If you have already spent dozens of hours on a solo world and want to bring your friends into it, you can transfer your local save files to your **windrose server**. This process involves using the server's File Manager or an FTP client.
+
+### Locating Your Files
+You will need to find the specific world folder on your local machine and the corresponding directory on the server.
+
+| Environment | Typical File Path (2026) |
+| :--- | :--- |
+| **Local PC** | `%LocalAppData%\R5\Saved\SavedProfiles\[SteamID]\RocksDB\[Version]\Worlds\` |
+| **Server** | `/R5/Saved/SavedProfiles/default/RocksDB/[Version]/Worlds/` |
+
+### The Transfer Process
+1.  **Stop the Server:** Never attempt to move files while the server is running, as this can lead to data corruption.
+2.  **Upload the Folder:** Use the G-Portal File Manager to upload your entire local world folder to the server's `Worlds` directory.
+3.  **Identify the Island ID:** Open the `world_description.json` file inside your transferred folder and copy the `IslandID`.
+4.  **Update Server Description:** Navigate back to the root folder and open `server_description`. Replace the existing `WorldIslandID` with the ID you just copied.
+5.  **Restart:** Save your changes and start the server.
+
+> **⚠️ Warning:** Ensure that the version number in the file path matches between your local game and the server. If the server is running an older version of Windrose, your 2026 save files may not load correctly.
+
+## Maintaining Server Health
+
+Running a **windrose server** requires occasional maintenance to ensure peak performance. As players explore more of the map, the world database (RocksDB) will grow in size.
+
+*   **File Verification:** If you encounter frequent crashes, use the "Verify Server Files" tool in your dashboard to repair corrupted game data.
+*   **Backups:** Regularly download a copy of your `Worlds` folder via FTP. This protects your progress against accidental deletions or rare database errors.
+*   **Factory Resets:** If you want to start fresh for a new season or update, use the "Delete Saves" or "Factory Reset" option. This will wipe all progress and generate a brand-new world seed.
+
+## FAQ
+
+**Q: Can I change the player limit on my Windrose server after I've started?**
+
+A: Yes. You can adjust the "Max Players" slider in the Basic Settings at any time. However, you cannot exceed the number of slots you are currently paying for in your hosting subscription.
+
+**Q: Why isn't my server appearing in the "Recently Played" list?**
+
+A: This usually happens if the server's IP address or Invite Code has changed. You will need to manually connect using the Invite Code once more to refresh the entry in your list.
+
+**Q: Is it possible to run a Windrose server on my own hardware?**
+
+A: While there is a dedicated server tool available via SteamCMD, it requires significant technical knowledge regarding port forwarding (UDP/TCP) and firewall configuration. For most users in 2026, a managed host is recommended for stability.
+
+**Q: Do I need to keep my PC on for the server to stay active?**
+
+A: No. Because the **windrose server** is hosted on dedicated hardware in a data center, it remains online regardless of whether your personal computer is powered on or off.

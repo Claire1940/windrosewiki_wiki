@@ -1,0 +1,103 @@
+export const metadata = {
+  title: "Problemas no Co-op de Windrose Online: Guia de Correções e Desempenho 2026",
+  description: "Navegue pelos problemas comuns do co-op de Windrose Online com nosso guia completo de solução de problemas. Saiba como corrigir dessincronização, otimizar o FPS e dominar as mecânicas de combate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Windrose+Online+Co-op+Guide",
+  date: "2026-04-19",
+  author: "Windrose Wiki Team"
+}
+
+Windrose tornou-se rapidamente um dos títulos indie mais aguardados de 2026, capturando a imaginação de mais de um milhão de jogadores com seu vasto mundo de piratas. No entanto, como acontece com muitos projetos ambiciosos em acesso antecipado, a transição do jogo solo para o multijogador introduziu vários **problemas no co-op de Windrose Online** que podem interromper suas aventuras em alto-mar. Seja lutando contra a dessincronização durante a abordagem de navios ou percebendo que seu FPS cai significativamente ao navegar com amigos, entender a raiz desses problemas é o primeiro passo para uma experiência mais fluida. Neste guia, analisaremos o estado atual do networking do jogo e ofereceremos soluções práticas para os **problemas no co-op de Windrose Online** mais relatados pela comunidade. Ao seguir estas etapas de otimização e soluções alternativas mecânicas, você pode garantir que sua tripulação permaneça eficaz, mesmo quando o desenvolvimento do jogo ainda está em sua fase de "preparação".
+
+## Entendendo os Obstáculos de Desempenho e Otimização
+
+O problema mais imediato que muitos jogadores enfrentam é o estado atual de otimização do jogo. Mesmo em hardware de ponta, Windrose muitas vezes tem dificuldade em manter uma taxa de quadros consistente. Isso é particularmente perceptível em sessões cooperativas, onde o jogo frequentemente se limita entre 30 e 40 FPS, independentemente das configurações gráficas utilizadas.
+
+A física da água com aspecto "gelatinoso", embora visualmente única, parece ser a principal culpada por essas quedas de desempenho. Em um ambiente multijogador, o servidor deve calcular essa física para todos os jogadores conectados, resultando em uma carga pesada para o host. Se você estiver enfrentando travamentos, geralmente é devido à incapacidade atual do jogo de lidar simultaneamente com interações complexas de água e física de navios em larga escala.
+
+| Tipo de Problema | Sintoma | Solução Alternativa Potencial |
+|---|---|---|
+| **Limite de FPS** | Jogo travado em 30-40 FPS, independentemente da potência da GPU. | Reduza a "Qualidade da Água" para o mínimo; jogue em modo Tela Cheia. |
+| **Lag de Física** | Navios quicando ou "teletransportando" nas ondas. | Certifique-se de que o host tenha a maior velocidade de upload entre a tripulação. |
+| **Vazamento de Memória** | O desempenho degrada após mais de 2 horas de jogo. | Reinicie o cliente do jogo a cada poucas missões para limpar o cache. |
+
+> **💡 Dica:** Se a sua taxa de quadros parecer lenta, verifique se você está executando aplicativos em segundo plano que utilizam aceleração de hardware. Windrose exige atualmente uma carga significativa de CPU para gerenciar sua sincronização cooperativa.
+
+## Solucionando Problemas de Combate no Co-op de Windrose Online
+
+O combate deveria ser um pilar da experiência de Windrose, mas atualmente sofre com dessincronização significativa durante sessões multijogador. Os jogadores frequentemente relatam "golpes fantasma", onde a espada de um inimigo passa por um companheiro de equipe e atinge outro a vários metros de distância. Isso se deve em grande parte ao comportamento rudimentar de rede implementado na demo.
+
+Para mitigar esses **problemas no co-op de Windrose Online**, os jogadores devem confiar fortemente na mecânica de "Lock-On" (Travar Mira) integrada. Ao pressionar a **tecla T**, você pode prender sua câmera a um inimigo, o que ajuda a previsão do lado do cliente a rastrear o alvo com mais precisão. Sem isso, a detecção manual de acertos muitas vezes falha durante momentos de alta latência.
+
+### Referência de Controles de Combate
+
+| Ação | Comando | Dica para o Co-op |
+|---|---|---|
+| **Ataque** | Clique Esquerdo | Evite "spam" de cliques para prevenir dessincronização de animação. |
+| **Bloqueio** | Clique Direito | Essencial para mitigar o alto dano dos "Javalis Selvagens". |
+| **Esquiva** | Ctrl | Use isso para quebrar o travamento de mira do inimigo durante picos de lag. |
+| **Travar Mira** | **Tecla T** | **Obrigatório** para o registro preciso de golpes no co-op. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/4PYqhA3M1oI"
+    title="Windrose Has HUGE Issues (And How To Fix Them)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Combate Naval e o Sistema de Abordagem
+
+O aspecto naval de Windrose é onde o jogo realmente brilha, mas a mecânica de abordagem é uma fonte frequente de frustração para as tripulações. Atualmente, o jogo utiliza um sistema de teletransporte roteirizado para a abordagem. Assim que a vida de um navio inimigo está suficientemente baixa, você pode abordar, mas isso geralmente resulta em todos os jogadores sendo "teletransportados" para um enxame de inimigos simultaneamente.
+
+No co-op, esse comportamento de enxame é exacerbado pelo lag. Você pode se encontrar preso dentro do modelo de personagem de um colega de equipe ou recebendo dano de um inimigo que ainda não terminou sua animação de surgimento (spawn). Para sobreviver a esses encontros, recomenda-se que um jogador fique atrás com um mosquete enquanto os outros partem para o combate corpo a corpo, criando espaço no convés.
+
+### Passos da Estratégia de Abordagem
+1. **Enfraqueça o Alvo:** Use canhões para reduzir a vida do navio inimigo até que ele fique paralisado.
+2. **Coordene o Pulo:** Certifique-se de que todos os membros da tripulação estejam prontos antes de iniciar a ação de abordagem para evitar surgimentos alternados.
+3. **Limpe o Convés:** Use armas de balanço amplo, como a rapieira, para lidar com multidões, já que estocadas de precisão são difíceis durante a dessincronização.
+4. **Saqueie Rapidamente:** A física de dois navios travados pode causar problemas de "clipping" que podem lançar seu personagem no oceano.
+
+## Recursos Ausentes e Limitações de Crafting
+
+Um ponto comum de confusão que leva os jogadores a acreditarem que estão enfrentando bugs é a incapacidade de fabricar pólvora. Embora o jogo forneça a receita e os materiais como carvão vegetal e cinzas, o ingrediente final — **Enxofre (Sulfur)** — não está presente no mundo do jogo no momento.
+
+Esta é uma escolha de design para a demo, e não um erro técnico. Os desenvolvedores bloquearam certos recursos atrás de expansões de mapa que ainda não estão acessíveis. Se você se encontrar incapaz de progredir na sua árvore de armas de fogo, entenda que esta é uma limitação temporária.
+
+| Recurso | Status na Demo de 2026 | Como Adquirir |
+|---|---|---|
+| **Carvão Vegetal** | Disponível | Queime madeira em uma fornalha ou fogueira. |
+| **Cinzas** | Disponível | Subproduto residual da queima de madeira. |
+| **Cobre** | Disponível | Minerado em jazidas encontradas em ilhas secundárias. |
+| **Enxofre** | **Indisponível** | Esperado em futuras expansões do mapa; atualmente não está no jogo. |
+
+> **⚠️ Aviso:** Não gaste horas procurando por depósitos de Enxofre. Eles não existem na versão atual, e tentar usar "glitches" para acessar áreas fora dos limites para encontrá-los pode corromper seu arquivo de salvamento cooperativo.
+
+## Conectividade e Estabilidade de Rede
+
+Jogar com uma tripulação exige uma conexão estável, mas o netcode de Windrose ainda está em sua infância. Conexões de alta latência geralmente resultam em jogadores caindo através do convés do navio ou sendo incapazes de interagir com baús e estações de criação. Para melhorar sua conexão, prefira sempre uma conexão Ethernet com fio em vez de Wi-Fi, pois o sistema de entrega de pacotes do jogo é sensível a oscilações (jitter).
+
+Se um jogador ficar "preso" ou invisível para outros membros da tripulação, a correção mais eficaz é que esse jogador saia e entre novamente na sessão. Como o jogo permite uma recuperação fácil (você mantém a maior parte do seu inventário ao morrer ou desconectar), entrar novamente é uma solução de baixo risco para a maioria dos erros de sincronização.
+
+Para mais informações sobre o cronograma de desenvolvimento do jogo, você pode visitar a [página oficial de Windrose no Steam](https://store.steampowered.com/search/?term=Windrose) para ver as notas de atualização mais recentes e novidades da comunidade.
+
+## FAQ
+
+**P: Por que não consigo ver meus amigos no lobby co-op de Windrose?**
+
+R: Este é um dos **problemas no co-op de Windrose Online** mais comuns. Certifique-se de que todos os jogadores tenham a mesma versão da demo instalada. Se as versões coincidirem, tente fazer com que o host defina o lobby como "Público" e depois mude de volta para "Privado" para atualizar a lista de servidores.
+
+**P: Como corrijo o limite de 30 FPS no multijogador?**
+
+R: Atualmente, o jogo possui travas internas ligadas ao seu motor de física. Você pode tentar contornar isso desativando o V-Sync no painel de controle da sua GPU (configurações NVIDIA ou AMD) em vez de no menu do jogo, embora isso possa causar screen tearing (rasgos na imagem).
+
+**P: Existe uma maneira de fabricar pólvora na versão atual?**
+
+R: Não. Embora a interface mostre a receita, as jazidas de Enxofre ainda não foram adicionadas ao mapa. Você deve confiar no suprimento limitado de pólvora encontrado em baús ou deixado por NPCs piratas derrotados.
+
+**P: O que devo fazer se meu navio desaparecer durante uma sessão co-op?**
+
+R: Isso geralmente é uma dessincronização visual. Peça ao host para navegar o navio por uma curta distância; isso geralmente força o jogo a "redesenhar" a embarcação para todos os clientes conectados. Se ele permanecer invisível, você pode reconstruir uma embarcação básica com um custo de recursos muito baixo em qualquer estaleiro.

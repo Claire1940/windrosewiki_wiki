@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Configurações de Servidor Windrose: Guia Completo de Servidor Dedicado 2026",
+  description: "Domine as configurações de servidor do Windrose com nosso guia de configuração abrangente. Saiba mais sobre limites de jogadores, códigos de convite e otimização de servidor para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Windrose+Server+Settings+Guide",
+  date: "2026-04-19",
+  author: "Equipe Windrose Wiki"
+}
+
+Com o recente lançamento do acesso antecipado em 14 de abril de 2026, os jogadores estão migrando para o alto-mar para experimentar as mecânicas únicas de sobrevivência multijogador de Windrose. Para garantir a melhor experiência para sua tripulação, entender as nuances das **configurações de servidor do windrose** é essencial. Um servidor configurado corretamente minimiza o lag, evita a perda de dados e proporciona um ambiente seguro para o crescimento da sua comunidade.
+
+Seja você o anfitrião de uma pequena sessão privada para alguns amigos ou de um grande hub comunitário, a fase inicial de configuração é crítica. Gerenciar suas **configurações de servidor do windrose** corretamente desde o início permite que você se concentre na jogabilidade em vez de solucionar falhas técnicas. Neste guia, vamos orientá-lo em tudo, desde a configuração básica e otimização de slots de jogadores até cronogramas avançados de manutenção e protocolos de backup para manter suas aventuras marítimas funcionando perfeitamente ao longo de 2026.
+
+## Escolhendo seu Provedor de Hospedagem
+
+Antes de mergulhar nas configurações específicas de arquivos, você deve decidir sobre uma plataforma de hospedagem. Embora a hospedagem local seja uma opção para alguns, serviços de hospedagem dedicada como o G-Portal oferecem painéis especializados que simplificam o gerenciamento das **configurações de servidor do windrose**. Esses serviços normalmente fornecem interfaces "Game Cloud" onde você pode ajustar parâmetros sem editar manualmente arquivos `.ini` ou `.json`.
+
+Ao selecionar um servidor, considere a localização geográfica da sua base de jogadores. A latência é um fator significativo em jogos de sobrevivência onde o tempo e o movimento são fundamentais. Escolher um centro de dados mais próximo da maioria dos seus jogadores reduzirá significativamente o "rubber-banding" (efeito elástico) e outros problemas de conectividade.
+
+| Recurso | Especificação Recomendada | Por que Isso Importa |
+|---|---|---|
+| **Slots de Jogadores** | 6 a 8 Slots | Equilibra o desempenho com o tamanho da comunidade. |
+| **Localização do Servidor** | Mais próxima do Host/Maioria | Minimiza o ping e o atraso de entrada (input lag). |
+| **Alocação de RAM** | 4GB - 8GB | Garante estabilidade durante períodos de alta atividade. |
+| **Armazenamento** | 50GB SSD | Oferece espaço amplo para salvamentos de mundo e backups. |
+
+## Dominando suas Configurações de Servidor do Windrose
+
+Assim que o seu servidor for provisionado, você precisará acessar a aba "Configurações Básicas" ou "Configuração" no seu painel. É aqui que a identidade do seu servidor é estabelecida. As seguintes configurações são as mais vitais para qualquer novo administrador configurar antes de tornar o servidor público.
+
+### Identidade e Segurança do Servidor
+A primeira coisa que você deve alterar é o nome do servidor. Por padrão, muitos hosts o rotularão como "Windrose Server by [Provedor]". Alterar isso para um nome exclusivo ajuda seus amigos a encontrarem a sessão no navegador de servidores.
+
+Após a nomeação, você deve decidir sobre as configurações de "Código de Convite" (Invite Code) e "Senha". O Código de Convite é uma sequência única que pode ser enviada aos amigos para ignorar o processo de busca manual, enquanto a Senha fornece uma camada tradicional de segurança.
+
+| Nome da Configuração | Descrição | Valor Recomendado |
+|---|---|---|
+| **Nome do Servidor** | O nome de exibição público no navegador. | Nome Único da Comunidade |
+| **Código de Convite** | Uma sequência de entrada direta para jogadores. | Gerado automaticamente ou Personalizado |
+| **Senha do Servidor** | Necessária para todos os jogadores que se conectarem. | Alfanumérica Forte |
+| **Máximo de Jogadores** | Limite total de usuários simultâneos. | 4 (Ideal) a 8 (Máximo) |
+
+> **💡 Dica:** Mesmo que você queira uma comunidade pública, começar com uma senha durante os primeiros dias de construção do mundo é altamente recomendado para evitar "griefing" (vandalismo) enquanto você estabelece sua base.
+
+## Otimização e Limites de Jogadores
+
+De acordo com as comunicações oficiais dos desenvolvedores e o feedback da comunidade, o Windrose está atualmente otimizado para grupos menores. Embora o motor suporte até oito jogadores em um único servidor dedicado, o "ponto ideal" para o desempenho é geralmente em torno de quatro jogadores.
+
+Ao configurar suas **configurações de servidor do windrose**, considere as limitações de hardware da versão de acesso antecipado. Se você notar desync (dessincronização) significativa ou travamentos quando a contagem de jogadores exceder cinco, você pode querer baixar a configuração de "Máximo de Jogadores" até que patches de otimização adicionais sejam lançados mais tarde em 2026.
+
+### Entendendo Latência e Slots
+O número de slots que você adquire para o seu servidor representa o número máximo de pessoas que podem estar online ao mesmo tempo. Isso não limita o número total de jogadores únicos que podem entrar ao longo do tempo. Se você tem um grupo rotativo de dez amigos, mas nunca mais de seis estão online simultaneamente, uma configuração de seis slots é a escolha mais econômica.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/IH6JKwUjwGA"
+    title="Windrose Dedicated Server Setup in 5 Minutes | GPORTAL Full Tutorial"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Manutenção e Reinicializações Automáticas
+
+Um erro comum de novos proprietários de servidores é deixar o servidor rodando indefinidamente sem uma reinicialização. Com o tempo, processos "zumbis" e vazamentos de memória (memory leaks) podem degradar o desempenho do seu mundo em Windrose. Para combater isso, você deve utilizar o recurso de reinicialização agendada encontrado nas suas **configurações de servidor do windrose**.
+
+Configurar uma reinicialização diária em um horário em que a atividade dos jogadores é menor (geralmente 3h00 ou 4h00 da manhã, horário local) garante que o servidor permaneça estável. Este processo geralmente leva menos de cinco minutos, mas melhora significativamente a estabilidade a longo prazo.
+
+### Protocolos de Backup
+A integridade dos dados é primordial em jogos de sobrevivência. Os servidores de Windrose podem ocasionalmente sofrer corrupção de estado de salvamento durante interrupções inesperadas. A maioria dos hosts premium fornece um recurso de "Backup Automático".
+
+| Tipo de Backup | Frequência | Política de Retenção |
+|---|---|---|
+| **Automático** | A cada 24 Horas | Últimos 3 Dias |
+| **Manual** | Antes de Atualizações/Mudanças | Até ser excluído (Máx. 60 Dias) |
+| **Externo (Off-Site)** | Semanal | Recomendado para Longo Prazo |
+
+> **⚠️ Aviso:** Backups manuais em muitas plataformas de hospedagem são excluídos automaticamente após 60 dias. Se você pretende manter um registro permanente de um estado de mundo específico, baixe os arquivos de backup para sua máquina local.
+
+## Permissões Avançadas e Co-administração
+
+Gerenciar um servidor sozinho pode ser uma tarefa árdua, especialmente se a comunidade crescer. A maioria dos ambientes de hospedagem dedicada permite que você delegue autoridade através de um menu de "Permissões" ou "Gerenciamento de Usuários". Ao adicionar os nomes de usuário de amigos de confiança, você pode conceder a eles acesso ao painel de controle.
+
+Isso permite que seus co-administradores possam:
+1. Acionar reinicializações manuais se o servidor congelar.
+2. Atualizar as **configurações de servidor do windrose** durante sua ausência.
+3. Gerenciar banimentos de jogadores ou listas brancas (whitelists).
+4. Iniciar backups de emergência.
+
+Conceder permissões geralmente não dá ao usuário acesso às suas informações de faturamento, mas permite que eles controlem o estado do jogo, portanto, compartilhe o acesso apenas com indivíduos em quem você confia plenamente.
+
+## Solucionando Problemas Comuns
+
+Se o seu servidor não aparecer na lista após você ter aplicado suas **configurações de servidor do windrose**, o primeiro passo é verificar a luz de status no seu painel. Certifique-se de que o servidor esteja marcado como "Iniciado" ou "Online". Se ele estiver travado em um loop de "Iniciando", pode haver um erro de configuração no nome do servidor (como o uso de caracteres especiais proibidos) ou uma atualização de jogo pendente.
+
+Certifique-se sempre de que a versão local do seu jogo corresponda à versão do servidor. No acesso antecipado, os desenvolvedores frequentemente lançam pequenos hotfixes. Se o seu cliente Steam atualizar, mas o seu servidor não, você provavelmente receberá um erro de "Incompatibilidade de Versão" (Version Mismatch) ao tentar se conectar. A maioria dos hosts dedicados possui um botão de "Atualizar" que pode ser acionado manualmente para forçar o servidor a baixar os arquivos mais recentes da [página do Windrose no Steam](https://store.steampowered.com/app/2026/Windrose).
+
+## FAQ
+
+**P: Qual é a contagem ideal de jogadores para um servidor Windrose?**
+
+R: Embora você possa ter até oito jogadores, o desempenho ideal é alcançado atualmente com quatro jogadores. Isso garante a melhor sincronização de física e latência mínima durante o combate.
+
+**P: Como eu uso o Código de Convite no Windrose?**
+
+R: O Código de Convite é encontrado no painel de **configurações de servidor do windrose**. Você pode copiar este código e enviá-lo aos seus amigos. Eles podem inserir esse código diretamente no menu "Join Server" do jogo para se conectarem instantaneamente sem precisar procurar na lista pública.
+
+**P: Meus backups de servidor serão salvos para sempre?**
+
+R: Geralmente, não. A maioria dos provedores de hospedagem mantém backups automáticos por 3 dias e backups manuais por até 60 dias. É altamente recomendável baixar salvamentos de mundo importantes para o seu próprio computador para armazenamento a longo prazo.
+
+**P: Posso alterar as configurações do meu servidor enquanto os jogadores estão online?**
+
+R: Você pode modificar a maioria das configurações enquanto o servidor está rodando, mas elas normalmente não entrarão em vigor até que o servidor seja reiniciado. A melhor prática é avisar seus jogadores, salvar o jogo e, em seguida, realizar uma reinicialização para aplicar quaisquer alterações na configuração.

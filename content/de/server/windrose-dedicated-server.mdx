@@ -1,0 +1,108 @@
+export const metadata = {
+  title: "Windrose Dedicated Server: Komplette Anleitung für Setup & Hosting 2026",
+  description: "Erfahre, wie du einen dedizierten Windrose-Server mit SteamCMD hostest. Unser Leitfaden für 2026 deckt Portweiterleitung, Konfiguration und Leistungsoptimierung für deine Multiplayer-Welt ab.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Windrose+Dedicated+Server+Guide",
+  date: "2026-04-19",
+  author: "Windrose Wiki Team"
+}
+
+Das Hosten eines **dedizierten Windrose-Servers** ist der ultimative Weg, um ein dauerhaftes Multiplayer-Erlebnis ohne die Einschränkungen von Peer-to-Peer-Hosting zu genießen. Durch das Einrichten eines **dedizierten Windrose-Servers** stellst du sicher, dass deine Welt für Freunde zugänglich bleibt, auch wenn du offline bist, während du gleichzeitig die Hardware-Belastung von deinem primären Gaming-Rechner auslagerst. Im Jahr 2026 ist die effizienteste Methode zur Verwaltung deines Servers SteamCMD, eine Befehlszeilenversion des Steam-Clients, die saubere Headless-Installationen ermöglicht. Dieser Ansatz ist besonders vorteilhaft für Spieler, die auf einem Zweitrechner oder einem Virtual Private Server (VPS) hosten möchten, während sie das Spiel auf ihrem Hauptcomputer oder einem Handheld-Gerät wie dem Steam Deck spielen.
+
+## Hardware- und Systemanforderungen
+
+Bevor du mit der Installation beginnst, solltest du sicherstellen, dass deine Hardware den Anforderungen des Spiels gewachsen ist. Obwohl der Server relativ leichtgewichtig ist, skaliert der Ressourcenverbrauch mit der Anzahl der aktiven Spieler und der Komplexität deiner Welt.
+
+| Komponente | Mindestanforderung | Empfohlen (8+ Spieler) |
+|---|---|---|
+| **Betriebssystem** | Windows 10/11 (64-Bit) | Windows Server 2022 |
+| **Prozessor** | Quad-Core 2,5 GHz+ | Hex-Core 3,5 GHz+ |
+| **Arbeitsspeicher (RAM)** | **8 GB** | **16 GB** |
+| **Speicherplatz** | 5 GB verfügbarer Platz | 10 GB (SSD bevorzugt) |
+| **Netzwerk** | 5 Mbps Upload | 20 Mbps+ Upload |
+
+> **💡 Tipp:** Wenn du planst, auf demselben Rechner zu hosten und zu spielen, stelle sicher, dass du mindestens 16 GB RAM hast, um Ruckler während intensiver Gaming-Sessions zu vermeiden.
+
+## Schritt 1: Installation von SteamCMD und Server-Dateien
+
+Lade zunächst das SteamCMD-Utility von der offiziellen Valve Developer Community herunter. Erstelle einen dedizierten Ordner auf deinem Laufwerk C: mit dem Namen `SteamCMD` und entpacke den Inhalt der heruntergeladenen ZIP-Datei dort. Führe nach dem Entpacken die `steamcmd.exe` aus, damit sie sich aktualisieren und ihre Dateistruktur initialisieren kann.
+
+Sobald die Konsole bereit ist, verwende die folgenden Befehle, um die Dateien für den **dedizierten Windrose-Server** herunterzuladen:
+
+| Befehl | Zweck |
+|---|---|
+| `force_install_dir c:\WindroseServer` | Legt das Installationsverzeichnis für die Server-Dateien fest. |
+| `login anonymous` | Meldet dich bei den Steam-Servern an, ohne ein persönliches Konto zu benötigen. |
+| `app_update 4129620 validate` | Lädt die Server-Dateien herunter (App ID: **4129620**) und überprüft die Integrität. |
+| `exit` | Schließt die SteamCMD-Konsole, sobald der Download abgeschlossen ist. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/gwPMoqaxN5A"
+    title="How to Host a FREE Windrose Dedicated Server with SteamCMD (Easy Setup)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Schritt 2: Netzwerkkonfiguration und Portweiterleitung
+
+Damit Spieler außerhalb deines lokalen Netzwerks deinem **dedizierten Windrose-Server** beitreten können, musst du die Firewall deines Routers konfigurieren. Dieser Vorgang, bekannt als Portweiterleitung (Port Forwarding), leitet den eingehenden Spielverkehr an den spezifischen Rechner weiter, auf dem der Server gehostet wird.
+
+Du musst die folgenden Ports öffnen:
+
+| Portnummer | Protokoll | Beschreibung |
+|---|---|---|
+| **7777** | UDP | Primärer Spieldatenverkehr |
+| **7778** | UDP | Query-Port / Steam-Integration |
+
+> **⚠️ Warnung:** Einige Internetanbieter (ISPs) verwenden CGNAT, was eine herkömmliche Portweiterleitung verhindern kann. Wenn deine Ports nach der Konfiguration geschlossen bleiben, kontaktiere deinen ISP, um eine statische IP anzufordern oder zu prüfen, ob sie manuelle Port-Zuweisungen erlauben.
+
+## Schritt 3: Anpassen der Servereinstellungen
+
+Nachdem du den Server zum ersten Mal mit der Datei `start_server_foreground.bat` gestartet hast, werden mehrere Konfigurationsdateien generiert. Diese findest du im Serververzeichnis, um dein Erlebnis anzupassen.
+
+### Server-Identität und Sicherheit
+Navigiere zum Ordner `R5` und suche die Datei `server description.json`. Öffne diese mit einem Texteditor wie Notepad, um Folgendes zu ändern:
+*   **Server Name:** Ändere diesen, damit deine Freunde deine Sitzung leicht identifizieren können.
+*   **Password Protected:** Setze dies auf `true`, um deine Welt privat zu halten.
+*   **Server Password:** Gib ein sicheres Passwort für deine Spieler ein.
+
+### Weltparameter und Schwierigkeitsgrad
+Um die Spielmechanik anzupassen, navigiere zu `saved/profiles/default/RocksDB/[Version]/worlds/`. Im Welt-Ordner findest du die Datei `world description.json`. Diese Datei ermöglicht es dir, das Herausforderungsniveau fein abzustimmen.
+
+| Parameter | Standardwert | Bereich | Effekt |
+|---|---|---|---|
+| **mob_health_multiplier** | 1.0 | 0.2 - 5.0 | Erhöht oder verringert die HP der Gegner. |
+| **difficulty_multiplier** | 1.0 | 0.5 - 3.0 | Skaliert den allgemeinen Schwierigkeitsgrad. |
+| **island_id** | Default | N/A | Wird verwendet, um spezifische Welt-Instanzen zu identifizieren. |
+
+## Schritt 4: Starten und Beitreten des Servers
+
+Um deinen **dedizierten Windrose-Server** zu starten, verwende immer die mitgelieferte Batch-Datei (`start_server_foreground.bat`). Dies stellt sicher, dass ein Konsolenfenster offen bleibt, in dem du die Logs überwachen und deinen **Invite-Code** abrufen kannst.
+
+1.  **Server starten:** Doppelklicke auf die Batch-Datei und warte, bis der "Invite Code" in grünem Text erscheint.
+2.  **Code abrufen:** Kopiere den alphanumerischen Code. Wenn du ihn in der Konsole verpasst hast, ist er oft in den JSON-Logs des Servers gespeichert.
+3.  **Im Spiel verbinden:** Öffne Windrose, wähle deinen Charakter aus und navigiere zu "Connect to Server". Gib den Invite-Code und das Passwort (falls zutreffend) ein.
+
+Weitere detaillierte Dokumentationen und fortgeschrittene Parameter findest du auf der [offiziellen Windrose-Website](https://playwinrows.com/dedicated-server-guide/).
+
+## FAQ
+
+**F: Wie aktualisiere ich meinen dedizierten Windrose-Server, wenn ein neuer Patch veröffentlicht wird?**
+
+A: Um zu aktualisieren, führe einfach SteamCMD erneut aus und wiederhole die Befehle `login anonymous` und `app_update 4129620 validate`. Dies überschreibt die alten Dateien mit der neuesten Version, während deine gespeicherten Weltdaten erhalten bleiben.
+
+**F: Warum kann ich nicht über das Steam-Bibliothek-Tool hosten und gleichzeitig spielen?**
+
+A: Wenn du das Tool für den dedizierten Server direkt aus deiner Steam-Bibliothek startest, betrachtet Steam dich als "im Spiel". Wenn du dann versuchst, den Spiel-Client auf einem anderen Gerät (wie einem Steam Deck) zu starten, erhältst du eine Fehlermeldung. Die Verwendung der SteamCMD-Methode vermeidet diesen Kontokonflikt vollständig.
+
+**F: Wie fahre ich den Server sicher herunter, ohne Fortschritt zu verlieren?**
+
+A: Klicke in das Server-Konsolenfenster und drücke `Strg + C`. Dies sendet ein Beendigungssignal, das es dem Server ermöglicht, den aktuellen Weltzustand vor dem Schließen zu speichern. Vermeide es, auf das "X" des Fensters zu klicken oder den Prozess im Task-Manager zu beenden, da dies zu Dateikorruption führen kann.
+
+**F: Kann ich mehrere Welten auf demselben Server betreiben?**
+
+A: Ja, du kannst mehrere Welt-Instanzen verwalten, indem du verschiedene `island_id`-Werte in deinen Konfigurationsdateien definierst. Stelle jedoch sicher, dass deine Hardware über genügend RAM verfügt, um die zusätzliche Last mehrerer aktiver Zonen zu bewältigen.

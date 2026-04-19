@@ -1,0 +1,119 @@
+export const metadata = {
+  title: "Windrose Server Hosting: Komplette Anleitung für Dedicated Server 2026",
+  description: "Erfahren Sie, wie Sie Windrose Server Hosting einrichten und optimieren für ein nahtloses Multiplayer-Erlebnis. Inklusive Schritt-für-Schritt G-Portal Konfiguration und erweiterten Welteinstellungen.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Windrose+Server+Hosting+Guide",
+  date: "2026-04-19",
+  author: "Windrose Wiki Team"
+}
+
+Die Einrichtung eines professionellen **Windrose Server Hostings** ist der effektivste Weg, um eine stabile, verzögerungsfreie Umgebung für Sie und Ihre Crew zu gewährleisten, während Sie die Weltmeere bereisen. In einem Spiel, in dem präzises Segeln und kooperative Erkundung den Kern des Erlebnisses ausmachen, kann das Vertrauen auf einen lokalen Host oft zu Synchronisationsproblemen oder Fortschrittsverlust führen, wenn der Host offline geht. Durch die Entscheidung für dediziertes **Windrose Server Hosting** erhalten Sie eine 24/7-Verfügbarkeit, bessere Hardware-Ressourcen und die Möglichkeit, die Schwierigkeitseinstellungen der Welt weit über die Standard-Schieberegler im Spiel hinaus anzupassen. Dieser Leitfaden führt Sie durch den gesamten Prozess: von der Auswahl eines Anbieters über die Konfiguration Ihrer Hardware-Slots bis hin zum Dateimanager, um die Schwierigkeits- und Progressionswerte Ihrer Welt für die ultimative Gaming-Session im Jahr 2026 fein abzustimmen.
+
+## Warum dediziertes Windrose Server Hosting wählen?
+
+Obwohl Windrose Peer-to-Peer-Verbindungen erlaubt, bietet dediziertes Hosting mehrere technische Vorteile, die für Gruppen von mehr als zwei Spielern unerlässlich sind. Das Spiel unterstützt derzeit bis zu acht Spieler, wobei die Entwickler oft eine Vierer-Gruppe für das ausgewogenste Gameplay empfehlen. Ein dedizierter Server übernimmt die schwere Arbeit der Weltsimulation, der Gegner-KI und der Physikberechnungen, die besonders bei intensiven Seekämpfen sehr belastend sind.
+
+| Feature | Lokales Hosting | Dediziertes Hosting |
+| :--- | :--- | :--- |
+| **Verfügbarkeit** | Nur wenn der Host online ist | **24/7 Verfügbarkeit** |
+| **Leistung** | Abhängig vom PC/Internet des Hosts | **Enterprise-Grade Hardware** |
+| **Spielerlimit** | Begrenzt durch RAM des Hosts | **Bis zu 8 Spieler (Stabil)** |
+| **Anpassung** | Einfache In-Game-Menüs | **Vollständiger JSON-Dateizugriff** |
+
+> **💡 Tipp:** Wenn Sie planen, mit einer Gruppe von vier oder mehr Personen zu spielen, wird ein dedizierter Server dringend empfohlen, um "Rubber-Banding" bei Schiffsmanövern zu vermeiden.
+
+## Schritt-für-Schritt Server-Konfiguration
+
+Um Ihre Reise zu beginnen, müssen Sie einen seriösen Hosting-Anbieter auswählen. G-Portal ist ein primärer Partner für Windrose und bietet optimierte Setups an, die ideal für Anfänger sind. Folgen Sie diesen Schritten, um Ihre Instanz in wenigen Minuten zum Laufen zu bringen.
+
+### 1. Bestellung und Slot-Auswahl
+Navigieren Sie zur Website Ihres gewählten Anbieters und suchen Sie in dessen Spielebibliothek nach Windrose. Ihnen werden verschiedene "Slot"-Optionen präsentiert. Im Bereich Server-Hosting steht ein "Slot" für einen Spielerplatz.
+
+| Plan-Typ | Empfohlene Spieler | Laufzeit-Optionen |
+| :--- | :--- | :--- |
+| **Starter** | 6 Slots | 30 Tage |
+| **Standard** | 6 Slots | 90 Tage |
+| **Pro Crew** | 8 Slots | 30 / 90 / 365 Tage |
+
+Obwohl das Spiel 8 Spieler unterstützt, legen viele Hosting-Anbieter ein Minimum von 6 Slots für ihre Basispakete fest. Wählen Sie die Region, die Ihrem physischen Standort am nächsten liegt (z. B. Zentraleuropa, US-Ost oder Asien), um die Latenz zu minimieren.
+
+### 2. Erstmalige Dashboard-Einrichtung
+Sobald Ihre Zahlung verarbeitet wurde, erscheint Ihr Server in Ihrem "Meine Server"-Dashboard. Er wird sich wahrscheinlich im Status "Gestoppt" befinden. Bevor Sie auf Start klicken, müssen Sie die grundlegende Identität Ihres Servers konfigurieren, damit Ihre Freunde ihn finden können.
+
+1.  **Servername:** Wählen Sie einen eindeutigen Namen (z. B. "Windrose Entdecker 2026").
+2.  **Einladungscode (Invite Code):** Dies ist eine eindeutige alphanumerische Zeichenfolge, die zum Beitreten verwendet wird.
+3.  **Passwort:** Legen Sie immer ein Passwort fest, um zu verhindern, dass fremde Spieler beitreten und Ihre Welt stören.
+4.  **Max. Spieler:** Stellen Sie dies so ein, dass es Ihren gekauften Slots entspricht oder niedriger ist, wenn Sie ein privateres Erlebnis wünschen.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/SDiadRy2WvQ"
+    title="WINDROSE Dedicated Server Setup | Host With GPORTAL Today"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Verbindung zu Ihrem Server herstellen
+
+Das Beitreten zu einem dedizierten Server in Windrose unterscheidet sich geringfügig von anderen Survival-Spielen. Anstelle eines traditionellen Server-Browsers nutzt das Spiel das **Einladungscode-System** für direkte Verbindungen.
+
+1.  Starten Sie Windrose und erstellen oder wählen Sie Ihren Charakter aus.
+2.  Wählen Sie **Spielen** im Hauptmenü.
+3.  Wählen Sie **Mit Server verbinden**.
+4.  Geben Sie den **Einladungscode** ein, der in Ihrem Hosting-Dashboard angezeigt wird.
+5.  Klicken Sie auf **Finden**, wählen Sie Ihren Server aus und geben Sie das Passwort ein, wenn Sie dazu aufgefordert werden.
+
+> **Warnung:** Stellen Sie sicher, dass Ihr Serverstatus im Web-Dashboard auf "Laufend" steht, bevor Sie versuchen, eine Verbindung herzustellen. Wenn der Server vor kurzem neu gestartet wurde, kann es 60-90 Sekunden dauern, bis er im Netzwerk sichtbar wird.
+
+## Erweiterte Weltanpassung
+
+Einer der größten Vorteile von **Windrose Server Hosting** ist die Möglichkeit, die Datei `world description.json` zu modifizieren. Dies erlaubt es Ihnen, den Schwierigkeitsgrad, den Quest-Fortschritt und die Ressourcen-Drops über die Standard-Limits von 100 % hinaus zu skalieren.
+
+### Zugriff auf den Dateimanager
+Um diese Änderungen vorzunehmen, muss Ihr Server **gestoppt** sein. Navigieren Sie im Dateimanager Ihres Anbieters zu folgendem Verzeichnis:
+`R5/saved/save/profiles/default/rocksDB/0.10/worlds/[IhrWeltSeed]/`
+
+Suchen Sie die Datei namens `world description.json`. Es wird dringend empfohlen, eine Sicherungskopie dieser Datei auf Ihren lokalen PC herunterzuladen, bevor Sie sie bearbeiten.
+
+### Schwierigkeits-Multiplikatoren verstehen
+In der JSON-Datei werden Werte als Dezimalzahlen dargestellt. Ein Wert von `1.0` entspricht 100 % (Standard). Wenn Sie das Spiel deutlich schwerer oder einfacher machen möchten, nutzen Sie folgende Logik:
+
+| Einstellung | JSON-Wert | In-Game Effekt |
+| :--- | :--- | :--- |
+| **Standard-Schwierigkeit** | `1.0` | Standard-Erfahrung |
+| **Hardcore-Kampf** | `2.5` | 250 % Gegnerschaden/Gesundheit |
+| **Extreme Herausforderung** | `5.0` | 500 % Schwierigkeit (Maximum) |
+| **Entspanntes Erkunden** | `0.5` | 50 % Schwierigkeit (Casual) |
+
+Sie können in dieser Datei auch den `shared quest progression` (gemeinsamen Quest-Fortschritt) umschalten. Wenn Sie diesen auf `true` setzen, wird sichergestellt, dass die gesamte Crew den Fortschritt erhält, wenn ein Spieler ein Ziel abschließt – was entscheidend ist, um den Zusammenhalt der Gruppe auf langen Reisen zu wahren.
+
+## Optimierung der Serverleistung
+
+Damit Ihr **Windrose Server Hosting** das ganze Jahr 2026 über reibungslos läuft, beachten Sie diese Wartungstipps:
+
+*   **Geplante Neustarts:** Konfigurieren Sie Ihren Server so, dass er alle 24 Stunden automatisch neu startet. Dies leert den RAM-Cache und behebt kleinere Physik-Glitches, die sich über lange Sitzungen ansammeln können.
+*   **Automatische Updates:** Aktivieren Sie "Automatische Updates" in Ihrem Dashboard. Windrose veröffentlicht im Early Access häufig Hotfixes, und Spieler mit unterschiedlichen Versionen können keine Verbindung herstellen.
+*   **Dateiverifizierung:** Wenn häufige Abstürze auftreten, nutzen Sie das Tool "Spieldateien verifizieren" in Ihrem Server-Dashboard, um sicherzustellen, dass die Installation nicht beschädigt ist.
+
+Weitere Informationen zu Spielmechaniken und offiziellen Patches finden Sie im [Windrose Steam Community Hub](https://store.steampowered.com/app/1404370/Wind_Rose/) für die neuesten Entwickler-Updates.
+
+## FAQ
+
+**F: Wie viele Spieler kann ein Windrose-Server bewältigen?**
+
+A: Aktuell unterstützt **Windrose Server Hosting** maximal 8 Spieler. Für die beste Leistung und Spielbalance wird jedoch von der Community und den Entwicklern eine Gruppengröße von 4 bis 6 Personen empfohlen.
+
+**F: Kann ich den Standort meines Servers nach dem Kauf ändern?**
+
+A: Die meisten Anbieter wie G-Portal erlauben den Wechsel der Region, dies kann jedoch eine Neuinstallation des Servers erfordern. Am besten wählen Sie bereits bei der Ersteinrichtung den Standort, der der Mehrheit Ihrer Spieler am nächsten liegt, um hohe Latenzen zu vermeiden.
+
+**F: Was passiert, wenn ich meinen Einladungscode vergesse?**
+
+A: Ihr Einladungscode ist jederzeit im Tab "Basiseinstellungen" oder im "Dashboard" Ihres Servers sichtbar. Sie können ihn jederzeit ändern, aber denken Sie daran, dass alle Spieler den neuen Code benötigen, um sich erneut zu verbinden.
+
+**F: Muss ich meinen PC anlassen, damit der Server läuft?**
+
+A: Nein. Der Vorteil von dediziertem **Windrose Server Hosting** ist, dass die Spielwelt auf der Hardware des Anbieters läuft. Sie können Ihren Computer ausschalten, und Ihre Freunde können weiterspielen, solange der Server im Dashboard aktiv ist.
