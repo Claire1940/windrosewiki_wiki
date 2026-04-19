@@ -122,22 +122,22 @@
       {
         "icon": "Gamepad2",
         "title": "Windrose System Requirements",
-        "description": "Minimum and recommended specs with practical hardware notes."
+        "description": "Minimum versus recommended PC specs with self-hosting RAM guidance."
       },
       {
         "icon": "Settings",
         "title": "Windrose Dedicated Server Guide",
-        "description": "Always-on world setup, config basics, and admin workflow."
+        "description": "Install, boot, configure JSON files, and keep server versions synced."
       },
       {
         "icon": "Clock",
         "title": "Windrose Roadmap",
-        "description": "Track announced direction and the path to full release."
+        "description": "Current priorities, Early Access window, and pre-1.0 content growth."
       },
       {
         "icon": "Shield",
         "title": "Windrose Update Log",
-        "description": "Patch notes, balance changes, downtime, and stability fixes."
+        "description": "Launch-week hotfixes, downtime notices, and save-system updates."
       }
     ]
   },
@@ -1214,104 +1214,259 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Windrose System Requirements",
-      "displayType": "accordion",
-      "intro": "Windrose can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+      "displayType": "requirementsTable",
+      "eyebrow": "Windrose PC Specs",
+      "subtitle": "Can your PC run Windrose without bottlenecks?",
+      "intro": "Windrose asks for strong desktop hardware even at the minimum tier. The baseline is 16 GB RAM for solo or co-op play, and self-hosting a dedicated server on the same machine needs additional memory headroom.",
+      "items": [
         {
-          "question": "Does Windrose work on Steam Deck?",
-          "answer": "Windrose can run on Steam Deck, and performance depends on your selected compatibility layer and graphics profile."
+          "component": "Operating system",
+          "minimum": "Windows 10 (64-bit)",
+          "recommended": "Windows 11 or later (64-bit)",
+          "notes": "Requires a 64-bit processor and operating system."
         },
         {
-          "question": "What should I do if Windrose Steam Deck controls are not working?",
-          "answer": "Force compatibility mode, test a current Proton profile, and restart after control-layout sync."
+          "component": "CPU",
+          "minimum": "Intel Core i7-8700K or AMD Ryzen 7 2700X",
+          "recommended": "Intel Core i7-10700 or AMD Ryzen 7 5800X",
+          "notes": "Official processor examples listed for Windrose."
         },
         {
-          "question": "Does Windrose support controllers?",
-          "answer": "Yes. Windrose supports controller input on PC and handheld setups."
+          "component": "Memory",
+          "minimum": "16 GB RAM",
+          "recommended": "32 GB RAM",
+          "notes": "The 16 GB baseline applies to standard solo and co-op sessions."
         },
         {
-          "question": "Is Linux support possible for Windrose?",
-          "answer": "Yes. Windrose can be played through Linux compatibility layers when runtime dependencies are met."
+          "component": "Graphics card",
+          "minimum": "NVIDIA GTX 1080 Ti or AMD Radeon RX 6800",
+          "recommended": "NVIDIA RTX 3080 or AMD Radeon RX 6800 XT",
+          "notes": "Official GPU examples used for minimum and recommended tiers."
         },
         {
-          "question": "What is the best Windrose input setup?",
-          "answer": "Keyboard and mouse remain the most efficient setup for precision menu navigation and combat timing."
+          "component": "Dedicated VRAM",
+          "minimum": "10 GB",
+          "recommended": "10 GB",
+          "notes": "A 10 GB dedicated VRAM budget keeps both tiers stable."
+        },
+        {
+          "component": "DirectX",
+          "minimum": "Version 12",
+          "recommended": "Version 12",
+          "notes": "Windrose uses the same DirectX requirement across both tiers."
+        },
+        {
+          "component": "Storage",
+          "minimum": "30 GB available space",
+          "recommended": "30 GB available space on SSD",
+          "notes": "An SSD is strongly recommended for load consistency."
+        },
+        {
+          "component": "Network",
+          "minimum": "Broadband internet connection",
+          "recommended": "Broadband internet connection",
+          "notes": "Required for online co-op and dedicated-server play."
+        },
+        {
+          "component": "Self-hosting on the same PC",
+          "minimum": "Add 8 GB on top of the client requirement",
+          "recommended": "24 GB total RAM",
+          "notes": "Running client and server together needs extra memory headroom."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "Windrose Dedicated Server Guide",
-      "displayType": "settingCards",
-      "intro": "Windrose already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+      "displayType": "serverSteps",
+      "eyebrow": "Windrose Server Hosting",
+      "subtitle": "Set up a Windrose dedicated server from first boot to update flow.",
+      "intro": "The fastest route is the free Windrose Dedicated Server tool on Steam or the WindowsServer build bundled with the game files. Control lives in ServerDescription.json and WorldDescription.json, so the practical flow is install, boot once, then edit generated files while the server is offline.",
+      "items": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "step": 1,
+          "title": "Install the Windrose server files",
+          "description": "Install the Windrose Dedicated Server tool from Steam Library > Tools, or copy the WindowsServer build from game files if you use another storefront.",
+          "details": [
+            "Steam route: install the free Windrose Dedicated Server tool.",
+            "EGS or Stove route: copy the R5/Builds/WindowsServer folder out of the game directory.",
+            "For copied builds, keep the server in a dedicated folder outside the main game install."
+          ]
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "step": 2,
+          "title": "Boot once and collect the invite code",
+          "description": "Run StartServerForeground.bat for the first launch so you can see logs directly, then copy the generated invite code from console output or ServerDescription.json.",
+          "details": [
+            "StartServerForeground.bat is the easiest first-launch method.",
+            "WindroseServer.exe can run headless after setup.",
+            "Players join through Play > Connect to Server using your invite code."
+          ]
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "step": 3,
+          "title": "Edit Windrose ServerDescription.json",
+          "description": "Use this file to define invite code, password settings, server name, bound world, and max players. Apply edits only while the server is stopped.",
+          "details": [
+            "Key fields: InviteCode, IsPasswordProtected, Password, ServerName, WorldIslandId, MaxPlayerCount.",
+            "Invite codes are case-sensitive.",
+            "Up to 4 players is usually the smoother baseline even if larger groups are possible."
+          ]
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "step": 4,
+          "title": "Edit Windrose WorldDescription.json",
+          "description": "This file controls world difficulty and scaling. Use presets or custom values for enemy stats, ship damage values, boarding pressure, and co-op balancing.",
+          "details": [
+            "Supports Easy, Medium, Hard, and custom sliders.",
+            "Shared quest completion can auto-complete for active party members.",
+            "WorldIslandId in server settings must match the selected world file."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Confirm networking limits and host behavior",
+          "description": "Windrose relies on invite codes and NAT punch-through behavior rather than a fixed-port browser list. Stable UPnP routing improves discovery success.",
+          "details": [
+            "Connections are handled through dynamic NAT punch-through.",
+            "UPnP-capable routers reduce join failures.",
+            "If discovery fails, remove proxy or VPN layers and retry."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Keep Windrose client and server versions matched",
+          "description": "After each patch or hotfix, update server files and validate before reopening invites. Version mismatch warnings should be treated as mandatory maintenance.",
+          "details": [
+            "SteamCMD app ID for server updates: 4129620.",
+            "Repeat full update flow with force_install_dir, login, and app_update 4129620 validate.",
+            "Current admin operations remain primarily file-driven."
+          ]
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Windrose Roadmap",
-      "displayType": "timeline",
-      "intro": "Windrose is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
+      "displayType": "roadmapTimeline",
+      "eyebrow": "Windrose Roadmap",
+      "subtitle": "What is confirmed for Windrose now, and what is planned before 1.0.",
+      "intro": "Windrose does not use a date-by-date public roadmap yet, but the studio has already set the Early Access duration window, launch baseline scope, and clear feature priorities for near-term updates.",
+      "items": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "marker": "Current status",
+          "title": "No date-by-date Windrose roadmap is published yet",
+          "summary": "Kraken Express currently communicates through broad Early Access goals and priority areas rather than a milestone calendar with fixed dates.",
+          "highlights": [
+            "No dated public roadmap",
+            "Feedback-driven priorities",
+            "Direction is public even without exact dates"
+          ]
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "marker": "Mar 23, 2026",
+          "title": "Windrose pre-launch Early Access priorities were defined",
+          "summary": "The studio outlined active priorities including co-op ship batteries, randomized loot, hold-to-gather, FOV slider, signal fires, DLSS or FSR support, controller improvements, dismantling workbench, and target-lock switching.",
+          "highlights": [
+            "Co-op ship crew systems",
+            "Testing 4-to-8 player scale",
+            "FOV slider and controller upgrades",
+            "Loot and building usability upgrades"
+          ]
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "marker": "Apr 14, 2026",
+          "title": "Windrose launched in Early Access with broad baseline content",
+          "summary": "Launch scope included 3 biomes, around 30 procedural islands, more than 90 hand-crafted points of interest, 3 playable ships, naval combat with boarding, factions, reputation systems, NPC workers, and a long-form main story range.",
+          "highlights": [
+            "3 biomes at launch",
+            "Around 30 procedural islands",
+            "90+ points of interest",
+            "3 playable ships",
+            "50-70 hour main story range"
+          ]
+        },
+        {
+          "marker": "Early Access duration",
+          "title": "Windrose expects roughly 1.5 to 2.5 years before full release",
+          "summary": "The current Early Access plan indicates a long runway before 1.0, with continuous balancing, systems work, and content expansion during that period.",
+          "highlights": [
+            "1.5-2.5 year window",
+            "Long-term Early Access plan",
+            "1.0 is a multi-phase target"
+          ]
+        },
+        {
+          "marker": "Before 1.0",
+          "title": "Windrose plans around 50 percent more full-version content",
+          "summary": "The full release target includes major content growth beyond launch, with more biomes, bosses, enemies, ships, loot layers, and continued story progression.",
+          "highlights": [
+            "Around 50% more planned content",
+            "More biomes and bosses",
+            "More ships and loot",
+            "Story continuation and systems expansion"
+          ]
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Windrose Update Log",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
+      "displayType": "updateTimeline",
+      "eyebrow": "Windrose Patch History",
+      "subtitle": "A chronological Windrose feed of launch operations, hotfixes, and platform-impact changes.",
+      "intro": "The first Windrose update wave focused on launch operations, server connectivity, and save stability. This timeline tracks the announcements that changed real gameplay and hosting behavior.",
+      "items": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "marker": "Mar 23, 2026",
+          "title": "1,500,000 wishlists and pre-launch quality upgrades",
+          "summary": "Kraken Express published a broad pre-launch improvement list shaped by demo feedback, including co-op expansion, loot randomization, gather-flow improvements, and graphics or input upgrades.",
+          "highlights": [
+            "Pre-launch quality roadmap",
+            "Co-op expansion goals",
+            "Input and camera upgrades",
+            "Loot and building refinements"
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Windrose requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "marker": "Apr 14, 2026",
+          "title": "Windrose Early Access launch went live",
+          "summary": "Windrose launched into Early Access on Steam, and the launch communication confirmed the studio rename from Windrose Crew to Kraken Express as full-version development began.",
+          "highlights": [
+            "Early Access launch live",
+            "Studio renamed to Kraken Express",
+            "1.0 development phase started"
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "marker": "Apr 14, 2026",
+          "title": "Hotfix 0.10.0.1.6",
+          "summary": "The first visible post-launch hotfix cleaned up localization issues, corrected the Nitrado link, and changed server-info visibility in the pause menu to a safer default state.",
+          "highlights": [
+            "Minor localization fixes",
+            "Nitrado link corrected",
+            "Server-info fields hidden by default"
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to windrose/logs, and gather the .txt files for troubleshooting."
+          "marker": "Apr 16-17, 2026",
+          "title": "Hotfix 0.10.0.2.54 with online downtime window",
+          "summary": "This patch cycle removed dedicated-server token cooldown, added version mismatch warnings, moved invite codes to a 1-32 character limit, fixed ship-spawn crashes, corrected boss scaling for larger groups, increased host start timeout, and delivered broad combat and localization fixes.",
+          "highlights": [
+            "Dedicated-server connectivity fix",
+            "Version mismatch warning",
+            "Invite code length set to 1-32",
+            "Boss scaling fix for larger groups",
+            "Host start timeout raised to 5 minutes"
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "marker": "Apr 17, 2026",
+          "title": "Windrose Steam Cloud Saves update notice",
+          "summary": "The team published official guidance for cloud-save instability, including single-device recommendations, manual backup workflow, and local restore instructions when corruption appears.",
+          "highlights": [
+            "Cloud-save issue notice",
+            "Manual backup workflow shared",
+            "Client and dedicated save paths documented",
+            "Cloud behavior may be adjusted if issues persist"
+          ]
         }
       ]
     }
