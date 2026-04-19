@@ -296,143 +296,419 @@
     },
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "Windrose Builds and Classes",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Windrose. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+      "displayType": "buildCards",
+      "intro": "Windrose does not lock you into one class, but talent trees still reward clear identities: fast melee, bruiser pressure, ranged output, or a survival-first path.",
+      "paths": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "path": "Fencer",
+          "role": "Fast melee DPS",
+          "coreStats": [
+            "Agility for sabers",
+            "Precision for rapiers",
+            "Endurance as the comfort stat"
+          ],
+          "weaponDirection": [
+            "Cutlass or Razor for an Agility route",
+            "Sturdy Rapier into Rapier of a Thousand Cuts for a Precision route"
+          ],
+          "armorDirection": [
+            "Flibustier's Attire for a one-handed melee setup",
+            "Buccaneer 2-piece plus Marksman's Rig 2-piece for a low-stamina hybrid dodge setup"
+          ],
+          "keyTalents": [
+            "Agile",
+            "Executioner's Grace",
+            "Marathon Runner"
+          ],
+          "playPattern": "Play around short punish windows, dodge through attacks instead of away from them, and keep stamina for one more evasive move.",
+          "bestFor": [
+            "Boss fights once patterns are learned",
+            "Players who want high melee damage pace"
+          ]
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "path": "Crusher",
+          "role": "Bruiser and front line tank",
+          "coreStats": [
+            "Strength",
+            "Vitality",
+            "Endurance"
+          ],
+          "weaponDirection": [
+            "Sturdy Halberd early",
+            "Plague Halberd or Executioner as the heavy follow-up path"
+          ],
+          "armorDirection": [
+            "Pikeman's Armor for a pure two-handed identity",
+            "Pikeman 2-piece plus Conquistador 2-piece for a safe early-mid front line mix"
+          ],
+          "keyTalents": [
+            "Berserk",
+            "Too Angry to Die",
+            "Just a Flesh Wound"
+          ],
+          "playPattern": "Use reach, stagger, and posture pressure to control packs, then cash in larger punish windows with halberd swings.",
+          "bestFor": [
+            "Co-op front line play",
+            "Players who want safer crowd control than Fencer"
+          ]
         },
         {
-          "name": "Creative Home Building",
-          "description": "Windrose supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "path": "Marksman",
+          "role": "Ranged DPS",
+          "coreStats": [
+            "Precision",
+            "Endurance",
+            "Vitality"
+          ],
+          "weaponDirection": [
+            "Pistol into Reliable Musket for a stable start",
+            "Reliable Pistol or Drake's Double-Barreled Pistol as strong sidearms",
+            "Blunderbuss when you can support ammo usage"
+          ],
+          "armorDirection": [
+            "Marksman's Rig 4-piece for straight ranged damage",
+            "Mix survival talents if you want a safer solo version"
+          ],
+          "keyTalents": [
+            "Bullets",
+            "Marathon Runner",
+            "Too Angry to Die"
+          ],
+          "playPattern": "Kite, shoot, reposition, and spend ammunition on guaranteed windows instead of panic firing.",
+          "bestFor": [
+            "First reliable solo clear path",
+            "Players who want a simple stat plan"
+          ]
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "path": "Survival Tree",
+          "role": "Universal defensive support",
+          "coreStats": [
+            "Vitality",
+            "Endurance",
+            "Then your main weapon stat"
+          ],
+          "weaponDirection": [
+            "Works with any main weapon",
+            "Most often paired with Marksman or Crusher instead of played alone"
+          ],
+          "armorDirection": [
+            "Conquistador 2-piece as a survival staple",
+            "Conquistador 2-piece plus Tracker's Leathers 2-piece for healing-heavy tanking",
+            "Conquistador 2-piece plus Pikeman 2-piece for early-mid durability"
+          ],
+          "keyTalents": [
+            "Too Angry to Die",
+            "Stout Frame",
+            "Just a Flesh Wound"
+          ],
+          "playPattern": "Trade speed for forgiveness, survive mistakes that end other builds, and keep uptime through durability.",
+          "bestFor": [
+            "First attempts on new bosses",
+            "Players learning routes or higher difficulties"
+          ]
         }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
       ]
     },
     "lucidBlocksWorldRegions": {
       "title": "Windrose Best Weapons",
-      "displayType": "regionCards",
-      "intro": "Windrose uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
+      "displayType": "tierCards",
+      "intro": "The Windrose launch meta favors quick Agility and Precision options. Strength lines still hit hard, but they ask for better spacing and stamina discipline.",
+      "weaponTiers": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "tier": "S",
+          "weaponType": "Rapier",
+          "scaling": "Precision",
+          "standoutWeapons": [
+            "Rapier of a Thousand Cuts",
+            "Sturdy Rapier"
+          ],
+          "progressionExamples": [
+            "Early: Sturdy Rapier",
+            "Mid game: Rapier of a Thousand Cuts",
+            "Endgame: Rapier of a Thousand Cuts remains a premier boss weapon"
+          ],
+          "staminaProfile": "Low commitment and easy to keep active",
+          "bossValue": "Excellent single-target damage with safe punish timing",
+          "quickTake": "Rapier is one of the cleanest launch answers to bosses because it stacks bleed fast and keeps pressure high while moving."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "tier": "S",
+          "weaponType": "Saber",
+          "scaling": "Agility",
+          "standoutWeapons": [
+            "Razor",
+            "Cutlass"
+          ],
+          "progressionExamples": [
+            "Early: Cutlass",
+            "Mid game: Razor",
+            "Endgame: Razor remains one of the safest all-round picks"
+          ],
+          "staminaProfile": "Low strain and forgiving for continuous pressure",
+          "bossValue": "Strong for repeated safe hits and crowd control between fights",
+          "quickTake": "Saber is the most stable all-round melee family at launch, with Razor adding crit value and better perfect block windows."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "tier": "S",
+          "weaponType": "Blunderbuss",
+          "scaling": "Agility",
+          "standoutWeapons": [
+            "Dragon's Breath",
+            "Reliable Blunderbuss"
+          ],
+          "progressionExamples": [
+            "Early: Reliable Blunderbuss",
+            "Mid game: Dragon's Breath",
+            "Endgame: Dragon's Breath stays lethal at close range"
+          ],
+          "staminaProfile": "Handling is manageable, but ammo and positioning are the real tax",
+          "bossValue": "Very high burst if you hold close range safely",
+          "quickTake": "Blunderbuss remains a boss killer when your ammo economy is stable."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "tier": "A",
+          "weaponType": "Pistol",
+          "scaling": "Precision",
+          "standoutWeapons": [
+            "Reliable Pistol",
+            "Drake's Double-Barreled Pistol"
+          ],
+          "progressionExamples": [
+            "Early: Reliable Pistol",
+            "Mid game: Drake's Double-Barreled Pistol",
+            "Endgame: Drake's remains valuable for Vulnerability support"
+          ],
+          "staminaProfile": "Easy to weave into mobile play",
+          "bossValue": "Great ranged support for Precision builds",
+          "quickTake": "Pistol is the easiest sidearm family to slot into real fights and keeps ranged pressure flexible."
+        },
+        {
+          "tier": "A",
+          "weaponType": "Halberd",
+          "scaling": "Strength",
+          "standoutWeapons": [
+            "Plague Halberd",
+            "Sturdy Halberd"
+          ],
+          "progressionExamples": [
+            "Early: Sturdy Halberd",
+            "Mid game: Plague Halberd",
+            "Endgame: Plague Halberd remains the standout Strength spearhead"
+          ],
+          "staminaProfile": "Higher commitment than fast one-hand options",
+          "bossValue": "Very strong when punish windows are known",
+          "quickTake": "Halberd is the practical Strength route and scales well once you can trigger its special windows consistently."
+        },
+        {
+          "tier": "A",
+          "weaponType": "Greatsword",
+          "scaling": "Agility",
+          "standoutWeapons": [
+            "Stalwart Greatsword",
+            "Dueling Greatsword"
+          ],
+          "progressionExamples": [
+            "Early: Dueling Greatsword",
+            "Mid game: Stalwart Greatsword",
+            "Endgame: Stalwart Greatsword is the steadier carry"
+          ],
+          "staminaProfile": "Medium to high commitment",
+          "bossValue": "Good damage when you read recovery windows",
+          "quickTake": "Greatsword is the heavier Agility option and rewards disciplined timing."
+        },
+        {
+          "tier": "B",
+          "weaponType": "Club",
+          "scaling": "Strength",
+          "standoutWeapons": [
+            "Bonebreaker",
+            "Swamp Creature's Tooth"
+          ],
+          "progressionExamples": [
+            "Early: Club",
+            "Mid game: Bonebreaker",
+            "Endgame: Swamp Creature's Tooth for AoE distortion bursts"
+          ],
+          "staminaProfile": "Slow and costly if positioning is loose",
+          "bossValue": "High per-hit payoff, but less forgiving than halberd",
+          "quickTake": "Club can still hit hard, but current launch balance makes it less consistent than faster families."
+        },
+        {
+          "tier": "C",
+          "weaponType": "Musket",
+          "scaling": "Precision",
+          "standoutWeapons": [
+            "Reliable Musket",
+            "Infantry Musket"
+          ],
+          "progressionExamples": [
+            "Early: Reliable Musket",
+            "Mid game: Reliable Musket",
+            "Endgame: Reliable Musket still outperforms baseline muskets"
+          ],
+          "staminaProfile": "The issue is reload tempo and recovery pacing, not stamina",
+          "bossValue": "Usable, but usually weaker than pistol or blunderbuss unless built around",
+          "quickTake": "Most muskets are slow in the current meta, with Reliable Musket as the clear exception."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "Windrose Ship Guide",
-      "displayType": "creatureCards",
-      "intro": "Windrose mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
+      "displayType": "shipTable",
+      "intro": "Ship progression is the core fantasy loop once you leave tutorial islands. The practical route is Boat to Ketch to Brig to Frigate, with the Wharf powering every upgrade step.",
+      "shipStages": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "stage": "Starter",
+          "ship": "Boat",
+          "howToUnlock": "Automatic after the first main quest and summonable at shorelines with K",
+          "role": "Short-range starter dinghy for travel only",
+          "keyStats": "About 10 knots with no real combat value",
+          "bestPick": "Use it only for early story steps",
+          "whenToUpgrade": "Replace it as soon as Need A Bigger Boat opens"
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "stage": "Early Game",
+          "ship": "Ketch",
+          "howToUnlock": "Finish Need A Bigger Boat and Rescuing the Crew, repair the stranded ship, then tow it out with rescued crew",
+          "role": "First real ship for Coastal Jungle scouting, low-risk trade runs, and first naval fights",
+          "keyStats": "Stock Ketch: 50,000 HP, 19kn, 3 x 12lb",
+          "bestPick": "Stock Ketch is the cleanest early balance pick",
+          "whenToUpgrade": "Upgrade at the Wharf through Coastal Jungle, then transition once Brig plans are available"
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "stage": "Mid Game",
+          "ship": "Brig",
+          "howToUnlock": "Buy the design from the Brethren Provisioner at Reputation Level 2 and build at the Wharf",
+          "role": "Mid-game warship for harder naval combat and longer encounters",
+          "keyStats": "Stock Brig: 70,000 HP, 20kn, 6 x 12lb; Blackbeard Brig: 50,000 HP, 22kn, 6 x 12lb or 24lb",
+          "bestPick": "Blackbeard Brig for speed and 24-pounders; Stock Brig for steadier hull value",
+          "whenToUpgrade": "At this tier, cannon choice, hull mods, and repair-kit timing decide most fights"
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "stage": "Late Game",
+          "ship": "Frigate",
+          "howToUnlock": "Buy the design from the Brethren Provisioner at Reputation Level 4 and build at the Wharf",
+          "role": "Late-game flagship for boss patrols, fleet fights, and faction pressure",
+          "keyStats": "Stock Frigate: 160,000 HP, 18kn, 12 x 24lb; Blackbeard Frigate: 110,000 HP, 20kn, 12 x 24lb or 36lb",
+          "bestPick": "Blackbeard Frigate is the aggressive endgame pick; Brethren Frigate is the tankiest hull",
+          "whenToUpgrade": "Worth the material grind once you are ready for full naval loadouts and harder encounters"
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "stage": "Systems",
+          "ship": "Wharf and Ship Gear",
+          "howToUnlock": "After your first real ship, place a Wharf near water and craft ship gear at the Shipwright's Workshop",
+          "role": "Ship management and power scaling",
+          "keyStats": "Each real ship has four gear slots: Cannons, Hull Modification, Boarding Party Gear, and Naval Tactics",
+          "bestPick": "Perfectly Ordered cannons, Hull Bracing: Keelhold, and Naval Tactics III: Stretch The Supply are top current priorities",
+          "whenToUpgrade": "Start from Ketch tier; by Brig and Frigate tier these upgrades shape every naval battle"
         }
       ]
     },
     "lucidBlocksMobilityGear": {
       "title": "Windrose Boss Guide",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Windrose. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
+      "displayType": "bossAccordion",
+      "intro": "These four encounters define launch progression from Coastal Jungle into late Cursed Swamps. Prep first, learn patterns second, and push damage last.",
+      "bosses": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "boss": "Thomas Richards",
+          "recommendedLevel": "5-6",
+          "where": "Coastal Jungle during Revenge Is Best Served Cold",
+          "prep": [
+            "Upgrade weapon, ranged weapon, and all armor pieces to level 5",
+            "Run two food buffs plus the Rested buff",
+            "Bring Healing Potions, bullets, and gunpowder",
+            "Use a Blunderbuss if your ammo economy supports it",
+            "A solid two-piece armor mix makes the fight steadier"
+          ],
+          "attackPatterns": [
+            "Double Swing",
+            "Triple Swing",
+            "Frontal red-glint strike",
+            "Charge and Grab red-glint attack",
+            "Bomb Toss"
+          ],
+          "winningPlan": "Dodge red-glint moves, break shields, take stagger windows, and chip down instead of forcing extra hits.",
+          "rewards": [
+            "Unlocks the Foothills",
+            "Opens the next land progression tier"
+          ]
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "boss": "Israel Hands",
+          "recommendedLevel": "9-10",
+          "where": "Foothills during Needle in a Haystack",
+          "prep": [
+            "Max gear to level 10",
+            "Ascend weapons to Epic if damage windows still feel tight",
+            "Bring a full stack of Healing Potions and strong food buffs",
+            "Rapier of a Thousand Cuts plus a pistol is the cleanest loadout",
+            "Boar Whistle support from Truffle helps stabilize the encounter"
+          ],
+          "attackPatterns": [
+            "Triple Slash",
+            "Double Slash, Pause, Single Slash",
+            "Charge red-glint attack",
+            "Whirlwind AoE red-glint attack",
+            "Summon Souls",
+            "Pistol Shot"
+          ],
+          "winningPlan": "Maintain bleed stacks, punish after melee strings, use ranged shots during summon windows, and avoid greedy extra swings.",
+          "rewards": [
+            "20 Undead Essence",
+            "Quest item",
+            "Ancient Chest reward: Soul Eater"
+          ]
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "boss": "Ghost Captain",
+          "recommendedLevel": "10-12",
+          "where": "Temple dungeon",
+          "prep": [
+            "Bring 15-20 healing food portions",
+            "Set a tent at the dungeon entrance",
+            "Bring Coffee or another Endurance dish",
+            "Fast weapons such as Saber or Rapier outperform slow heavies",
+            "Rapier of a Thousand Cuts is an excellent single-target pick",
+            "Too Angry to Die is premium insurance for final phase mistakes"
+          ],
+          "attackPatterns": [
+            "Phase 1: sweeping spectral cutlass combos",
+            "Phase 2: tracking projectiles and add pressure",
+            "Phase 3: faster strings plus a tight AoE slam",
+            "Phase transitions attack immediately without pause"
+          ],
+          "winningPlan": "Dodge through cutlass arcs, strafe against projectiles, clear adds before they stack, and keep the safest decisions for the final 30 percent.",
+          "rewards": [
+            "Soul Eater",
+            "Major optional dungeon loot"
+          ]
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "boss": "High Priestess",
+          "recommendedLevel": "12-15",
+          "where": "Cursed Swamps",
+          "prep": [
+            "Bring gear tier 11-15 with a fully upgraded Rare or Epic loadout",
+            "Use crude-damage weapons such as halberds, clubs, or maces and keep a pierce backup",
+            "Bring Elixir of Pain Relief",
+            "Bring Great Healing Potions",
+            "Stack damage food plus long-duration HP and stamina recipes",
+            "Co-op helps because one player can draw aggression while others deal damage"
+          ],
+          "attackPatterns": [
+            "Rooted arena control instead of constant boss movement",
+            "Plague thrall summons",
+            "Area plague clouds that apply damage over time",
+            "Long stamina-taxing attrition windows"
+          ],
+          "winningPlan": "Manage space around her rooted position, clear thralls before they stack, avoid plague cloud uptime, and lean on crude-damage pressure through the long fight.",
+          "rewards": [
+            "Endgame-tier loot",
+            "Late Cursed Swamps progression rewards"
+          ]
         }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
