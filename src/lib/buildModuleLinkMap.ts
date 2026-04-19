@@ -18,42 +18,42 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
   lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
   lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  lucidBlocksQualiaAndBaseBuilding: { field: 'paths', nameKey: 'path' },
+  lucidBlocksWorldRegions: { field: 'weaponTiers', nameKey: 'weaponType' },
+  lucidBlocksCreaturesAndEnemies: { field: 'shipStages', nameKey: 'ship' },
+  lucidBlocksMobilityGear: { field: 'bosses', nameKey: 'boss' },
+  lucidBlocksFarmingAndGrowth: { field: 'stations', nameKey: 'label' },
+  lucidBlocksBestEarlyUnlocks: { field: 'resources', nameKey: 'resource' },
+  lucidBlocksAchievementTracker: { field: 'regions', nameKey: 'title' },
+  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'steps', nameKey: 'title' },
+  lucidBlocksSteamDeckAndController: { field: 'items', nameKey: 'component' },
+  lucidBlocksSettingsAndAccessibility: { field: 'items', nameKey: 'title' },
+  lucidBlocksUpdatesAndPatchNotes: { field: 'items', nameKey: 'title' },
+  lucidBlocksCrashFixAndTroubleshooting: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['beginner', 'tips', 'starter base', 'walkthrough', 'survival'],
+  lucidBlocksApotheosisCrafting: ['release date', 'release time', 'early access', 'launch', 'roadmap'],
+  lucidBlocksToolsAndWeapons: ['multiplayer', 'co-op', 'dedicated server', 'max players', 'crossplay'],
+  lucidBlocksStorageAndInventory: ['best stats', 'best talents', 'build', 'attributes', 'damage scaling'],
+  lucidBlocksQualiaAndBaseBuilding: ['builds', 'classes', 'fencer', 'crusher', 'marksman', 'survival tree'],
+  lucidBlocksWorldRegions: ['best weapon', 'weapon tier list', 'rapier', 'saber', 'blunderbuss', 'weapon types'],
+  lucidBlocksCreaturesAndEnemies: ['ships', 'ship types', 'ketch', 'frigate', 'wharf', 'ship combat'],
+  lucidBlocksMobilityGear: ['boss', 'thomas richards', 'israel hands', 'ghost captain', 'high priestess'],
+  lucidBlocksFarmingAndGrowth: ['crafting stations', 'workbench', 'weaponsmith', 'alchemy table', 'millstone'],
+  lucidBlocksBestEarlyUnlocks: ['resources', 'clay', 'copper ore', 'hardwood', 'timber', 'farming'],
+  lucidBlocksAchievementTracker: ['map', 'biomes', 'coastal jungle', 'foothills', 'tortuga', 'exploration'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['fast travel', 'signal fire', 'island hopping', 'bell', 'map route'],
+  lucidBlocksSteamDeckAndController: ['system requirements', 'minimum specs', 'recommended specs', 'ram', 'gpu', 'cpu'],
+  lucidBlocksSettingsAndAccessibility: ['dedicated server', 'server settings', 'hosting', 'invite code', 'serverdescription'],
+  lucidBlocksUpdatesAndPatchNotes: ['roadmap', 'future updates', 'development plans', 'early access', 'full release'],
+  lucidBlocksCrashFixAndTroubleshooting: ['update log', 'hotfix', 'patch notes', 'steam cloud', 'version'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['windrose', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of game name)
+  const strippedQuery = normalizedQuery.replace(/windrose\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/windrose\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { getLatestArticles } from '@/lib/getLatestArticles'
+import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Language } from '@/lib/content'
 import HomePageClient, { type HomePageConfig } from './HomePageClient'
@@ -75,8 +76,12 @@ export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || FALLBACK_SITE_URL
   const latestArticles = await getLatestArticles(locale as Language, 30)
-  // Keep homepage modules as pure in-page sections without internal article links.
-  const moduleLinkMap: ModuleLinkMap = {}
+  let moduleLinkMap: ModuleLinkMap = {}
+  try {
+    moduleLinkMap = await buildModuleLinkMap(locale as Language)
+  } catch {
+    moduleLinkMap = {}
+  }
   const heroImage = new URL('/images/hero.webp', siteUrl).toString()
 
   const homepageStructuredData = {
