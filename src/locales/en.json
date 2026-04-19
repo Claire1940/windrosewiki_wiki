@@ -713,222 +713,502 @@
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "Windrose Crafting Stations",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Windrose. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
+      "displayType": "stationAccordion",
+      "eyebrow": "Windrose Base Building",
+      "subtitle": "Build the stations that actually unlock your next tier.",
+      "intro": "In Windrose, station progression comes from add-ons more than from one flat recipe list. If a craft feels blocked, the answer is usually a missing attachment, not just more raw materials.",
+      "stations": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "id": "workbench",
+          "label": "Workbench",
+          "buildCost": [
+            "5 Wood"
+          ],
+          "unlockFocus": [
+            "Stone tools, Rope, Nails, Repair Kit, and Lamp crafting",
+            "Fast Travel Bell once copper progression is online",
+            "Bag progression through higher Workbench levels"
+          ],
+          "upgrades": [
+            {
+              "name": "Sawhorse",
+              "cost": [
+                "20 Wood",
+                "10 Copper Ingot"
+              ],
+              "whatItAdds": [
+                "Workbench Level 2",
+                "Sailor Backpack and other Level 2 Workbench recipes"
+              ]
+            },
+            {
+              "name": "Toolbox",
+              "cost": [
+                "10 Wood",
+                "20 Nails",
+                "5 Foothills Iron Ingot"
+              ],
+              "whatItAdds": [
+                "Workbench Level 3",
+                "Bosun Backpack, Millstone Parts, Timber, Tarred Planks, and other midgame utilities"
+              ]
+            }
+          ],
+          "bestUse": "Rush Sawhorse before your first serious sailing loop so inventory and utility recipes stop bottlenecking you."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "id": "cooking-fire",
+          "label": "Cooking Fire",
+          "buildCost": [
+            "3 Wood",
+            "3 Stone"
+          ],
+          "unlockFocus": [
+            "Early sustain food and your first reliable meal chain",
+            "Upgrade line recipes include Skewered Meat, Bacon and Eggs, Chowder, and Seafood Platter",
+            "Long cave runs and sea trips feel much safer once this line is upgraded"
+          ],
+          "upgrades": [
+            {
+              "name": "Cutting Table",
+              "cost": [
+                "10 Wood",
+                "2 Copper Ingot"
+              ],
+              "whatItAdds": [
+                "Expanded meal prep line",
+                "Your first real jump in cooking depth"
+              ]
+            },
+            {
+              "name": "Cookware Shelf",
+              "cost": [
+                "10 Hardwood",
+                "2 Ironware"
+              ],
+              "whatItAdds": [
+                "Higher-tier cooking recipes",
+                "A much better food economy for midgame travel"
+              ]
+            }
+          ],
+          "bestUse": "Upgrade this right after your Workbench if food is forcing you to cut trips short."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "id": "weaponsmith-workshop",
+          "label": "Weaponsmith Workshop",
+          "buildCost": [
+            "10 Wood",
+            "5 Copper Ingot"
+          ],
+          "unlockFocus": [
+            "Club, Cutlass, Crusher, pistols, muskets, and other early weapons",
+            "The main personal-weapon upgrade line",
+            "Ship gear branch through the Shipwright's Workshop path"
+          ],
+          "upgrades": [
+            {
+              "name": "Shipwright's Workshop",
+              "cost": [
+                "15 Wood",
+                "10 Coarse Fabric",
+                "5 Copper Ingot"
+              ],
+              "whatItAdds": [
+                "Ship equipment and upgrades",
+                "Cannons, hull paths, and naval support progression"
+              ]
+            },
+            {
+              "name": "Anvil",
+              "cost": [
+                "10 Wood",
+                "1 Anvil"
+              ],
+              "whatItAdds": [
+                "Expanded weapons and ship fittings line",
+                "A key second step for serious combat scaling"
+              ]
+            },
+            {
+              "name": "Bellows",
+              "cost": [
+                "20 Mire Metal Ingot",
+                "15 Crocodile Hide Piece",
+                "5 Hewn Stone"
+              ],
+              "whatItAdds": [
+                "Late swamp-tier smithing expansion",
+                "A broader endgame weapon and ship recipe pool"
+              ]
+            }
+          ],
+          "bestUse": "Build this as soon as copper smelting is stable, then add Shipwright's Workshop before cannon-heavy naval fights."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "id": "alchemy-table",
+          "label": "Alchemy Table",
+          "buildCost": [
+            "5 Wood",
+            "2 Clay Pot"
+          ],
+          "unlockFocus": [
+            "Minor Healing Potion, Homeward Journey, Alchemical Base, and early elixirs",
+            "Potion support for hard fights and long expeditions",
+            "Starts the full healing and buff economy"
+          ],
+          "upgrades": [
+            {
+              "name": "Stove and Pot",
+              "cost": [
+                "5 Stone",
+                "5 Clay",
+                "1 Copper Pot"
+              ],
+              "whatItAdds": [
+                "The first real potion branch",
+                "Healing and utility brews after Misty Orchid discovery"
+              ]
+            },
+            {
+              "name": "Reagent Table",
+              "cost": [
+                "5 Hardwood",
+                "2 Rum Bottle",
+                "2 Silver Ingot",
+                "2 Sulfur",
+                "1 Ironware"
+              ],
+              "whatItAdds": [
+                "Expanded elixir line",
+                "Better combat consumables and deeper alchemy progression"
+              ]
+            }
+          ],
+          "bestUse": "Set this up once combat damage and cave exploration start burning through your basic healing stock."
+        },
+        {
+          "id": "armor-and-clothing-workshop",
+          "label": "Armor and Clothing Workshop",
+          "buildCost": [
+            "5 Wood",
+            "10 Coarse Fabric"
+          ],
+          "unlockFocus": [
+            "Early armor sets and cloth or leather equipment",
+            "Progression for boots, gloves, jackets, and other worn gear",
+            "A major defensive jump once its add-ons are online"
+          ],
+          "upgrades": [
+            {
+              "name": "Material Rack",
+              "cost": [
+                "20 Wood",
+                "15 Crocodile Hide Piece",
+                "10 Linen Fabric",
+                "10 Rough Hide"
+              ],
+              "whatItAdds": [
+                "A much larger advanced gear pool",
+                "Quartermaster-tier backpack and swamp-linked armor progression"
+              ]
+            },
+            {
+              "name": "Shoemaker's Bench",
+              "cost": [
+                "30 Hardwood",
+                "20 Tanned Leather",
+                "15 Linen Fabric"
+              ],
+              "whatItAdds": [
+                "Boot and footwear expansion",
+                "A stronger Foothills-era armor and mobility line"
+              ]
+            }
+          ],
+          "bestUse": "Build it when Rough Hide is steady, then add Shoemaker's Bench once flax and tanned leather stop feeling scarce."
+        },
+        {
+          "id": "jewelery-table",
+          "label": "Jewelery Table",
+          "buildCost": [
+            "10 Wood",
+            "5 Foothills Iron Ingot",
+            "3 Silver Ingot"
+          ],
+          "unlockFocus": [
+            "Base ring crafting",
+            "Accessory upgrades that start with silver and scale into swamp metals",
+            "A late-midgame power layer once your core gear is already stable"
+          ],
+          "upgrades": [
+            {
+              "name": "Jeweler's Bench",
+              "cost": [
+                "10 Wood",
+                "5 Mire Metal Ingot",
+                "3 Silver Ingot",
+                "1 Gold Ingot"
+              ],
+              "whatItAdds": [
+                "Major ring tiers",
+                "The real payoff for accessory-focused builds"
+              ]
+            }
+          ],
+          "bestUse": "Treat this as a luxury station until travel, weapons, armor, and farming are already under control."
         }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Windrose Resources Guide",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Windrose, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
+      "displayType": "resourceTable",
+      "eyebrow": "Windrose Gathering",
+      "subtitle": "Track the materials that gate tools, travel, ships, and better gear.",
+      "intro": "The real resource question in Windrose is not just where a node spawns, but what chain it unlocks next. These are the materials players keep searching because one missing row can stall an entire run.",
+      "resources": [
         {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "resource": "Wood",
+          "foundIn": "Palm trees, Ficus trees, and loose beach debris around the Coastal Jungle.",
+          "needs": "Axe for tree farming. Loose logs can be picked up without one.",
+          "usedFor": "Every early station chain, Fast Travel Points, Repair Kits, and general base building.",
+          "routeTip": "Beach pickups solve the tutorial. Ficus chopping is what actually scales your wood income."
         },
         {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "resource": "Clay",
+          "foundIn": "Muddy rock patches on open ground, usually outside caves.",
+          "needs": "Any Pickaxe.",
+          "usedFor": "Clay Bottles, Charcoal Kilns, and a large share of early stations.",
+          "routeTip": "A single deposit gives roughly 50-60 clay, so a base near two deposits saves a lot of return trips."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "resource": "Copper Ore",
+          "foundIn": "Caves in the Coastal Jungle.",
+          "needs": "Stone Pickaxe at minimum, plus a lamp or torches for safer cave runs.",
+          "usedFor": "Copper Ingots, then tools, bells, nails, and early weapons.",
+          "routeTip": "Copper is much better mined in batches. Four ore plus charcoal smelts into one ingot."
         },
         {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "resource": "Rough Hide",
+          "foundIn": "Boars and Sows in the Coastal Jungle, then Wolves and Goats in the Foothills.",
+          "needs": "Combat farming, or Merchant Contracts once you want bulk restocks.",
+          "usedFor": "Armor, backpacks, and a long list of midgame crafts.",
+          "routeTip": "If raw hunting starts feeling slow, Merchant Contracts become the clean bulk-buy solution."
         },
         {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "resource": "Lamp Oil",
+          "foundIn": "Refilled at the Workbench instead of gathered as a direct world node.",
+          "needs": "3 Animal Fat and an Empty Lamp.",
+          "usedFor": "Cave runs, ruin routes, and any serious copper or treasure farming session.",
+          "routeTip": "Savage or Charging Boars can drop multiple chunks of fat, which makes lamp refills much less annoying."
         },
         {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "resource": "Hardwood",
+          "foundIn": "Divi-Divi trees and stumps throughout the Foothills.",
+          "needs": "Axe and Foothills access.",
+          "usedFor": "Toolbox, Timber, advanced tools, and many midgame ship or station recipes.",
+          "routeTip": "Your first big Foothills wood spike should go into tooling and ship support, not decoration."
+        },
+        {
+          "resource": "Tree Bark",
+          "foundIn": "The same Divi-Divi trees and stumps that provide Hardwood in the Foothills.",
+          "needs": "Axe and Foothills access.",
+          "usedFor": "Tannin, Tanned Leather, and the upgraded leather chain.",
+          "routeTip": "Bark is the quiet bottleneck behind good boots, backpacks, and armor upgrades."
+        },
+        {
+          "resource": "Flax Fiber",
+          "foundIn": "Small purple plant clusters throughout the Foothills.",
+          "needs": "No tool to pick up; a Spinning Wheel to turn it into Linen Fabric.",
+          "usedFor": "Linen Fabric, Shoemaker's Bench, and stronger armor or backpack progression.",
+          "routeTip": "Your first pickup teaches both the Spinning Wheel and the Shoemaker's Bench."
+        },
+        {
+          "resource": "Sulfur",
+          "foundIn": "Yellow-streaked rocky outcroppings in the Foothills, with additional nodes sometimes appearing in the Coastal Jungle.",
+          "needs": "Iron Pickaxe for the full mining route.",
+          "usedFor": "Gunpowder.",
+          "routeTip": "Even if you spot sulfur early, your real sulfur economy starts only after Iron Pickaxe progression."
+        },
+        {
+          "resource": "Corn",
+          "foundIn": "Fields around Ancient Village landmarks in the Foothills.",
+          "needs": "Foothills exploration.",
+          "usedFor": "Millstone Parts, Millstones, Cornmeal, and several better food recipes.",
+          "routeTip": "The first Corn pickup is the moment homemade gunpowder becomes a realistic plan."
+        },
+        {
+          "resource": "Fertile Soil",
+          "foundIn": "Ancient Farm landmarks in the Foothills and flowerbed ruins in the Cursed Swamps.",
+          "needs": "Collection in the field, then Seedbeds back at base.",
+          "usedFor": "Permanent farming lines for flax, food crops, and swamp plants.",
+          "routeTip": "Once you have this, stop treating every crop as a dedicated field trip."
+        },
+        {
+          "resource": "Gunpowder",
+          "foundIn": "Loot from pirate camps, ruins, ship caches, and later your own Millstones.",
+          "needs": "Millstones plus Ash and Sulfur for the crafted route.",
+          "usedFor": "Firearms, cannon support, and Buccaneer deliveries.",
+          "routeTip": "Looted powder carries the early game. Millstones take over once Corn and Iron are solved."
+        },
+        {
+          "resource": "Ancient Scraps",
+          "foundIn": "Ancient Ruins in the Cursed Swamps.",
+          "needs": "Late-region access and a route that can survive plague zones.",
+          "usedFor": "Jeweler's Bench, Large Smelting Furnace, and Blacksmith Bellows.",
+          "routeTip": "This is the swamp material that actually flips your late crafting tier on."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Windrose Map and Biomes",
-      "displayType": "achievementGrid",
-      "intro": "Windrose currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+      "displayType": "biomeCards",
+      "eyebrow": "Windrose World Guide",
+      "subtitle": "Read the world by region role, not by one fixed map screenshot.",
+      "intro": "Windrose is procedural, so the useful map is a biome logic map. What matters most is what each region unlocks, how hard it hits, and when you should move your base or route onward.",
+      "regions": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "id": "world-structure",
+          "title": "How the Windrose map actually works",
+          "difficulty": "Overview",
+          "summary": "Your save follows the same regional logic as everyone else's, but the exact island and POI layout is procedural.",
+          "keyPoints": [
+            "3 current biomes",
+            "~30 procedural islands",
+            "90+ hand-crafted points of interest",
+            "No two saves share the same exact island layout"
+          ],
+          "nextUnlock": "A world that rewards route planning more than screenshot memorization.",
+          "playerGoal": "Use biome roles and service hubs to build your own navigation network."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "id": "recommended-route",
+          "title": "Windrose recommended progression route",
+          "difficulty": "Route Plan",
+          "summary": "The smoothest progression path is tutorial island first, then a real Coastal Jungle base, then a Foothills outpost, then targeted Cursed Swamps runs.",
+          "keyPoints": [
+            "Do not overinvest in the tutorial island",
+            "Turn on your first fast travel pair before major ship trips",
+            "Move farming and iron-era crafting to the Foothills",
+            "Treat the Swamps as a late-resource loop, not your first permanent main base"
+          ],
+          "nextUnlock": "Cleaner sailing loops and far fewer painful rebuilds.",
+          "playerGoal": "Let each region solve one tier of problems before you move your core operations."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
+          "id": "coastal-jungle",
+          "title": "Windrose Coastal Jungle",
+          "difficulty": "Early Game",
+          "summary": "This is the first full biome and the place where survival basics turn into real progression.",
+          "keyPoints": [
+            "Copper Ore, Clay, Rough Hide, and Misty Orchid all matter here",
+            "Thomas Richards is the region boss",
+            "Clearing him unlocks Foothills access and Level 6+ crafting"
+          ],
+          "nextUnlock": "Copper tools, fast travel, early armor, and your first serious camp.",
+          "playerGoal": "Build your first real base here and solve copper, food, and mobility before pushing onward."
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
+          "id": "foothills",
+          "title": "Windrose Foothills",
+          "difficulty": "Mid Game",
+          "summary": "The Foothills are where Windrose opens its true midgame: iron, cloth, farming, and ship support all start clicking together here.",
+          "keyPoints": [
+            "Foothills Iron Ore, Hardwood, Tree Bark, Flax Fiber, Corn, Sulfur, and Fertile Soil define the biome",
+            "Israel Hands is the region boss",
+            "Clearing him unlocks Cursed Swamps access and Level 11+ crafting"
+          ],
+          "nextUnlock": "Iron tools, Linen Fabric, Millstones, stronger ships, and a real farming economy.",
+          "playerGoal": "Stand up your iron, cloth, and crop backbone here before you touch the late region seriously."
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
+          "id": "cursed-swamps",
+          "title": "Windrose Cursed Swamps",
+          "difficulty": "Late Game",
+          "summary": "This is the current final region in Early Access and the part of the game that starts expecting full preparation.",
+          "keyPoints": [
+            "Ancient Scraps, Tar, Plague Wood, Crocodile Hide Piece, and Bromeliad all matter here",
+            "Glowing pink plague forest patches are the signature environmental threat",
+            "This is the last region available in the current Early Access build"
+          ],
+          "nextUnlock": "Late smithing, accessory upgrades, swamp alchemy materials, and the current top crafting tier.",
+          "playerGoal": "Come here for targeted late-game materials, not for a rushed first foothold."
+        },
+        {
+          "id": "tortuga-and-faction-hubs",
+          "title": "Windrose Tortuga and faction hubs",
+          "difficulty": "Hub Layer",
+          "summary": "These islands matter more for services, routing, and reputation than for raw gathering.",
+          "keyPoints": [
+            "Some faction locations include pre-built fast travel points",
+            "Tortuga functions as a practical service stop in the midgame sea loop",
+            "Bounty Agents, Provisioners, Buyers, and faction quests make these islands worth weaving into your route"
+          ],
+          "nextUnlock": "Better sea routing, easier restocking, and smoother faction progression.",
+          "playerGoal": "Use hubs as anchors on your sailing route instead of trying to force them into your main resource base."
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Windrose Fast Travel",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Windrose.",
-      "faqs": [
+      "displayType": "timelineSteps",
+      "eyebrow": "Windrose Travel System",
+      "subtitle": "Unlock fast travel before sailing starts wasting whole sessions.",
+      "intro": "Windrose does have fast travel early, but it is built as a network you place yourself. Once the Bell-and-Point loop clicks, travel time drops hard.",
+      "steps": [
         {
-          "question": "Is Windrose singleplayer?",
-          "answer": "Yes. Windrose supports solo play."
+          "step": 1,
+          "title": "Smelt your first Copper Ingot in Windrose",
+          "description": "Fast travel unlocks during the early main quest \"How My Shore Adventure Began\" the moment your first Copper Ingot is made.",
+          "details": [
+            "That discovery unlocks the Fast Travel Bell recipe.",
+            "Copper Ore comes from Coastal Jungle caves and has to be smelted first."
+          ]
         },
         {
-          "question": "Is multiplayer or co-op planned in Windrose?",
-          "answer": "Windrose already supports online co-op and dedicated server play."
+          "step": 2,
+          "title": "Get your first Windrose Fast Travel Bell",
+          "description": "You can either craft the bell directly or loot one before your copper economy feels comfortable.",
+          "details": [
+            "Crafting cost: 10 Copper Ingots and 3 Rope.",
+            "Early loot sources include shipwreck debris, beach chests, and the Smuggler's Cache route."
+          ]
         },
         {
-          "question": "Where can I play Windrose?",
-          "answer": "Windrose is available on Steam and Epic Games Store."
+          "step": 3,
+          "title": "Place a Windrose Fast Travel Point on the shoreline",
+          "description": "The bell does nothing by itself. Open Build Mode, go to Crafting and Utilities, and turn it into a Fast Travel Point.",
+          "details": [
+            "Fast Travel Point cost: 20 Wood and 1 Fast Travel Bell.",
+            "Placement rule: coast, beach, or dock only. It cannot be dropped in the middle of an island."
+          ]
         },
         {
-          "question": "How much does Windrose cost?",
-          "answer": "Windrose launched with a $29.99 base price and an optional Supporter Bundle."
+          "step": 4,
+          "title": "Activate the Windrose network with a second point",
+          "description": "One point is only a marker. Two points are the moment the system starts saving real time.",
+          "details": [
+            "You need at least two Fast Travel Points in different locations.",
+            "Two distant points on the same island can activate the network early, even before you spread to other islands."
+          ]
         },
         {
-          "question": "Does Windrose support controllers?",
-          "answer": "Yes. Windrose supports controller input, though many players prefer keyboard and mouse for menu-heavy workflows."
+          "step": 5,
+          "title": "Travel differently on foot and at sea in Windrose",
+          "description": "Windrose treats land travel and ship travel as two different fast-travel modes.",
+          "details": [
+            "On foot: walk to a Fast Travel Point, then select another point.",
+            "On a Ketch: open the map from anywhere at sea and jump to any unlocked point as long as you are not in combat or being chased."
+          ]
         },
         {
-          "question": "Does Windrose work on Steam Deck?",
-          "answer": "Windrose can run on Steam Deck with compatibility-layer tuning based on current patch behavior."
-        },
-        {
-          "question": "Does Windrose work on Linux?",
-          "answer": "Windrose can be played through compatibility layers on Linux setups that match the active build requirements."
-        },
-        {
-          "question": "Will Windrose support Mac or Android?",
-          "answer": "No official Mac or Android launch target has been confirmed for Windrose."
-        },
-        {
-          "question": "Does Windrose have translations?",
-          "answer": "Windrose supports multiple interface languages, including English, German, Russian, and Portuguese (Brazil)."
-        },
-        {
-          "question": "Will Windrose keep getting updates?",
-          "answer": "Yes. Windrose is in active Early Access development with ongoing fixes and content iteration."
+          "step": 6,
+          "title": "Fold pre-built and faction points into your Windrose route",
+          "description": "Your best network is not built only from your own bases. The world already contains useful anchor points.",
+          "details": [
+            "Some faction bases, including Tortuga-style hubs, can add pre-built fast travel points once visited.",
+            "In co-op, map-based fast travel can separate you from your ship and crewmates, so coordinate before jumping."
+          ]
         }
       ]
     },
