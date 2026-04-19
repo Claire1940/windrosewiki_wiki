@@ -1,933 +1,1699 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Windrose Wiki - Crafting, Biomas e Conquistas",
+      "description": "A Windrose Wiki abrange crafting, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura surreal em sandbox de voxel no Steam.",
+      "keywords": "Windrose, Windrose wiki, crafting, biomas, conquistas, sobrevivência, Steam",
+      "ogTitle": "Windrose Wiki - Crafting, Biomas e Conquistas",
+      "ogDescription": "A Windrose Wiki abrange crafting, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura surreal em sandbox de voxel no Steam.",
+      "twitterTitle": "Windrose Wiki - Crafting, Biomas e Conquistas",
+      "twitterDescription": "A Windrose Wiki abrange crafting, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
     }
   },
   "nav": {
-    "guide": "Guide",
-    "release": "Release",
-    "server": "Server",
-    "map": "Map",
-    "resources": "Resources",
+    "guide": "Guia",
+    "release": "Lançamento",
+    "server": "Servidor",
+    "map": "Mapa",
+    "resources": "Recursos",
     "builds": "Builds",
-    "ships": "Ships",
+    "ships": "Navios",
     "mods": "Mods"
   },
   "common": {
     "home": "Início",
     "more": "Mais",
     "playNow": "Jogue no Steam",
-    "switchLanguage": "Alterar Idioma",
-    "switchTheme": "Alterar Tema",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
     "lightMode": "Modo Claro",
     "darkMode": "Modo Escuro",
     "notFound": "Página Não Encontrada",
     "notFoundDescription": "A página que você está procurando não existe.",
-    "backToHome": "Voltar ao Início",
+    "backToHome": "Voltar para o Início",
     "relatedArticles": "Artigos Relacionados",
-    "readMore": "Leia Mais"
+    "readMore": "Ler Mais"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "Aventura de Sobrevivência Pirata em Mundo Aberto",
+    "title": "Windrose",
+    "description": "Windrose é uma aventura de sobrevivência pirata no Steam focada em combate naval, construção de bases, exploração de mundo aberto, chefes e progressão cooperativa por terra e mar.",
+    "getFreeCodesCTA": "Visite o Site Oficial de Windrose",
+    "playOnSteamCTA": "Jogue Windrose no Steam",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "1.5M+",
+        "label": "Listas de Desejos no Steam"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "138.5K",
+        "label": "Jogadores no Jogo"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "10.7K",
+        "label": "Avaliações no Steam"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "79K+",
+        "label": "Membros no Discord"
       }
     }
   },
   "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
+    "title": "Jogabilidade de Windrose",
     "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Tudo o que você precisa para explorar, criar e sobreviver em Lucid Blocks",
+    "title": "Windrose",
+    "titleHighlight": "Navegador de Módulos",
+    "subtitle": "Pule para cada módulo do guia de Windrose e explore as seções em ordem.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guia para Iniciantes",
-        "description": "Primeiros passos, exploração e progressão inicial"
+        "title": "Guia de Iniciante de Windrose",
+        "description": "Primeiras 2-5 horas: configuração de acampamento, ritmo de combate e progressão inicial."
       },
       {
         "icon": "Sparkles",
-        "title": "Criação de Apotheosis",
-        "description": "Sistema de fusão livre e receitas iniciais"
+        "title": "Data de Lançamento de Windrose",
+        "description": "Cronograma de lançamento do Acesso Antecipado, status de hotfix e janela da versão 1.0."
       },
       {
         "icon": "Hammer",
-        "title": "Ferramentas e Armas",
-        "description": "Frost Pick, Azrael, __PROTECTED_6a765cb2__ e mais"
+        "title": "Guia Multiplayer de Windrose",
+        "description": "Códigos de convite, configuração de host, regras do mundo e servidores dedicados."
       },
       {
         "icon": "Package",
-        "title": "Armazenamento e Inventário",
-        "description": "Cache Cubes, Armários e armazenamento de Qualia"
+        "title": "Melhores Atributos e Talentos de Windrose",
+        "description": "Caminhos de atributos iniciais seguros, talentos de sobrevivência e prioridades de build."
       },
       {
         "icon": "Home",
-        "title": "Qualia e Construção de Base",
-        "description": "Qualia Pessoal e configuração da base principal"
+        "title": "Builds e Classes de Windrose",
+        "description": "Compare estilos de jogo principais e escolha uma identidade de combate clara."
       },
       {
         "icon": "Eye",
-        "title": "Regiões do Mundo",
-        "description": "Fog Meadow, Essence Morass e mais"
+        "title": "Melhores Armas de Windrose",
+        "description": "Opções de armas fortes para o início, meio e fim de jogo atual."
       },
       {
         "icon": "AlertTriangle",
-        "title": "Criaturas e Inimigos",
-        "description": "Manikins, aranhas e como sobreviver"
+        "title": "Guia de Navios de Windrose",
+        "description": "Desbloqueie navios, compare funções e planeje melhorias significativas."
       },
       {
         "icon": "ArrowRight",
-        "title": "Equipamento de Mobilidade",
-        "description": "__PROTECTED_6a765cb2__, Glider Glove, __PROTECTED_163b9bec__"
+        "title": "Guia de Chefes de Windrose",
+        "description": "Localização de chefes, listas de preparação, padrões e desbloqueio de recompensas."
       },
       {
         "icon": "TrendingUp",
-        "title": "Cultivo e Crescimento",
-        "description": "Progressão de sementes e coleta de materiais"
+        "title": "Bancadas de Criação de Windrose",
+        "description": "Ordem de desbloqueio de bancadas, funções principais e melhorias prioritárias."
       },
       {
         "icon": "Star",
-        "title": "Melhores Desbloqueios Iniciais",
-        "description": "Melhorias prioritárias para a primeira hora"
+        "title": "Guia de Recursos de Windrose",
+        "description": "Materiais essenciais, lógica de surgimento e rotas de criação de alto uso."
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Rastreador de Conquistas",
-        "description": "Todas as 19 conquistas e condições de Steam"
+        "title": "Mapa e Biomas de Windrose",
+        "description": "Fluxo de dificuldade dos biomas, rotas e expectativas de exploração."
       },
       {
         "icon": "MessageCircle",
-        "title": "FAQ Singleplayer",
-        "description": "Dúvidas sobre plataforma, preço, cooperativo e idioma"
+        "title": "Viagem Rápida em Windrose",
+        "description": "Sinos, fluxo de desbloqueio, estratégia de posicionamento e limites de viagem."
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck e Controle",
-        "description": "Configuração do Proton 9.0.4 e dicas de controle"
+        "title": "Requisitos de Sistema de Windrose",
+        "description": "Especificações mínimas versus recomendadas para PC com orientações de RAM para hospedagem própria."
       },
       {
         "icon": "Settings",
-        "title": "Configurações e Acessibilidade",
-        "description": "Ocultar mãos, __PROTECTED_38625270__ e opções de exibição"
+        "title": "Guia de Servidor Dedicado de Windrose",
+        "description": "Instalação, inicialização, configuração de arquivos JSON e sincronização de versões do servidor."
       },
       {
         "icon": "Clock",
-        "title": "Atualizações e Notas de Patch",
-        "description": "Correções recentes e notas do roadmap"
+        "title": "Roadmap de Windrose",
+        "description": "Prioridades atuais, janela de Acesso Antecipado e crescimento de conteúdo pré-1.0."
       },
       {
         "icon": "Shield",
-        "title": "Correção de Travamentos",
-        "description": "Verificação de __PROTECTED_38625270__, caminho dos logs e relato de bugs"
+        "title": "Log de Atualizações de Windrose",
+        "description": "Hotfixes da semana de lançamento, avisos de manutenção e atualizações do sistema de salvamento."
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Guia para Iniciantes de Lucid Blocks",
+      "title": "Guia de Início de Windrose",
       "displayType": "steps",
-      "intro": "Comece aprendendo como a exploração, a fusão e a progressão se conectam. Lucid Blocks recompensa a experimentação, portanto, o progresso inicial vem da coleta de materiais incomuns, do teste de combinações e do desbloqueio de sua Qualia pessoal.",
+      "intro": "Windrose se torna muito mais fluido quando sua rota inicial está estruturada. Garanta materiais costeiros, estabeleça um acampamento inicial real, estabilize a cura e a comida, e então avance para cavernas, missões e progressão de navio.",
       "steps": [
         {
-          "title": "Explore Antes de se Comprometer",
-          "description": "Caminhe para fora, mine blocos comuns e guarde quaisquer itens estranhos que encontrar. O progresso inicial foca menos em missões fixas e mais em descobrir no que os materiais podem se tornar."
+          "title": "Vasculhe a praia antes de buscar combate",
+          "description": "Comece na costa para uma coleta segura e eficiente. Esta rota fornece materiais essenciais para ferramentas e abrigo sem forçar lutas arriscadas no início."
         },
         {
-          "title": "Desbloqueie sua Qualia Pessoal Cedo",
-          "description": "Sua Qualia pessoal é um dos marcos iniciais mais importantes. Ela oferece um lugar confiável para se reagrupar e construir ao redor."
+          "title": "Monte um acampamento real no primeiro dia, não apenas uma fogueira",
+          "description": "Construa um acampamento funcional com renascimento, fabricação, culinária e armazenamento desde o início, para que mortes precoces e pressão de inventário não interrompam seu progresso."
         },
         {
-          "title": "Use Ósmio para um Progresso Inicial Rápido",
-          "description": "O Ósmio é um dos materiais iniciais mais úteis. Uma rota inicial popular é combinar Ósmio com gravetos para criar uma Picareta de Gelo para mineração rápida."
+          "title": "Lute como em um jogo de estamina, não como um jogo de tiro",
+          "description": "O combate inicial recompensa bloqueios, aparos, esquivas e quebras de postura. Armas de fogo são melhor usadas como finalizadores após criar uma abertura segura."
         },
         {
-          "title": "Registre Boas Fusões",
-          "description": "Mantenha um registro das combinações bem-sucedidas em seu diário. Lucid Blocks possui muitos caminhos de fusão possíveis, então anotar resultados úteis economiza muito tempo."
+          "title": "Use marcadores de mapa e sinos para reduzir o tempo de retorno",
+          "description": "Rastreie recursos e rotas com marcadores, desbloqueie seu primeiro sino rapidamente e coloque pontos de viagem perto das entradas de masmorras para eliminar o tempo de inatividade repetitivo."
+        },
+        {
+          "title": "Construa acampamentos avançados antes de chefes e ruínas",
+          "description": "Um pequeno acampamento avançado transforma conteúdos difíceis em tentativas eficientes. Mantenha uma tenda fora de zonas difíceis para reiniciar rapidamente após uma derrota ou para descarregar itens."
+        },
+        {
+          "title": "Estabilize a progressão terrestre antes da progressão marítima completa",
+          "description": "Seus maiores ganhos iniciais vêm da qualidade da base, sobrevivência e configuração de viagem em terra. O valor da navegação aumenta quando esses sistemas estão estáveis."
         }
       ],
       "quickTips": [
-        "Apotheosis não requer uma lista de receitas fixa.",
-        "A geração de mundo infinita significa que mover-se para lugares mais altos ou mais profundos pode revelar materiais completamente diferentes.",
-        "Ferramentas de movimento e equipamentos utilitários tornam-se um grande reforço na qualidade de vida assim que você começa a desbloqueá-los.",
-        "Perder-se no início é normal, mas ferramentas úteis, armazenamento e opções de movimento crescem rapidamente assim que suas primeiras boas fusões começam a funcionar."
+        "Priorize madeira, fibra vegetal, pregos, conchas de vieira, pedras soltas e argila de margem de rio na rota inicial.",
+        "Núcleo do acampamento inicial: fogueira, bancada de trabalho, fogão, cama e tenda.",
+        "Carregue pelo menos 10 bandagens e dois tipos de comida antes de rotas de combate mais longas.",
+        "As bandagens curam ao longo do tempo, então crie espaço primeiro e depois recupere-se.",
+        "Coloque sinos fora das masmorras para que as viagens de retorno sejam curtas e repetíveis.",
+        "Antes de Thomas Richards, prepare uma arma, arma de fogo, comida, poções, bandagens e um conjunto completo de armadura."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Criação de Apotheosis em Lucid Blocks",
+      "title": "Data de Lançamento de Windrose",
       "displayType": "cards",
-      "intro": "Apotheosis é o sistema de fusão irrestrito do jogo. Em vez de memorizar um livro de receitas tradicional, você combina materiais, observa o resultado e constrói seu próprio conhecimento de criação ao longo do tempo.",
+      "intro": "Windrose já está disponível em Acesso Antecipado. A visão útil de lançamento inclui o cronograma de lançamento, o status atual da versão e como o caminho para a versão 1.0 está se desenvolvendo.",
       "cards": [
         {
-          "name": "Fusão de Forma Livre",
-          "description": "Apotheosis permite fundir diferentes itens sem a necessidade de seguir uma lista de receitas fixa."
+          "name": "23/03/2026 - Atualização pré-lançamento",
+          "description": "O período da demo permaneceu ativo até o Acesso Antecipado, enquanto a equipe delineava melhorias de qualidade de lançamento a partir de grandes volumes de feedback dos jogadores."
         },
         {
-          "name": "Múltiplos Resultados Úteis",
-          "description": "Materiais diferentes costumam levar a certos resultados. Descobertas da comunidade mostram que insumos semelhantes ainda podem resultar em ferramentas práticas, armazenamento ou melhorias de combate."
+          "name": "09/04/2026 - Data de lançamento confirmada",
+          "description": "O estúdio confirmou 14 de abril de 2026 para o lançamento do Acesso Antecipado, com um preço base de $29,99 e um Pacote de Apoiador anunciado."
         },
         {
-          "name": "Criação Focada no Diário",
-          "description": "A melhor maneira de aprender Apotheosis é rastrear suas combinações bem-sucedidas. Seu diário rapidamente se torna sua própria referência de criação."
+          "name": "14/04/2026 - Acesso Antecipado disponível",
+          "description": "Windrose foi lançado no Steam e na Epic Games Store com cooperativo opcional, uma história principal longa, múltiplos biomas e progressão de navio jogável."
         },
         {
-          "name": "Fusões Iniciais Testadas pela Comunidade",
-          "description": "Exemplos iniciais populares incluem Ósmio mais Graveto para uma Picareta de Gelo, Graveto mais Apêndice de Tungstênio para Azrael, e Azrael mais Magnetita para a Rapieira de Gavinhas."
+          "name": "17/04/2026 - Hotfix da semana de lançamento",
+          "description": "O Hotfix 0.10.0.2.54 melhorou a estabilidade online, verificações de servidores desatualizados, suporte a códigos de convite e o comportamento de escalonamento de chefes para grupos cooperativos maiores."
+        },
+        {
+          "name": "Final de 2027 a Final de 2028 - Janela estimada para 1.0",
+          "description": "O planejamento atual do Acesso Antecipado aponta para uma janela de desenvolvimento de 1,5 a 2,5 anos a partir do lançamento, com grande crescimento de conteúdo planejado para a versão completa."
         }
       ],
       "milestones": [
-        "Fundir um item",
-        "Fundir um verme",
-        "Fundir um artefato divino"
+        "Lançamento do Acesso Antecipado de Windrose: 14 de abril de 2026",
+        "Status atual da plataforma: Steam + Epic Games Store",
+        "Última atualização disponível: Hotfix 0.10.0.2.54",
+        "Janela alvo atual para 1.0: Final de 2027 a Final de 2028"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Ferramentas e Armas de Lucid Blocks",
+      "title": "Guia Multijogador de Windrose",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mistura equipamentos utilitários oficiais com armas iniciais descobertas pela comunidade. A melhor configuração geralmente é uma mistura de mineração rápida, travessia segura e uma opção de combate confiável.",
+      "intro": "O cooperativo de Windrose é simples assim que a hospedagem, o fluxo de convite, as configurações de mundo e as opções de servidor dedicado são mapeados claramente.",
       "items": [
         {
-          "name": "Picareta de Gelo",
-          "type": "Ferramenta de Mineração",
-          "description": "Uma picareta inicial rápida e acessível feita de Ósmio e Graveto. Os jogadores a utilizam para acelerar a coleta inicial de materiais."
+          "name": "Apenas cooperativo online",
+          "type": "Modo",
+          "description": "Windrose não utiliza tela dividida local. Amigos entram a partir de PCs separados online, e o jogo solo offline ainda está disponível."
         },
         {
-          "name": "Azrael",
-          "type": "Arma Inicial",
-          "description": "Uma rota prática de arma inicial criada a partir de Graveto e Apêndice de Tungstênio."
+          "name": "Converter um mundo solo em um mundo cooperativo",
+          "type": "Configuração do Anfitrião",
+          "description": "Em Jogar -> Hospedar um jogo, você pode abrir um save existente, gerar um código de convite e continuar o progresso com amigos no mesmo mundo."
         },
         {
-          "name": "Rapieira de Gavinhas",
-          "type": "Arma Melhorada",
-          "description": "Uma sequência mais forte feita ao combinar Azrael com Magnetita. É um dos caminhos de combate inicial-médio mais úteis compartilhados pelos jogadores."
+          "name": "Fluxo de entrada por código de convite",
+          "type": "Fluxo de Entrada",
+          "description": "Os jogadores entram através de Conectar ao Servidor com um código de convite. Uma vez conectado, o servidor pode ser salvo para uma reentrada mais rápida."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de travessia oficial que melhora muito o movimento e a exploração vertical."
+          "name": "Regras de mundo configuráveis para partidas compartilhadas",
+          "type": "Regras do Mundo",
+          "description": "Os anfitriões podem ajustar o progresso de missões compartilhadas, o comportamento de escalonamento de inimigos e o acesso protegido por senha para combinar com a configuração do grupo."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de movimento oficial que ajuda a percorrer espaços de forma mais segura e eficiente."
+          "name": "Limite de até 8 jogadores, faixa de conforto em torno de 4",
+          "type": "Limite de Jogadores",
+          "description": "Configurações de servidor dedicado podem suportar até 8 jogadores, enquanto equipes menores costumam ser mais fluidas para consistência e desempenho."
         },
         {
-          "name": "Varinha de Bola",
-          "type": "Arma Utilitária",
-          "description": "Um item utilitário oficial de longo alcance que expande suas opções de combate e quebra-cabeças."
-        },
-        {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Travessia",
-          "description": "Um item utilitário oficial para alcançar áreas que, de outra forma, retardariam a exploração."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Oficialmente destacados como parte do conjunto principal de ferramentas e úteis para romper ameaças ou obstáculos."
+          "name": "Servidores dedicados para mundos sempre ativos",
+          "type": "Servidor Dedicado",
+          "description": "O aplicativo oficial de servidor dedicado mantém os mundos online quando os anfitriões estão ausentes, com saída de código de convite e correspondência de versão como operações principais."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Armazenamento e Inventário de Lucid Blocks",
+      "title": "Melhores Atributos e Talentos de Windrose",
       "displayType": "solutionCards",
-      "intro": "A pressão no inventário começa cedo em Lucid Blocks, então construir armazenamento deve ser um de seus primeiros objetivos. Várias soluções testadas por jogadores reais já se destacam.",
+      "intro": "A progressão inicial de Windrose é mais forte quando você se compromete com uma linha de dano, garante estamina e vida primeiro, e escolhe talentos que mantêm as tentativas contra chefes estáveis.",
       "solutions": [
         {
-          "name": "Cubo de Cache",
-          "role": "Armazenamento Estilo Baú",
-          "description": "Os Cubos de Cache são uma das primeiras respostas práticas de armazenamento e são tratados pelos jogadores como o principal recipiente estilo baú do jogo."
+          "name": "Não divida seus atributos de dano",
+          "role": "Passo 1",
+          "description": "Escolha uma linha de dano e comprometa-se. O investimento dividido no início reduz a eficiência de combate mais do que uma build focada com equipamentos modestos."
         },
         {
-          "name": "Armário",
-          "role": "Armazenamento Simples de Base",
-          "description": "Armários são outra opção de armazenamento confirmada. Uma receita inicial compartilhada usa 1 Madeira Cortada e 1 Corda."
+          "name": "Aumente estamina e vida antes do dano máximo",
+          "role": "Passo 2",
+          "description": "A abertura mais segura investe em Resistência e Vitalidade primeiro, depois escala o atributo de dano que corresponde à sua família de armas principal."
         },
         {
-          "name": "Qualia Pessoal",
-          "role": "Central de Armazenamento de Longo Prazo",
-          "description": "Uma vez desbloqueada, sua Qualia pessoal torna-se um lugar natural para organizar materiais, criar em paz e expandir sua base."
+          "name": "Entenda os atributos de suporte antes de gastar",
+          "role": "Passo 3",
+          "description": "Maestria, Vitalidade e Resistência resolvem diferentes pressões de combate. Conhecer o valor exato de cada um evita alocações iniciais fracas."
         },
         {
-          "name": "Rastreamento pelo Diário",
-          "role": "Eficiência de Inventário",
-          "description": "Registrar combinações úteis em seu diário reduz o desperdício de materiais e facilita muito o gerenciamento do inventário."
+          "name": "Priorize talentos de sobrevivência cedo",
+          "role": "Passo 4",
+          "description": "Talentos de estamina, vida e resistência a dano reduzem sequências de derrotas e tornam as cavernas iniciais e os primeiros chefes muito mais fáceis de lidar."
+        },
+        {
+          "name": "Combine sua árvore de talentos com seu estilo de jogo",
+          "role": "Passo 5",
+          "description": "Escolha uma árvore baseada no estilo de luta e comprometa-se por tempo suficiente para sentir a curva de poder, em vez de espalhar pontos por nós não relacionados."
         }
       ],
       "managementTips": [
-        "Priorize uma opção de armazenamento confiável antes de acumular itens raros.",
-        "Construa ao redor de sua Qualia pessoal assim que ela estiver disponível.",
-        "Mantenha materiais de criação, ferramentas de combate e equipamentos de movimento separados para que as melhorias sejam mais fáceis de planejar.",
-        "Use seu diário como parte do gerenciamento de inventário, não apenas para descobertas de criação."
+        "Força escala clavas e alabardas; Agilidade escala sabres, montantes e bacamartes; Precisão escala rapieiras, pistolas e mosquetes.",
+        "Maestria concede +0,5% de chance crítica por ponto.",
+        "Vitalidade concede +13 de vida por ponto.",
+        "Resistência concede +5 de estamina por ponto.",
+        "Corredor de Maratona aumenta a estamina em +20 / +35 / +50.",
+        "Apenas um Ferimento Leve fornece 6% / 9% / 12% de resistência a dano corpo a corpo.",
+        "Bravo Demais para Morrer revive você com 30% de vida após um golpe fatal.",
+        "Estrutura Robusta concede +120 / +180 / +240 de vida.",
+        "Esgrimista foca em DPS corpo a corpo rápido, Esmagador foca em pressão de lutador, Atirador foca em dano à distância e Defensor adiciona sobrevivência universal."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia e Construção de Base em Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Qualia é um dos marcos de progressão mais importantes em Lucid Blocks. Ela oferece um espaço pessoal para se reagrupar, armazenar materiais e gradualmente transformar o progresso da exploração em uma base real.",
-      "cards": [
+      "title": "Builds e Classes de Windrose",
+      "displayType": "buildCards",
+      "intro": "Windrose não prende você a uma única classe, mas as árvores de talentos ainda recompensam identidades claras: corpo a corpo rápido, pressão de bruiser, dano à distância ou um caminho focado em sobrevivência.",
+      "paths": [
         {
-          "name": "Qualia Pessoal",
-          "description": "Desbloquear uma Qualia é um marco inicial que oferece um lugar mais confiável para retornar enquanto explora o mundo mais amplo."
+          "path": "Esgrimista",
+          "role": "DPS corpo a corpo rápido",
+          "coreStats": [
+            "Agilidade para sabres",
+            "Precisão para rapieiras",
+            "Resistência como atributo de conforto"
+          ],
+          "weaponDirection": [
+            "Cutelo ou Navalha para uma rota de Agilidade",
+            "Rapieira Robusta evoluindo para Rapieira de Mil Cortes para uma rota de Precisão"
+          ],
+          "armorDirection": [
+            "Traje de Flibusteiro para uma configuração corpo a corpo de uma mão",
+            "2 peças de Bucaneiro mais 2 peças de Equipamento de Atirador para uma configuração híbrida de esquiva com baixo vigor"
+          ],
+          "keyTalents": [
+            "Ágil",
+            "Graça do Carrasco",
+            "Corredor de Maratona"
+          ],
+          "playPattern": "Jogue em torno de janelas curtas de punição, esquive-se através dos ataques em vez de se afastar deles e guarde vigor para mais um movimento evasivo.",
+          "bestFor": [
+            "Lutas contra chefes após aprender os padrões",
+            "Jogadores que buscam um ritmo alto de dano corpo a corpo"
+          ]
         },
         {
-          "name": "Construção Focada em Armazenamento",
-          "description": "Muitos jogadores começam a usar sua Qualia como um centro de armazenamento antes de transformá-la em uma base maior com espaço organizado para criação e construção."
+          "path": "Esmagador",
+          "role": "Bruiser e tanque de linha de frente",
+          "coreStats": [
+            "Força",
+            "Vitalidade",
+            "Resistência"
+          ],
+          "weaponDirection": [
+            "Alabarda Robusta no início",
+            "Alabarda da Praga ou Carrasco como o caminho pesado de progressão"
+          ],
+          "armorDirection": [
+            "Armadura de Piqueiro para uma identidade pura de duas mãos",
+            "2 peças de Piqueiro mais 2 peças de Conquistador para uma mistura segura de linha de frente no início e meio de jogo"
+          ],
+          "keyTalents": [
+            "Berserk",
+            "Bravo Demais para Morrer",
+            "Apenas um Arranhão"
+          ],
+          "playPattern": "Use o alcance, o atordoamento e a pressão de postura para controlar grupos, e então aproveite janelas maiores de punição com golpes de alabarda.",
+          "bestFor": [
+            "Jogo cooperativo na linha de frente",
+            "Jogadores que querem um controle de grupo mais seguro que o do Esgrimista"
+          ]
         },
         {
-          "name": "Construção Criativa de Lares",
-          "description": "Lucid Blocks suporta construção criativa, e os jogadores já estão usando espaços de Qualia para criar casas e layouts personalizados."
+          "path": "Atirador",
+          "role": "DPS à distância",
+          "coreStats": [
+            "Precisão",
+            "Resistência",
+            "Vitalidade"
+          ],
+          "weaponDirection": [
+            "Pistola evoluindo para Mosquete Confiável para um começo estável",
+            "Pistola Confiável ou Pistola de Cano Duplo do Drake como armas secundárias fortes",
+            "Bacamarte quando você puder sustentar o uso de munição"
+          ],
+          "armorDirection": [
+            "4 peças de Equipamento de Atirador para dano direto à distância",
+            "Misture talentos de sobrevivência se quiser uma versão solo mais segura"
+          ],
+          "keyTalents": [
+            "Balas",
+            "Corredor de Maratona",
+            "Bravo Demais para Morrer"
+          ],
+          "playPattern": "Faça kite, atire, reposicione-se e gaste munição em janelas garantidas em vez de atirar em pânico.",
+          "bestFor": [
+            "Primeiro caminho confiável para completar o jogo solo",
+            "Jogadores que querem um plano de atributos simples"
+          ]
         },
         {
-          "name": "Central de Progressão",
-          "description": "Uma base sólida ajuda a separar saques de exploração, materiais de criação, sementes, ferramentas e equipamentos de mobilidade para que seus próximos upgrades sejam mais fáceis de planejar."
+          "path": "Árvore de Sobrevivência",
+          "role": "Suporte defensivo universal",
+          "coreStats": [
+            "Vitalidade",
+            "Resistência",
+            "Depois o atributo da sua arma principal"
+          ],
+          "weaponDirection": [
+            "Funciona com qualquer arma principal",
+            "Mais frequentemente combinado com Atirador ou Esmagador em vez de ser jogado sozinho"
+          ],
+          "armorDirection": [
+            "2 peças de Conquistador como base de sobrevivência",
+            "2 peças de Conquistador mais 2 peças de Couros de Rastreador para um tanque focado em cura",
+            "2 peças de Conquistador mais 2 peças de Piqueiro para durabilidade no início e meio de jogo"
+          ],
+          "keyTalents": [
+            "Bravo Demais para Morrer",
+            "Estrutura Robusta",
+            "Apenas um Arranhão"
+          ],
+          "playPattern": "Troque velocidade por tolerância a erros, sobreviva a falhas que acabariam com outras builds e mantenha o tempo de atividade através da durabilidade.",
+          "bestFor": [
+            "Primeiras tentativas em novos chefes",
+            "Jogadores aprendendo rotas ou dificuldades mais altas"
+          ]
         }
-      ],
-      "highlights": [
-        "Entrar em uma qualia",
-        "Armazenar materiais com segurança",
-        "Expandir da utilidade para a decoração",
-        "Usar o espaço da base para apoiar a criação e o cultivo"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Regiões do Mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza geração de mundo infinita, então os jogadores continuam descobrindo novos ambientes e estruturas. Alguns lugares nomeados já estão aparecendo em conquistas e discussões da comunidade.",
-      "regions": [
+      "title": "Melhores Armas de Windrose",
+      "displayType": "tierCards",
+      "intro": "O meta de lançamento de Windrose favorece opções rápidas de Agilidade e Precisão. As linhas de Força ainda batem forte, mas exigem melhor espaçamento e disciplina de estamina.",
+      "weaponTiers": [
         {
-          "name": "Fog Meadow",
-          "type": "Área Notada pela Comunidade",
-          "description": "Fog Meadow já é conhecida entre os jogadores como uma área tensa associada a ameaças ocultas e encontros perigosos."
+          "tier": "S",
+          "weaponType": "Rapieira",
+          "scaling": "Precisão",
+          "standoutWeapons": [
+            "Rapieira de Mil Cortes",
+            "Rapieira Robusta"
+          ],
+          "progressionExamples": [
+            "Início: Rapieira Robusta",
+            "Meio de jogo: Rapieira de Mil Cortes",
+            "Fim de jogo: A Rapieira de Mil Cortes continua sendo uma arma de elite para chefes"
+          ],
+          "staminaProfile": "Baixo comprometimento e fácil de manter ativa",
+          "bossValue": "Excelente dano em alvo único com tempo de punição seguro",
+          "quickTake": "A Rapieira é uma das respostas mais limpas para chefes no lançamento, pois acumula sangramento rápido e mantém a pressão alta enquanto você se move."
         },
         {
-          "name": "Linha de Ley Tiamana",
-          "type": "Marco de Descoberta",
-          "description": "A linha de ley tiamana é importante o suficiente para ter seu próprio marco de conquista, tornando-a uma das descobertas de mundo nomeadas mais claras até agora."
+          "tier": "S",
+          "weaponType": "Sabre",
+          "scaling": "Agilidade",
+          "standoutWeapons": [
+            "Navalha",
+            "Cutelo"
+          ],
+          "progressionExamples": [
+            "Início: Cutelo",
+            "Meio de jogo: Navalha",
+            "Fim de jogo: A Navalha continua sendo uma das escolhas versáteis mais seguras"
+          ],
+          "staminaProfile": "Baixo esforço e tolerante para pressão contínua",
+          "bossValue": "Forte para golpes seguros repetidos e controle de multidão entre lutas",
+          "quickTake": "O Sabre é a família de combate corpo a corpo mais estável e versátil no lançamento, com a Navalha adicionando valor de acerto crítico e melhores janelas de bloqueio perfeito."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espaço de Construção",
-          "description": "Os jogadores já estão usando Clonaqualia como um lugar para construir casas, armazenar materiais e experimentar layouts mais permanentes."
+          "tier": "S",
+          "weaponType": "Bacamarte",
+          "scaling": "Agilidade",
+          "standoutWeapons": [
+            "Sopro do Dragão",
+            "Bacamarte Confiável"
+          ],
+          "progressionExamples": [
+            "Início: Bacamarte Confiável",
+            "Meio de jogo: Sopro do Dragão",
+            "Fim de jogo: O Sopro do Dragão permanece letal à queima-roupa"
+          ],
+          "staminaProfile": "O manuseio é controlável, mas a munição e o posicionamento são o verdadeiro custo",
+          "bossValue": "Dano explosivo muito alto se você mantiver a curta distância com segurança",
+          "quickTake": "O Bacamarte continua sendo um matador de chefes quando sua economia de munição está estável."
         },
         {
-          "name": "Pântano de Essência",
-          "type": "Área de Cultivo",
-          "description": "O Pântano de Essência está sendo compartilhado pelos jogadores como um local de cultivo útil, especialmente para lutar contra slimes e ganhar experiência."
+          "tier": "A",
+          "weaponType": "Pistola",
+          "scaling": "Precisão",
+          "standoutWeapons": [
+            "Pistola Confiável",
+            "Pistola de Cano Duplo do Drake"
+          ],
+          "progressionExamples": [
+            "Início: Pistola Confiável",
+            "Meio de jogo: Pistola de Cano Duplo do Drake",
+            "Fim de jogo: A do Drake continua valiosa para suporte de Vulnerabilidade"
+          ],
+          "staminaProfile": "Fácil de intercalar em um estilo de jogo móvel",
+          "bossValue": "Ótimo suporte à distância para builds de Precisão",
+          "quickTake": "A Pistola é a família de armas secundárias mais fácil de encaixar em lutas reais e mantém a pressão à distância flexível."
+        },
+        {
+          "tier": "A",
+          "weaponType": "Alabarda",
+          "scaling": "Força",
+          "standoutWeapons": [
+            "Alabarda da Praga",
+            "Alabarda Robusta"
+          ],
+          "progressionExamples": [
+            "Início: Alabarda Robusta",
+            "Meio de jogo: Alabarda da Praga",
+            "Fim de jogo: A Alabarda da Praga continua sendo o destaque das armas de Força"
+          ],
+          "staminaProfile": "Maior comprometimento do que as opções rápidas de uma mão",
+          "bossValue": "Muito forte quando as janelas de punição são conhecidas",
+          "quickTake": "A Alabarda é a rota prática de Força e escala bem quando você consegue ativar suas janelas especiais de forma consistente."
+        },
+        {
+          "tier": "A",
+          "weaponType": "Espada Montante",
+          "scaling": "Agilidade",
+          "standoutWeapons": [
+            "Espada Montante Obstinada",
+            "Espada Montante de Duelo"
+          ],
+          "progressionExamples": [
+            "Início: Espada Montante de Duelo",
+            "Meio de jogo: Espada Montante Obstinada",
+            "Fim de jogo: A Espada Montante Obstinada é a opção mais estável"
+          ],
+          "staminaProfile": "Comprometimento de médio a alto",
+          "bossValue": "Bom dano quando você lê as janelas de recuperação",
+          "quickTake": "A Espada Montante é a opção de Agilidade mais pesada e recompensa um tempo de reação disciplinado."
+        },
+        {
+          "tier": "B",
+          "weaponType": "Clava",
+          "scaling": "Força",
+          "standoutWeapons": [
+            "Quebra-ossos",
+            "Dente da Criatura do Pântano"
+          ],
+          "progressionExamples": [
+            "Início: Clava",
+            "Meio de jogo: Quebra-ossos",
+            "Fim de jogo: Dente da Criatura do Pântano para explosões de distorção em área"
+          ],
+          "staminaProfile": "Lenta e cara se o posicionamento for frouxo",
+          "bossValue": "Alta recompensa por golpe, mas menos tolerante que a alabarda",
+          "quickTake": "A Clava ainda pode bater forte, mas o equilíbrio atual de lançamento a torna menos consistente do que famílias mais rápidas."
+        },
+        {
+          "tier": "C",
+          "weaponType": "Mosquete",
+          "scaling": "Precisão",
+          "standoutWeapons": [
+            "Mosquete Confiável",
+            "Mosquete de Infantaria"
+          ],
+          "progressionExamples": [
+            "Início: Mosquete Confiável",
+            "Meio de jogo: Mosquete Confiável",
+            "Fim de jogo: O Mosquete Confiável ainda supera os mosquetes básicos"
+          ],
+          "staminaProfile": "O problema é o tempo de recarga e o ritmo de recuperação, não a estamina",
+          "bossValue": "Utilizável, mas geralmente mais fraco que a pistola ou o bacamarte, a menos que a build seja focada nele",
+          "quickTake": "A maioria dos mosquetes é lenta no meta atual, com o Mosquete Confiável sendo a clara exceção."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas e Inimigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mistura criaturas surreais com perigo real. Descrições oficiais e postagens da comunidade apontam para um mundo cheio de vida estranha, ameaças hostis e alguns encontros marcantes que os jogadores lembram rapidamente.",
-      "creatures": [
+      "title": "Guia de Navios Windrose",
+      "displayType": "shipTable",
+      "intro": "A progressão de navios é o ciclo principal de fantasia assim que você deixa as ilhas do tutorial. A rota prática é do Bote para o Queche, depois para o Brigue e então para a Fragata, com o Cais potencializando cada etapa de melhoria.",
+      "shipStages": [
         {
-          "name": "Manequins",
-          "role": "Inimigo Hostil",
-          "description": "Os Manequins são um dos inimigos oficialmente nomeados no mundo e fazem parte do elenco de ameaças surreais do jogo."
+          "stage": "Iniciante",
+          "ship": "Bote",
+          "howToUnlock": "Automático após a primeira missão principal e pode ser convocado nas margens com a tecla K",
+          "role": "Bote inicial de curto alcance apenas para viagem",
+          "keyStats": "Cerca de 10 nós sem valor real de combate",
+          "bestPick": "Use-o apenas para as etapas iniciais da história",
+          "whenToUpgrade": "Substitua-o assim que 'Need A Bigger Boat' for liberado"
         },
         {
-          "name": "Géis Macios",
-          "role": "Inimigo Hostil",
-          "description": "Géis macios são outro tipo de inimigo oficialmente nomeado e ajudam a definir o estilo biológico estranho do jogo."
+          "stage": "Início de Jogo",
+          "ship": "Queche",
+          "howToUnlock": "Termine 'Need A Bigger Boat' e 'Rescuing the Crew', conserte o navio encalhado e, em seguida, reboque-o com a tripulação resgatada",
+          "role": "Primeiro navio real para exploração da Selva Costeira, rotas comerciais de baixo risco e as primeiras lutas navais",
+          "keyStats": "Queche Padrão: 50.000 HP, 19 nós, 3 x 12lb",
+          "bestPick": "O Queche Padrão é a escolha de equilíbrio inicial mais limpa",
+          "whenToUpgrade": "Melhore no Cais através da Selva Costeira e, em seguida, faça a transição assim que os planos do Brigue estiverem disponíveis"
         },
         {
-          "name": "Seres de Dimensões Superiores",
-          "role": "Inimigo Hostil",
-          "description": "Esses seres são apresentados como parte da linha de inimigos mais abstrata e perturbadora do mundo."
+          "stage": "Meio de Jogo",
+          "ship": "Brigue",
+          "howToUnlock": "Compre o projeto com o Provedor da Irmandade no Nível de Reputação 2 e construa no Cais",
+          "role": "Navio de guerra de meio de jogo para combates navais mais difíceis e encontros mais longos",
+          "keyStats": "Brigue Padrão: 70.000 HP, 20 nós, 6 x 12lb; Brigue do Barba Negra: 50.000 HP, 22 nós, 6 x 12lb ou 24lb",
+          "bestPick": "Brigue do Barba Negra para velocidade e canhões de 24 libras; Brigue Padrão para um valor de casco mais estável",
+          "whenToUpgrade": "Neste nível, a escolha dos canhões, modificações de casco e o tempo do kit de reparo decidem a maioria das lutas"
         },
         {
-          "name": "Aranhas Colossais",
-          "role": "Grande Ameaça",
-          "description": "As aranhas são um dos inimigos mais temidos imediatamente em discussões da comunidade e são claramente um perigo memorável."
+          "stage": "Fim de Jogo",
+          "ship": "Fragata",
+          "howToUnlock": "Compre o projeto com o Provedor da Irmandade no Nível de Reputação 4 e construa no Cais",
+          "role": "Navio-almirante de fim de jogo para patrulhas de chefes, lutas de frota e pressão de facção",
+          "keyStats": "Fragata Padrão: 160.000 HP, 18 nós, 12 x 24lb; Fragata do Barba Negra: 110.000 HP, 20 nós, 12 x 24lb ou 36lb",
+          "bestPick": "A Fragata do Barba Negra é a escolha agressiva de fim de jogo; a Fragata da Irmandade é o casco mais resistente",
+          "whenToUpgrade": "Vale a pena a busca por materiais quando você estiver pronto para conjuntos navais completos e encontros mais difíceis"
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura Nomeada",
-          "description": "__PROTECTED_26ee183b__ é notável o suficiente para ter sua própria conquista, o que o torna um dos encontros com criaturas nomeadas mais claros do jogo."
-        },
-        {
-          "name": "Vermes Fofos",
-          "role": "Criatura Interagível",
-          "description": "Os vermes não fazem apenas parte da progressão de fusão, eles também podem ser renomeados, ganhando um papel mais pessoal do que os inimigos padrão."
-        },
-        {
-          "name": "Criatura Blasfema",
-          "role": "Ameaça de Elite",
-          "description": "A criatura blasfema está ligada a uma conquista de combate dedicada, marcando-a como um encontro de inimigo significativo."
+          "stage": "Sistemas",
+          "ship": "Cais e Equipamentos de Navio",
+          "howToUnlock": "Após seu primeiro navio real, coloque um Cais perto da água e fabrique equipamentos de navio na Oficina do Construtor Naval",
+          "role": "Gerenciamento de navios e escalonamento de poder",
+          "keyStats": "Cada navio real tem quatro espaços de equipamento: Canhões, Modificação de Casco, Equipamento de Grupo de Abordagem e Táticas Navais",
+          "bestPick": "Canhões 'Perfectly Ordered', Reforço de Casco: 'Keelhold' e Táticas Navais III: 'Stretch The Supply' são as principais prioridades atuais",
+          "whenToUpgrade": "Comece a partir do nível do Queche; nos níveis de Brigue e Fragata, essas melhorias moldam cada batalha naval"
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Equipamento de Mobilidade de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Melhorias de movimento são um dos maiores saltos na qualidade de vida em Lucid Blocks. Depois de desbloquear suas primeiras ferramentas de travessia, a exploração torna-se mais rápida, segura e muito mais recompensadora.",
-      "items": [
+      "title": "Guia de Chefes de Windrose",
+      "displayType": "bossAccordion",
+      "intro": "Estes quatro encontros definem a progressão inicial da Selva Costeira até o final dos Pântanos Amaldiçoados. Prepare-se primeiro, aprenda os padrões depois e foque no dano por último.",
+      "bosses": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Travessia",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e possui sua própria conquista dedicada."
+          "boss": "Thomas Richards",
+          "recommendedLevel": "5-6",
+          "where": "Selva Costeira durante a missão A Vingança é um Prato que se Come Frio",
+          "prep": [
+            "Melhore a arma, arma à distância e todas as peças de armadura para o nível 5",
+            "Use dois bônus de comida mais o bônus de Descansado",
+            "Traga Poções de Cura, balas e pólvora",
+            "Use um Bacamarte se sua economia de munição permitir",
+            "Uma mistura sólida de duas peças de armadura torna a luta mais estável"
+          ],
+          "attackPatterns": [
+            "Giro Duplo",
+            "Giro Triplo",
+            "Ataque frontal com brilho vermelho",
+            "Ataque de investida e agarrão com brilho vermelho",
+            "Arremesso de Bomba"
+          ],
+          "winningPlan": "Esquive-se dos movimentos com brilho vermelho, quebre escudos, aproveite as janelas de atordoamento e cause dano gradualmente em vez de forçar acertos extras.",
+          "rewards": [
+            "Desbloqueia o Sopé das Montanhas (Foothills)",
+            "Abre o próximo nível de progressão de mapa"
+          ]
         },
         {
-          "name": "Luva Planadora",
-          "type": "Mobilidade Aérea",
-          "description": "A luva planadora permite viagens muito mais suaves e é outro marco importante de progressão com sua própria conquista."
+          "boss": "Israel Hands",
+          "recommendedLevel": "9-10",
+          "where": "Sopé das Montanhas (Foothills) durante a missão Agulha no Palheiro",
+          "prep": [
+            "Equipamento máximo no nível 10",
+            "Ascenda as armas para Épico se as janelas de dano ainda parecerem curtas",
+            "Traga um estoque cheio de Poções de Cura e bônus de comida fortes",
+            "Rapieira das Mil Cortadas e uma pistola é o conjunto mais eficiente",
+            "O suporte do Apito de Javali do Truffle ajuda a estabilizar o encontro"
+          ],
+          "attackPatterns": [
+            "Corte Triplo",
+            "Corte Duplo, Pausa, Corte Único",
+            "Ataque de investida com brilho vermelho",
+            "Ataque de redemoinho em área (AoE) com brilho vermelho",
+            "Invocar Almas",
+            "Tiro de Pistola"
+          ],
+          "winningPlan": "Mantenha os acúmulos de sangramento, agrida após as sequências de corpo a corpo, use tiros à distância durante as janelas de invocação e evite ataques extras gananciosos.",
+          "rewards": [
+            "20 Essência de Morto-vivo",
+            "Item de missão",
+            "Recompensa do Baú Antigo: Devorador de Almas"
+          ]
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Travessia",
-          "description": "Os planadores de abelha são oficialmente destacados como parte do kit de ferramentas de movimento do jogo para percorrer espaços de forma mais eficiente."
+          "boss": "Ghost Captain",
+          "recommendedLevel": "10-12",
+          "where": "Masmorra do Templo",
+          "prep": [
+            "Traga de 15 a 20 porções de comida de cura",
+            "Monte uma barraca na entrada da masmorra",
+            "Traga Café ou outro prato de Vigor",
+            "Armas rápidas como Sabre ou Rapieira superam armas pesadas e lentas",
+            "Rapieira das Mil Cortadas é uma excelente escolha para alvo único",
+            "Zangado Demais para Morrer é um seguro premium para erros na fase final"
+          ],
+          "attackPatterns": [
+            "Fase 1: combos de varredura com cutelo espectral",
+            "Fase 2: projéteis teleguiados e pressão de lacaios",
+            "Fase 3: sequências mais rápidas e um golpe em área (AoE) curto",
+            "Transições de fase atacam imediatamente sem pausa"
+          ],
+          "winningPlan": "Esquive-se através dos arcos do cutelo, mova-se lateralmente contra projéteis, elimine os lacaios antes que se acumulem e tome as decisões mais seguras nos 30% finais.",
+          "rewards": [
+            "Devorador de Almas",
+            "Saque principal da masmorra opcional"
+          ]
         },
         {
-          "name": "Varinha de Bola",
-          "type": "Equipamento Utilitário",
-          "description": "As varinhas de bola são uma das ferramentas especiais oficialmente destacadas e expandem a forma como você se move ou interage com o mundo."
-        },
-        {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Exploração",
-          "description": "O equipamento de mergulho está oficialmente listado como parte do conjunto utilitário principal para alcançar áreas que seriam mais difíceis de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Os explosivos são oficialmente destacados e vinculados a um marco de conquista, tornando-os parte da progressão utilitária principal do jogo."
+          "boss": "High Priestess",
+          "recommendedLevel": "12-15",
+          "where": "Pântanos Amaldiçoados",
+          "prep": [
+            "Traga equipamento de nível 11-15 com um conjunto Raro ou Épico totalmente melhorado",
+            "Use armas de dano bruto como alabardas, clavas ou maças e mantenha uma reserva de perfuração",
+            "Traga Elixir de Alívio da Dor",
+            "Traga Grandes Poções de Cura",
+            "Acumule comida de dano e receitas de HP e estamina de longa duração",
+            "Co-op ajuda porque um jogador pode atrair a agressividade enquanto outros causam dano"
+          ],
+          "attackPatterns": [
+            "Controle de arena estático em vez de movimento constante do chefe",
+            "Invocação de escravos da peste",
+            "Nuvens de peste em área que aplicam dano ao longo do tempo",
+            "Longas janelas de desgaste que consomem muita estamina"
+          ],
+          "winningPlan": "Gerencie o espaço ao redor da posição estática dela, elimine os escravos antes que se acumulem, evite o tempo de permanência nas nuvens de peste e foque na pressão de dano bruto durante a longa luta.",
+          "rewards": [
+            "Saque de nível final de jogo",
+            "Recompensas de progressão do final dos Pântanos Amaldiçoados"
+          ]
         }
-      ],
-      "unlockMilestones": [
-        "Comandar um gancho",
-        "Voar com a luva planadora",
-        "Empunhar uma varinha de projéteis",
-        "Empunhar um explosivo"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo e Crescimento em Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "O crescimento faz parte da progressão real em Lucid Blocks. O cultivo não se trata apenas de plantar e colher, mas também de estabelecer rotas de materiais repetíveis que mantêm suas ferramentas, armas e opções de criação fluindo.",
-      "sections": [
+      "title": "Estações de Criação de Windrose",
+      "displayType": "stationAccordion",
+      "eyebrow": "Construção de Base em Windrose",
+      "subtitle": "Construa as estações que realmente desbloqueiam seu próximo nível.",
+      "intro": "Em Windrose, a progressão das estações vem mais de complementos do que de uma lista única de receitas. Se uma criação parecer bloqueada, a resposta geralmente é um acessório que falta, não apenas mais matérias-primas.",
+      "stations": [
         {
-          "name": "Progressão de Sementes",
-          "description": "Plantar e fertilizar sementes é um marco real no jogo, e colher uma noz totalmente crescida faz parte do mesmo caminho de crescimento."
+          "id": "workbench",
+          "label": "Bancada de Trabalho",
+          "buildCost": [
+            "5 Madeira"
+          ],
+          "unlockFocus": [
+            "Criação de ferramentas de pedra, corda, pregos, kit de reparo e lâmpada",
+            "Sino de Viagem Rápida assim que a progressão de cobre estiver ativa",
+            "Progressão de bolsas através de níveis mais altos da Bancada de Trabalho"
+          ],
+          "upgrades": [
+            {
+              "name": "Cavalete",
+              "cost": [
+                "20 Madeira",
+                "10 Lingote de Cobre"
+              ],
+              "whatItAdds": [
+                "Bancada de Trabalho Nível 2",
+                "Mochila de Marinheiro e outras receitas de Nível 2 da Bancada de Trabalho"
+              ]
+            },
+            {
+              "name": "Caixa de Ferramentas",
+              "cost": [
+                "10 Madeira",
+                "20 Pregos",
+                "5 Lingote de Ferro das Colinas"
+              ],
+              "whatItAdds": [
+                "Bancada de Trabalho Nível 3",
+                "Mochila de Contramestre, Peças de Mó, Troncos, Tábuas Alcatroadas e outros utilitários de meio de jogo"
+              ]
+            }
+          ],
+          "bestUse": "Priorize o Cavalete antes do seu primeiro ciclo sério de navegação para que o inventário e as receitas utilitárias parem de te limitar."
         },
         {
-          "name": "Cultivo de Materiais",
-          "description": "Um ciclo prático de cultivo inicial é criar Cápsulas de Mercúrio, que geram pequenos slimes que soltam Gavinhas e gosma para materiais de criação repetíveis."
+          "id": "cooking-fire",
+          "label": "Fogueira de Cozinha",
+          "buildCost": [
+            "3 Madeira",
+            "3 Pedra"
+          ],
+          "unlockFocus": [
+            "Comida de sustentação inicial e sua primeira cadeia de refeições confiável",
+            "Receitas da linha de melhoria incluem Carne no Espeto, Ovos com Bacon, Sopa de Peixe e Prato de Frutos do Mar",
+            "Longas explorações em cavernas e viagens marítimas parecem muito mais seguras quando esta linha é melhorada"
+          ],
+          "upgrades": [
+            {
+              "name": "Mesa de Corte",
+              "cost": [
+                "10 Madeira",
+                "2 Lingote de Cobre"
+              ],
+              "whatItAdds": [
+                "Linha expandida de preparo de refeições",
+                "Seu primeiro salto real na profundidade da culinária"
+              ]
+            },
+            {
+              "name": "Prateleira de Utensílios",
+              "cost": [
+                "10 Madeira de Lei",
+                "2 Utensílios de Ferro"
+              ],
+              "whatItAdds": [
+                "Receitas culinárias de nível superior",
+                "Uma economia de alimentos muito melhor para viagens de meio de jogo"
+              ]
+            }
+          ],
+          "bestUse": "Melhore isso logo após sua Bancada de Trabalho se a comida estiver forçando você a encurtar as viagens."
         },
         {
-          "name": "Sustentação de Ferramentas",
-          "description": "O cultivo de recursos torna-se muito mais forte quando você consegue coletar consistentemente Ósmio, fragmentos de vidro, plantas e materiais de slime para criações subsequentes."
+          "id": "weaponsmith-workshop",
+          "label": "Oficina de Armeiro",
+          "buildCost": [
+            "10 Madeira",
+            "5 Lingote de Cobre"
+          ],
+          "unlockFocus": [
+            "Clava, Cutelo, Esmagador, pistolas, mosquetes e outras armas iniciais",
+            "A principal linha de melhoria de armas pessoais",
+            "Ramo de equipamentos de navio através do caminho da Oficina de Construtor Naval"
+          ],
+          "upgrades": [
+            {
+              "name": "Oficina de Construtor Naval",
+              "cost": [
+                "15 Madeira",
+                "10 Tecido Grosseiro",
+                "5 Lingote de Cobre"
+              ],
+              "whatItAdds": [
+                "Equipamentos e melhorias de navio",
+                "Canhões, caminhos de casco e progressão de suporte naval"
+              ]
+            },
+            {
+              "name": "Bigorna",
+              "cost": [
+                "10 Madeira",
+                "1 Bigorna"
+              ],
+              "whatItAdds": [
+                "Linha expandida de armas e acessórios navais",
+                "Um segundo passo fundamental para o escalonamento sério de combate"
+              ]
+            },
+            {
+              "name": "Fole",
+              "cost": [
+                "20 Lingote de Metal do Pântano",
+                "15 Pedaço de Couro de Crocodilo",
+                "5 Pedra Lavrada"
+              ],
+              "whatItAdds": [
+                "Expansão de ferraria de nível final do pântano",
+                "Um conjunto mais amplo de receitas de armas e navios de fim de jogo"
+              ]
+            }
+          ],
+          "bestUse": "Construa isso assim que a fundição de cobre estiver estável, depois adicione a Oficina de Construtor Naval antes de combates navais pesados com canhões."
         },
         {
-          "name": "Rotina da Base",
-          "description": "A melhor configuração de cultivo suporta mais do que apenas comida. Ela deve alimentar seu armazenamento, ferramentas de movimento, melhorias de armas e futuros experimentos de fusão."
+          "id": "alchemy-table",
+          "label": "Mesa de Alquimia",
+          "buildCost": [
+            "5 Madeira",
+            "2 Pote de Argila"
+          ],
+          "unlockFocus": [
+            "Poção de Cura Menor, Jornada de Volta, Base Alquímica e elixires iniciais",
+            "Suporte de poções para lutas difíceis e longas expedições",
+            "Inicia a economia completa de cura e bônus"
+          ],
+          "upgrades": [
+            {
+              "name": "Fogão e Panela",
+              "cost": [
+                "5 Pedra",
+                "5 Argila",
+                "1 Panela de Cobre"
+              ],
+              "whatItAdds": [
+                "O primeiro ramo real de poções",
+                "Misturas de cura e utilidade após a descoberta da Orquídea Nebulosa"
+              ]
+            },
+            {
+              "name": "Mesa de Reagentes",
+              "cost": [
+                "5 Madeira de Lei",
+                "2 Garrafa de Rum",
+                "2 Lingote de Prata",
+                "2 Enxofre",
+                "1 Utensílio de Ferro"
+              ],
+              "whatItAdds": [
+                "Linha expandida de elixires",
+                "Melhores consumíveis de combate e progressão de alquimia mais profunda"
+              ]
+            }
+          ],
+          "bestUse": "Configure isso quando o dano de combate e a exploração de cavernas começarem a esgotar seu estoque básico de cura."
+        },
+        {
+          "id": "armor-and-clothing-workshop",
+          "label": "Oficina de Armaduras e Roupas",
+          "buildCost": [
+            "5 Madeira",
+            "10 Tecido Grosseiro"
+          ],
+          "unlockFocus": [
+            "Conjuntos de armadura iniciais e equipamentos de tecido ou couro",
+            "Progressão para botas, luvas, jaquetas e outros equipamentos de vestir",
+            "Um grande salto defensivo assim que seus complementos estiverem ativos"
+          ],
+          "upgrades": [
+            {
+              "name": "Suporte de Materiais",
+              "cost": [
+                "20 Madeira",
+                "15 Pedaço de Couro de Crocodilo",
+                "10 Tecido de Linho",
+                "10 Couro Bruto"
+              ],
+              "whatItAdds": [
+                "Um conjunto muito maior de equipamentos avançados",
+                "Mochila de nível Intendente e progressão de armadura ligada ao pântano"
+              ]
+            },
+            {
+              "name": "Bancada de Sapateiro",
+              "cost": [
+                "30 Madeira de Lei",
+                "20 Couro Curtido",
+                "15 Tecido de Linho"
+              ],
+              "whatItAdds": [
+                "Expansão de botas e calçados",
+                "Uma linha de armadura e mobilidade mais forte da era das Colinas"
+              ]
+            }
+          ],
+          "bestUse": "Construa quando o Couro Bruto estiver estável, depois adicione a Bancada de Sapateiro quando o linho e o couro curtido pararem de parecer escassos."
+        },
+        {
+          "id": "jewelery-table",
+          "label": "Mesa de Joalheria",
+          "buildCost": [
+            "10 Madeira",
+            "5 Lingote de Ferro das Colinas",
+            "3 Lingote de Prata"
+          ],
+          "unlockFocus": [
+            "Criação de anéis básicos",
+            "Melhorias de acessórios que começam com prata e escalam para metais do pântano",
+            "Uma camada de poder de meio de jogo tardio quando seu equipamento principal já estiver estável"
+          ],
+          "upgrades": [
+            {
+              "name": "Bancada de Joalheiro",
+              "cost": [
+                "10 Madeira",
+                "5 Lingote de Metal do Pântano",
+                "3 Lingote de Prata",
+                "1 Lingote de Ouro"
+              ],
+              "whatItAdds": [
+                "Níveis principais de anéis",
+                "A verdadeira recompensa para builds focadas em acessórios"
+              ]
+            }
+          ],
+          "bestUse": "Trate isso como uma estação de luxo até que as viagens, armas, armaduras e agricultura já estejam sob controle."
         }
-      ],
-      "growthMilestones": [
-        "Fertilizar uma semente",
-        "Colher uma noz totalmente crescida",
-        "Criar ciclos de materiais repetíveis",
-        "Transformar o cultivo em progressão de longo prazo"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Melhores Desbloqueios Iniciais de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Os desbloqueios iniciais mais fortes são aqueles que melhoram a segurança, o armazenamento e o movimento. Em Lucid Blocks, algumas melhorias práticas podem tornar todo o resto do jogo muito mais suave.",
-      "priorities": [
+      "title": "Guia de Recursos de Windrose",
+      "displayType": "resourceTable",
+      "eyebrow": "Coleta em Windrose",
+      "subtitle": "Acompanhe os materiais que limitam ferramentas, viagens, navios e equipamentos melhores.",
+      "intro": "A verdadeira questão dos recursos em Windrose não é apenas onde um nó surge, mas qual cadeia ele desbloqueia em seguida. Estes são os materiais que os jogadores continuam procurando porque uma única linha ausente pode travar toda uma partida.",
+      "resources": [
         {
-          "name": "Qualia Pessoal",
-          "priority": "Essencial",
-          "description": "Assim que você obtém acesso à sua Qualia pessoal, sua jornada torna-se muito mais estável. Ela atua como um centro confiável para armazenamento, construção e reagrupamento."
+          "resource": "Madeira",
+          "foundIn": "Palmeiras, figueiras e detritos de praia espalhados pela Selva Costeira.",
+          "needs": "Machado para extração em árvores. Troncos soltos podem ser coletados sem um.",
+          "usedFor": "Todas as cadeias de estações iniciais, Pontos de Viagem Rápida, Kits de Reparo e construção de base em geral.",
+          "routeTip": "Coletas na praia resolvem o tutorial. Cortar figueiras é o que realmente escala sua renda de madeira."
         },
         {
-          "name": "Picareta de Gelo",
-          "priority": "Muito Alta",
-          "description": "Uma ferramenta de mineração inicial rápida e barata feita de Ósmio e Graveto. É uma das melhorias mais úteis para acelerar a coleta inicial de recursos."
+          "resource": "Argila",
+          "foundIn": "Manchas de rocha lamacenta em terreno aberto, geralmente fora de cavernas.",
+          "needs": "Qualquer Picareta.",
+          "usedFor": "Garrafas de Argila, Fornos de Carvão e uma grande parte das estações iniciais.",
+          "routeTip": "Um único depósito fornece cerca de 50-60 de argila, então uma base perto de dois depósitos economiza muitas viagens de volta."
         },
         {
-          "name": "Cubo de Cache",
-          "priority": "Muito Alta",
-          "description": "A pressão de armazenamento começa cedo, então obter seu primeiro recipiente confiável estilo baú é uma grande melhoria na qualidade de vida."
+          "resource": "Minério de Cobre",
+          "foundIn": "Cavernas na Selva Costeira.",
+          "needs": "Picareta de Pedra no mínimo, além de uma lanterna ou tochas para explorações mais seguras em cavernas.",
+          "usedFor": "Lingotes de Cobre, depois ferramentas, sinos, pregos e armas iniciais.",
+          "routeTip": "O cobre é muito melhor minerado em lotes. Quatro minérios mais carvão resultam em um lingote."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e rapidamente torna a exploração mais rápida e segura."
+          "resource": "Couro Bruto",
+          "foundIn": "Javalis e porcas na Selva Costeira, depois lobos e cabras no Sopé da Montanha.",
+          "needs": "Caça em combate, ou Contratos de Mercador quando quiser reabastecimento em massa.",
+          "usedFor": "Armaduras, mochilas e uma longa lista de itens de meio de jogo.",
+          "routeTip": "Se a caça manual começar a parecer lenta, os Contratos de Mercador tornam-se a solução ideal para compra em massa."
         },
         {
-          "name": "Luva Planadora",
-          "priority": "Alta",
-          "description": "A luva planadora adiciona outro grande impulso de mobilidade e torna o movimento de longa distância muito mais eficiente."
+          "resource": "Óleo de Lanterna",
+          "foundIn": "Reabastecido na Bancada de Trabalho em vez de coletado como um nó direto no mundo.",
+          "needs": "3 Gorduras Animais e uma Lanterna Vazia.",
+          "usedFor": "Exploração de cavernas, rotas de ruínas e qualquer sessão séria de mineração de cobre ou tesouros.",
+          "routeTip": "Javalis Selvagens ou Atacantes podem dropar vários pedaços de gordura, o que torna o reabastecimento da lanterna muito menos irritante."
         },
         {
-          "name": "Varinha de Projéteis ou Bombas",
-          "priority": "Alta",
-          "description": "Uma ferramenta de longo alcance ou opção explosiva oferece uma resposta mais segura a inimigos perigosos e encontros de estilo desafio."
+          "resource": "Madeira de Lei",
+          "foundIn": "Árvores Divi-Divi e tocos por todo o Sopé da Montanha.",
+          "needs": "Machado e acesso ao Sopé da Montanha.",
+          "usedFor": "Caixa de Ferramentas, Vigas, ferramentas avançadas e muitas receitas de navios ou estações de meio de jogo.",
+          "routeTip": "Seu primeiro grande pico de madeira do Sopé deve ir para ferramentas e suporte naval, não para decoração."
+        },
+        {
+          "resource": "Casca de Árvore",
+          "foundIn": "As mesmas árvores Divi-Divi e tocos que fornecem Madeira de Lei no Sopé da Montanha.",
+          "needs": "Machado e acesso ao Sopé da Montanha.",
+          "usedFor": "Tanino, Couro Curtido e a cadeia de couro aprimorada.",
+          "routeTip": "A casca é o gargalo silencioso por trás de boas botas, mochilas e melhorias de armadura."
+        },
+        {
+          "resource": "Fibra de Linho",
+          "foundIn": "Pequenos aglomerados de plantas roxas por todo o Sopé da Montanha.",
+          "needs": "Nenhuma ferramenta para coletar; uma Roda de Fiar para transformá-la em Tecido de Linho.",
+          "usedFor": "Tecido de Linho, Bancada de Sapateiro e progressão para armaduras ou mochilas mais fortes.",
+          "routeTip": "Sua primeira coleta ensina tanto a Roda de Fiar quanto a Bancada de Sapateiro."
+        },
+        {
+          "resource": "Enxofre",
+          "foundIn": "Afloramentos rochosos com listras amarelas no Sopé da Montanha, com nós adicionais aparecendo às vezes na Selva Costeira.",
+          "needs": "Picareta de Ferro para a rota completa de mineração.",
+          "usedFor": "Pólvora.",
+          "routeTip": "Mesmo que você aviste enxofre cedo, sua verdadeira economia de enxofre começa apenas após a progressão para a Picareta de Ferro."
+        },
+        {
+          "resource": "Milho",
+          "foundIn": "Campos ao redor de marcos de Vilas Antigas no Sopé da Montanha.",
+          "needs": "Exploração do Sopé da Montanha.",
+          "usedFor": "Peças de Moenda, Moendas, Fubá e várias receitas de comida melhores.",
+          "routeTip": "A primeira coleta de milho é o momento em que a pólvora caseira se torna um plano realista."
+        },
+        {
+          "resource": "Solo Fértil",
+          "foundIn": "Marcos de Fazendas Antigas no Sopé da Montanha e ruínas de canteiros de flores nos Pântanos Amaldiçoados.",
+          "needs": "Coleta no campo, depois Canteiros de Sementes na base.",
+          "usedFor": "Linhas de cultivo permanentes para linho, plantações de alimentos e plantas do pântano.",
+          "routeTip": "Assim que tiver isso, pare de tratar cada colheita como uma expedição dedicada."
+        },
+        {
+          "resource": "Pólvora",
+          "foundIn": "Saque de acampamentos piratas, ruínas, esconderijos de navios e, mais tarde, de suas próprias Moendas.",
+          "needs": "Moendas, além de Cinzas e Enxofre para a rota de fabricação.",
+          "usedFor": "Armas de fogo, suporte de canhão e entregas de Bucaneiros.",
+          "routeTip": "A pólvora saqueada sustenta o início do jogo. As Moendas assumem o controle assim que o Milho e o Ferro forem resolvidos."
+        },
+        {
+          "resource": "Fragmentos Antigos",
+          "foundIn": "Ruínas Antigas nos Pântanos Amaldiçoados.",
+          "needs": "Acesso a regiões avançadas e uma rota que possa sobreviver a zonas de praga.",
+          "usedFor": "Bancada de Joalheiro, Forno de Fundição Grande e Fole de Ferreiro.",
+          "routeTip": "Este é o material do pântano que realmente ativa seu nível de fabricação final."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Rastreador de Conquistas de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks possui atualmente 19 conquistas no Steam, e elas se dividem naturalmente em exploração, criação, mobilidade, combate e progressão de cultivo.",
-      "groups": [
+      "title": "Mapa e Biomas de Windrose",
+      "displayType": "biomeCards",
+      "eyebrow": "Guia de Mundo de Windrose",
+      "subtitle": "Entenda o mundo pela função da região, não por uma captura de tela de mapa fixa.",
+      "intro": "Windrose é procedural, então o mapa útil é um mapa de lógica de biomas. O que mais importa é o que cada região desbloqueia, o nível de dificuldade e quando você deve mudar sua base ou seguir em frente na rota.",
+      "regions": [
         {
-          "name": "Exploração",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entre em uma qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubra uma linha de ley tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Vença um desafio tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Conquista oculta."
-            }
-          ]
+          "id": "world-structure",
+          "title": "Como o mapa de Windrose realmente funciona",
+          "difficulty": "Visão Geral",
+          "summary": "Seu save segue a mesma lógica regional que o de todos os outros, mas o layout exato das ilhas e pontos de interesse (POI) é procedural.",
+          "keyPoints": [
+            "3 biomas atuais",
+            "~30 ilhas procedurais",
+            "Mais de 90 pontos de interesse feitos à mão",
+            "Não existem dois saves com o mesmo layout exato de ilhas"
+          ],
+          "nextUnlock": "Um mundo que recompensa o planejamento de rotas mais do que a memorização de capturas de tela.",
+          "playerGoal": "Use as funções dos biomas e os centros de serviço para construir sua própria rede de navegação."
         },
         {
-          "name": "Criação e Invocação",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Funda um item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Funda um verme."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Funda um artefato divino."
-            },
-            {
-              "title": "Arcanjo β",
-              "description": "Invoque sua fé."
-            }
-          ]
+          "id": "recommended-route",
+          "title": "Rota de progressão recomendada em Windrose",
+          "difficulty": "Plano de Rota",
+          "summary": "O caminho de progressão mais suave é primeiro a ilha do tutorial, depois uma base real na Selva Costeira, seguida por um posto avançado no Sopé da Montanha e, por fim, incursões focadas nos Pântanos Amaldiçoados.",
+          "keyPoints": [
+            "Não invista demais na ilha do tutorial",
+            "Ative seu primeiro par de viagem rápida antes de grandes viagens de navio",
+            "Mude a agricultura e a fabricação da era do ferro para o Sopé da Montanha",
+            "Trate os Pântanos como um ciclo de recursos avançados, não como sua primeira base principal permanente"
+          ],
+          "nextUnlock": "Ciclos de navegação mais limpos e muito menos reconstruções dolorosas.",
+          "playerGoal": "Deixe que cada região resolva um nível de problemas antes de mover suas operações principais."
         },
         {
-          "name": "Mobilidade e Utilidade",
-          "achievements": [
-            {
-              "title": "Virtude α",
-              "description": "Voe com a luva planadora."
-            },
-            {
-              "title": "Virtude β",
-              "description": "Comande um gancho."
-            },
-            {
-              "title": "Arcanjo α",
-              "description": "Empunhe uma varinha de projéteis."
-            },
-            {
-              "title": "Arcanjo γ",
-              "description": "Empunhe um explosivo."
-            }
-          ]
+          "id": "coastal-jungle",
+          "title": "Selva Costeira de Windrose",
+          "difficulty": "Início de Jogo",
+          "summary": "Este é o primeiro bioma completo e o lugar onde o básico da sobrevivência se transforma em progressão real.",
+          "keyPoints": [
+            "Minério de Cobre, Argila, Couro Bruto e Orquídea Nebulosa são importantes aqui",
+            "Thomas Richards é o chefe da região",
+            "Derrotá-lo desbloqueia o acesso ao Sopé da Montanha e fabricação de Nível 6+"
+          ],
+          "nextUnlock": "Ferramentas de cobre, viagem rápida, armaduras iniciais e seu primeiro acampamento sério.",
+          "playerGoal": "Construa sua primeira base real aqui e resolva as questões de cobre, comida e mobilidade antes de seguir em frente."
         },
         {
-          "name": "Combate e Criaturas",
-          "achievements": [
-            {
-              "title": "Massacre de __PROTECTED_26ee183b__",
-              "description": "Derrote bubblebears inocentes."
-            },
-            {
-              "title": "Arcanjo δ",
-              "description": "Elimine uma criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morra."
-            },
-            {
-              "title": "Domínio γ",
-              "description": "Renomeie um verme fofo."
-            }
-          ]
+          "id": "foothills",
+          "title": "Sopé da Montanha de Windrose",
+          "difficulty": "Meio de Jogo",
+          "summary": "O Sopé da Montanha é onde Windrose abre seu verdadeiro meio de jogo: ferro, tecido, agricultura e suporte a navios começam a se encaixar aqui.",
+          "keyPoints": [
+            "Minério de Ferro do Sopé, Madeira de Lei, Casca de Árvore, Fibra de Linho, Milho, Enxofre e Solo Fértil definem o bioma",
+            "Israel Hands é o chefe da região",
+            "Derrotá-lo desbloqueia o acesso aos Pântanos Amaldiçoados e fabricação de Nível 11+"
+          ],
+          "nextUnlock": "Ferramentas de ferro, Tecido de Linho, Mós, navios mais fortes e uma economia agrícola real.",
+          "playerGoal": "Estabeleça sua base de ferro, tecido e plantações aqui antes de explorar seriamente a região final."
         },
         {
-          "name": "Crescimento e Cultivo",
-          "achievements": [
-            {
-              "title": "Domínio α",
-              "description": "Fertilize uma semente."
-            },
-            {
-              "title": "Domínio β",
-              "description": "Colha uma noz totalmente crescida."
-            },
-            {
-              "title": "Domínio δ",
-              "description": "Conquista oculta."
-            }
-          ]
+          "id": "cursed-swamps",
+          "title": "Pântanos Amaldiçoados de Windrose",
+          "difficulty": "Fim de Jogo",
+          "summary": "Esta é a região final atual no Acesso Antecipado e a parte do jogo que começa a exigir preparação total.",
+          "keyPoints": [
+            "Sucatas Antigas, Alcatrão, Madeira da Praga, Pedaço de Couro de Crocodilo e Bromélia são importantes aqui",
+            "Manchas de floresta da praga rosa brilhante são a ameaça ambiental característica",
+            "Esta é a última região disponível na versão atual de Acesso Antecipado"
+          ],
+          "nextUnlock": "Ferraria avançada, melhorias de acessórios, materiais de alquimia do pântano e o nível de fabricação mais alto atual.",
+          "playerGoal": "Venha aqui para buscar materiais específicos de fim de jogo, não para tentar estabelecer uma base apressada."
+        },
+        {
+          "id": "tortuga-and-faction-hubs",
+          "title": "Tortuga e centros de facções de Windrose",
+          "difficulty": "Camada de Centros",
+          "summary": "Essas ilhas importam mais por serviços, rotas e reputação do que pela coleta de recursos brutos.",
+          "keyPoints": [
+            "Alguns locais de facções incluem pontos de viagem rápida pré-construídos",
+            "Tortuga funciona como uma parada de serviço prática no ciclo marítimo do meio de jogo",
+            "Agentes de Recompensa, Fornecedores, Compradores e missões de facção fazem com que valha a pena incluir essas ilhas em sua rota"
+          ],
+          "nextUnlock": "Melhores rotas marítimas, reabastecimento mais fácil e progressão de facção mais suave.",
+          "playerGoal": "Use os centros como âncoras em sua rota de navegação, em vez de tentar forçá-los a ser sua base principal de recursos."
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ de Singleplayer e Plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas são as principais perguntas sobre plataformas e acesso que os jogadores costumam fazer antes de comprar Lucid Blocks.",
-      "faqs": [
+      "title": "Viagem Rápida em Windrose",
+      "displayType": "timelineSteps",
+      "eyebrow": "Sistema de Viagem de Windrose",
+      "subtitle": "Desbloqueie a viagem rápida antes que a navegação comece a desperdiçar sessões inteiras.",
+      "intro": "Windrose possui viagem rápida logo cedo, mas ela é construída como uma rede que você mesmo posiciona. Assim que o ciclo de Sino e Ponto engrena, o tempo de viagem cai drasticamente.",
+      "steps": [
         {
-          "question": "Lucid Blocks é singleplayer?",
-          "answer": "Sim. Lucid Blocks é um jogo singleplayer."
+          "step": 1,
+          "title": "Fundir sua primeira Barra de Cobre em Windrose",
+          "description": "A viagem rápida é desbloqueada durante a missão principal inicial \"Como Minha Aventura na Costa Começou\" no momento em que sua primeira Barra de Cobre é fabricada.",
+          "details": [
+            "Essa descoberta desbloqueia a receita do Sino de Viagem Rápida.",
+            "O Minério de Cobre vem de cavernas na Selva Costeira e precisa ser fundido primeiro."
+          ]
         },
         {
-          "question": "Multijogador ou cooperativo estão planejados?",
-          "answer": "Não. O modo multijogador não está planejado para o lançamento nem para atualizações futuras."
+          "step": 2,
+          "title": "Obter seu primeiro Sino de Viagem Rápida de Windrose",
+          "description": "Você pode fabricar o sino diretamente ou saquear um antes que sua economia de cobre esteja estável.",
+          "details": [
+            "Custo de fabricação: 10 Barras de Cobre e 3 Cordas.",
+            "Fontes de saque iniciais incluem destroços de naufrágios, baús de praia e a rota do Esconderijo do Contrabandista."
+          ]
         },
         {
-          "question": "Onde posso jogar Lucid Blocks?",
-          "answer": "Ele está disponível atualmente no Steam para Windows."
+          "step": 3,
+          "title": "Colocar um Ponto de Viagem Rápida de Windrose na costa",
+          "description": "O sino não faz nada sozinho. Abra o Modo de Construção, vá em Artesanato e Utilidades, e transforme-o em um Ponto de Viagem Rápida.",
+          "details": [
+            "Custo do Ponto de Viagem Rápida: 20 Madeiras e 1 Sino de Viagem Rápida.",
+            "Regra de posicionamento: apenas costa, praia ou doca. Não pode ser colocado no meio de uma ilha."
+          ]
         },
         {
-          "question": "Quanto custa Lucid Blocks?",
-          "answer": "$9,99 no Steam."
+          "step": 4,
+          "title": "Ativar a rede de Windrose com um segundo ponto",
+          "description": "Um ponto é apenas um marcador. Dois pontos são o momento em que o sistema começa a economizar tempo real.",
+          "details": [
+            "Você precisa de pelo menos dois Pontos de Viagem Rápida em locais diferentes.",
+            "Dois pontos distantes na mesma ilha podem ativar a rede cedo, mesmo antes de você se expandir para outras ilhas."
+          ]
         },
         {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso."
+          "step": 5,
+          "title": "Viajar de forma diferente a pé e no mar em Windrose",
+          "description": "Windrose trata a viagem terrestre e a viagem de navio como dois modos diferentes de viagem rápida.",
+          "details": [
+            "A pé: caminhe até um Ponto de Viagem Rápida e selecione outro ponto.",
+            "Em um Ketch: abra o mapa de qualquer lugar no mar e pule para qualquer ponto desbloqueado, desde que não esteja em combate ou sendo perseguido."
+          ]
         },
         {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 ou 9.0.4 é a configuração comumente recomendada para o Steam Deck."
-        },
-        {
-          "question": "Lucid Blocks funciona no Linux?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
-        },
-        {
-          "question": "Haverá suporte para Mac ou Android?",
-          "answer": "Eles podem ser suportados no futuro, mas não são plataformas de lançamento atuais."
-        },
-        {
-          "question": "Lucid Blocks possui traduções?",
-          "answer": "Não. Atualmente não há traduções planejadas."
-        },
-        {
-          "question": "Lucid Blocks continuará recebendo atualizações?",
-          "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
+          "step": 6,
+          "title": "Integrar pontos pré-construídos e de facções em sua rota de Windrose",
+          "description": "Sua melhor rede não é construída apenas com suas próprias bases. O mundo já contém pontos de ancoragem úteis.",
+          "details": [
+            "Algumas bases de facções, incluindo centros no estilo Tortuga, podem adicionar pontos de viagem rápida pré-construídos assim que visitados.",
+            "No modo cooperativo, a viagem rápida baseada no mapa pode separar você de seu navio e companheiros de tripulação, portanto, coordene antes de pular."
+          ]
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Steam Deck e Controle em Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks pode rodar no Steam Deck, mas a configuração padrão pode precisar de ajustes. Teclado e mouse continuam sendo a opção mais fluida para menus e jogabilidade geral.",
-      "faqs": [
+      "title": "Requisitos de Sistema de Windrose",
+      "displayType": "requirementsTable",
+      "eyebrow": "Especificações de PC para Windrose",
+      "subtitle": "Seu PC consegue rodar Windrose sem gargalos?",
+      "intro": "Windrose exige um hardware de desktop potente mesmo no nível mínimo. A base é de 16 GB de RAM para jogo solo ou cooperativo, e hospedar um servidor dedicado na mesma máquina requer memória adicional.",
+      "items": [
         {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 funciona bem, e o Proton 9.0.4 é uma correção comumente compartilhada para problemas no Steam Deck."
+          "component": "Sistema operacional",
+          "minimum": "Windows 10 (64 bits)",
+          "recommended": "Windows 11 ou posterior (64 bits)",
+          "notes": "Requer processador e sistema operacional de 64 bits."
         },
         {
-          "question": "O que devo fazer se os controles do Steam Deck não estiverem funcionando?",
-          "answer": "Force a compatibilidade e mude o jogo para o Proton 9.0.4. A configuração padrão pode não aceitar a entrada do controle corretamente."
+          "component": "CPU",
+          "minimum": "Intel Core i7-8700K ou AMD Ryzen 7 2700X",
+          "recommended": "Intel Core i7-10700 ou AMD Ryzen 7 5800X",
+          "notes": "Exemplos oficiais de processadores listados para Windrose."
         },
         {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus do jogo não foram projetados para isso."
+          "component": "Memória",
+          "minimum": "16 GB de RAM",
+          "recommended": "32 GB de RAM",
+          "notes": "A base de 16 GB aplica-se a sessões padrão solo e cooperativas."
         },
         {
-          "question": "O suporte para Linux é possível?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
+          "component": "Placa de vídeo",
+          "minimum": "NVIDIA GTX 1080 Ti ou AMD Radeon RX 6800",
+          "recommended": "NVIDIA RTX 3080 ou AMD Radeon RX 6800 XT",
+          "notes": "Exemplos oficiais de GPU usados para os níveis mínimo e recomendado."
         },
         {
-          "question": "Qual é a melhor configuração de entrada?",
-          "answer": "Teclado e mouse são a opção mais fluida para navegação em menus e jogabilidade geral momento a momento."
+          "component": "VRAM dedicada",
+          "minimum": "10 GB",
+          "recommended": "10 GB",
+          "notes": "Um orçamento de 10 GB de VRAM dedicada mantém ambos os níveis estáveis."
+        },
+        {
+          "component": "DirectX",
+          "minimum": "Versão 12",
+          "recommended": "Versão 12",
+          "notes": "Windrose usa o mesmo requisito de DirectX em ambos os níveis."
+        },
+        {
+          "component": "Armazenamento",
+          "minimum": "30 GB de espaço disponível",
+          "recommended": "30 GB de espaço disponível em SSD",
+          "notes": "Um SSD é fortemente recomendado para consistência de carregamento."
+        },
+        {
+          "component": "Rede",
+          "minimum": "Conexão de internet banda larga",
+          "recommended": "Conexão de internet banda larga",
+          "notes": "Necessário para jogo cooperativo online e servidores dedicados."
+        },
+        {
+          "component": "Hospedagem própria no mesmo PC",
+          "minimum": "Adicione 8 GB além do requisito do cliente",
+          "recommended": "24 GB de RAM total",
+          "notes": "Executar o cliente e o servidor juntos requer margem de memória extra."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Configurações e Acessibilidade de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks já possui algumas configurações práticas e notas de compatibilidade que importam imediatamente quando os jogadores iniciam o jogo pela primeira vez.",
-      "settings": [
+      "title": "Guia de Servidor Dedicado Windrose",
+      "displayType": "serverSteps",
+      "eyebrow": "Hospedagem de Servidor Windrose",
+      "subtitle": "Configure um servidor dedicado Windrose desde a primeira inicialização até o fluxo de atualização.",
+      "intro": "A rota mais rápida é a ferramenta gratuita Windrose Dedicated Server no Steam ou a build WindowsServer incluída nos arquivos do jogo. O controle reside no ServerDescription.json e WorldDescription.json, então o fluxo prático é instalar, iniciar uma vez e editar os arquivos gerados enquanto o servidor estiver offline.",
+      "items": [
         {
-          "name": "Configurações de Exibição",
-          "type": "Opção de Conforto",
-          "description": "As Configurações de Exibição incluem uma opção que permite aos jogadores ocultar as mãos na tela."
+          "step": 1,
+          "title": "Instale os arquivos do servidor Windrose",
+          "description": "Instale a ferramenta Windrose Dedicated Server da Biblioteca Steam > Ferramentas, ou copie a build WindowsServer dos arquivos do jogo se usar outra loja.",
+          "details": [
+            "Rota Steam: instale a ferramenta gratuita Windrose Dedicated Server.",
+            "Rota EGS ou Stove: copie a pasta R5/Builds/WindowsServer do diretório do jogo.",
+            "Para builds copiadas, mantenha o servidor em uma pasta dedicada fora da instalação principal do jogo."
+          ]
         },
         {
-          "name": "Compatibilidade Gráfica",
-          "type": "Requisito do Sistema",
-          "description": "O suporte a __PROTECTED_38625270__ é necessário para que os gráficos sejam renderizados corretamente. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas e erros gráficos graves."
+          "step": 2,
+          "title": "Inicie uma vez e colete o código de convite",
+          "description": "Execute o StartServerForeground.bat para o primeiro lançamento para ver os logs diretamente, depois copie o código de convite gerado da saída do console ou do ServerDescription.json.",
+          "details": [
+            "StartServerForeground.bat é o método de primeiro lançamento mais fácil.",
+            "O WindroseServer.exe pode rodar em modo headless após a configuração.",
+            "Os jogadores entram através de Jogar > Conectar ao Servidor usando seu código de convite."
+          ]
         },
         {
-          "name": "Preferência de Entrada",
-          "type": "Configuração de Controle",
-          "description": "O suporte a controle existe, mas o teclado e o mouse proporcionam uma experiência mais fluida porque os menus não foram construídos para o uso de controle."
+          "step": 3,
+          "title": "Edite o ServerDescription.json do Windrose",
+          "description": "Use este arquivo para definir o código de convite, configurações de senha, nome do servidor, mundo vinculado e máximo de jogadores. Aplique as edições apenas enquanto o servidor estiver parado.",
+          "details": [
+            "Campos principais: InviteCode, IsPasswordProtected, Password, ServerName, WorldIslandId, MaxPlayerCount.",
+            "Os códigos de convite diferenciam maiúsculas de minúsculas.",
+            "Até 4 jogadores costuma ser a base mais estável, mesmo que grupos maiores sejam possíveis."
+          ]
         },
         {
-          "name": "Suporte de Idioma",
-          "type": "Localização",
-          "description": "A configuração atual é apenas em inglês, e nenhuma tradução está planejada no momento."
+          "step": 4,
+          "title": "Edite o WorldDescription.json do Windrose",
+          "description": "Este arquivo controla a dificuldade e o escalonamento do mundo. Use predefinições ou valores personalizados para estatísticas de inimigos, valores de dano de navio, pressão de abordagem e balanceamento cooperativo.",
+          "details": [
+            "Suporta Fácil, Médio, Difícil e controles deslizantes personalizados.",
+            "A conclusão de missões compartilhadas pode ser finalizada automaticamente para membros ativos do grupo.",
+            "O WorldIslandId nas configurações do servidor deve corresponder ao arquivo de mundo selecionado."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Confirme os limites de rede e o comportamento do host",
+          "description": "O Windrose depende de códigos de convite e comportamento de NAT punch-through em vez de uma lista de navegadores de porta fixa. O roteamento UPnP estável melhora o sucesso da descoberta.",
+          "details": [
+            "As conexões são gerenciadas através de NAT punch-through dinâmico.",
+            "Roteadores compatíveis com UPnP reduzem falhas de conexão.",
+            "Se a descoberta falhar, remova camadas de proxy ou VPN e tente novamente."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Mantenha as versões do cliente e do servidor Windrose compatíveis",
+          "description": "Após cada patch ou hotfix, atualize os arquivos do servidor e valide antes de reabrir os convites. Avisos de incompatibilidade de versão devem ser tratados como manutenção obrigatória.",
+          "details": [
+            "ID do aplicativo SteamCMD para atualizações de servidor: 4129620.",
+            "Repita o fluxo completo de atualização com force_install_dir, login e app_update 4129620 validate.",
+            "As operações administrativas atuais permanecem focadas principalmente em arquivos."
+          ]
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Atualizações e Notas de Patch de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks já está recebendo correções rápidas pós-lançamento e pequenas atualizações de usabilidade.",
-      "entries": [
+      "title": "Roadmap do Windrose",
+      "displayType": "roadmapTimeline",
+      "eyebrow": "Roadmap do Windrose",
+      "subtitle": "O que está confirmado para o Windrose agora e o que está planejado antes da versão 1.0.",
+      "intro": "O Windrose ainda não utiliza um roadmap público com datas específicas, mas o estúdio já definiu a janela de duração do Acesso Antecipado, o escopo base de lançamento e prioridades claras de recursos para atualizações de curto prazo.",
+      "items": [
         {
-          "title": "Atualização 2.8.2",
-          "type": "Atualização de UI",
-          "description": "Renomeado \"awaken\" para \"exit\" no menu principal."
+          "marker": "Status atual",
+          "title": "Nenhum roadmap com datas do Windrose foi publicado ainda",
+          "summary": "A Kraken Express comunica-se atualmente através de objetivos amplos de Acesso Antecipado e áreas prioritárias, em vez de um calendário de marcos com datas fixas.",
+          "highlights": [
+            "Sem roadmap público com datas",
+            "Prioridades baseadas em feedback",
+            "A direção é pública, mesmo sem datas exatas"
+          ]
         },
         {
-          "title": "Pequeno Patch para Falhas na Inicialização",
-          "type": "Hotfix",
-          "description": "Um patch dedicado foi lançado para jogadores cujo jogo estava travando ao iniciar."
+          "marker": "23 de mar. de 2026",
+          "title": "As prioridades de Acesso Antecipado pré-lançamento do Windrose foram definidas",
+          "summary": "O estúdio delineou prioridades ativas, incluindo baterias de navios cooperativas, saques aleatórios, segurar para coletar, controle de FOV, fogueiras de sinalização, suporte a DLSS ou FSR, melhorias no controle, bancada de desmantelamento e troca de trava de alvo.",
+          "highlights": [
+            "Sistemas de tripulação de navio cooperativo",
+            "Testando escala de 4 a 8 jogadores",
+            "Ajuste de FOV e melhorias no controle",
+            "Melhorias na usabilidade de saques e construção"
+          ]
         },
         {
-          "title": "Suporte de Conteúdo Pós-Lançamento",
-          "type": "Nota do Roteiro",
-          "description": "Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
+          "marker": "14 de abr. de 2026",
+          "title": "Windrose lançado em Acesso Antecipado com amplo conteúdo base",
+          "summary": "O escopo de lançamento incluiu 3 biomas, cerca de 30 ilhas procedurais, mais de 90 pontos de interesse feitos à mão, 3 navios jogáveis, combate naval com abordagem, facções, sistemas de reputação, trabalhadores NPCs e uma longa história principal.",
+          "highlights": [
+            "3 biomas no lançamento",
+            "Cerca de 30 ilhas procedurais",
+            "Mais de 90 pontos de interesse",
+            "3 navios jogáveis",
+            "História principal com duração de 50 a 70 horas"
+          ]
+        },
+        {
+          "marker": "Duração do Acesso Antecipado",
+          "title": "Windrose espera cerca de 1,5 a 2,5 anos antes do lançamento completo",
+          "summary": "O plano atual de Acesso Antecipado indica um longo caminho antes da versão 1.0, com balanceamento contínuo, trabalho nos sistemas e expansão de conteúdo durante esse período.",
+          "highlights": [
+            "Janela de 1,5 a 2,5 anos",
+            "Plano de Acesso Antecipado de longo prazo",
+            "A versão 1.0 é um objetivo de várias fases"
+          ]
+        },
+        {
+          "marker": "Antes da 1.0",
+          "title": "Windrose planeja cerca de 50 por cento a mais de conteúdo para a versão completa",
+          "summary": "O objetivo do lançamento completo inclui um grande crescimento de conteúdo além do lançamento, com mais biomas, chefes, inimigos, navios, camadas de saque e progressão contínua da história.",
+          "highlights": [
+            "Cerca de 50% a mais de conteúdo planejado",
+            "Mais biomas e chefes",
+            "Mais navios e saques",
+            "Continuação da história e expansão de sistemas"
+          ]
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Correção de Falhas e Solução de Problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "A maioria dos problemas imediatos de inicialização e falhas deve ser verificada em uma ordem simples: nível do patch, suporte gráfico, compatibilidade de plataforma e logs.",
-      "steps": [
+      "title": "Log de Atualizações do Windrose",
+      "displayType": "updateTimeline",
+      "eyebrow": "Histórico de Patches do Windrose",
+      "subtitle": "Um feed cronológico do Windrose com operações de lançamento, hotfixes e mudanças de impacto na plataforma.",
+      "intro": "A primeira onda de atualizações do Windrose focou em operações de lançamento, conectividade de servidores e estabilidade de salvamento. Esta linha do tempo acompanha os anúncios que alteraram a jogabilidade real e o comportamento de hospedagem.",
+      "items": [
         {
-          "title": "Instale o Hotfix de Falhas Mais Recente",
-          "description": "Se o jogo estiver travando ao iniciar, atualize primeiro e teste novamente com o patch de falha de inicialização mais recente."
+          "marker": "23 de mar. de 2026",
+          "title": "1.500.000 de listas de desejos e melhorias de qualidade pré-lançamento",
+          "summary": "A Kraken Express publicou uma ampla lista de melhorias pré-lançamento moldada pelo feedback da demo, incluindo expansão do co-op, randomização de saques, melhorias no fluxo de coleta e atualizações de gráficos ou controles.",
+          "highlights": [
+            "Roteiro de qualidade pré-lançamento",
+            "Objetivos de expansão do co-op",
+            "Atualizações de controles e câmera",
+            "Refinamentos de saques e construção"
+          ]
         },
         {
-          "title": "Verifique o Suporte a __PROTECTED_38625270__",
-          "description": "Lucid Blocks requer suporte a __PROTECTED_38625270__. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas ou grandes problemas de renderização."
+          "marker": "14 de abr. de 2026",
+          "title": "Lançamento do Acesso Antecipado do Windrose está no ar",
+          "summary": "O Windrose foi lançado em Acesso Antecipado no Steam, e a comunicação de lançamento confirmou a mudança de nome do estúdio de Windrose Crew para Kraken Express conforme o desenvolvimento da versão completa começou.",
+          "highlights": [
+            "Lançamento do Acesso Antecipado disponível",
+            "Estúdio renomeado para Kraken Express",
+            "Fase de desenvolvimento 1.0 iniciada"
+          ]
         },
         {
-          "title": "Use o Proton 9.0.4 no Steam Deck",
-          "description": "Se o comportamento de entrada ou inicialização do Steam Deck estiver quebrado, force a compatibilidade e mude para o Proton 9.0.4."
+          "marker": "14 de abr. de 2026",
+          "title": "Hotfix 0.10.0.1.6",
+          "summary": "O primeiro hotfix visível pós-lançamento corrigiu problemas de localização, ajustou o link do Nitrado e alterou a visibilidade das informações do servidor no menu de pausa para um estado padrão mais seguro.",
+          "highlights": [
+            "Correções menores de localização",
+            "Link do Nitrado corrigido",
+            "Campos de informações do servidor ocultos por padrão"
+          ]
         },
         {
-          "title": "Colete Logs de Falhas",
-          "description": "Abra o Executar do Windows, cole %APPDATA%, vá para lucid blocks/logs e reúna os arquivos .txt para solução de problemas."
+          "marker": "16-17 de abr. de 2026",
+          "title": "Hotfix 0.10.0.2.54 com janela de inatividade online",
+          "summary": "Este ciclo de patch removeu o tempo de recarga do token de servidor dedicado, adicionou avisos de incompatibilidade de versão, moveu os códigos de convite para um limite de 1 a 32 caracteres, corrigiu falhas no surgimento de navios, ajustou o escalonamento de chefes para grupos maiores, aumentou o tempo limite de início do host e entregou correções amplas de combate e localização.",
+          "highlights": [
+            "Correção de conectividade de servidor dedicado",
+            "Aviso de incompatibilidade de versão",
+            "Comprimento do código de convite definido para 1-32",
+            "Correção de escalonamento de chefes para grupos maiores",
+            "Tempo limite de início do host aumentado para 5 minutos"
+          ]
         },
         {
-          "title": "Relate o Problema Corretamente",
-          "description": "Compartilhe os logs e detalhes do dispositivo através do fórum oficial de bug-reports no Discord ou na página da comunidade do Steam."
+          "marker": "17 de abr. de 2026",
+          "title": "Aviso de atualização do Steam Cloud Saves do Windrose",
+          "summary": "A equipe publicou orientações oficiais para a instabilidade do salvamento em nuvem, incluindo recomendações para dispositivo único, fluxo de trabalho de backup manual e instruções de restauração local quando ocorrer corrupção.",
+          "highlights": [
+            "Aviso de problema no salvamento em nuvem",
+            "Fluxo de trabalho de backup manual compartilhado",
+            "Caminhos de salvamento de cliente e dedicado documentados",
+            "O comportamento da nuvem pode ser ajustado se os problemas persistirem"
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Perguntas",
-    "titleHighlight": "Frequentes",
-    "subtitle": "Tudo o que você precisa saber sobre Lucid Blocks",
+    "title": "Perguntas Frequentes de",
+    "titleHighlight": "Windrose",
+    "subtitle": "Tudo o que os jogadores mais perguntam sobre Windrose no momento.",
     "questions": [
       {
-        "question": "O Lucid Blocks é um jogo singleplayer?",
-        "answer": "Sim. Lucid Blocks é um jogo exclusivamente singleplayer, sem planos para multiplayer ou co-op."
+        "question": "Windrose é singleplayer ou co-op?",
+        "answer": "Windrose suporta jogo solo e co-op online. Você pode começar sozinho e depois hospedar o mesmo mundo para amigos."
       },
       {
-        "question": "O que é o sistema Apotheosis em Lucid Blocks?",
-        "answer": "Apotheosis é o sistema de criação por fusão de forma livre do Lucid Blocks. Em vez de seguir receitas fixas, você combina materiais e descobre seus próprios caminhos de criação."
+        "question": "Como funciona a entrada no multiplayer de Windrose?",
+        "answer": "Windrose usa entrada por código de convite através de 'Conectar ao Servidor', com acesso salvo ao servidor após a primeira conexão."
       },
       {
-        "question": "Onde posso jogar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponível atualmente no Steam para Windows. O suporte para Linux e Steam Deck está disponível através do Proton 9.0."
+        "question": "O que devo priorizar em Windrose durante as primeiras horas?",
+        "answer": "Foque em ciclos de recursos costeiros, um acampamento inicial completo, estoque de cura e hábitos de combate focados em estamina antes de avançar para zonas mais difíceis."
       },
       {
-        "question": "Quanto custa o Lucid Blocks?",
-        "answer": "O Lucid Blocks custa US$ 9,99 no Steam."
+        "question": "Quando Windrose foi lançado em Acesso Antecipado?",
+        "answer": "Windrose foi lançado em Acesso Antecipado em 14 de abril de 2026 e continua recebendo atualizações de janela de lançamento."
       },
       {
-        "question": "O Lucid Blocks tem suporte para controles?",
-        "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso. Teclado e mouse são a opção mais fluida."
+        "question": "Onde posso jogar Windrose hoje?",
+        "answer": "Windrose está disponível no Steam e na Epic Games Store, com atualizações oficiais postadas no site do jogo e nas notícias do Steam."
       },
       {
-        "question": "O Lucid Blocks receberá atualizações?",
-        "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não há a intenção de mantê-las em um cronograma regular indefinido."
+        "question": "Qual é a janela atual para o lançamento completo de Windrose?",
+        "answer": "O planejamento atual aponta para uma janela entre o final de 2027 e o final de 2028 para o ciclo de lançamento 1.0 de Windrose."
       }
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
-    "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "title": "Pronto para navegar em Windrose?",
+    "description": "Junte-se ao Discord oficial de Windrose para acompanhar patches, compartilhar builds e ficar atualizado com as notícias de sobrevivência no mar.",
+    "joinCommunity": "Junte-se ao Discord de Windrose",
+    "joinGame": "Jogue Windrose no Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
+    "title": "Windrose Wiki",
+    "description": "Seu hub completo de recursos de Windrose para navios, chefes, mapas, crafting e guias de sobrevivência no mar.",
     "resources": "Recursos",
     "community": "Comunidade",
-    "legal": "Legal",
+    "legal": "Jurídico",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
     "steamStore": "Loja Steam",
     "about": "Sobre",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Windrose Wiki. Não afiliado aos desenvolvedores de Windrose.",
     "disclaimer": "Site de recursos não oficial feito por fãs."
   },
   "pages": {
-    "guides": {
-      "title": "Guias de Lucid Blocks",
-      "description": "Guias de jogabilidade completos, desde o básico para iniciantes até estratégias avançadas de Apotheosis. Domine a sobrevivência e a criação.",
-      "metaTitle": "Guias de Lucid Blocks - Estratégias do Iniciante ao Avançado",
-      "metaDescription": "Guias completos de Lucid Blocks abrangendo dicas para iniciantes, sistema Apotheosis, estratégias de sobrevivência e táticas de especialistas para dominar o sandbox surreal.",
-      "categoryLabel": "GUIAS DE JOGO",
-      "whatIs": "O que são Guias?",
-      "whatIsDescription": "Guias abrangentes que cobrem mecânicas de jogo, estratégias de sobrevivência e o sistema de criação Apotheosis. Aprenda tudo, desde os primeiros passos até técnicas avançadas.",
-      "why": "Por que ler os guias?",
+    "guide": {
+      "title": "Guia Windrose",
+      "description": "Central de guias Windrose passo a passo para iniciantes e jogadores avançados, cobrindo o básico de combate, fluxo de missões, pesca e rotas de progressão inicial.",
+      "metaTitle": "Guia Windrose - Dicas para Iniciantes, Passo a Passo e Básico de Chefes",
+      "metaDescription": "Leia a central de guias Windrose para configuração inicial, fundamentos de combate, marcos de progressão e rotas práticas do litoral ao meio de jogo.",
+      "categoryLabel": "INÍCIO E PROGRESSÃO",
+      "whatIs": "O que é o Guia Windrose?",
+      "whatIsDescription": "O Guia Windrose é a seção principal de aprendizado para a progressão inicial e de meio de jogo. Ele reúne artigos práticos, como rotas para iniciantes, preparação para o primeiro chefe, configuração de pesca, o básico sobre arquivos de salvamento e ordem de missões eficiente para que você possa progredir sem desvios desnecessários.",
+      "why": "Por que ler o Guia Windrose?",
       "whySteps": {
-        "step1Title": "Aprenda as Mecânicas Principais",
-        "step1Description": "Entenda o sistema Apotheosis e evite erros comuns de iniciantes",
-        "step2Title": "Progressão Rápida",
-        "step2Description": "Siga caminhos comprovados para sobreviver e prosperar no mundo surreal",
-        "step3Title": "Domine as Estratégias",
-        "step3Description": "Desenvolva táticas avançadas para exploração e criação"
+        "step1Title": "Comece Mais Rápido",
+        "step1Description": "Use rotas de abertura testadas para desbloquear ferramentas, estações e opções de mobilidade com menos reinícios.",
+        "step2Title": "Evite Erros Comuns",
+        "step2Description": "Aprenda sobre estamina, tempo de bloqueio e prioridades de recursos antes de investir demais em escolhas iniciais fracas.",
+        "step3Title": "Transição Suave",
+        "step3Description": "Mude das ilhas de tutorial para um meio de jogo estável com marcos de chefes e alvos de melhoria claros."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias"
+      "all": "Todos os Artigos do Guia Windrose"
     },
-    "crafting": {
-      "title": "Criação em Lucid Blocks",
-      "description": "Domine o sistema de fusão Apotheosis com mecânicas de essência, receitas e estratégias de criação para itens poderosos.",
-      "metaTitle": "Criação em Lucid Blocks - Sistema Apotheosis e Receitas",
-      "metaDescription": "Domine o sistema de criação Apotheosis de Lucid Blocks. Aprenda mecânicas de essência, receitas de fusão e estratégias para criar ferramentas e armas poderosas.",
-      "categoryLabel": "SISTEMA DE CRIAÇÃO",
-      "whatIs": "O que é a Criação?",
-      "whatIsDescription": "O sistema Apotheosis é uma mecânica de fusão única baseada em essências, onde você combina até seis itens para descobrir novas receitas. Sem menus de criação fixos — a experimentação é a chave.",
-      "why": "Por que dominar a criação?",
+    "release": {
+      "title": "Lançamento Windrose",
+      "description": "Acompanhe o cronograma de lançamento de Windrose, status da plataforma, métricas do Steam, atualizações do roadmap, mudanças de preço e marcos importantes do Acesso Antecipado em uma única linha do tempo.",
+      "metaTitle": "Lançamento Windrose - Horário de Lançamento, Preço, Roadmap e Atualizações",
+      "metaDescription": "Acompanhe a cobertura de lançamento de Windrose, incluindo horário de lançamento, atividade no Steam, preços, marcos do roadmap e cadência oficial de atualizações para o Acesso Antecipado.",
+      "categoryLabel": "RASTREADOR DE LANÇAMENTO",
+      "whatIs": "O que é o Lançamento Windrose?",
+      "whatIsDescription": "O Lançamento Windrose foca em dados oficiais de lançamento e sinais do ecossistema em tempo real: data e hora de lançamento, tendências do Steam e SteamDB, direção do roadmap, contexto de preços e cadência de atualizações. É a maneira mais rápida de entender a situação atual do jogo.",
+      "why": "Por que ler o Lançamento Windrose?",
       "whySteps": {
-        "step1Title": "Desbloqueie Itens Poderosos",
-        "step1Description": "Descubra ferramentas essenciais, armas e equipamentos de mobilidade através da fusão",
-        "step2Title": "Entenda as Essências",
-        "step2Description": "Saiba como as essências dos itens se combinam para criar resultados previsíveis",
-        "step3Title": "Otimize Recursos",
-        "step3Description": "Use mecânicas de diluição para maximizar o rendimento de materiais baratos"
+        "step1Title": "Verifique o Status em Tempo Real",
+        "step1Description": "Verifique o cronograma, disponibilidade da plataforma e o ritmo atual de atualizações antes de planejar sessões longas.",
+        "step2Title": "Acompanhe as Prioridades do Roadmap",
+        "step2Description": "Veja quais sistemas serão expandidos a seguir para que você possa alinhar suas builds e planos de progressão com antecedência.",
+        "step3Title": "Entenda o Momento de Valor",
+        "step3Description": "Compare janelas de preço, fases de demonstração e picos de atividade para decidir o melhor momento para começar."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias de Criação"
+      "all": "Todos os Artigos de Lançamento Windrose"
     },
-    "items": {
-      "title": "Itens de Lucid Blocks",
-      "description": "Guias detalhados de itens abrangendo ferramentas, armas, equipamentos de mobilidade e soluções de armazenamento com receitas de criação e dicas de uso.",
-      "metaTitle": "Itens de Lucid Blocks - Guia de Ferramentas, Armas e Equipamentos",
-      "metaDescription": "Banco de dados completo de itens para Lucid Blocks, incluindo ferramentas, armas, equipamentos de mobilidade e armazenamento. Aprenda a criar e usar cada item de forma eficaz.",
-      "categoryLabel": "ITENS E EQUIPAMENTOS",
-      "whatIs": "O que são Itens?",
-      "whatIsDescription": "Guias abrangentes para ferramentas, armas, equipamentos de mobilidade e itens funcionais. Aprenda receitas de criação, estratégias de uso e combinações ideais.",
-      "why": "Por que consultar os guias de itens?",
+    "server": {
+      "title": "Servidor Windrose",
+      "description": "Central de configuração do servidor Windrose para co-op, hospedagem dedicada, limites de jogadores, status de crossplay, correções de conexão e configuração focada em desempenho.",
+      "metaTitle": "Servidor Windrose - Hospedagem Dedicada, Configuração Co-op e Correções",
+      "metaDescription": "Configure a hospedagem do servidor Windrose com etapas de configuração dedicada, configurações de co-op, correções de conexão e orientações para desempenho estável no multiplayer.",
+      "categoryLabel": "MULTIPLAYER E HOSPEDAGEM",
+      "whatIs": "O que é o Servidor Windrose?",
+      "whatIsDescription": "O Servidor Windrose abrange a arquitetura multiplayer, desde o co-op simples até a hospedagem dedicada. Inclui o fluxo de configuração, conceitos básicos de portas e arquivos, decisões de limite de jogadores, regras de mundo, solução de problemas de erros de conexão e verificações práticas de estabilidade para sessões longas.",
+      "why": "Por que ler sobre o Servidor Windrose?",
       "whySteps": {
-        "step1Title": "Aprenda Receitas de Criação",
-        "step1Description": "Descubra como criar ferramentas e armas essenciais usando Apotheosis",
-        "step2Title": "Otimize seu Equipamento",
-        "step2Description": "Escolha os melhores itens para seu estilo de jogo e estágio de progressão",
-        "step3Title": "Melhore a Sobrevivência",
-        "step3Description": "Equipe-se com itens de mobilidade e armas para navegar pelo mundo perigoso"
+        "step1Title": "Hospede Corretamente",
+        "step1Description": "Configure mundos dedicados ou co-op com um fluxo de configuração limpo, em vez de reinicializações por tentativa e erro.",
+        "step2Title": "Corrija Problemas de Conexão",
+        "step2Description": "Resolva falhas ao entrar, configurações incompatíveis e problemas de autenticação com verificações repetíveis.",
+        "step3Title": "Mantenha as Sessões Estáveis",
+        "step3Description": "Ajuste as regras do mundo e a contagem de jogadores para uma latência mais suave, menos travamentos e continuidade confiável do progresso."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Itens"
+      "all": "Todos os Artigos do Servidor Windrose"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explore as regiões do mundo, características ambientais, locais de recursos e dicas de sobrevivência para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiões do Mundo e Exploração",
-      "metaDescription": "Explore os biomas de Lucid Blocks, incluindo as Linhas de Ley Tiamana, Fog Meadow e regiões surreais. Encontre recursos, evite perigos e navegue pelo mundo infinito.",
-      "categoryLabel": "REGIÕES DO MUNDO",
-      "whatIs": "O que são Biomas?",
-      "whatIsDescription": "Guias para as diferentes regiões do mundo, características ambientais, distribuição de recursos e zonas de perigo. Saiba o que esperar e como se preparar para cada área.",
-      "why": "Por que explorar os biomas?",
+    "map": {
+      "title": "Mapa Windrose",
+      "description": "Navegue pelo mapa Windrose com rotas entre ilhas, desbloqueios de viagem rápida, localizações de baús, progressão de região e atalhos práticos de exploração.",
+      "metaTitle": "Mapa Windrose - Rotas de Ilhas, Viagem Rápida e Locais Importantes",
+      "metaDescription": "Use a cobertura do mapa Windrose para encontrar as principais regiões, localizações de baús, atalhos de viagem e rotas seguras de progressão entre as ilhas.",
+      "categoryLabel": "MUNDO E ROTAS",
+      "whatIs": "O que é o Mapa Windrose?",
+      "whatIsDescription": "O Mapa Windrose organiza a inteligência de localização: estrutura completa do mapa, lógica de rotas interativas, âncoras de viagem rápida, ordem de desbloqueio das principais regiões e pontos de baús valiosos ou fogueiras de sinalização. Ele ajuda você a se mover com propósito em vez de vagar sem rumo.",
+      "why": "Por que ler sobre o Mapa Windrose?",
       "whySteps": {
-        "step1Title": "Encontre Recursos",
-        "step1Description": "Localize materiais raros e essências específicas de cada região",
-        "step2Title": "Evite Perigos",
-        "step2Description": "Entenda os riscos ambientais e as criaturas hostis",
-        "step3Title": "Planeje a Exploração",
-        "step3Description": "Prepare as ferramentas e equipamentos certos para cada tipo de bioma"
+        "step1Title": "Alcance Objetivos Mais Rápido",
+        "step1Description": "Siga rotas comprovadas entre ilhas para zonas-chave, chefes e pontos de desbloqueio de criação sem precisar voltar pelo caminho.",
+        "step2Title": "Garanta Saques Importantes",
+        "step2Description": "Localize caminhos de baús e pontos utilitários que aceleram melhorias e ciclos de suprimentos.",
+        "step3Title": "Planeje uma Exploração Segura",
+        "step3Description": "Use a orientação de ordem das regiões para evitar avançar demais em zonas antes que seu equipamento esteja pronto."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Biomas"
+      "all": "Todos os Artigos do Mapa Windrose"
     },
-    "building": {
-      "title": "Construção em Lucid Blocks",
-      "description": "Domine as dimensões pessoais Qualia, construção de bases, gerenciamento de armazenamento e técnicas de construção criativa.",
-      "metaTitle": "Construção em Lucid Blocks - Qualia e Construção de Bases",
-      "metaDescription": "Domine a construção em Lucid Blocks com dimensões pessoais Qualia, construção de bases, soluções de armazenamento e técnicas criativas de construção.",
-      "categoryLabel": "CONSTRUÇÃO E BASES",
-      "whatIs": "O que é a Construção?",
-      "whatIsDescription": "Guias para o sistema de dimensão pessoal Qualia, construção de bases, gerenciamento de armazenamento e construção criativa. Aprenda a criar seu refúgio seguro no mundo surreal.",
-      "why": "Por que construir bases?",
+    "resources": {
+      "title": "Recursos de Windrose",
+      "description": "Farme recursos de Windrose de forma eficiente com localizações de materiais, cadeias de processamento, rotas de comércio, atribuições de trabalhadores e roteamento focado na economia.",
+      "metaTitle": "Recursos de Windrose - Farm de Materiais, Comércio e Cadeias de Fabricação",
+      "metaDescription": "Encontre recursos de Windrose mais rápido com guias para madeira, ferro, argila, cadeias de pólvora, vendas de suprimentos e planejamento de fluxo de trabalho de mercadores.",
+      "categoryLabel": "MATERIAIS E ECONOMIA",
+      "whatIs": "O que são os Recursos de Windrose?",
+      "whatIsDescription": "Recursos de Windrose rastreia a economia de materiais por trás de cada melhoria. Explica onde farmar insumos básicos, quando refiná-los, como rotear vendas de suprimentos e como as atribuições de trabalhadores ou mercadores melhoram a produção ao longo de ciclos de progressão longos.",
+      "why": "Por que ler Recursos de Windrose?",
       "whySteps": {
-        "step1Title": "Crie Espaços Seguros",
-        "step1Description": "Estabeleça bases seguras para operações de armazenamento e criação",
-        "step2Title": "Gerencie Recursos",
-        "step2Description": "Organize materiais de forma eficiente com soluções de armazenamento",
-        "step3Title": "Desbloqueie a Qualia",
-        "step3Description": "Acesse dimensões de bolso pessoais para o máximo de conveniência"
+        "step1Title": "Farme com Propósito",
+        "step1Description": "Foque nos nós e biomas corretos para os objetivos de melhoria atuais, em vez de coleta aleatória.",
+        "step2Title": "Desbloqueie Cadeias de Fabricação",
+        "step2Description": "Mapeie dependências como combustível, minério e requisitos de oficina para que a fabricação não pare no meio do processo.",
+        "step3Title": "Melhore o Fluxo Econômico",
+        "step3Description": "Use orientações de venda e processamento para converter o excedente em valor de progressão de forma mais consistente."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias de Construção"
+      "all": "Todos os Artigos de Recursos de Windrose"
     },
-    "support": {
-      "title": "Suporte de Lucid Blocks",
-      "description": "Suporte técnico, compatibilidade de plataforma, otimização de desempenho e solução de problemas comuns.",
-      "metaTitle": "Suporte de Lucid Blocks - Ajuda Técnica e Correções",
-      "metaDescription": "Obtenha suporte técnico para Lucid Blocks, incluindo configuração do Steam Deck, correções de falhas, otimização de desempenho e guias de compatibilidade de plataforma.",
-      "categoryLabel": "SUPORTE TÉCNICO",
-      "whatIs": "O que é o Suporte?",
-      "whatIsDescription": "Guias técnicos que cobrem compatibilidade de plataforma, otimização de desempenho, correções de falhas e problemas comuns. Obtenha ajuda com o Steam Deck, dúvidas sobre multijogador e configurações.",
-      "why": "Por que consultar o suporte?",
+    "builds": {
+      "title": "Builds de Windrose",
+      "description": "Otimize builds de Windrose com planejamento de atributos, famílias de armas, escolhas de armadura, prioridades de facção e conjuntos de combate baseados em funções.",
+      "metaTitle": "Builds de Windrose - Melhores Atributos, Armas, Armaduras e Talentos",
+      "metaDescription": "Crie conjuntos de Windrose mais fortes com guias sobre atributos, prioridades de talentos, níveis de armas, conjuntos de armaduras e escolhas de progressão de facção.",
+      "categoryLabel": "BUILDS E CONJUNTOS",
+      "whatIs": "O que são as Builds de Windrose?",
+      "whatIsDescription": "Builds de Windrose é a seção de otimização de combate. Ela compara caminhos de alocação de atributos, famílias de armas, trocas de armaduras e prioridades de talentos para que você possa moldar um conjunto que se adapte ao seu estilo de jogo e estágio atual de progressão.",
+      "why": "Por que ler Builds de Windrose?",
       "whySteps": {
-        "step1Title": "Corrija Problemas Técnicos",
-        "step1Description": "Resolva falhas, problemas de desempenho e questões de compatibilidade",
-        "step2Title": "Otimize o Desempenho",
-        "step2Description": "Configure os ajustes para a melhor experiência em sua plataforma",
-        "step3Title": "Compatibilidade de Plataforma",
-        "step3Description": "Saiba mais sobre o Steam Deck, suporte a controles e requisitos de sistema"
+        "step1Title": "Aloque Atributos Melhor",
+        "step1Description": "Entenda os limites práticos e evite investir pesadamente em atributos de baixo impacto muito cedo.",
+        "step2Title": "Escolha Equipamentos por Função",
+        "step2Description": "Combine armas e armaduras com seu ritmo preferido, desde configurações de sustentação seguras até opções de alto dano explosivo.",
+        "step3Title": "Evolua para o Midgame",
+        "step3Description": "Use o planejamento de facção e talentos para manter o dano, a sobrevivência e a utilidade equilibrados conforme o conteúdo avança."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Artigos de Suporte"
+      "all": "Todos os Artigos de Builds de Windrose"
+    },
+    "ships": {
+      "title": "Navios Windrose",
+      "description": "Domine os navios Windrose através de melhorias de embarcações, gerenciamento de estaleiro, planejamento de tripulação, escolhas de canhões e táticas de recuperação em combate naval.",
+      "metaTitle": "Navios Windrose - Combate Naval, Melhorias e Gerenciamento de Tripulação",
+      "metaDescription": "Aprenda sobre os navios Windrose, desde o manuseio básico até o desbloqueio de fragatas, fluxos de trabalho no estaleiro, configurações de canhões e recuperação de reparos de navios em ciclos de combate ativos.",
+      "categoryLabel": "COMBATE NAVAL",
+      "whatIs": "O que são os Navios Windrose?",
+      "whatIsDescription": "Navios Windrose é dedicado à jogabilidade marítima: tipos de navios, progressão no estaleiro, estrutura da tripulação, ferramentas de abordagem, prioridades de reparo e estratégia de canhões. Ele conecta sistemas navais com a progressão terrestre para que sua frota evolua com sua campanha.",
+      "why": "Por que ler Navios Windrose?",
+      "whySteps": {
+        "step1Title": "Melhore o Casco Certo",
+        "step1Description": "Escolha caminhos de progressão de embarcações que se ajustem aos seus recursos e objetivos de combate atuais.",
+        "step2Title": "Vença Mais Batalhas Marítimas",
+        "step2Description": "Aplique orientações de canhões, abordagem e posicionamento que melhoram a consistência em encontros navais.",
+        "step3Title": "Recupere-se de Perdas",
+        "step3Description": "Use o fluxo de reparo e reconstrução para se recuperar rapidamente quando um navio for destruído ou partes críticas forem perdidas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Navios Windrose"
+    },
+    "mods": {
+      "title": "Mods Windrose",
+      "description": "Expanda o Windrose com práticas seguras de modding, recomendações do Nexus, verificações de compatibilidade e fluxo de configuração para partidas personalizadas estáveis.",
+      "metaTitle": "Mods Windrose - Escolhas do Nexus, Passos de Configuração e Compatibilidade",
+      "metaDescription": "Instale mods Windrose com confiança com orientações do Nexus, conceitos básicos de ordem de carregamento, verificações de compatibilidade e notas práticas de configuração para sessões estáveis.",
+      "categoryLabel": "MODDING",
+      "whatIs": "O que são os Mods Windrose?",
+      "whatIsDescription": "Mods Windrose abrange extensões comunitárias selecionadas, especialmente opções baseadas no Nexus, com foco em benefícios práticos e configuração de baixo atrito. Ele destaca o que cada mod altera, onde surgem conflitos e como manter sua partida estável.",
+      "why": "Por que ler Mods Windrose?",
+      "whySteps": {
+        "step1Title": "Escolha Mods de Alto Valor",
+        "step1Description": "Identifique pacotes da comunidade que melhoram a usabilidade, a clareza da progressão ou a flexibilidade da build.",
+        "step2Title": "Instale com Menos Conflitos",
+        "step2Description": "Use uma ordem de configuração limpa e verificações de compatibilidade para evitar interfaces corrompidas ou problemas nos arquivos de salvamento.",
+        "step3Title": "Mantenha a Estabilidade",
+        "step3Description": "Mantenha seu perfil modificado gerenciável para que atualizações e reversões não prejudiquem as campanhas ativas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Mods Windrose"
     }
   }
 }

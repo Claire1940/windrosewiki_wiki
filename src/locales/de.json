@@ -1,967 +1,1699 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Windrose Wiki - Crafting, Biome & Erfolge",
+      "description": "Das Windrose Wiki umfasst Crafting, Biome, Kreaturen, Gegenstände, Erfolge, Enden und Überlebenstipps für das surreale Voxel-Sandbox-Abenteuer auf Steam.",
+      "keywords": "Windrose, Windrose Wiki, Crafting, Biome, Erfolge, Überleben, Steam",
+      "ogTitle": "Windrose Wiki - Crafting, Biome & Erfolge",
+      "ogDescription": "Das Windrose Wiki umfasst Crafting, Biome, Kreaturen, Gegenstände, Erfolge, Enden und Überlebenstipps für das surreale Voxel-Sandbox-Abenteuer auf Steam.",
+      "twitterTitle": "Windrose Wiki - Crafting, Biome & Erfolge",
+      "twitterDescription": "Das Windrose Wiki umfasst Crafting, Biome, Kreaturen, Gegenstände, Erfolge und Überlebenstipps für die surreale Voxel-Sandbox auf Steam."
     }
   },
   "nav": {
-    "guide": "Guide",
-    "release": "Release",
+    "guide": "Leitfaden",
+    "release": "Veröffentlichung",
     "server": "Server",
-    "map": "Map",
-    "resources": "Resources",
+    "map": "Karte",
+    "resources": "Ressourcen",
     "builds": "Builds",
-    "ships": "Ships",
+    "ships": "Schiffe",
     "mods": "Mods"
   },
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
-    "switchLanguage": "Sprache wechseln",
-    "switchTheme": "Design wechseln",
+    "playNow": "Jetzt auf Steam spielen",
+    "switchLanguage": "Sprache ändern",
+    "switchTheme": "Design ändern",
     "lightMode": "Heller Modus",
     "darkMode": "Dunkler Modus",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "notFoundDescription": "Die von Ihnen gesuchte Seite existiert nicht.",
     "backToHome": "Zurück zur Startseite",
     "relatedArticles": "Ähnliche Artikel",
     "readMore": "Mehr lesen"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Open-World Piraten-Survival-Abenteuer",
+    "title": "Windrose",
+    "description": "Windrose ist ein Piraten-Survival-Abenteuer auf Steam, das sich auf Schiffskämpfe, Basenbau, Open-World-Erkundung, Bosse und Koop-Fortschritt zu Land und zu Wasser konzentriert.",
+    "getFreeCodesCTA": "Besuche die offizielle Windrose-Website",
+    "playOnSteamCTA": "Spiele Windrose auf Steam",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "1.5M+",
+        "label": "Steam-Wunschlisten"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "138.5K",
+        "label": "Spieler im Spiel"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "10.7K",
+        "label": "Steam-Rezensionen"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "79K+",
+        "label": "Discord-Mitglieder"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Windrose Gameplay",
+    "description": "Erkunde surreale Biome, verschmelze Gegenstände mit Apotheosis und überlebe seltsame Kreaturen in dieser traumhaften Voxel-Sandbox auf Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "title": "Windrose",
+    "titleHighlight": "Modul-Navigator",
+    "subtitle": "Springe zu jedem Windrose-Leitfaden-Modul und erkunde die Abschnitte der Reihe nach.",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
+        "icon": "BookOpen",
+        "title": "Windrose Einsteiger-Leitfaden",
+        "description": "Die ersten 2-5 Stunden: Camp-Aufbau, Kampfrhythmus und früher Fortschritt."
       },
       {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
-      },
-      {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
-      },
-      {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
-      },
-      {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
-      },
-      {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
+        "icon": "Sparkles",
+        "title": "Windrose Veröffentlichungsdatum",
+        "description": "Zeitpunkt des Early-Access-Starts, Hotfix-Status und 1.0-Zeitfenster."
       },
       {
         "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
+        "title": "Windrose Multiplayer-Leitfaden",
+        "description": "Einladungscodes, Host-Setup, Weltregeln und dedizierte Server."
       },
       {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
+        "icon": "Package",
+        "title": "Windrose Beste Stats und Talente",
+        "description": "Sichere Attribut-Pfade für den Anfang, Überlebens-Talente und Build-Prioritäten."
       },
       {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
+        "icon": "Home",
+        "title": "Windrose Builds und Klassen",
+        "description": "Vergleiche Kern-Spielstile und wähle eine klare Kampfidentität."
       },
       {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
+        "icon": "Eye",
+        "title": "Windrose Beste Waffen",
+        "description": "Starke Waffenoptionen für das frühe, mittlere und aktuelle Endgame."
       },
       {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
+        "icon": "AlertTriangle",
+        "title": "Windrose Schiffs-Leitfaden",
+        "description": "Schiffe freischalten, Rollen vergleichen und sinnvolle Upgrades planen."
       },
       {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
+        "icon": "ArrowRight",
+        "title": "Windrose Boss-Leitfaden",
+        "description": "Boss-Standorte, Vorbereitungs-Checklisten, Muster und Belohnungs-Freischaltungen."
       },
       {
         "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "title": "Windrose Crafting-Stationen",
+        "description": "Reihenfolge der Stationsfreischaltung, Kernfunktionen und Prioritäts-Upgrades."
+      },
+      {
+        "icon": "Star",
+        "title": "Windrose Ressourcen-Leitfaden",
+        "description": "Wichtige Materialien, Spawn-Logik und häufig genutzte Crafting-Routen."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Windrose Karte und Biome",
+        "description": "Schwierigkeitsverlauf der Biome, Routen und Erkundungserwartungen."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Windrose Schnellreise",
+        "description": "Glocken, Freischalt-Ablauf, Platzierungsstrategie und Reisebeschränkungen."
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Windrose Systemanforderungen",
+        "description": "Minimale vs. empfohlene PC-Spezifikationen mit RAM-Hinweisen für Self-Hosting."
+      },
+      {
+        "icon": "Settings",
+        "title": "Windrose Dedicated Server Guide",
+        "description": "Installation, Start, Konfiguration von JSON-Dateien und Synchronisierung der Serverversionen."
+      },
+      {
+        "icon": "Clock",
+        "title": "Windrose Roadmap",
+        "description": "Aktuelle Prioritäten, Early-Access-Zeitfenster und Inhaltswachstum vor 1.0."
+      },
+      {
+        "icon": "Shield",
+        "title": "Windrose Update-Log",
+        "description": "Hotfixes der Launch-Woche, Wartungshinweise und Updates am Speichersystem."
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
-        },
-        {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
+    "lucidBlocksBeginnerGuide": {
+      "title": "Windrose Einsteiger-Leitfaden",
+      "displayType": "steps",
+      "intro": "Windrose wird viel reibungsloser, sobald deine Anfangsroute strukturiert ist. Sichere dir Küstenmaterialien, errichte ein echtes Starter-Camp, stabilisiere Heilung und Nahrung und treibe dann Höhlen, Quests und den Schiffsfortschritt voran.",
       "steps": [
         {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
+          "title": "Suche den Strand ab, bevor du Kämpfe suchst",
+          "description": "Beginne an der Küste für sicheres, effizientes Sammeln. Diese Route liefert dir Kernmaterialien für Werkzeuge und Unterkünfte, ohne riskante frühe Kämpfe zu erzwingen."
         },
         {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
+          "title": "Errichte ein echtes Camp am ersten Tag, nicht nur ein Lagerfeuer",
+          "description": "Baue von Anfang an ein funktionales Camp mit Respawn, Crafting, Kochen und Lagerung, damit frühe Tode und Inventardruck den Schwung nicht bremsen."
         },
         {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
+          "title": "Kämpfe wie in einem Ausdauer-Spiel, nicht wie in einem Shooter",
+          "description": "Frühe Kämpfe belohnen Blocken, Parieren, Ausweichen und Haltungsbrüche. Schusswaffen werden am besten als Finisher eingesetzt, nachdem eine sichere Lücke geschaffen wurde."
         },
         {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
+          "title": "Nutze Kartenmarkierungen und Glocken, um die Rücklaufzeit zu verkürzen",
+          "description": "Verfolge Ressourcen und Routen mit Markierungen, schalte deine erste Glocke schnell frei und platziere Reisepunkte in der Nähe von Dungeon-Eingängen, um wiederholte Ausfallzeiten zu vermeiden."
         },
         {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
+          "title": "Errichte Vorposten vor Bossen und Ruinen",
+          "description": "Ein kleiner Vorposten macht schwierige Inhalte zu effizienten Versuchen. Halte ein Zelt außerhalb harter Zonen bereit, um nach einem Wipe schnell zurückzukehren oder Beute abzuladen."
+        },
+        {
+          "title": "Stabilisiere den Landfortschritt vor dem vollen Seefortschritt",
+          "description": "Deine größten frühen Gewinne kommen durch Basisqualität, Überlebensfähigkeit und Reise-Setup an Land. Der Wert des Segelns steigt, sobald diese Systeme stabil sind."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
-          ]
-        },
-        {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
-          ]
-        },
-        {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
-          ]
-        },
-        {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
       ],
       "quickTips": [
-        {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
-        },
-        {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
-        },
-        {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
-        }
+        "Priorisiere Holz, Pflanzenfasern, Nägel, Jakobsmuscheln, lose Steine und Flussufer-Lehm auf der Anfangsroute.",
+        "Kern des Starter-Camps: Lagerfeuer, Werkbank, Kochstelle, Bett und Zelt.",
+        "Trage mindestens 10 Bandagen und zwei Arten von Nahrung bei dir, bevor du längere Kampfrouten antrittst.",
+        "Bandagen heilen über Zeit, schaffe also erst Distanz und regeneriere dann.",
+        "Platziere Glocken außerhalb von Dungeons, damit Rückwege kurz und wiederholbar bleiben.",
+        "Bereite vor Thomas Richards eine Waffe, eine Schusswaffe, Nahrung, Tränke, Bandagen und ein komplettes Rüstungsset vor."
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Windrose Veröffentlichungsdatum",
+      "displayType": "cards",
+      "intro": "Windrose ist bereits im Early Access live. Die nützliche Release-Ansicht zeigt den Zeitplan für den Launch, den aktuellen Build-Status und wie sich der Weg zu Version 1.0 entwickelt.",
+      "cards": [
         {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
+          "name": "23.03.2026 - Pre-Launch-Update",
+          "description": "Der Demo-Zeitraum blieb bis zum Early Access aktiv, während das Team Verbesserungen der Launch-Qualität basierend auf umfangreichem Spieler-Feedback ausarbeitete."
         },
         {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
+          "name": "09.04.2026 - Veröffentlichungsdatum bestätigt",
+          "description": "Das Studio bestätigte den 14. April 2026 für den Early Access Launch mit einem Basispreis von 29,99 $ und einem angekündigten Supporter-Bundle."
         },
         {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
+          "name": "14.04.2026 - Early Access live",
+          "description": "Windrose wurde auf Steam und im Epic Games Store veröffentlicht, mit optionalem Koop, einer umfangreichen Hauptstory, mehreren Biomen und spielbarem Schiffsfortschritt."
         },
         {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
+          "name": "17.04.2026 - Hotfix der Launch-Woche",
+          "description": "Hotfix 0.10.0.2.54 verbesserte die Online-Stabilität, die Prüfung veralteter Server, die Unterstützung von Einladungscodes und das Boss-Skalierungsverhalten für größere Koop-Gruppen."
         },
         {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
+          "name": "Ende 2027 bis Ende 2028 - Geschätztes Zeitfenster für 1.0",
+          "description": "Die aktuelle Early Access-Planung deutet auf ein Entwicklungsfenster von 1,5 bis 2,5 Jahren ab Launch hin, wobei ein erhebliches Inhaltswachstum für den vollständigen Release angestrebt wird."
         }
       ],
-      "priority": [
+      "milestones": [
+        "Windrose Early Access Launch: 14. April 2026",
+        "Aktueller Plattform-Status: Steam + Epic Games Store",
+        "Neuestes Live-Update: Hotfix 0.10.0.2.54",
+        "Aktuelles Ziel-Zeitfenster für 1.0: Ende 2027 bis Ende 2028"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Windrose Multiplayer-Guide",
+      "displayType": "itemCards",
+      "intro": "Der Windrose-Koop ist unkompliziert, sobald Hosting, Einladungsablauf, Welteinstellungen und dedizierte Serveroptionen klar strukturiert sind.",
+      "items": [
         {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
+          "name": "Nur Online-Koop",
+          "type": "Modus",
+          "description": "Windrose nutzt keinen lokalen Split-Screen. Freunde treten online von separaten PCs bei, und Solo-Offline-Spiel ist weiterhin verfügbar."
         },
         {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
+          "name": "Eine Solo-Welt in eine Koop-Welt umwandeln",
+          "type": "Host-Setup",
+          "description": "Über Spielen -> Spiel hosten kannst du einen bestehenden Spielstand öffnen, einen Einladungscode generieren und den Fortschritt mit Freunden in derselben Welt fortsetzen."
         },
         {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
+          "name": "Beitrittsablauf per Einladungscode",
+          "type": "Beitrittsablauf",
+          "description": "Spieler treten über 'Mit Server verbinden' mit einem Einladungscode bei. Nach dem Beitritt kann der Server für einen schnelleren Wiedereinstieg gespeichert werden."
+        },
+        {
+          "name": "Konfigurierbare Weltregeln für gemeinsame Durchläufe",
+          "type": "Weltregeln",
+          "description": "Hosts können den gemeinsamen Quest-Fortschritt, das Skalierungsverhalten der Gegner und den passwortgeschützten Zugriff an das Gruppen-Setup anpassen."
+        },
+        {
+          "name": "Spielerobergrenze bis zu 8, Komfortbereich bei etwa 4",
+          "type": "Spielerobergrenze",
+          "description": "Dedizierte Server-Konfigurationen können bis zu 8 Spieler unterstützen, während kleinere Crews für Konsistenz und Leistung meist reibungsloser funktionieren."
+        },
+        {
+          "name": "Dedizierte Server für Always-On-Welten",
+          "type": "Dedizierter Server",
+          "description": "Die offizielle dedizierte Server-App hält Welten online, wenn die Hosts abwesend sind, wobei die Ausgabe von Einladungscodes und der Versionsabgleich Kernfunktionen sind."
         }
       ]
     },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
+    "lucidBlocksStorageAndInventory": {
+      "title": "Windrose: Beste Stats und Talente",
+      "displayType": "solutionCards",
+      "intro": "Der frühe Fortschritt in Windrose ist am stärksten, wenn man sich auf einen Schadenspfad festlegt, zuerst Ausdauer und Gesundheit sichert und Talente wählt, die Boss-Versuche stabil halten.",
+      "solutions": [
         {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "name": "Teile deine Schadenswerte nicht auf",
+          "role": "Schritt 1",
+          "description": "Wähle einen Schadenspfad und bleibe dabei. Frühe Investitionen in mehrere Werte reduzieren die Kampfeffizienz stärker als ein fokussierter Build mit bescheidener Ausrüstung."
         },
         {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
+          "name": "Baue Ausdauer und Gesundheit vor dem maximalen Schaden auf",
+          "role": "Schritt 2",
+          "description": "Der sicherste Einstieg investiert zuerst in Ausdauer und Vitalität und skaliert dann den Schadenswert, der zu deiner primären Waffenfamilie passt."
         },
         {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
+          "name": "Verstehe die Support-Werte vor dem Ausgeben",
+          "role": "Schritt 3",
+          "description": "Meisterschaft, Vitalität und Ausdauer lösen jeweils unterschiedlichen Kampfdruck. Die Kenntnis ihres genauen Wertes verhindert eine schwache frühe Zuweisung."
         },
         {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "name": "Priorisiere früh Überlebens-Talente",
+          "role": "Schritt 4",
+          "description": "Talente für Ausdauer, Gesundheit und Schadensresistenz reduzieren Wipe-Ketten und machen frühe Höhlen und die ersten Bosse deutlich handhabbarer."
+        },
+        {
+          "name": "Passe deinen Talentbaum deinem Spielstil an",
+          "role": "Schritt 5",
+          "description": "Wähle einen Baum basierend auf deinem Kampfstil und bleibe lange genug dabei, um die Machtkurve zu spüren, anstatt Punkte über nicht zusammenhängende Knoten zu verteilen."
+        }
+      ],
+      "managementTips": [
+        "Stärke skaliert Keulen und Hellebarden; Beweglichkeit skaliert Säbel, Großschwerter und Donnerbüchsen; Präzision skaliert Rapiere, Pistolen und Musketen.",
+        "Meisterschaft gewährt +0,5 % kritische Trefferchance pro Punkt.",
+        "Vitalität gewährt +13 Gesundheit pro Punkt.",
+        "Ausdauer gewährt +5 Ausdauer pro Punkt.",
+        "Marathonläufer erhöht die Ausdauer um +20 / +35 / +50.",
+        "Nur eine Fleischwunde bietet 6 % / 9 % / 12 % Nahkampfschadensresistenz.",
+        "Zu wütend zum Sterben belebt dich nach einem tödlichen Schlag mit 30 % Gesundheit wieder.",
+        "Stämmiger Körper gewährt +120 / +180 / +240 Gesundheit.",
+        "Fechter konzentriert sich auf schnellen Nahkampf-DPS, Brecher auf Bruiser-Druck, Scharfschütze auf Fernkampf-Output und Verteidiger fügt universelle Überlebensfähigkeit hinzu."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Windrose Builds und Klassen",
+      "displayType": "buildCards",
+      "intro": "Windrose legt dich nicht auf eine Klasse fest, aber Talentbäume belohnen dennoch klare Identitäten: schneller Nahkampf, Bruiser-Druck, Fernkampf-Output oder ein Überlebens-fokussierter Pfad.",
+      "paths": [
+        {
+          "path": "Fechter",
+          "role": "Schneller Nahkampf-DPS",
+          "coreStats": [
+            "Beweglichkeit für Säbel",
+            "Präzision für Rapiere",
+            "Ausdauer als Komfort-Wert"
+          ],
+          "weaponDirection": [
+            "Entermesser oder Razor für eine Beweglichkeits-Route",
+            "Stabiler Rapier bis hin zum Rapier der tausend Schnitte für eine Präzisions-Route"
+          ],
+          "armorDirection": [
+            "Flibustier-Kleidung für ein einhändiges Nahkampf-Setup",
+            "2 Teile Freibeuter plus 2 Teile Scharfschützen-Ausrüstung für ein Hybrid-Ausweich-Setup mit wenig Ausdauer"
+          ],
+          "keyTalents": [
+            "Agil",
+            "Gnade des Henkers",
+            "Marathonläufer"
+          ],
+          "playPattern": "Spiele um kurze Bestrafungsfenster herum, weiche durch Angriffe hindurch statt von ihnen weg aus und behalte Ausdauer für ein weiteres Ausweichmanöver.",
+          "bestFor": [
+            "Bosskämpfe, sobald die Muster gelernt sind",
+            "Spieler, die ein hohes Nahkampf-Schadens-Tempo wollen"
+          ]
+        },
+        {
+          "path": "Brecher",
+          "role": "Bruiser und Frontlinien-Tank",
+          "coreStats": [
+            "Stärke",
+            "Vitality",
+            "Ausdauer"
+          ],
+          "weaponDirection": [
+            "Stabile Hellebarde für den Anfang",
+            "Pesthallebarde oder Henker als schwerer Folgepfad"
+          ],
+          "armorDirection": [
+            "Pikenier-Rüstung für eine reine Zweihand-Identität",
+            "2 Teile Pikenier plus 2 Teile Konquistador für einen sicheren Frontlinien-Mix im frühen bis mittleren Spiel"
+          ],
+          "keyTalents": [
+            "Berserker",
+            "Zu wütend zum Sterben",
+            "Nur eine Fleischwunde"
+          ],
+          "playPattern": "Nutze Reichweite, Taumeln und Haltungsdruck, um Gruppen zu kontrollieren, und nutze dann größere Bestrafungsfenster mit Hellebardenschwüngen.",
+          "bestFor": [
+            "Koop-Frontlinienspiel",
+            "Spieler, die eine sicherere Crowd-Control als der Fechter wollen"
+          ]
+        },
+        {
+          "path": "Scharfschütze",
+          "role": "Fernkampf-DPS",
+          "coreStats": [
+            "Präzision",
+            "Ausdauer",
+            "Vitalität"
+          ],
+          "weaponDirection": [
+            "Pistole bis hin zur Zuverlässigen Muskete für einen stabilen Start",
+            "Zuverlässige Pistole oder Drakes doppelläufige Pistole als starke Zweitwaffen",
+            "Donnerbüchse, wenn du den Munitionsverbrauch unterstützen kannst"
+          ],
+          "armorDirection": [
+            "4 Teile Scharfschützen-Ausrüstung für direkten Fernkampfschaden",
+            "Mische Überlebens-Talente bei, wenn du eine sicherere Solo-Version möchtest"
+          ],
+          "keyTalents": [
+            "Kugeln",
+            "Marathonläufer",
+            "Zu wütend zum Sterben"
+          ],
+          "playPattern": "Kite, schieße, positioniere dich neu und verbrauche Munition in garantierten Fenstern, anstatt in Panik zu feuern.",
+          "bestFor": [
+            "Erster zuverlässiger Solo-Clear-Pfad",
+            "Spieler, die einen einfachen Stat-Plan wollen"
+          ]
+        },
+        {
+          "path": "Überlebens-Baum",
+          "role": "Universeller defensiver Support",
+          "coreStats": [
+            "Vitalität",
+            "Ausdauer",
+            "Dann dein Hauptwaffen-Wert"
+          ],
+          "weaponDirection": [
+            "Funktioniert mit jeder Hauptwaffe",
+            "Wird meistens mit Scharfschütze oder Brecher kombiniert, anstatt alleine gespielt zu werden"
+          ],
+          "armorDirection": [
+            "2 Teile Konquistador als Überlebens-Standard",
+            "2 Teile Konquistador plus 2 Teile Spurer-Leder für heilungsintensives Tanken",
+            "2 Teile Konquistador plus 2 Teile Pikenier für Haltbarkeit im frühen bis mittleren Spiel"
+          ],
+          "keyTalents": [
+            "Zu wütend zum Sterben",
+            "Stämmiger Körper",
+            "Nur eine Fleischwunde"
+          ],
+          "playPattern": "Tausche Geschwindigkeit gegen Fehlerverzeihung, überlebe Fehler, die andere Builds beenden, und behalte die Uptime durch Haltbarkeit bei.",
+          "bestFor": [
+            "Erste Versuche bei neuen Bossen",
+            "Spieler, die Routen oder höhere Schwierigkeitsgrade lernen"
+          ]
         }
       ]
     },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
+    "lucidBlocksWorldRegions": {
+      "title": "Windrose: Die besten Waffen",
+      "displayType": "tierCards",
+      "intro": "Die Windrose-Launch-Meta bevorzugt schnelle Beweglichkeits- und Präzisionsoptionen. Stärke-Linien schlagen immer noch hart zu, erfordern aber besseres Spacing und Ausdauerdisziplin.",
+      "weaponTiers": [
+        {
+          "tier": "S",
+          "weaponType": "Rapier",
+          "scaling": "Präzision",
+          "standoutWeapons": [
+            "Rapier der tausend Schnitte",
+            "Robustes Rapier"
+          ],
+          "progressionExamples": [
+            "Frühes Spiel: Robustes Rapier",
+            "Mittleres Spiel: Rapier der tausend Schnitte",
+            "Endspiel: Das Rapier der tausend Schnitte bleibt eine erstklassige Boss-Waffe"
+          ],
+          "staminaProfile": "Geringer Aufwand und leicht aktiv zu halten",
+          "bossValue": "Hervorragender Einzelschaden mit sicheren Zeitfenstern für Gegenangriffe",
+          "quickTake": "Das Rapier ist eine der saubersten Antworten zum Launch gegen Bosse, da es schnell Blutung stapelt und den Druck während der Bewegung hochhält."
+        },
+        {
+          "tier": "S",
+          "weaponType": "Säbel",
+          "scaling": "Beweglichkeit",
+          "standoutWeapons": [
+            "Rasiermesser",
+            "Entermesser"
+          ],
+          "progressionExamples": [
+            "Frühes Spiel: Entermesser",
+            "Mittleres Spiel: Rasiermesser",
+            "Endspiel: Das Rasiermesser bleibt eine der sichersten Allround-Optionen"
+          ],
+          "staminaProfile": "Geringe Belastung und fehlerverzeihend bei kontinuierlichem Druck",
+          "bossValue": "Stark für wiederholte sichere Treffer und Crowd Control zwischen Kämpfen",
+          "quickTake": "Der Säbel ist die stabilste Allround-Nahkampffamilie zum Launch, wobei das Rasiermesser Krit-Wert und bessere Zeitfenster für perfekte Blöcke bietet."
+        },
+        {
+          "tier": "S",
+          "weaponType": "Donnerbüchse",
+          "scaling": "Beweglichkeit",
+          "standoutWeapons": [
+            "Drachenodem",
+            "Zuverlässige Donnerbüchse"
+          ],
+          "progressionExamples": [
+            "Frühes Spiel: Zuverlässige Donnerbüchse",
+            "Mittleres Spiel: Drachenodem",
+            "Endspiel: Der Drachenodem bleibt auf kurze Distanz tödlich"
+          ],
+          "staminaProfile": "Handhabung ist machbar, aber Munition und Positionierung sind die eigentlichen Kosten",
+          "bossValue": "Sehr hoher Burst-Schaden, wenn man sicher auf kurzer Distanz bleibt",
+          "quickTake": "Die Donnerbüchse bleibt ein Boss-Killer, wenn die Munitionswirtschaft stabil ist."
+        },
+        {
+          "tier": "A",
+          "weaponType": "Pistole",
+          "scaling": "Präzision",
+          "standoutWeapons": [
+            "Zuverlässige Pistole",
+            "Drakes doppelläufige Pistole"
+          ],
+          "progressionExamples": [
+            "Frühes Spiel: Zuverlässige Pistole",
+            "Mittleres Spiel: Drakes doppelläufige Pistole",
+            "Endspiel: Drakes Pistole bleibt wertvoll für Verwundbarkeits-Unterstützung"
+          ],
+          "staminaProfile": "Leicht in ein mobiles Spielprinzip einzubauen",
+          "bossValue": "Großartige Fernkampf-Unterstützung für Präzisions-Builds",
+          "quickTake": "Die Pistole ist die am einfachsten einzusetzende Sekundärwaffenfamilie in echten Kämpfen und hält den Fernkampfdruck flexibel."
+        },
+        {
+          "tier": "A",
+          "weaponType": "Hellebarde",
+          "scaling": "Stärke",
+          "standoutWeapons": [
+            "Pesthallebarde",
+            "Robuste Hellebarde"
+          ],
+          "progressionExamples": [
+            "Frühes Spiel: Robuste Hellebarde",
+            "Mittleres Spiel: Pesthallebarde",
+            "Endspiel: Die Pesthallebarde bleibt die herausragende Speerspitze für Stärke-Builds"
+          ],
+          "staminaProfile": "Höherer Aufwand als bei schnellen Einhand-Optionen",
+          "bossValue": "Sehr stark, wenn die Zeitfenster für Gegenangriffe bekannt sind",
+          "quickTake": "Die Hellebarde ist die praktische Stärke-Route und skaliert gut, sobald man ihre speziellen Zeitfenster konsistent nutzen kann."
+        },
+        {
+          "tier": "A",
+          "weaponType": "Zweihänder",
+          "scaling": "Beweglichkeit",
+          "standoutWeapons": [
+            "Standhafter Zweihänder",
+            "Duell-Zweihänder"
+          ],
+          "progressionExamples": [
+            "Frühes Spiel: Duell-Zweihänder",
+            "Mittleres Spiel: Standhafter Zweihänder",
+            "Endspiel: Der standhafte Zweihänder ist die stabilere Wahl"
+          ],
+          "staminaProfile": "Mittlerer bis hoher Aufwand",
+          "bossValue": "Guter Schaden, wenn man die Erholungsphasen des Gegners lesen kann",
+          "quickTake": "Der Zweihänder ist die schwerere Beweglichkeits-Option und belohnt diszipliniertes Timing."
+        },
+        {
+          "tier": "B",
+          "weaponType": "Keule",
+          "scaling": "Stärke",
+          "standoutWeapons": [
+            "Knochenbrecher",
+            "Zahn der Sumpfkreatur"
+          ],
+          "progressionExamples": [
+            "Frühes Spiel: Keule",
+            "Mittleres Spiel: Knochenbrecher",
+            "Endspiel: Zahn der Sumpfkreatur für AoE-Verzerrungsausbrüche"
+          ],
+          "staminaProfile": "Langsam und kostspielig bei ungenauer Positionierung",
+          "bossValue": "Hoher Ertrag pro Treffer, aber weniger verzeihend als die Hellebarde",
+          "quickTake": "Die Keule kann immer noch hart treffen, aber die aktuelle Launch-Balance macht sie weniger konsistent als schnellere Waffenfamilien."
+        },
+        {
+          "tier": "C",
+          "weaponType": "Muskete",
+          "scaling": "Präzision",
+          "standoutWeapons": [
+            "Zuverlässige Muskete",
+            "Infanterie-Muskete"
+          ],
+          "progressionExamples": [
+            "Frühes Spiel: Zuverlässige Muskete",
+            "Mittleres Spiel: Zuverlässige Muskete",
+            "Endspiel: Die zuverlässige Muskete übertrifft immer noch Standard-Musketen"
+          ],
+          "staminaProfile": "Das Problem ist das Nachladetempo und der Erholungsrhythmus, nicht die Ausdauer",
+          "bossValue": "Nutzbar, aber normalerweise schwächer als Pistole oder Donnerbüchse, außer man baut den Charakter speziell darauf auf",
+          "quickTake": "Die meisten Musketen sind in der aktuellen Meta langsam, wobei die Zuverlässige Muskete die klare Ausnahme darstellt."
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Windrose Schiffs-Guide",
+      "displayType": "shipTable",
+      "intro": "Die Schiffsprogression ist der Kern des Gameplays, sobald man die Tutorial-Inseln verlässt. Die praktische Route führt vom Boot über die Ketsch und Brigg bis zur Fregatte, wobei die Werft jeden Upgrade-Schritt ermöglicht.",
+      "shipStages": [
+        {
+          "stage": "Starter",
+          "ship": "Boot",
+          "howToUnlock": "Automatisch nach der ersten Hauptquest; mit K an Küstenlinien beschwörbar",
+          "role": "Einsteiger-Beiboot für kurze Strecken, nur zur Fortbewegung",
+          "keyStats": "Etwa 10 Knoten ohne nennenswerten Kampfwert",
+          "bestPick": "Nur für die ersten Story-Schritte verwenden",
+          "whenToUpgrade": "Ersetzen, sobald 'Ein größeres Boot' verfügbar wird"
+        },
+        {
+          "stage": "Frühes Spiel",
+          "ship": "Ketsch",
+          "howToUnlock": "Schließe 'Ein größeres Boot' und 'Rettung der Crew' ab, repariere das gestrandete Schiff und schleppe es mit der geretteten Crew ab",
+          "role": "Erstes echtes Schiff für Erkundungen im Küstendschungel, risikoarme Handelsfahrten und erste Seekämpfe",
+          "keyStats": "Standard-Ketsch: 50.000 HP, 19 kn, 3 x 12-Pfünder",
+          "bestPick": "Die Standard-Ketsch ist die sauberste Wahl für die frühe Balance",
+          "whenToUpgrade": "In der Werft durch den Küstendschungel aufwerten, dann wechseln, sobald Brigg-Pläne verfügbar sind"
+        },
+        {
+          "stage": "Mittleres Spiel",
+          "ship": "Brigg",
+          "howToUnlock": "Kaufe den Entwurf beim Proviantmeister der Brüderschaft auf Rufstufe 2 und baue sie in der Werft",
+          "role": "Kriegsschiff für das mittlere Spiel für härtere Seekämpfe und längere Begegnungen",
+          "keyStats": "Standard-Brigg: 70.000 HP, 20 kn, 6 x 12-Pfünder; Blackbeard-Brigg: 50.000 HP, 22 kn, 6 x 12-Pfünder oder 24-Pfünder",
+          "bestPick": "Blackbeard-Brigg für Geschwindigkeit und 24-Pfünder; Standard-Brigg für einen stabileren Rumpf",
+          "whenToUpgrade": "In dieser Stufe entscheiden Kanonenwahl, Rumpfmodifikationen und das Timing der Reparatursets über die meisten Kämpfe"
+        },
+        {
+          "stage": "Spätes Spiel",
+          "ship": "Fregatte",
+          "howToUnlock": "Kaufe den Entwurf beim Proviantmeister der Brüderschaft auf Rufstufe 4 und baue sie in der Werft",
+          "role": "Flaggschiff für das Endspiel für Boss-Patrouillen, Flottenkämpfe und Fraktionsdruck",
+          "keyStats": "Standard-Fregatte: 160.000 HP, 18 kn, 12 x 24-Pfünder; Blackbeard-Fregatte: 110.000 HP, 20 kn, 12 x 24-Pfünder oder 36-Pfünder",
+          "bestPick": "Blackbeard-Fregatte ist die aggressive Wahl für das Endspiel; Brüderschafts-Fregatte ist der stabilste Rumpf",
+          "whenToUpgrade": "Den Material-Grind wert, sobald man bereit für vollständige Marine-Ausrüstungen und härtere Begegnungen ist"
+        },
+        {
+          "stage": "Systeme",
+          "ship": "Werft und Schiffsausrüstung",
+          "howToUnlock": "Platziere nach deinem ersten echten Schiff eine Werft in Wassernähe und fertige Schiffsausrüstung in der Schiffsbauer-Werkstatt",
+          "role": "Schiffsmanagement und Skalierung der Stärke",
+          "keyStats": "Jedes echte Schiff hat vier Ausrüstungsplätze: Kanonen, Rumpfmodifikation, Entertrupp-Ausrüstung und Seetaktik",
+          "bestPick": "Perfekt geordnete Kanonen, Rumpfverstärkung: Kielhalt und Seetaktik III: Vorräte strecken sind aktuell die Top-Prioritäten",
+          "whenToUpgrade": "Beginne ab der Ketsch-Stufe; ab der Brigg- und Fregatten-Stufe prägen diese Upgrades jede Seeschlacht"
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Windrose Boss-Guide",
+      "displayType": "bossAccordion",
+      "intro": "Diese vier Begegnungen definieren den Fortschritt vom Küstendschungel bis in die späten Verfluchten Sümpfe. Zuerst vorbereiten, dann Muster lernen und zuletzt den Schaden maximieren.",
+      "bosses": [
+        {
+          "boss": "Thomas Richards",
+          "recommendedLevel": "5-6",
+          "where": "Küstendschungel während 'Rache wird am besten kalt serviert'",
+          "prep": [
+            "Waffe, Fernkampfwaffe und alle Rüstungsteile auf Stufe 5 verbessern",
+            "Zwei Essens-Buffs plus den Ausgeruht-Buff nutzen",
+            "Heiltränke, Kugeln und Schießpulver mitbringen",
+            "Nutze eine Donnerbüchse, wenn deine Munitionswirtschaft es zulässt",
+            "Ein solider Mix aus zwei Rüstungsteilen macht den Kampf stabiler"
+          ],
+          "attackPatterns": [
+            "Doppelschwung",
+            "Dreifachschwung",
+            "Frontaler Schlag mit rotem Schimmer",
+            "Ansturm- und Greifattacke mit rotem Schimmer",
+            "Bombenwurf"
+          ],
+          "winningPlan": "Weiche den Angriffen mit rotem Schimmer aus, brich Schilde, nutze Taumel-Phasen und zermürbe ihn, anstatt zusätzliche Treffer zu erzwingen.",
+          "rewards": [
+            "Schaltet das Vorgebirge frei",
+            "Öffnet die nächste Stufe des Gebietsfortschritts"
+          ]
+        },
+        {
+          "boss": "Israel Hands",
+          "recommendedLevel": "9-10",
+          "where": "Vorgebirge während 'Die Nadel im Heuhaufen'",
+          "prep": [
+            "Ausrüstung auf Stufe 10 maximieren",
+            "Waffen auf Episch aufwerten, wenn die Schadensfenster noch zu kurz erscheinen",
+            "Einen vollen Stapel Heiltränke und starke Essens-Buffs mitbringen",
+            "Rapier der tausend Schnitte plus eine Pistole ist das sauberste Loadout",
+            "Eberpfeifen-Unterstützung von Trüffel hilft, die Begegnung zu stabilisieren"
+          ],
+          "attackPatterns": [
+            "Dreifachhieb",
+            "Doppelhieb, Pause, Einzelhieb",
+            "Ansturm-Angriff mit rotem Schimmer",
+            "Wirbelwind-Flächenangriff mit rotem Schimmer",
+            "Seelen beschwören",
+            "Pistolenschuss"
+          ],
+          "winningPlan": "Blutungsstapel aufrechterhalten, nach Nahkampf-Kombos kontern, Fernschüsse während der Beschwörungsphasen nutzen und gierige zusätzliche Schläge vermeiden.",
+          "rewards": [
+            "20 Untoten-Essenz",
+            "Questgegenstand",
+            "Belohnung aus der antiken Truhe: Seelenfresser"
+          ]
+        },
+        {
+          "boss": "Ghost Captain",
+          "recommendedLevel": "10-12",
+          "where": "Tempel-Dungeon",
+          "prep": [
+            "15-20 heilende Essensportionen mitbringen",
+            "Ein Zelt am Dungeon-Eingang aufstellen",
+            "Kaffee oder ein anderes Ausdauer-Gericht mitbringen",
+            "Schnelle Waffen wie Säbel oder Rapier sind besser als langsame schwere Waffen",
+            "Rapier der tausend Schnitte ist eine exzellente Wahl für Einzelziele",
+            "'Zu wütend zum Sterben' ist eine erstklassige Versicherung für Fehler in der Endphase"
+          ],
+          "attackPatterns": [
+            "Phase 1: Weit schwingende spektrale Entermesser-Kombos",
+            "Phase 2: Zielsuchende Projektile und Druck durch Diener",
+            "Phase 3: Schnellere Kombos plus ein enger Flächenschlag",
+            "Phasenübergänge greifen sofort ohne Pause an"
+          ],
+          "winningPlan": "Weiche durch die Entermesser-Schwünge aus, umkreise Projektile, besiege Diener, bevor sie sich ansammeln, und triff die sichersten Entscheidungen für die letzten 30 Prozent.",
+          "rewards": [
+            "Seelenfresser",
+            "Bedeutende optionale Dungeon-Beute"
+          ]
+        },
+        {
+          "boss": "High Priestess",
+          "recommendedLevel": "12-15",
+          "where": "Verfluchte Sümpfe",
+          "prep": [
+            "Ausrüstung der Stufe 11-15 mit einem voll verbesserten seltenen oder epischen Loadout mitbringen",
+            "Waffen mit Rohschaden wie Hellebarden, Keulen oder Streitkolben verwenden und eine Stichwaffe als Reserve bereithalten",
+            "Elixier der Schmerzlinderung mitbringen",
+            "Große Heiltränke mitbringen",
+            "Schadens-Essen sowie Rezepte für langanhaltende LP und Ausdauer stapeln",
+            "Koop hilft, da ein Spieler die Aggression auf sich ziehen kann, während andere Schaden verursachen"
+          ],
+          "attackPatterns": [
+            "Ortsgebundene Arenakontrolle statt ständiger Bossbewegung",
+            "Beschwörung von Pest-Sklaven",
+            "Pestwolken im Bereich, die Schaden über Zeit verursachen",
+            "Lange, ausdauerzehrende Zermürbungsphasen"
+          ],
+          "winningPlan": "Verwalte den Platz um ihre feste Position, besiege Sklaven, bevor sie sich ansammeln, vermeide den Aufenthalt in Pestwolken und setze während des langen Kampfes auf Druck durch Rohschaden.",
+          "rewards": [
+            "Endgame-Beute",
+            "Fortschrittsbelohnungen für die späten Verfluchten Sümpfe"
+          ]
+        }
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Windrose Handwerksstationen",
+      "displayType": "stationAccordion",
+      "eyebrow": "Windrose Basisbau",
+      "subtitle": "Baue die Stationen, die tatsächlich deine nächste Stufe freischalten.",
+      "intro": "In Windrose ergibt sich der Stationsfortschritt eher aus Erweiterungen als aus einer einfachen Rezeptliste. Wenn eine Herstellung blockiert scheint, liegt die Antwort meist an einem fehlenden Anbau, nicht nur an fehlenden Rohstoffen.",
+      "stations": [
+        {
+          "id": "workbench",
+          "label": "Werkbank",
+          "buildCost": [
+            "5 Holz"
+          ],
+          "unlockFocus": [
+            "Steinwerkzeuge, Seile, Nägel, Reparatursets und Lampenherstellung",
+            "Schnellreise-Glocke, sobald der Kupferfortschritt aktiv ist",
+            "Taschenfortschritt durch höhere Werkbank-Stufen"
+          ],
+          "upgrades": [
+            {
+              "name": "Sägebock",
+              "cost": [
+                "20 Holz",
+                "10 Kupferbarren"
+              ],
+              "whatItAdds": [
+                "Werkbank Stufe 2",
+                "Seemannsrucksack und andere Rezepte der Werkbank Stufe 2"
+              ]
+            },
+            {
+              "name": "Werkzeugkasten",
+              "cost": [
+                "10 Holz",
+                "20 Nägel",
+                "5 Vorgebirgs-Eisenbarren"
+              ],
+              "whatItAdds": [
+                "Werkbank Stufe 3",
+                "Bootsmann-Rucksack, Mühlsteinteile, Bauholz, Teerplanken und andere Hilfsmittel für das Midgame"
+              ]
+            }
+          ],
+          "bestUse": "Baue den Sägebock vor deiner ersten ernsthaften Segeltour, damit Inventar- und Hilfsmittelrezepte dich nicht mehr einschränken."
+        },
+        {
+          "id": "cooking-fire",
+          "label": "Kochstelle",
+          "buildCost": [
+            "3 Holz",
+            "3 Stein"
+          ],
+          "unlockFocus": [
+            "Frühes Regenerationsessen und deine erste zuverlässige Mahlzeitenkette",
+            "Rezepte der Upgrade-Linie umfassen Fleischspieße, Speck mit Eiern, Chowder und Meeresfrüchteplatte",
+            "Lange Höhlenerkundungen und Seereisen fühlen sich viel sicherer an, sobald diese Linie verbessert ist"
+          ],
+          "upgrades": [
+            {
+              "name": "Schneidetisch",
+              "cost": [
+                "10 Holz",
+                "2 Kupferbarren"
+              ],
+              "whatItAdds": [
+                "Erweiterte Mahlzeitenvorbereitung",
+                "Dein erster echter Sprung in der Kochtiefe"
+              ]
+            },
+            {
+              "name": "Kochgeschirr-Regal",
+              "cost": [
+                "10 Hartholz",
+                "2 Eisenwaren"
+              ],
+              "whatItAdds": [
+                "Höherstufige Kochrezepte",
+                "Eine viel bessere Essenswirtschaft für Reisen im Midgame"
+              ]
+            }
+          ],
+          "bestUse": "Verbessere dies direkt nach deiner Werkbank, wenn das Essen dich zwingt, Reisen vorzeitig abzubrechen."
+        },
+        {
+          "id": "weaponsmith-workshop",
+          "label": "Waffenschmied-Werkstatt",
+          "buildCost": [
+            "10 Holz",
+            "5 Kupferbarren"
+          ],
+          "unlockFocus": [
+            "Keule, Entermesser, Zertrümmerer, Pistolen, Musketen und andere frühe Waffen",
+            "Die Haupt-Upgrade-Linie für persönliche Waffen",
+            "Schiffsausrüstungszweig über den Pfad der Schiffsbauer-Werkstatt"
+          ],
+          "upgrades": [
+            {
+              "name": "Schiffsbauer-Werkstatt",
+              "cost": [
+                "15 Holz",
+                "10 Grober Stoff",
+                "5 Kupferbarren"
+              ],
+              "whatItAdds": [
+                "Schiffsausrüstung und Upgrades",
+                "Kanonen, Rumpf-Pfade und Fortschritt bei der maritimen Unterstützung"
+              ]
+            },
+            {
+              "name": "Amboss",
+              "cost": [
+                "10 Holz",
+                "1 Amboss"
+              ],
+              "whatItAdds": [
+                "Erweiterte Waffen- und Schiffsbeschläge-Linie",
+                "Ein wichtiger zweiter Schritt für ernsthafte Kampfskalierung"
+              ]
+            },
+            {
+              "name": "Blasebalg",
+              "cost": [
+                "20 Sumpfmetallbarren",
+                "15 Krokodilhautstücke",
+                "5 Behauener Stein"
+              ],
+              "whatItAdds": [
+                "Schmiede-Erweiterung für die späte Sumpf-Stufe",
+                "Ein breiterer Pool an Rezepten für Endgame-Waffen und Schiffe"
+              ]
+            }
+          ],
+          "bestUse": "Baue dies, sobald die Kupferverhüttung stabil ist, und füge die Schiffsbauer-Werkstatt vor kanonenlastigen Seeschlachten hinzu."
+        },
+        {
+          "id": "alchemy-table",
+          "label": "Alchemietisch",
+          "buildCost": [
+            "5 Holz",
+            "2 Tontöpfe"
+          ],
+          "unlockFocus": [
+            "Kleiner Heiltrank, Heimreise, alchemistische Basis und frühe Elixiere",
+            "Trank-Unterstützung für schwere Kämpfe und lange Expeditionen",
+            "Startet die vollständige Heilungs- und Buff-Wirtschaft"
+          ],
+          "upgrades": [
+            {
+              "name": "Ofen und Topf",
+              "cost": [
+                "5 Stein",
+                "5 Ton",
+                "1 Kupfertopf"
+              ],
+              "whatItAdds": [
+                "Der erste echte Trank-Zweig",
+                "Heil- und Hilfsbraue nach der Entdeckung der Nebelorchidee"
+              ]
+            },
+            {
+              "name": "Reagenztisch",
+              "cost": [
+                "5 Hartholz",
+                "2 Rumflaschen",
+                "2 Silberbarren",
+                "2 Schwefel",
+                "1 Eisenwaren"
+              ],
+              "whatItAdds": [
+                "Erweiterte Elixier-Linie",
+                "Bessere Kampf-Verbrauchsgüter und tieferer Alchemie-Fortschritt"
+              ]
+            }
+          ],
+          "bestUse": "Richte dies ein, sobald Kampfschaden und Höhlenerkundungen deinen Basis-Heilvorrat aufbrauchen."
+        },
+        {
+          "id": "armor-and-clothing-workshop",
+          "label": "Rüstungs- und Kleidungswerkstatt",
+          "buildCost": [
+            "5 Holz",
+            "10 Grober Stoff"
+          ],
+          "unlockFocus": [
+            "Frühe Rüstungssets und Ausrüstung aus Stoff oder Leder",
+            "Fortschritt für Stiefel, Handschuhe, Jacken und andere getragene Ausrüstung",
+            "Ein großer defensiver Sprung, sobald die Erweiterungen aktiv sind"
+          ],
+          "upgrades": [
+            {
+              "name": "Materialgestell",
+              "cost": [
+                "20 Holz",
+                "15 Krokodilhautstücke",
+                "10 Leinenstoff",
+                "10 Rohleder"
+              ],
+              "whatItAdds": [
+                "Ein viel größerer Pool an fortgeschrittener Ausrüstung",
+                "Quartiermeister-Rucksack und sumpforientierter Rüstungsfortschritt"
+              ]
+            },
+            {
+              "name": "Schuhmacherbank",
+              "cost": [
+                "30 Hartholz",
+                "20 Gegerbtes Leder",
+                "15 Leinenstoff"
+              ],
+              "whatItAdds": [
+                "Erweiterung für Stiefel und Schuhwerk",
+                "Eine stärkere Rüstungs- und Mobilitätslinie der Vorgebirgs-Ära"
+              ]
+            }
+          ],
+          "bestUse": "Baue sie, wenn Rohleder stabil verfügbar ist, und füge die Schuhmacherbank hinzu, sobald Flachs und gegerbtes Leder nicht mehr knapp sind."
+        },
+        {
+          "id": "jewelery-table",
+          "label": "Schmucktisch",
+          "buildCost": [
+            "10 Holz",
+            "5 Vorgebirgs-Eisenbarren",
+            "3 Silberbarren"
+          ],
+          "unlockFocus": [
+            "Herstellung von Basisringen",
+            "Zubehör-Upgrades, die mit Silber beginnen und bis zu Sumpfmetallen skalieren",
+            "Eine Macht-Ebene für das späte Midgame, sobald deine Kernausrüstung stabil ist"
+          ],
+          "upgrades": [
+            {
+              "name": "Juwelierbank",
+              "cost": [
+                "10 Holz",
+                "5 Sumpfmetallbarren",
+                "3 Silberbarren",
+                "1 Goldbarren"
+              ],
+              "whatItAdds": [
+                "Bedeutende Ring-Stufen",
+                "Der wahre Lohn für zubehörfokussierte Builds"
+              ]
+            }
+          ],
+          "bestUse": "Betrachte dies als Luxusstation, bis Reisen, Waffen, Rüstung und Landwirtschaft bereits unter Kontrolle sind."
+        }
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Windrose Ressourcen-Leitfaden",
+      "displayType": "resourceTable",
+      "eyebrow": "Windrose Sammeln",
+      "subtitle": "Verfolge die Materialien, die den Zugang zu Werkzeugen, Reisen, Schiffen und besserer Ausrüstung einschränken.",
+      "intro": "Die eigentliche Ressourcenfrage in Windrose ist nicht nur, wo ein Vorkommen erscheint, sondern welche Kette es als Nächstes freischaltet. Dies sind die Materialien, nach denen Spieler ständig suchen, da eine fehlende Reihe einen kompletten Durchlauf aufhalten kann.",
+      "resources": [
+        {
+          "resource": "Holz",
+          "foundIn": "Palmen, Ficus-Bäume und loser Strandgut-Abfall im Küstendschungel.",
+          "needs": "Axt für das Fällen von Bäumen. Lose Baumstämme können ohne Werkzeug aufgehoben werden.",
+          "usedFor": "Jede frühe Stationskette, Schnellreisepunkte, Reparatursets und allgemeiner Basisbau.",
+          "routeTip": "Strandfunde lösen das Tutorial. Das Fällen von Ficus-Bäumen ist das, was dein Holzeinkommen tatsächlich skaliert."
+        },
+        {
+          "resource": "Lehm",
+          "foundIn": "Schlammige Gesteinsstellen auf offenem Gelände, meist außerhalb von Höhlen.",
+          "needs": "Beliebige Spitzhacke.",
+          "usedFor": "Tonflaschen, Holzkohlemeiler und ein großer Teil der frühen Stationen.",
+          "routeTip": "Ein einzelnes Vorkommen liefert etwa 50-60 Lehm, daher spart eine Basis in der Nähe von zwei Vorkommen viele Hin- und Rückwege."
+        },
+        {
+          "resource": "Kupfererz",
+          "foundIn": "Höhlen im Küstendschungel.",
+          "needs": "Mindestens eine Steinspitzhacke, dazu eine Lampe oder Fackeln für sicherere Höhlengänge.",
+          "usedFor": "Kupferbarren, dann Werkzeuge, Glocken, Nägel und frühe Waffen.",
+          "routeTip": "Kupfer wird am besten in großen Mengen abgebaut. Vier Erze plus Holzkohle ergeben einen Barren."
+        },
+        {
+          "resource": "Rohleder",
+          "foundIn": "Wildschweine und Bachen im Küstendschungel, dann Wölfe und Ziegen im Vorgebirge.",
+          "needs": "Kampf-Farming oder Händlerverträge, sobald du große Mengen nachbestellen möchtest.",
+          "usedFor": "Rüstung, Rucksäcke und eine lange Liste von Handwerksrezepten im Midgame.",
+          "routeTip": "Wenn sich die Jagd mühsam anfühlt, werden Händlerverträge zur sauberen Lösung für den Großeinkauf."
+        },
+        {
+          "resource": "Lampenöl",
+          "foundIn": "Wird an der Werkbank aufgefüllt, anstatt als direktes Weltvorkommen gesammelt zu werden.",
+          "needs": "3 Tierfett und eine leere Lampe.",
+          "usedFor": "Höhlengänge, Ruinenrouten und jede ernsthafte Kupfer- oder Schatzsuche.",
+          "routeTip": "Wilde oder stürmende Wildschweine können mehrere Stücke Fett fallen lassen, was das Auffüllen der Lampen deutlich weniger nervig macht."
+        },
+        {
+          "resource": "Hartholz",
+          "foundIn": "Divi-Divi-Bäume und Baumstümpfe im gesamten Vorgebirge.",
+          "needs": "Axt und Zugang zum Vorgebirge.",
+          "usedFor": "Werkzeugkasten, Bauholz, fortgeschrittene Werkzeuge und viele Schiffs- oder Stationsrezepte im Midgame.",
+          "routeTip": "Dein erster großer Hartholz-Schub im Vorgebirge sollte in Werkzeuge und Schiffsunterstützung fließen, nicht in Dekoration."
+        },
+        {
+          "resource": "Baumrinde",
+          "foundIn": "Dieselben Divi-Divi-Bäume und Baumstümpfe, die auch Hartholz im Vorgebirge liefern.",
+          "needs": "Axt und Zugang zum Vorgebirge.",
+          "usedFor": "Tannin, gegerbtes Leder und die verbesserte Lederkette.",
+          "routeTip": "Rinde ist der stille Flaschenhals hinter guten Stiefeln, Rucksäcken und Rüstungs-Upgrades."
+        },
+        {
+          "resource": "Flachsfasern",
+          "foundIn": "Kleine violette Pflanzencluster im gesamten Vorgebirge.",
+          "needs": "Kein Werkzeug zum Aufheben; ein Spinnrad, um sie in Leinenstoff zu verwandeln.",
+          "usedFor": "Leinenstoff, Schuhmacherbank und stärkere Rüstungs- oder Rucksack-Progression.",
+          "routeTip": "Dein erster Fund schaltet sowohl das Spinnrad als auch die Schuhmacherbank frei."
+        },
+        {
+          "resource": "Schwefel",
+          "foundIn": "Gelb gestreifte Felsvorsprünge im Vorgebirge, wobei gelegentlich zusätzliche Vorkommen im Küstendschungel erscheinen.",
+          "needs": "Eisenspitzhacke für die vollständige Bergbauroute.",
+          "usedFor": "Schwarzpulver.",
+          "routeTip": "Selbst wenn du Schwefel früh entdeckst, beginnt deine echte Schwefelwirtschaft erst nach dem Erhalt der Eisenspitzhacke."
+        },
+        {
+          "resource": "Mais",
+          "foundIn": "Felder um die Wahrzeichen der Uralten Dörfer im Vorgebirge.",
+          "needs": "Erkundung des Vorgebirges.",
+          "usedFor": "Mühlsteinteile, Mühlsteine, Maismehl und mehrere bessere Kochrezepte.",
+          "routeTip": "Der erste Maisfund ist der Moment, in dem selbstgemachtes Schwarzpulver zu einem realistischen Plan wird."
+        },
+        {
+          "resource": "Fruchtbare Erde",
+          "foundIn": "Wahrzeichen der Uralten Farmen im Vorgebirge und Blumenbeet-Ruinen in den Verfluchten Sümpfen.",
+          "needs": "Sammlung im Feld, dann Saatbeete in der Basis.",
+          "usedFor": "Permanente Landwirtschaft für Flachs, Nahrungspflanzen und Sumpfpflanzen.",
+          "routeTip": "Sobald du dies hast, musst du nicht mehr für jede Ernte einen eigenen Ausflug planen."
+        },
+        {
+          "resource": "Schwarzpulver",
+          "foundIn": "Beute aus Piratenlagern, Ruinen, Schiffsvorräten und später aus deinen eigenen Mühlsteinen.",
+          "needs": "Mühlsteine plus Asche und Schwefel für die Herstellung.",
+          "usedFor": "Feuerwaffen, Kanonenunterstützung und Bukonier-Lieferungen.",
+          "routeTip": "Gefundenes Pulver trägt dich durch das Early Game. Mühlsteine übernehmen, sobald Mais und Eisen verfügbar sind."
+        },
+        {
+          "resource": "Uralte Schrottteile",
+          "foundIn": "Uralte Ruinen in den Verfluchten Sümpfen.",
+          "needs": "Zugang zur späten Region und eine Route, die Pestzonen überstehen kann.",
+          "usedFor": "Juwelierbank, großer Schmelzofen und Schmiedebalg.",
+          "routeTip": "Dies ist das Sumpfmaterial, das deine späte Handwerksstufe erst richtig freischaltet."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Windrose Karte und Biome",
+      "displayType": "biomeCards",
+      "eyebrow": "Windrose Welt-Leitfaden",
+      "subtitle": "Verstehe die Welt anhand der Rollen der Regionen, nicht durch einen einzelnen festen Karten-Screenshot.",
+      "intro": "Windrose ist prozedural generiert, daher ist die nützlichste Karte eine Biome-Logikkarte. Am wichtigsten ist, was jede Region freischaltet, wie hoch der Schwierigkeitsgrad ist und wann du deine Basis oder Route verlegen solltest.",
+      "regions": [
+        {
+          "id": "world-structure",
+          "title": "Wie die Windrose-Karte tatsächlich funktioniert",
+          "difficulty": "Übersicht",
+          "summary": "Dein Spielstand folgt derselben regionalen Logik wie der aller anderen, aber das exakte Layout der Inseln und POIs ist prozedural.",
+          "keyPoints": [
+            "3 aktuelle Biome",
+            "~30 prozedurale Inseln",
+            "90+ handgefertigte Points of Interest",
+            "Keine zwei Spielstände teilen das exakt gleiche Insellayout"
+          ],
+          "nextUnlock": "Eine Welt, die Routenplanung mehr belohnt als das Auswendiglernen von Screenshots.",
+          "playerGoal": "Nutze Biome-Rollen und Service-Hubs, um dein eigenes Navigationsnetzwerk aufzubauen."
+        },
+        {
+          "id": "recommended-route",
+          "title": "Empfohlene Fortschrittsroute in Windrose",
+          "difficulty": "Routenplan",
+          "summary": "Der reibungsloseste Fortschrittspfad ist zuerst die Tutorial-Insel, dann eine echte Basis im Küstendschungel, dann ein Außenposten im Vorgebirge und schließlich gezielte Vorstöße in die Verfluchten Sümpfe.",
+          "keyPoints": [
+            "Investiere nicht zu viel in die Tutorial-Insel",
+            "Aktiviere dein erstes Schnellreisepaar vor größeren Schiffsreisen",
+            "Verlege Landwirtschaft und das Handwerk der Eisen-Ära in das Vorgebirge",
+            "Betrachte die Sümpfe als Ressourcen-Loop für das Late-Game, nicht als deine erste permanente Hauptbasis"
+          ],
+          "nextUnlock": "Effizientere Segelrouten und deutlich weniger schmerzhafte Neuaufbauten.",
+          "playerGoal": "Lass jede Region eine Stufe von Problemen lösen, bevor du deine Kernoperationen verlagerst."
+        },
+        {
+          "id": "coastal-jungle",
+          "title": "Windrose Küstendschungel",
+          "difficulty": "Early Game",
+          "summary": "Dies ist das erste vollständige Biom und der Ort, an dem aus Überlebensgrundlagen echter Fortschritt wird.",
+          "keyPoints": [
+            "Kupfererz, Lehm, Rohleder und Nebelorchideen sind hier wichtig",
+            "Thomas Richards ist der Regionsboss",
+            "Ihn zu besiegen schaltet den Zugang zum Vorgebirge und Handwerk der Stufe 6+ frei"
+          ],
+          "nextUnlock": "Kupferwerkzeuge, Schnellreise, frühe Rüstung und dein erstes ernsthaftes Lager.",
+          "playerGoal": "Baue hier deine erste echte Basis auf und löse Kupfer, Nahrung und Mobilität, bevor du weiterziehst."
+        },
+        {
+          "id": "foothills",
+          "title": "Windrose Vorgebirge",
+          "difficulty": "Mid Game",
+          "summary": "Im Vorgebirge entfaltet Windrose sein wahres Midgame: Eisen, Stoff, Landwirtschaft und Schiffsunterstützung greifen hier ineinander.",
+          "keyPoints": [
+            "Eisenerz, Hartholz, Baumrinde, Flachsfasern, Mais, Schwefel und fruchtbare Erde definieren dieses Biom",
+            "Israel Hands ist der Regionsboss",
+            "Ihn zu besiegen schaltet den Zugang zu den Verfluchten Sümpfen und Handwerk der Stufe 11+ frei"
+          ],
+          "nextUnlock": "Eisenwerkzeuge, Leinenstoff, Mühlsteine, stärkere Schiffe und eine echte Landwirtschaft.",
+          "playerGoal": "Errichte hier dein Rückgrat für Eisen, Stoff und Ernte, bevor du die späte Region ernsthaft angehst."
+        },
+        {
+          "id": "cursed-swamps",
+          "title": "Windrose Verfluchte Sümpfe",
+          "difficulty": "Late Game",
+          "summary": "Dies ist die derzeit letzte Region im Early Access und der Teil des Spiels, der volle Vorbereitung voraussetzt.",
+          "keyPoints": [
+            "Uralte Schrottteile, Teer, Pestholz, Krokodillederstücke und Bromelien sind hier wichtig",
+            "Leuchtend rosa Pestwald-Zonen sind die charakteristische Umweltgefahr",
+            "Dies ist die letzte verfügbare Region in der aktuellen Early-Access-Version"
+          ],
+          "nextUnlock": "Späte Schmiedekunst, Zubehör-Upgrades, Sumpf-Alchemie-Materialien und die derzeit höchste Handwerksstufe.",
+          "playerGoal": "Komm hierher für gezielte Late-Game-Materialien, nicht für einen überstürzten ersten Stützpunkt."
+        },
+        {
+          "id": "tortuga-and-faction-hubs",
+          "title": "Windrose Tortuga und Fraktions-Hubs",
+          "difficulty": "Hub-Ebene",
+          "summary": "Diese Inseln sind wichtiger für Dienstleistungen, Routenplanung und Ruf als für das reine Sammeln von Ressourcen.",
+          "keyPoints": [
+            "Einige Fraktionsstandorte enthalten bereits gebaute Schnellreisepunkte",
+            "Tortuga fungiert als praktischer Servicestopp im Midgame-Seeweg",
+            "Kopfgeldjäger, Proviantmeister, Käufer und Fraktionsquests machen diese Inseln wertvoll für deine Route"
+          ],
+          "nextUnlock": "Bessere Seewege, einfacheres Aufstocken von Vorräten und reibungsloserer Fraktionsfortschritt.",
+          "playerGoal": "Nutze Hubs als Ankerpunkte auf deiner Segelroute, anstatt zu versuchen, sie in deine Hauptressourcenbasis zu integrieren."
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Windrose Schnellreise",
+      "displayType": "timelineSteps",
+      "eyebrow": "Windrose Reisesystem",
+      "subtitle": "Schalte die Schnellreise frei, bevor das Segeln ganze Sitzungen verschlingt.",
+      "intro": "Windrose bietet schon früh eine Schnellreise an, aber sie ist als Netzwerk konzipiert, das man selbst platziert. Sobald das Glocken-und-Punkt-System verstanden ist, sinkt die Reisezeit drastisch.",
       "steps": [
         {
           "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
+          "title": "Schmelze deinen ersten Kupferbarren in Windrose",
+          "description": "Die Schnellreise wird während der frühen Hauptquest „Wie mein Küstenabenteuer begann“ freigeschaltet, sobald dein erster Kupferbarren hergestellt wurde.",
+          "details": [
+            "Diese Entdeckung schaltet das Rezept für die Schnellreise-Glocke frei.",
+            "Kupfererz stammt aus Höhlen im Küstendschungel und muss zuerst geschmolzen werden."
+          ]
         },
         {
           "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
+          "title": "Hol dir deine erste Windrose Schnellreise-Glocke",
+          "description": "Du kannst die Glocke entweder direkt herstellen oder eine plündern, bevor deine Kupferwirtschaft stabil ist.",
+          "details": [
+            "Herstellungskosten: 10 Kupferbarren und 3 Seile.",
+            "Frühe Beutequellen sind Schiffswrack-Trümmer, Strandtruhen und die Schmugglerversteck-Route."
+          ]
         },
         {
           "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
+          "title": "Platziere einen Windrose Schnellreisepunkt an der Küste",
+          "description": "Die Glocke allein bewirkt nichts. Öffne den Baumodus, gehe zu Handwerk und Hilfsmittel und verwandle sie in einen Schnellreisepunkt.",
+          "details": [
+            "Kosten für Schnellreisepunkt: 20 Holz und 1 Schnellreise-Glocke.",
+            "Platzierungsregel: Nur an Küste, Strand oder Dock. Er kann nicht mitten auf einer Insel platziert werden."
+          ]
         },
         {
           "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
+          "title": "Aktiviere das Windrose-Netzwerk mit einem zweiten Punkt",
+          "description": "Ein Punkt ist nur eine Markierung. Ab zwei Punkten beginnt das System, echte Zeit zu sparen.",
+          "details": [
+            "Du benötigst mindestens zwei Schnellreisepunkte an verschiedenen Orten.",
+            "Zwei weit entfernte Punkte auf derselben Insel können das Netzwerk frühzeitig aktivieren, noch bevor du dich auf andere Inseln ausbreitest."
+          ]
         },
         {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
+          "step": 5,
+          "title": "Reise zu Fuß und zur See in Windrose unterschiedlich",
+          "description": "Windrose behandelt Landreisen und Schiffsreisen als zwei verschiedene Schnellreise-Modi.",
+          "details": [
+            "Zu Fuß: Gehe zu einem Schnellreisepunkt und wähle dann einen anderen Punkt aus.",
+            "Auf einer Ketsch: Öffne die Karte von überall auf See und springe zu einem beliebigen freigeschalteten Punkt, solange du dich nicht im Kampf befindest oder verfolgt wirst."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Integriere vorgefertigte und Fraktionspunkte in deine Windrose-Route",
+          "description": "Dein bestes Netzwerk besteht nicht nur aus deinen eigenen Basen. Die Welt enthält bereits nützliche Ankerpunkte.",
+          "details": [
+            "Einige Fraktionsbasen, einschließlich Hubs im Tortuga-Stil, können nach dem Besuch vorgefertigte Schnellreisepunkte hinzufügen.",
+            "Im Koop-Modus kann die kartenbasierte Schnellreise dich von deinem Schiff und deinen Kameraden trennen, also sprich dich vor dem Sprung ab."
+          ]
         }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Windrose Systemanforderungen",
+      "displayType": "requirementsTable",
+      "eyebrow": "Windrose PC-Spezifikationen",
+      "subtitle": "Kann dein PC Windrose ohne Engpässe ausführen?",
+      "intro": "Windrose erfordert bereits in der Mindestkonfiguration starke Desktop-Hardware. Die Basis sind 16 GB RAM für Solo- oder Koop-Spiele; das Selbst-Hosten eines dedizierten Servers auf derselben Maschine benötigt zusätzlichen Arbeitsspeicher.",
+      "items": [
         {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
-          ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
-            },
-            {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
+          "component": "Betriebssystem",
+          "minimum": "Windows 10 (64-Bit)",
+          "recommended": "Windows 11 oder neuer (64-Bit)",
+          "notes": "Erfordert einen 64-Bit-Prozessor und ein 64-Bit-Betriebssystem."
         },
         {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
-            }
+          "component": "CPU",
+          "minimum": "Intel Core i7-8700K oder AMD Ryzen 7 2700X",
+          "recommended": "Intel Core i7-10700 oder AMD Ryzen 7 5800X",
+          "notes": "Offizielle Prozessorbeispiele für Windrose."
+        },
+        {
+          "component": "Arbeitsspeicher",
+          "minimum": "16 GB RAM",
+          "recommended": "32 GB RAM",
+          "notes": "Die 16-GB-Basis gilt für Standard-Solo- und Koop-Sitzungen."
+        },
+        {
+          "component": "Grafikkarte",
+          "minimum": "NVIDIA GTX 1080 Ti oder AMD Radeon RX 6800",
+          "recommended": "NVIDIA RTX 3080 oder AMD Radeon RX 6800 XT",
+          "notes": "Offizielle GPU-Beispiele für die Mindest- und empfohlenen Stufen."
+        },
+        {
+          "component": "Dedizierter VRAM",
+          "minimum": "10 GB",
+          "recommended": "10 GB",
+          "notes": "Ein Budget von 10 GB dediziertem VRAM hält beide Stufen stabil."
+        },
+        {
+          "component": "DirectX",
+          "minimum": "Version 12",
+          "recommended": "Version 12",
+          "notes": "Windrose verwendet dieselbe DirectX-Anforderung für beide Stufen."
+        },
+        {
+          "component": "Speicherplatz",
+          "minimum": "30 GB verfügbarer Speicherplatz",
+          "recommended": "30 GB verfügbarer Speicherplatz auf SSD",
+          "notes": "Eine SSD wird für konsistente Ladezeiten dringend empfohlen."
+        },
+        {
+          "component": "Netzwerk",
+          "minimum": "Breitband-Internetverbindung",
+          "recommended": "Breitband-Internetverbindung",
+          "notes": "Erforderlich für Online-Koop und das Spielen auf dedizierten Servern."
+        },
+        {
+          "component": "Selbst-Hosten auf demselben PC",
+          "minimum": "Zusätzlich 8 GB zu den Client-Anforderungen",
+          "recommended": "24 GB RAM insgesamt",
+          "notes": "Das gleichzeitige Ausführen von Client und Server benötigt zusätzlichen Arbeitsspeicher."
+        }
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Windrose Leitfaden für dedizierte Server",
+      "displayType": "serverSteps",
+      "eyebrow": "Windrose Server-Hosting",
+      "subtitle": "Richte einen dedizierten Windrose-Server ein, vom ersten Start bis zum Update-Prozess.",
+      "intro": "Der schnellste Weg ist das kostenlose Windrose Dedicated Server Tool auf Steam oder der WindowsServer-Build, der den Spieldateien beiliegt. Die Steuerung erfolgt über ServerDescription.json und WorldDescription.json. Der praktische Ablauf ist: installieren, einmal starten, dann die generierten Dateien bearbeiten, während der Server offline ist.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Installiere die Windrose-Serverdateien",
+          "description": "Installiere das Windrose Dedicated Server Tool aus der Steam-Bibliothek > Tools, oder kopiere den WindowsServer-Build aus den Spieldateien, wenn du einen anderen Store verwendest.",
+          "details": [
+            "Steam-Weg: Installiere das kostenlose Windrose Dedicated Server Tool.",
+            "EGS- oder Stove-Weg: Kopiere den Ordner R5/Builds/WindowsServer aus dem Spielverzeichnis.",
+            "Behalte den Server bei kopierten Builds in einem eigenen Ordner außerhalb der Hauptinstallation des Spiels."
           ]
         },
         {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
+          "step": 2,
+          "title": "Einmal starten und den Einladungscode abrufen",
+          "description": "Führe StartServerForeground.bat für den ersten Start aus, um die Logs direkt zu sehen, und kopiere dann den generierten Einladungscode aus der Konsolenausgabe oder der ServerDescription.json.",
+          "details": [
+            "StartServerForeground.bat ist die einfachste Methode für den ersten Start.",
+            "WindroseServer.exe kann nach der Einrichtung im Headless-Modus laufen.",
+            "Spieler treten über Spielen > Mit Server verbinden unter Verwendung deines Einladungscodes bei."
           ]
         },
         {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
+          "step": 3,
+          "title": "Bearbeite die Windrose ServerDescription.json",
+          "description": "Verwende diese Datei, um Einladungscode, Passworteinstellungen, Servernamen, gebundene Welt und maximale Spielerzahl festzulegen. Wende Änderungen nur an, wenn der Server gestoppt ist.",
+          "details": [
+            "Wichtige Felder: InviteCode, IsPasswordProtected, Password, ServerName, WorldIslandId, MaxPlayerCount.",
+            "Einladungscodes unterscheiden zwischen Groß- und Kleinschreibung.",
+            "Bis zu 4 Spieler sind normalerweise die stabilere Basis, auch wenn größere Gruppen möglich sind."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Bearbeite die Windrose WorldDescription.json",
+          "description": "Diese Datei steuert den Schwierigkeitsgrad und die Skalierung der Welt. Verwende Voreinstellungen oder benutzerdefinierte Werte für Gegnerwerte, Schiffsschadenswerte, Enterdruck und Koop-Balancing.",
+          "details": [
+            "Unterstützt Leicht, Mittel, Schwer und benutzerdefinierte Schieberegler.",
+            "Geteilter Quest-Fortschritt kann für aktive Gruppenmitglieder automatisch abgeschlossen werden.",
+            "Die WorldIslandId in den Servereinstellungen muss mit der ausgewählten Weltdatei übereinstimmen."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Netzwerklimits und Host-Verhalten bestätigen",
+          "description": "Windrose verlässt sich auf Einladungscodes und NAT-Punch-Through-Verhalten anstatt auf eine Browserliste mit festen Ports. Stabiles UPnP-Routing verbessert den Erfolg bei der Serversuche.",
+          "details": [
+            "Verbindungen werden über dynamisches NAT-Punch-Through abgewickelt.",
+            "UPnP-fähige Router reduzieren Verbindungsfehler.",
+            "Wenn die Suche fehlschlägt, entferne Proxy- oder VPN-Ebenen und versuche es erneut."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Halte Windrose-Client- und Serverversionen identisch",
+          "description": "Aktualisiere nach jedem Patch oder hotfix die Serverdateien und validiere sie, bevor du wieder Einladungen verschickst. Warnungen bei Versionsunterschieden sollten als zwingende Wartung behandelt werden.",
+          "details": [
+            "SteamCMD App-ID für Server-Updates: 4129620.",
+            "Wiederhole den vollständigen Update-Vorgang mit force_install_dir, login und app_update 4129620 validate.",
+            "Aktuelle Admin-Vorgänge bleiben primär dateibasiert."
+          ]
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Windrose Roadmap",
+      "displayType": "roadmapTimeline",
+      "eyebrow": "Windrose Roadmap",
+      "subtitle": "Was für Windrose bereits bestätigt ist und was vor Version 1.0 geplant ist.",
+      "intro": "Windrose nutzt derzeit noch keine detaillierte öffentliche Roadmap mit festen Terminen, aber das Studio hat bereits den Zeitraum für den Early Access, den Umfang zum Start und klare Feature-Prioritäten für kommende Updates festgelegt.",
+      "items": [
+        {
+          "marker": "Aktueller Status",
+          "title": "Bisher wurde keine detaillierte Windrose Roadmap veröffentlicht",
+          "summary": "Kraken Express kommuniziert derzeit über grobe Early-Access-Ziele und Schwerpunktbereiche statt über einen Meilenstein-Kalender mit festen Daten.",
           "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
+            "Keine datierte öffentliche Roadmap",
+            "Feedback-gesteuerte Prioritäten",
+            "Die Richtung ist auch ohne exakte Daten öffentlich"
+          ]
+        },
+        {
+          "marker": "23. März 2026",
+          "title": "Early-Access-Prioritäten vor dem Start von Windrose wurden definiert",
+          "summary": "Das Studio skizzierte aktive Prioritäten, darunter Koop-Schiffsbatterien, randomisierter Loot, Sammeln durch Gedrückthalten, FOV-Slider, Signalfeuer, DLSS- oder FSR-Unterstützung, Controller-Verbesserungen, Zerlegungs-Werkbank und Zielerfassungs-Wechsel.",
+          "highlights": [
+            "Koop-Schiffsbesatzungssysteme",
+            "Testen der Skalierung für 4 bis 8 Spieler",
+            "FOV-Slider und Controller-Upgrades",
+            "Verbesserungen bei Loot und Bau-Benutzerfreundlichkeit"
+          ]
+        },
+        {
+          "marker": "14. April 2026",
+          "title": "Windrose startete im Early Access mit umfangreichen Basisinhalten",
+          "summary": "Der Umfang zum Start umfasste 3 Biome, etwa 30 prozedurale Inseln, mehr als 90 handgefertigte Points of Interest, 3 spielbare Schiffe, Seekampf mit Entern, Fraktionen, Rufsysteme, NPC-Arbeiter und eine umfangreiche Hauptstory.",
+          "highlights": [
+            "3 Biome zum Start",
+            "Etwa 30 prozedurale Inseln",
+            "90+ Points of Interest",
+            "3 spielbare Schiffe",
+            "50-70 Stunden Spielzeit für die Hauptstory"
+          ]
+        },
+        {
+          "marker": "Dauer des Early Access",
+          "title": "Windrose erwartet etwa 1,5 bis 2,5 Jahre bis zur vollständigen Veröffentlichung",
+          "summary": "Der aktuelle Early-Access-Plan sieht eine lange Phase vor Version 1.0 vor, mit kontinuierlichem Balancing, Systemoptimierungen und Inhaltserweiterungen während dieses Zeitraums.",
+          "highlights": [
+            "Zeitfenster von 1,5-2,5 Jahren",
+            "Langfristiger Early-Access-Plan",
+            "Version 1.0 ist ein mehrphasiges Ziel"
+          ]
+        },
+        {
+          "marker": "Vor 1.0",
+          "title": "Windrose plant etwa 50 Prozent mehr Inhalt für die Vollversion",
+          "summary": "Das Ziel für die Vollversion beinhaltet ein erhebliches Inhaltswachstum über den Start hinaus, mit mehr Biomen, Bossen, Gegnern, Schiffen, Loot-Ebenen und fortlaufender Story-Progression.",
+          "highlights": [
+            "Etwa 50 % mehr geplante Inhalte",
+            "Mehr Biome und Bosse",
+            "Mehr Schiffe und Loot",
+            "Fortsetzung der Story und Systemerweiterungen"
           ]
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
-      ]
-    },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
-        },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
-        },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
-        }
-      },
-      "milestones": [
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Windrose Update-Log",
+      "displayType": "updateTimeline",
+      "eyebrow": "Windrose Patch-Historie",
+      "subtitle": "Ein chronologischer Windrose-Feed über Startvorgänge, Hotfixes und plattformrelevante Änderungen.",
+      "intro": "Die erste Windrose-Update-Welle konzentrierte sich auf den Launch-Betrieb, die Server-Konnektivität und die Stabilität der Speicherstände. Diese Timeline verfolgt die Ankündigungen, die das Gameplay und das Hosting-Verhalten verändert haben.",
+      "items": [
         {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
+          "marker": "23. März 2026",
+          "title": "1.500.000 Wunschlisten-Einträge und Qualitäts-Upgrades vor dem Start",
+          "summary": "Kraken Express veröffentlichte eine umfassende Liste von Verbesserungen vor dem Start, die durch Demo-Feedback geprägt wurden, einschließlich Koop-Erweiterung, Loot-Randomisierung, Optimierung des Sammelflusses sowie Grafik- oder Eingabe-Upgrades.",
+          "highlights": [
+            "Qualitäts-Roadmap vor dem Start",
+            "Ziele für die Koop-Erweiterung",
+            "Eingabe- und Kamera-Upgrades",
+            "Verfeinerungen bei Loot und Bauen"
+          ]
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "marker": "14. April 2026",
+          "title": "Windrose Early Access Launch ist live",
+          "summary": "Windrose startete im Early Access auf Steam, und die Kommunikation zum Launch bestätigte die Umbenennung des Studios von Windrose Crew zu Kraken Express mit Beginn der Entwicklung der Vollversion.",
+          "highlights": [
+            "Early Access Launch live",
+            "Studio in Kraken Express umbenannt",
+            "Entwicklungsphase für 1.0 gestartet"
+          ]
+        },
+        {
+          "marker": "14. April 2026",
+          "title": "Hotfix 0.10.0.1.6",
+          "summary": "Der erste sichtbare Hotfix nach dem Start behob Lokalisierungsprobleme, korrigierte den Nitrado-Link und änderte die Sichtbarkeit von Server-Informationen im Pausenmenü auf einen sichereren Standardzustand.",
+          "highlights": [
+            "Kleinere Lokalisierungs-Fixes",
+            "Nitrado-Link korrigiert",
+            "Server-Info-Felder standardmäßig ausgeblendet"
+          ]
+        },
+        {
+          "marker": "16.-17. April 2026",
+          "title": "Hotfix 0.10.0.2.54 mit Online-Downtime-Fenster",
+          "summary": "Dieser Patch-Zyklus entfernte den Token-Cooldown für dedizierte Server, fügte Warnungen bei Versionsunterschieden hinzu, änderte Einladungscodes auf ein Limit von 1-32 Zeichen, behob Abstürze beim Schiffs-Spawn, korrigierte die Boss-Skalierung für größere Gruppen, erhöhte das Host-Start-Timeout und lieferte umfassende Kampf- und Lokalisierungs-Fixes.",
+          "highlights": [
+            "Konnektivitäts-Fix für dedizierte Server",
+            "Warnung bei Versionsunterschieden",
+            "Länge des Einladungscodes auf 1-32 festgelegt",
+            "Boss-Skalierung für größere Gruppen korrigiert",
+            "Host-Start-Timeout auf 5 Minuten erhöht"
+          ]
+        },
+        {
+          "marker": "17. April 2026",
+          "title": "Hinweis zum Update der Windrose Steam Cloud-Speicherstände",
+          "summary": "Das Team veröffentlichte offizielle Richtlinien zur Instabilität von Cloud-Speicherständen, einschließlich Empfehlungen für Einzelgeräte, manuellen Backup-Workflows und Anweisungen zur lokalen Wiederherstellung bei Fehlern.",
+          "highlights": [
+            "Hinweis zu Problemen mit Cloud-Speicherständen",
+            "Manueller Backup-Workflow geteilt",
+            "Speicherpfade für Client und dedizierte Server dokumentiert",
+            "Cloud-Verhalten wird ggf. angepasst, falls Probleme fortbestehen"
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Häufig gestellte",
+    "title": "Häufig gestellte Fragen zu Windrose",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "subtitle": "Alles, was Spieler derzeit am häufigsten über Windrose wissen wollen.",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Ist Windrose ein Einzelspieler- oder Koop-Spiel?",
+        "answer": "Windrose unterstützt Solospiel und Online-Koop. Du kannst alleine beginnen und dieselbe Welt später für Freunde hosten."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Wie funktioniert der Beitritt zum Multiplayer in Windrose?",
+        "answer": "Windrose nutzt den Beitritt per Einladungscode über 'Mit Server verbinden', mit gespeichertem Serverzugriff nach der ersten Verbindung."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Worauf sollte ich mich in Windrose in den ersten Stunden konzentrieren?",
+        "answer": "Konzentriere dich auf Ressourcenkreisläufe an der Küste, ein vollständiges Starterlager, Heilvorräte und ausdauerorientierte Kampfgewohnheiten, bevor du dich in schwierigere Zonen wagst."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Wann wurde Windrose im Early Access veröffentlicht?",
+        "answer": "Windrose startete am 14. April 2026 im Early Access und erhält weiterhin Updates in der Launch-Phase."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Wo kann ich Windrose heute spielen?",
+        "answer": "Windrose ist auf Steam und im Epic Games Store erhältlich, offizielle Updates werden über die Spiel-Website und die Steam-News veröffentlicht."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Wann ist der aktuelle Zeitraum für die vollständige Veröffentlichung von Windrose?",
+        "answer": "Die aktuelle Planung deutet auf ein Zeitfenster von Ende 2027 bis Ende 2028 für den Release-Zyklus von Windrose 1.0 hin."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Bereit, in Windrose die Segel zu setzen?",
+    "description": "Tritt dem offiziellen Windrose Discord bei, um Patches zu verfolgen, Builds zu teilen und über Neuigkeiten zum Überleben auf See auf dem Laufenden zu bleiben.",
+    "joinCommunity": "Windrose Discord beitreten",
+    "joinGame": "Windrose auf Steam spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Windrose Wiki",
+    "description": "Deine umfassende Windrose-Ressource für Schiffe, Bosse, Karten, Crafting und Guides zum Überleben auf See.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
     "steamStore": "Steam Store",
     "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Windrose Wiki. Nicht verbunden mit den Entwicklern von Windrose.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "guide": {
+      "title": "Windrose Guide",
+      "description": "Schritt-für-Schritt Windrose Guide-Hub für Anfänger und Fortgeschrittene, der Kampfgrundlagen, Questverlauf, Angeln und frühe Fortschrittsrouten abdeckt.",
+      "metaTitle": "Windrose Guide - Anfänger-Tipps, Walkthrough und Boss-Grundlagen",
+      "metaDescription": "Lesen Sie den Windrose Guide-Hub für das Anfänger-Setup, Kampfgrundlagen, Meilensteine des Fortschritts und praktische Walkthrough-Routen von der Küste bis zum Midgame.",
+      "categoryLabel": "EINSTEIGER & FORTSCHRITT",
+      "whatIs": "Was ist der Windrose Guide?",
+      "whatIsDescription": "Der Windrose Guide ist der zentrale Lernbereich für den Fortschritt im Early- und Midgame. Er sammelt praktische Artikel wie Anfängerrouten, Vorbereitung auf den ersten Boss, Angel-Setup, Grundlagen der Speicherdateien und effiziente Quest-Reihenfolgen, damit Sie ohne unnötige Umwege vorankommen.",
+      "why": "Warum den Windrose Guide lesen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Schneller starten",
+        "step1Description": "Nutzen Sie bewährte Startrouten, um Werkzeuge, Stationen und Mobilitätsoptionen mit weniger Resets freizuschalten.",
+        "step2Title": "Häufige Fehler vermeiden",
+        "step2Description": "Lernen Sie Ausdauer, Block-Timing und Ressourcenprioritäten kennen, bevor Sie zu viel in schwache frühe Optionen investieren.",
+        "step3Title": "Reibungsloser Übergang",
+        "step3Description": "Wechseln Sie von den Tutorial-Inseln zu einem stabilen Midgame mit klaren Boss-Checkpoints und Upgrade-Zielen."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "all": "Alle Windrose Guide Artikel"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "release": {
+      "title": "Windrose Release",
+      "description": "Verfolgen Sie Windrose Release-Zeiten, Plattformstatus, Steam-Metriken, Roadmap-Updates, Preisänderungen und wichtige Early-Access-Meilensteine in einer Zeitachse.",
+      "metaTitle": "Windrose Release - Launch-Zeit, Preis, Roadmap und Updates",
+      "metaDescription": "Verfolgen Sie die Berichterstattung zum Windrose Release, einschließlich Launch-Zeit, Steam-Aktivität, Preisgestaltung, Roadmap-Meilensteinen und offiziellem Update-Rhythmus für den Early Access.",
+      "categoryLabel": "RELEASE-TRACKER",
+      "whatIs": "Was ist Windrose Release?",
+      "whatIsDescription": "Windrose Release konzentriert sich auf offizielle Launch-Daten und Live-Ökosystem-Signale: Veröffentlichungsdatum und -zeit, Steam- und SteamDB-Trends, Roadmap-Richtung, Preiskontext und Update-Rhythmus. Es ist der schnellste Weg, um zu verstehen, wo das Spiel gerade steht.",
+      "why": "Warum Windrose Release lesen?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Live-Status prüfen",
+        "step1Description": "Überprüfen Sie Timing, Plattformverfügbarkeit und den aktuellen Update-Rhythmus, bevor Sie lange Sessions planen.",
+        "step2Title": "Roadmap-Prioritäten folgen",
+        "step2Description": "Sehen Sie, welche Systeme als Nächstes erweitert werden, damit Sie Builds und Fortschrittspläne im Voraus darauf abstimmen können.",
+        "step3Title": "Wert-Timing verstehen",
+        "step3Description": "Vergleichen Sie Preisfenster, Demo-Phasen und Aktivitätsspitzen, um den besten Moment für den Einstieg zu finden."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "all": "Alle Windrose Release Artikel"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "server": {
+      "title": "Windrose Server",
+      "description": "Windrose Server-Setup-Hub für Koop, dediziertes Hosting, Spielerlimits, Crossplay-Status, Beitritts-Fixes und leistungsorientierte Konfiguration.",
+      "metaTitle": "Windrose Server - Dediziertes Hosting, Koop-Setup und Fixes",
+      "metaDescription": "Konfigurieren Sie das Windrose Server-Hosting mit dedizierten Setup-Schritten, Koop-Einstellungen, Verbindungs-Fixes und Anleitungen für stabile Multiplayer-Performance.",
+      "categoryLabel": "MULTIPLAYER & HOSTING",
+      "whatIs": "Was ist Windrose Server?",
+      "whatIsDescription": "Windrose Server deckt die Multiplayer-Architektur von einfachem Koop bis hin zu dediziertem Hosting ab. Es umfasst den Setup-Ablauf, Port- und Konfigurationsgrundlagen, Entscheidungen zur Spieleranzahl, Weltregeln, Fehlerbehebung bei Beitrittsfehlern und praktische Stabilitätsprüfungen für lange Sessions.",
+      "why": "Warum Windrose Server lesen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Richtig hosten",
+        "step1Description": "Richten Sie dedizierte oder Koop-Welten mit einem sauberen Konfigurationsablauf ein, anstatt durch Ausprobieren neu zu starten.",
+        "step2Title": "Verbindungsprobleme beheben",
+        "step2Description": "Lösen Sie Beitrittsfehler, nicht übereinstimmende Einstellungen und Authentifizierungsprobleme mit wiederholbaren Prüfungen.",
+        "step3Title": "Sessions stabil halten",
+        "step3Description": "Optimieren Sie Weltregeln und Spielerzahlen für geringere Latenz, weniger Abstürze und zuverlässige Speicher-Kontinuität."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "all": "Alle Windrose Server Artikel"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "map": {
+      "title": "Windrose Map",
+      "description": "Navigieren Sie auf der Windrose Map mit Inselrouten, Schnellreise-Freischaltungen, Truhenstandorten, Regionsfortschritt und praktischen Erkundungs-Abkürzungen.",
+      "metaTitle": "Windrose Map - Inselrouten, Schnellreise und wichtige Orte",
+      "metaDescription": "Nutzen Sie die Windrose Map-Berichterstattung, um wichtige Regionen, Truhenstandorte, Reise-Abkürzungen und sichere Fortschrittsrouten zwischen den Inseln zu finden.",
+      "categoryLabel": "WELT & ROUTEN",
+      "whatIs": "Was ist die Windrose Map?",
+      "whatIsDescription": "Die Windrose Map organisiert Standort-Informationen: vollständige Kartenstruktur, interaktive Routenlogik, Schnellreise-Anker, Freischaltreihenfolge der Hauptregionen und wertvolle Truhen- oder Signalfeuer-Punkte. Sie hilft Ihnen, zielgerichtet vorzugehen, anstatt blind umherzuwandern.",
+      "why": "Warum die Windrose Map lesen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Ziele schneller erreichen",
+        "step1Description": "Folgen Sie bewährten Inselrouten zu Schlüsselzonen, Bossen und Handwerks-Freischaltpunkten ohne Backtracking.",
+        "step2Title": "Wichtige Beute sichern",
+        "step2Description": "Finden Sie Truhenpfade und nützliche Orte, die Upgrades und Versorgungszyklen beschleunigen.",
+        "step3Title": "Sichere Erkundung planen",
+        "step3Description": "Nutzen Sie die Anleitung zur Regionsreihenfolge, um zu vermeiden, dass Sie zu früh in Zonen vordringen, für die Ihre Ausrüstung noch nicht bereit ist."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "all": "Alle Windrose Map Artikel"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "resources": {
+      "title": "Windrose Ressourcen",
+      "description": "Farmen Sie Windrose Ressourcen effizient mit Materialstandorten, Verarbeitungsketten, Handelszyklen, Arbeiterzuweisungen und wirtschaftsorientierten Routen.",
+      "metaTitle": "Windrose Ressourcen - Material-Farming, Handel und Handwerksketten",
+      "metaDescription": "Finden Sie Windrose Ressourcen schneller mit Guides für Holz, Eisen, Ton, Schießpulverketten, Proviantverkäufe und die Planung von Händler-Workflows.",
+      "categoryLabel": "MATERIALIEN & WIRTSCHAFT",
+      "whatIs": "Was sind Windrose Ressourcen?",
+      "whatIsDescription": "Windrose Ressourcen verfolgt die Materialwirtschaft hinter jedem Upgrade. Es erklärt, wo man Kernmaterialien farmt, wann man sie veredelt, wie man Proviantverkäufe plant und wie Arbeiter- oder Händlerzuweisungen den Ertrag über lange Fortschrittszyklen verbessern.",
+      "why": "Warum Windrose Ressourcen lesen?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Gezielt farmen",
+        "step1Description": "Zielen Sie auf die richtigen Knotenpunkte und Biom-Zyklen für aktuelle Upgrade-Ziele ab, anstatt wahllos zu sammeln.",
+        "step2Title": "Handwerksketten freischalten",
+        "step2Description": "Planen Sie Abhängigkeiten wie Brennstoff, Erz und Werkstattanforderungen, damit das Crafting nicht mitten im Lauf ins Stocken gerät.",
+        "step3Title": "Wirtschaftsfluss verbessern",
+        "step3Description": "Nutzen Sie Verkaufs- und Verarbeitungsanleitungen, um Überschüsse konsequenter in Fortschrittswert umzuwandeln."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "all": "Alle Windrose Ressourcen Artikel"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "builds": {
+      "title": "Windrose Builds",
+      "description": "Optimieren Sie Windrose Builds mit Stat-Planung, Waffenfamilien, Rüstungswahl, Fraktionsprioritäten und rollenbasierten Kampf-Loadouts.",
+      "metaTitle": "Windrose Builds - Beste Stats, Waffen, Rüstungen und Talente",
+      "metaDescription": "Erstellen Sie stärkere Windrose Loadouts mit Guides zu Stats, Talentprioritäten, Waffen-Tiers, Rüstungssets und Entscheidungen zum Fraktionsfortschritt.",
+      "categoryLabel": "BUILDS & LOADOUTS",
+      "whatIs": "Was sind Windrose Builds?",
+      "whatIsDescription": "Windrose Builds ist der Bereich für Kampfoptimierung. Er vergleicht Stat-Verteilungspfade, Waffenfamilien, Rüstungs-Kompromisse und Talentprioritäten, damit Sie ein Loadout erstellen können, das zu Ihrem Spielstil und Ihrer aktuellen Fortschrittsphase passt.",
+      "why": "Warum Windrose Builds lesen?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Stats besser verteilen",
+        "step1Description": "Verstehen Sie praktische Breakpoints und vermeiden Sie es, zu früh massiv in Attribute mit geringer Auswirkung zu investieren.",
+        "step2Title": "Ausrüstung nach Rolle wählen",
+        "step2Description": "Passen Sie Waffen und Rüstung an Ihr bevorzugtes Tempo an, von sicheren Sustain-Setups bis hin zu Optionen mit hohem Burst-Schaden.",
+        "step3Title": "Ins Midgame skalieren",
+        "step3Description": "Nutzen Sie Fraktions- und Talentplanung, um Schaden, Überlebensfähigkeit und Nutzen im Gleichgewicht zu halten, während der Schwierigkeitsgrad steigt."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "all": "Alle Windrose Builds Artikel"
+    },
+    "ships": {
+      "title": "Windrose Schiffe",
+      "description": "Meistern Sie Windrose Schiffe durch Schiffs-Upgrades, Werft-Management, Besatzungsplanung, Kanonenwahl und Taktiken zur Erholung im Seekampf.",
+      "metaTitle": "Windrose Schiffe - Seekampf, Upgrades und Besatzungsmanagement",
+      "metaDescription": "Lernen Sie alles über Windrose Schiffe, von der grundlegenden Handhabung bis hin zu Fregatten-Freischaltungen, Werft-Workflows, Kanonen-Setups und Schiffsreparaturen in aktiven Kampfzyklen.",
+      "categoryLabel": "SEEKAMPF",
+      "whatIs": "Was sind Windrose Schiffe?",
+      "whatIsDescription": "Windrose Schiffe widmet sich dem Gameplay auf See: Schiffstypen, Werftfortschritt, Besatzungsstruktur, Enterwerkzeuge, Reparaturprioritäten und Kanonenstrategie. Es verbindet maritime Systeme mit dem Fortschritt an Land, damit Ihre Flotte mit Ihrer Kampagne mitwächst.",
+      "why": "Warum Windrose Schiffe lesen?",
+      "whySteps": {
+        "step1Title": "Den richtigen Rumpf verbessern",
+        "step1Description": "Wählen Sie Schiffsfortschrittspfade, die zu Ihren Ressourcen und aktuellen Kampfzielen passen.",
+        "step2Title": "Mehr Seekämpfe gewinnen",
+        "step2Description": "Wenden Sie Anleitungen zu Kanonen, Entern und Positionierung an, die die Beständigkeit in Seebegegnungen verbessern.",
+        "step3Title": "Sich von Verlusten erholen",
+        "step3Description": "Nutzen Sie Reparatur- und Wiederaufbauabläufe, um sich schnell zu erholen, wenn ein Schiff zerstört wird oder kritische Teile verloren gehen."
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Windrose Schiffe Artikel"
+    },
+    "mods": {
+      "title": "Windrose Mods",
+      "description": "Erweitern Sie Windrose mit sicheren Modding-Praktiken, Nexus-Empfehlungen, Kompatibilitätsprüfungen und Setup-Abläufen für stabile, angepasste Spieldurchläufe.",
+      "metaTitle": "Windrose Mods - Nexus-Auswahl, Setup-Schritte und Kompatibilität",
+      "metaDescription": "Installieren Sie Windrose-Mods sicher mit Nexus-Anleitungen, Grundlagen zur Ladereihenfolge, Kompatibilitätsprüfungen und praktischen Setup-Hinweisen für stabile Sitzungen.",
+      "categoryLabel": "MODDING",
+      "whatIs": "Was sind Windrose Mods?",
+      "whatIsDescription": "Windrose Mods umfasst kuratierte Community-Erweiterungen, insbesondere Nexus-basierte Optionen, mit Fokus auf praktischen Nutzen und reibungslose Einrichtung. Es zeigt auf, was jede Mod ändert, wo Konflikte auftreten und wie Sie Ihren Durchlauf stabil halten.",
+      "why": "Warum Windrose Mods lesen?",
+      "whySteps": {
+        "step1Title": "Wählen Sie hochwertige Mods",
+        "step1Description": "Identifizieren Sie Community-Pakete, die die Benutzerfreundlichkeit, die Klarheit des Fortschritts oder die Flexibilität von Builds verbessern.",
+        "step2Title": "Installation mit weniger Konflikten",
+        "step2Description": "Nutzen Sie eine saubere Setup-Reihenfolge und Kompatibilitätsprüfungen, um fehlerhafte Interfaces oder Probleme mit Spielständen zu vermeiden.",
+        "step3Title": "Stabilität bewahren",
+        "step3Description": "Halten Sie Ihr gemoddetes Profil überschaubar, damit Updates und Rollbacks aktive Kampagnen nicht gefährden."
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Windrose Mods Artikel"
     }
   }
 }

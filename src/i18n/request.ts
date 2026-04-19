@@ -1,6 +1,5 @@
 import { getRequestConfig } from 'next-intl/server'
 import { routing, type Locale } from './routing'
-import deepMerge from 'deepmerge'
 
 // 静态导入所有翻译文件
 import enMessages from '@/locales/en.json'
@@ -13,6 +12,32 @@ const messages: Record<string, any> = {
 	de: deMessages,
 	ru: ruMessages,
 	pt: ptMessages,
+}
+
+function isPlainObject(value: unknown): value is Record<string, any> {
+	return typeof value === 'object' && value !== null && !Array.isArray(value)
+}
+
+/**
+ * Merge localized messages onto English defaults.
+ * Arrays are replaced (not merged) to avoid duplicated list entries.
+ */
+function mergeWithFallback(base: any, localized: any): any {
+	if (Array.isArray(base) && Array.isArray(localized)) {
+		return localized
+	}
+
+	if (isPlainObject(base) && isPlainObject(localized)) {
+		const result: Record<string, any> = { ...base }
+
+		for (const [key, value] of Object.entries(localized)) {
+			result[key] = key in base ? mergeWithFallback(base[key], value) : value
+		}
+
+		return result
+	}
+
+	return localized === undefined ? base : localized
 }
 
 export default getRequestConfig(async ({ requestLocale }) => {
@@ -29,10 +54,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
 	// 加载目标语言的翻译，并与英文深度合并（作为 fallback）
 	const localeMessages = messages[locale] || enMessages
-	const mergedMessages = deepMerge(enMessages, localeMessages, {
-		// 数组替换而不是合并（避免重复）
-		arrayMerge: (_destinationArray, sourceArray) => sourceArray,
-	})
+	const mergedMessages = mergeWithFallback(enMessages, localeMessages)
 
 	return { locale, messages: mergedMessages }
 })

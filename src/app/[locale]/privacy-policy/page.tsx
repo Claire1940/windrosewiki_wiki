@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
@@ -11,6 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://windrosewiki.wiki'
   const path = '/privacy-policy'
+  const ogImage = `${siteUrl}/images/hero.webp`
 
   return {
     title: 'Privacy Policy - Windrose Wiki',
@@ -42,10 +43,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Learn how we protect your privacy and handle your data.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: ogImage,
           width: 1200,
           height: 630,
-          alt: 'Windrose Wiki',
+          alt: 'Windrose pirate survival hero artwork',
         },
       ],
     },
@@ -53,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Privacy Policy - Windrose Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [ogImage],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
