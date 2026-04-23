@@ -1,0 +1,140 @@
+export const metadata = {
+  title: "Winrose Wiki: Guia Essencial de Hospedagem de Servidor e Gameplay 2026",
+  description: "Domine as ondas com nosso guia completo da wiki Winrose. Aprenda a configurar servidores dedicados, definir configurações de mundo e otimizar sua experiência multijogador.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Winrose+Wiki+Guide",
+  date: "2026-04-24",
+  author: "Windrose Wiki Team"
+}
+
+Navegar pelas vastas águas abertas de Windrose exige mais do que apenas um navio resistente e um olhar atento ao horizonte; exige um ambiente estável onde você e sua tripulação possam prosperar. Quer você esteja procurando conquistar o alto-mar com amigos ou estabelecer um império privado, entender o lado técnico do jogo é fundamental. Este recurso da **winrose wiki** foi projetado para preencher a lacuna entre uma instalação nova e um servidor dedicado totalmente otimizado. À medida que avançamos em 2026, a comunidade viu um aumento na demanda por mundos persistentes que permitam aos jogadores entrar e sair sem que o anfitrião precise estar presente. Este guia da **winrose wiki** fornece as instruções passo a passo necessárias para gerenciar seu próprio mundo marítimo, desde a instalação básica até a configuração avançada de JSON.
+
+## Escolhendo Seu Método de Hospedagem
+
+Antes de mergulhar nos arquivos, você deve decidir como deseja hospedar seu mundo. Existem dois caminhos principais: utilizar um serviço de hospedagem profissional ou rodar um servidor dedicado local em seu próprio hardware. Cada um tem seu próprio conjunto de benefícios, dependendo de sua habilidade técnica e orçamento.
+
+| Recurso | Hospedagem Profissional (ex: Survival Servers) | Servidor Dedicado Local |
+| :--- | :--- | :--- |
+| **Uptime** | 24/7 Garantido | Depende do seu PC estar ligado |
+| **Facilidade de Uso** | Alta (Painel de Controle Web) | Moderada (Requer edição de arquivos) |
+| **Custo** | Assinatura Mensal | **Grátis** |
+| **Desempenho** | Alto (Hardware Dedicado) | Compartilhado com seus recursos de jogo |
+| **Configuração** | Configurações via interface | Edição manual de JSON |
+
+Se você escolher um host profissional, o processo é simplificado. Você seleciona seus slots, localização e ciclo de faturamento, e o servidor geralmente fica pronto em minutos. No entanto, para aqueles que preferem controle total e têm hardware de sobra, a ferramenta dedicada local fornecida via Steam é uma excelente alternativa.
+
+## Configurando Seu Servidor Dedicado Local
+
+Para entusiastas que desejam gerenciar seu próprio hardware, a Ferramenta de Servidor Dedicado Windrose está disponível diretamente através da sua Biblioteca Steam. Este método oferece acesso direto a cada arquivo de configuração, permitindo uma personalização profunda da experiência de jogo.
+
+### Passos de Instalação
+
+1.  **Abra a Biblioteca Steam**: Certifique-se de estar logado na conta que possui o jogo.
+2.  **Ative as Ferramentas**: Na barra de pesquisa da sua biblioteca, certifique-se de que a caixa de seleção "Ferramentas" esteja marcada.
+3.  **Procure por Windrose**: Digite "Wind Rose Dedicated Server Tool" no campo de busca.
+4.  **Instalar**: Clique em instalar e escolha um diretório com pelo menos 5 GB de espaço livre para as gravações de mundo e logs.
+5.  **Lançamento Inicial**: Uma vez instalado, clique com o botão direito na ferramenta, selecione "Gerenciar" e depois "Explorar arquivos locais". Execute o arquivo `start server foreground.bat` uma vez.
+
+> **Aviso:** Você deve executar o servidor pelo menos uma vez para gerar a estrutura de pastas necessária e os arquivos JSON. Se você tentar editar os arquivos antes desta execução inicial, encontrará os diretórios vazios.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/uFz1JAiCdnw"
+    title="How to Create a Windrose Server Guide"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Configuração Avançada via JSON
+
+O coração de qualquer guia técnico da **winrose wiki** reside na configuração JSON. Windrose utiliza dois arquivos principais para ditar como o servidor se comporta e como o mundo funciona. Eles estão localizados na pasta `RS` e no diretório `defaultworlds`, respectivamente.
+
+### Configurações de Descrição do Servidor
+
+O arquivo `server description.json` controla os aspectos "meta" do seu servidor — como as pessoas o encontram e quem tem permissão para entrar.
+
+| Parâmetro | Descrição | Valor Recomendado |
+| :--- | :--- | :--- |
+| **Server Name** | O nome exibido no navegador de servidores. | "Nome da Sua Comunidade" |
+| **Password** | A senha necessária para entrar no servidor. | Mantenha-a segura |
+| **IsPasswordProtected** | Ativa/desativa a exigência de senha. | **true** para jogo privado |
+| **Player Count** | Número máximo de jogadores simultâneos. | 4-16 (dependendo da RAM) |
+| **Invite Code** | Um ID único usado para conexões diretas. | Encontrado dentro do JSON |
+
+### Configurações de Descrição do Mundo
+
+Para alterar a dificuldade ou o "clima" do jogo, você deve navegar até a pasta específica de salvamento do seu mundo (encontrada em `defaultworlds`). O `world description.json` permite ajustar o equilíbrio do jogo.
+
+*   **Vida e Dano dos Mobs**: Aumente esses valores para uma experiência de sobrevivência hardcore.
+*   **Vida do Navio**: Ajuste quanto dano as embarcações podem suportar durante o combate naval.
+*   **Dificuldade de Abordagem**: Modifique as mecânicas das ações de abordagem entre navios.
+
+> **Dica:** Sempre crie um backup dos seus arquivos `.json` antes de fazer alterações. Uma única vírgula ou colchete ausente pode impedir a inicialização do servidor.
+
+## Rede e Conectividade
+
+Um dos obstáculos mais comuns para novos anfitriões é garantir que os jogadores possam realmente ver e se conectar ao servidor. Windrose utiliza um sistema de "Invite Code" (Código de Convite) que simplifica o processo, mas as regras padrão de rede ainda se aplicam.
+
+### Redirecionamento de Portas e Firewalls
+
+Ao iniciar seu servidor dedicado pela primeira vez, o Firewall do Windows provavelmente solicitará permissão. Você deve permitir que o aplicativo se comunique em redes **Públicas** e **Privadas**. Se os amigos ainda não conseguirem ver seu servidor no navegador, pode ser necessário fazer login no seu roteador e redirecionar as portas específicas usadas pelo jogo (normalmente portas UDP na faixa 27015-27030, mas verifique sua configuração específica).
+
+### Usando o Código de Convite
+
+O Código de Convite é a maneira mais confiável de trazer amigos para o seu jogo.
+1.  Abra seu `server description.json` ou verifique a aba "Show Server Information" (Mostrar Informações do Servidor) dentro do jogo (menu ESC).
+2.  Copie a sequência alfanumérica.
+3.  Peça para seus amigos irem em "Find Servers" (Encontrar Servidores) no menu principal e colarem o código no campo de conexão direta.
+
+## Mecânicas de Jogo e Interação com o Mundo
+
+Uma vez que o servidor esteja rodando, a verdadeira aventura começa. Os novos jogadores se encontrarão na praia, o ponto de partida para todas as jornadas marítimas em Windrose. Esta seção da **winrose wiki** cobre os passos imediatos a serem tomados assim que você se conectar com sucesso ao seu novo servidor.
+
+### Primeiros Passos de Sobrevivência
+
+Cada jogador começa com necessidades básicas, mas a transição da terra para o mar é o primeiro grande marco. Você precisará coletar recursos para manter sua embarcação inicial e começar a explorar as ilhas próximas.
+
+1.  **Coleta**: Colete madeira e fibra da ilha inicial para criar kits de reparo básicos.
+2.  **Gerenciamento do Navio**: Seu navio é sua tábua de salvação. Use as configurações que discutimos anteriormente para garantir que a vida do seu navio esteja em um nível que corresponda à habilidade do seu grupo.
+3.  **Exploração**: Use o mapa para identificar rotas comerciais e potenciais acampamentos inimigos.
+
+### Sinergia Multijogador
+
+Rodar um servidor dedicado permite papéis especializados dentro de uma tripulação. Ao contrário do modo single-player, onde você deve lidar com o leme, velas e canhões sozinho, um ambiente de servidor dedicado incentiva a cooperação.
+
+*   **O Capitão**: Responsável pela navegação e direção.
+*   **O Artilheiro**: Gerencia os canhões e o suprimento de munição.
+*   **O Carpinteiro**: Foca nos reparos durante o combate e na integridade do casco.
+
+Para informações mais detalhadas sobre tipos de navios e receitas de criação, visite a [página oficial do Windrose no Steam](https://store.steampowered.com/app/1931040/Wind_Rose/) para se manter atualizado sobre os patches mais recentes e mods da comunidade.
+
+## Mantendo Seu Servidor em 2026
+
+À medida que o jogo evolui ao longo de 2026, manter seu servidor atualizado é vital. A Steam geralmente lida com as atualizações da Ferramenta de Servidor Dedicado automaticamente, mas você deve sempre verificar a integridade de seus arquivos após um patch importante.
+
+*   **Verifique se há atualizações**: Antes de iniciar seu arquivo `.bat`, verifique a fila de downloads da Steam.
+*   **Arquivos de Log**: Se o servidor travar, verifique a pasta `logs` dentro do diretório do servidor. Ela geralmente indicará se um erro de JSON ou uma limitação de hardware causou o desligamento.
+*   **Feedback da Comunidade**: Se você estiver rodando um servidor público, ouça seus jogadores em relação às configurações do `world description.json`. Se os mobs estiverem muito difíceis ou os navios muito frágeis, um ajuste rápido e um reinício podem melhorar significativamente a retenção de jogadores.
+
+Este guia da **winrose wiki** serve como base para sua jornada de hospedagem. Ao dominar os arquivos de configuração e entender os requisitos de rede, você garante uma experiência de navegação tranquila para todos os envolvidos.
+
+## FAQ
+
+**P: Onde posso encontrar meu código de convite do Winrose?**
+
+R: Você pode encontrar seu código de convite em dois lugares: dentro do arquivo `server description.json` localizado na pasta `RS` do diretório do seu servidor, ou pressionando Escape dentro do jogo e selecionando "Show Server Information" enquanto estiver conectado ao seu servidor.
+
+**P: Como altero a dificuldade dos mobs no meu servidor?**
+
+R: Você precisa editar o arquivo `world description.json`. Este está localizado dentro da sua pasta específica de salvamento de mundo dentro do diretório `defaultworlds`. Você pode ajustar os multiplicadores de `mob health` (vida do mob) e `mob damage` (dano do mob) lá.
+
+**P: Posso hospedar um servidor Winrose e jogar no mesmo computador?**
+
+R: Sim, você pode rodar a Wind Rose Dedicated Server Tool e o cliente do jogo simultaneamente. No entanto, certifique-se de que seu PC tenha RAM suficiente (pelo menos 16 GB recomendados) para lidar tanto com os processos de fundo do servidor quanto com os requisitos gráficos do jogo.
+
+**P: Por que meu servidor não está aparecendo na lista pública de servidores?**
+
+R: Isso geralmente ocorre devido a problemas de firewall ou redirecionamento de portas. Certifique-se de que o aplicativo do servidor dedicado seja permitido pelo Firewall do Windows e que seu roteador esteja redirecionando corretamente as portas UDP necessárias para o seu endereço IP local. Verificar os fóruns da comunidade **winrose wiki** para atualizações de portas específicas em 2026 também é recomendado.

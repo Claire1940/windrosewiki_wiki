@@ -1,0 +1,140 @@
+export const metadata = {
+  title: "Winrose Wiki: Essential Server Hosting & Gameplay Guide 2026",
+  description: "Master the waves with our comprehensive Winrose wiki guide. Learn how to set up dedicated servers, configure world settings, and optimize your multiplayer experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Winrose+Wiki+Guide",
+  date: "2026-04-24",
+  author: "Windrose Wiki Team"
+}
+
+Navigating the vast, open waters of Windrose requires more than just a sturdy ship and a keen eye for the horizon; it requires a stable environment where you and your crew can flourish. Whether you are looking to conquer the high seas with friends or establish a private empire, understanding the technical side of the game is paramount. This **winrose wiki** resource is designed to bridge the gap between a fresh installation and a fully optimized dedicated server. As we move through 2026, the community has seen a surge in demand for persistent worlds that allow players to drop in and out without the host needing to be present. This **winrose wiki** guide provides the step-by-step instructions necessary to manage your own maritime world, from basic installation to advanced JSON configuration.
+
+## Choosing Your Hosting Method
+
+Before diving into the files, you must decide how you want to host your world. There are two primary paths: utilizing a professional hosting service or running a local dedicated server on your own hardware. Each has its own set of benefits depending on your technical skill and budget.
+
+| Feature | Professional Hosting (e.g., Survival Servers) | Local Dedicated Server |
+| :--- | :--- | :--- |
+| **Uptime** | 24/7 Guaranteed | Depends on your PC being on |
+| **Ease of Use** | High (Web-based Control Panel) | Moderate (Requires file editing) |
+| **Cost** | Monthly Subscription | **Free** |
+| **Performance** | High (Dedicated Hardware) | Shared with your gaming resources |
+| **Configuration** | UI-based settings | Manual JSON editing |
+
+If you choose a professional host, the process is streamlined. You select your slots, location, and billing cycle, and the server is usually ready within minutes. However, for those who prefer total control and have the hardware to spare, the local dedicated tool provided via Steam is an excellent alternative.
+
+## Setting Up Your Local Dedicated Server
+
+For enthusiasts who want to manage their own hardware, the Windrose Dedicated Server Tool is available directly through your Steam Library. This method gives you direct access to every configuration file, allowing for deep customization of the gameplay experience.
+
+### Installation Steps
+
+1.  **Open Steam Library**: Ensure you are logged into the account that owns the game.
+2.  **Toggle Tools**: In the search bar of your library, ensure the "Tools" checkbox is selected.
+3.  **Search for Windrose**: Type "Wind Rose Dedicated Server Tool" into the search field.
+4.  **Install**: Click install and choose a directory with at least 5GB of free space to account for world saves and logs.
+5.  **Initial Launch**: Once installed, right-click the tool, select "Manage," and then "Browse local files." Run the `start server foreground.bat` file once.
+
+> **Warning:** You must run the server at least once to generate the necessary folder structure and JSON files. If you attempt to edit files before this initial run, you will find the directories empty.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/uFz1JAiCdnw"
+    title="How to Create a Windrose Server Guide"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Advanced Configuration via JSON
+
+The heart of any **winrose wiki** technical guide lies in the JSON configuration. Windrose uses two primary files to dictate how the server behaves and how the world functions. These are located in the `RS` folder and the `defaultworlds` directory respectively.
+
+### Server Description Settings
+
+The `server description.json` file controls the "meta" aspects of your server—how people find it and who is allowed to join.
+
+| Parameter | Description | Recommended Value |
+| :--- | :--- | :--- |
+| **Server Name** | The name displayed in the server browser. | "Your Community Name" |
+| **Password** | The string required to join the server. | Keep it secure |
+| **IsPasswordProtected** | Toggles the password requirement. | **true** for private play |
+| **Player Count** | Maximum number of simultaneous players. | 4-16 (depending on RAM) |
+| **Invite Code** | A unique ID used for direct connections. | Found inside the JSON |
+
+### World Description Settings
+
+To change the difficulty or the "feel" of the game, you must navigate to your specific world save folder (found within `defaultworlds`). The `world description.json` allows you to tweak the balance of the game.
+
+*   **Mob Health & Damage**: Increase these values for a hardcore survival experience.
+*   **Ship Health**: Adjust how much punishment vessels can take during naval combat.
+*   **Boarding Difficulty**: Modify the mechanics of ship-to-ship boarding actions.
+
+> **Tip:** Always create a backup of your `.json` files before making changes. A single missing comma or bracket can prevent the server from booting.
+
+## Networking and Connectivity
+
+One of the most common hurdles for new hosts is ensuring that players can actually see and connect to the server. Windrose utilizes an "Invite Code" system which simplifies the process, but standard networking rules still apply.
+
+### Port Forwarding and Firewalls
+
+When you first launch your dedicated server, Windows Firewall will likely prompt you for permission. You must allow the application to communicate on both **Public** and **Private** networks. If friends still cannot see your server in the browser, you may need to log into your router and forward the specific ports used by the game (typically UDP ports in the 27015-27030 range, though check your specific config).
+
+### Using the Invite Code
+
+The Invite Code is the most reliable way to bring friends into your game. 
+1.  Open your `server description.json` or check the "Show Server Information" tab in-game (ESC menu).
+2.  Copy the alphanumeric string.
+3.  Have your friends go to "Find Servers" in the main menu and paste the code into the direct connect field.
+
+## Gameplay Mechanics and World Interaction
+
+Once the server is running, the real adventure begins. New players will find themselves on the beach, the starting point for all maritime journeys in Windrose. This **winrose wiki** section covers the immediate steps to take once you've successfully connected to your new server.
+
+### Initial Survival Steps
+
+Every player starts with basic necessities, but the transition from land to sea is the first major milestone. You will need to gather resources to maintain your initial vessel and begin exploring nearby islands.
+
+1.  **Gathering**: Collect wood and fiber from the starting island to craft basic repair kits.
+2.  **Ship Management**: Your ship is your lifeline. Use the configuration settings we discussed earlier to ensure your ship's health is at a level that matches your group's skill.
+3.  **Exploration**: Use the map to identify trade routes and potential enemy encampments.
+
+### Multiplayer Synergy
+
+Running a dedicated server allows for specialized roles within a crew. Unlike single-player mode, where you must handle steering, sails, and cannons alone, a dedicated server environment encourages cooperation.
+
+*   **The Captain**: Responsible for navigation and steering.
+*   **The Gunner**: Manages the cannons and ammunition supplies.
+*   **The Carpenter**: Focuses on mid-combat repairs and hull integrity.
+
+For more detailed information on ship types and crafting recipes, visit the [official Windrose Steam page](https://store.steampowered.com/app/1931040/Wind_Rose/) to stay updated on the latest patches and community mods.
+
+## Maintaining Your Server in 2026
+
+As the game evolves throughout 2026, keeping your server updated is vital. Steam will usually handle the updates for the Dedicated Server Tool automatically, but you should always verify the integrity of your files after a major patch.
+
+*   **Check for Updates**: Before starting your `.bat` file, check the Steam download queue.
+*   **Log Files**: If the server crashes, check the `logs` folder within the server directory. It will usually pinpoint if a JSON error or a hardware limitation caused the shutdown.
+*   **Community Feedback**: If you are running a public server, listen to your players regarding the `world description.json` settings. If mobs are too difficult or ships are too fragile, a quick tweak and a restart can significantly improve player retention.
+
+This **winrose wiki** guide serves as a foundation for your hosting journey. By mastering the configuration files and understanding the networking requirements, you ensure a smooth sailing experience for everyone involved.
+
+## FAQ
+
+**Q: Where can I find my Winrose invite code?**
+
+A: You can find your invite code in two places: inside the `server description.json` file located in the `RS` folder of your server directory, or by pressing Escape in-game and selecting "Show Server Information" while connected to your server.
+
+**Q: How do I change the difficulty of the mobs on my server?**
+
+A: You need to edit the `world description.json` file. This is located within your specific world save folder inside the `defaultworlds` directory. You can adjust `mob health` and `mob damage` multipliers there.
+
+**Q: Can I host a Winrose server and play on the same computer?**
+
+A: Yes, you can run the Wind Rose Dedicated Server Tool and the game client simultaneously. However, ensure your PC has enough RAM (at least 16GB recommended) to handle both the server's background processes and the game's graphical requirements.
+
+**Q: Why isn't my server showing up in the public server list?**
+
+A: This is usually due to firewall or port forwarding issues. Ensure the dedicated server app is allowed through your Windows Firewall and that your router is correctly forwarding the necessary UDP ports to your local IP address. Checking the **winrose wiki** community forums for specific port updates in 2026 is also recommended.
