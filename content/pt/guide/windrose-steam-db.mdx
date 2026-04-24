@@ -1,0 +1,146 @@
+export const metadata = {
+  title: "Windrose Steam DB: Guia de Configuração de Servidor Dedicado 2026",
+  description: "Aprenda a usar as informações do Windrose Steam DB para configurar e gerenciar seu próprio servidor dedicado de sobrevivência pirata. Guia completo para SteamCMD e configuração.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Windrose+Steam+DB+Server+Guide",
+  date: "2026-04-25",
+  author: "Equipe da Wiki Windrose"
+}
+
+Windrose oferece uma experiência de sobrevivência pirata de alto risco, onde a qualidade da sua conexão pode significar a diferença entre um saque bem-sucedido e um navio naufragado. Para jogadores que buscam oferecer um ambiente estável e 24 horas por dia para sua tripulação, configurar um servidor dedicado é a escolha profissional. Para iniciar este processo, você deve primeiro consultar a entrada do **windrose steam db** para obter os IDs de aplicativo necessários para o software do servidor. O uso de um servidor dedicado alivia os requisitos de processamento da sua máquina de jogo, garantindo que o mundo persista mesmo quando você estiver offline. Este guia o levará através dos requisitos técnicos, etapas de instalação e ajustes de configuração necessários para lançar seu mundo usando os dados do **windrose steam db**. Quer você esteja hospedando para um pequeno grupo de amigos ou para uma comunidade maior, seguir estas etapas garante uma configuração sem complicações em sistemas baseados em Windows.
+
+## Entendendo os Requisitos do Windrose Steam DB
+
+Antes de mergulhar na linha de comando, é essencial entender quais dados estamos extraindo do banco de dados. A entrada do **windrose steam db** fornece o "App ID", que informa ao SteamCMD exatamente quais arquivos baixar. Ao contrário do jogo base, o servidor dedicado geralmente possui seu próprio identificador exclusivo.
+
+Para o Windrose, o software do servidor dedicado pode ser acessado sem necessariamente possuir o jogo na conta de hospedagem, o que é uma grande vantagem para quem utiliza hardware remoto. No entanto, você deve garantir que seu hardware atenda aos limites mínimos para evitar o "rubber-banding" (efeito elástico) durante combates navais intensos.
+
+### Especificações Recomendadas do Servidor
+
+| Componente | Requisito Mínimo | Recomendado (8+ Jogadores) |
+| :--- | :--- | :--- |
+| **CPU** | Quad-Core 3.0GHz+ | Hexa-Core 3.6GHz+ |
+| **RAM** | 8 GB DDR4 | 16 GB DDR4 |
+| **Armazenamento** | 10 GB de Espaço Disponível | SSD com 20 GB de Espaço |
+| **SO** | Windows Server 2022 / Windows 10 | Windows Server 2022 |
+| **Rede** | 20 Mbps de Upload | 100 Mbps de Upload (Fibra) |
+
+> **💡 Dica:** Sempre use uma conexão Ethernet cabeada para hospedagem. O Wi-Fi introduz instabilidade (jitter) que pode fazer com que os jogadores se desconectem durante as transições de estado do mundo.
+
+## Passo 1: Instalando o SteamCMD
+
+O SteamCMD é a versão de linha de comando do cliente Steam. É o padrão da indústria para gerenciar servidores de jogos dedicados.
+
+1.  **Download**: Visite a [Comunidade Oficial de Desenvolvedores da Valve](https://developer.valvesoftware.com/wiki/SteamCMD) e baixe a versão para Windows do SteamCMD.
+2.  **Extração**: Crie uma pasta dedicada em seu disco (ex: `C:\SteamCMD`) e extraia o conteúdo do arquivo zip nela.
+3.  **Inicialização**: Execute o `steamcmd.exe`. O programa baixará atualizações automaticamente e preparará o ambiente. Assim que você vir o prompt `Steam>`, a inicialização estará completa.
+
+## Passo 2: Baixando os Arquivos do Servidor Windrose
+
+Assim que o SteamCMD estiver pronto, você precisará usar o App ID encontrado no **windrose steam db**. Este ID garante que você está baixando a versão estável mais recente do software do servidor.
+
+Siga estes comandos na janela do SteamCMD:
+
+1.  Digite `login anonymous` e pressione Enter. (O Windrose permite login anônimo para arquivos de servidor).
+2.  Digite `app_update 4129620` e pressione Enter.
+3.  Aguarde a mensagem "Success! App '4129620' fully installed".
+
+| Comando | Objetivo |
+| :--- | :--- |
+| **login anonymous** | Faz login nos servidores Steam sem uma conta |
+| **app_update 4129620** | Baixa/Atualiza os arquivos do Servidor Windrose |
+| **validate** | (Opcional) Adicionado ao update para verificar a integridade dos arquivos |
+| **exit** | Fecha corretamente a sessão do SteamCMD |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/UTVC82uINBQ"
+    title="Windrose Server Setup Made EASY | SteamCMD Windows Guide"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Passo 3: Inicialização e Configuração Inicial
+
+Após o término do download, navegue até a pasta do SteamCMD, depois para `steamapps\common\Windrose Dedicated Server`. Você verá um arquivo chamado `Start server foreground.bat`.
+
+### Primeira Execução
+Execute o arquivo batch uma vez. Isso gerará os arquivos de mundo e pastas de configuração necessários. Assim que o console indicar que o coletor está carregando ou que o mundo foi gerado, você pode fechá-lo clicando na janela do console e pressionando **Ctrl + C**.
+
+### Modificando as Configurações do Servidor
+O arquivo de configuração principal é o `serverDescription.json`, localizado no diretório `Saved\Config`. Este arquivo usa a formatação JSON para definir como seu servidor aparece na lista.
+
+| Configuração | Descrição | Valor Recomendado |
+| :--- | :--- | :--- |
+| **ServerName** | O nome visível na lista de servidores | "Nome da Sua Tripulação - Sobrevivência" |
+| **MaxPlayerCount** | Total de vagas disponíveis | 8 a 16 (Dependente do hardware) |
+| **Password** | Senha necessária para entrar | Deixe vazio para público |
+| **IsPasswordProtected** | Ativa/Desativa a senha | true / false |
+| **InviteCode** | Código único para entrada direta | Gerado automaticamente |
+
+> **⚠️ Aviso:** Não compartilhe seu `InviteCode` publicamente, a menos que queira que qualquer pessoa possa ignorar a lista de servidores e entrar diretamente.
+
+## Passo 4: Configuração Avançada e Regras do Mundo
+
+O Windrose permite uma manipulação mais profunda do mundo do jogo através de um segundo arquivo de configuração. Enquanto o `serverDescription.json` lida com os aspectos do "lobby", os arquivos de descrição do mundo lidam com as mecânicas de jogabilidade.
+
+Se você deseja alterar as taxas de surgimento de recursos ou modificadores de combate, deve criar um arquivo de configuração adicional conforme descrito nas instruções do `DedicatedServer.md` encontradas na pasta raiz. Os desenvolvedores forneceram um `example.json` que você pode copiar e renomear para personalizar sua experiência.
+
+1.  **Localize o Exemplo**: Abra o `DedicatedServer.md` para ver a sintaxe mais recente.
+2.  **Crie o Arquivo**: Salve um novo arquivo `.json` com os multiplicadores desejados.
+3.  **Aplique as Configurações**: Certifique-se de que o caminho no seu arquivo `.bat` de inicialização aponte para essas novas configurações, se necessário.
+
+## Passo 5: Configuração de Rede e Encaminhamento de Portas
+
+Para que jogadores fora da sua rede local possam se conectar, você deve abrir portas específicas no seu roteador e no Firewall do Windows. Este é o ponto de falha mais comum para novos anfitriões.
+
+1.  **Firewall do Windows**: Crie uma "Regra de Entrada" para o executável do Windrose e as portas específicas usadas pelo jogo.
+2.  **Encaminhamento de Portas no Roteador (Port Forwarding)**: Acesse o gateway do seu roteador (geralmente `192.168.1.1`) e encaminhe as portas UDP/TCP para o endereço IP local da máquina de hospedagem.
+3.  **IP Estático**: Certifique-se de que o computador host tenha um IP local estático para que o encaminhamento de porta não pare de funcionar quando a máquina for reiniciada.
+
+> **Nota:** O encaminhamento de portas acarreta riscos de segurança inerentes. Abra apenas as portas estritamente necessárias para o jogo e garanta que seu sistema operacional esteja totalmente atualizado com os patches de segurança de 2026.
+
+## Passo 6: Entrando no Seu Servidor Dedicado
+
+Assim que o console do servidor mostrar que ele está ativo, os jogadores podem entrar através do menu do jogo.
+
+1.  Inicie o **Windrose**.
+2.  Selecione **Connect to a Server** (Conectar a um Servidor).
+3.  Insira o **Invite Code** (Código de Convite) encontrado no seu arquivo `serverDescription.json`.
+4.  Se o servidor estiver na sua rede local, você pode precisar usar seu endereço IP local em vez do código de convite se o roteador não suportar NAT Loopback.
+
+Se o seu servidor não aparecer na lista, verifique se os arquivos do seu **windrose steam db** estão totalmente atualizados. Incompatibilidades de versão entre o cliente e o servidor são a principal causa de erros de "Servidor Não Encontrado".
+
+## Manutenção e Atualizações
+
+O mundo de Windrose está em constante evolução. Quando os desenvolvedores lançam um patch, seu servidor deve ser atualizado manualmente via SteamCMD.
+
+Para atualizar:
+1.  Feche o console do servidor.
+2.  Abra o SteamCMD.
+3.  Execute `login anonymous`.
+4.  Execute `app_update 4129620`.
+5.  Assim que terminar, reinicie o arquivo batch do seu servidor.
+
+Você pode automatizar isso criando um arquivo "Update.bat" que contenha esses comandos, permitindo que você mantenha seus arquivos do **windrose steam db** atualizados com um único clique.
+
+## FAQ
+
+**P: Posso hospedar e jogar no mesmo computador?**
+
+R: Sim, mas não é recomendado, a menos que você tenha um PC de ponta com pelo menos 32 GB de RAM e um processador multi-core potente. Hospedar e jogar simultaneamente pode causar picos significativos de lag para outros jogadores.
+
+**P: Onde encontro o App ID para o servidor Windrose?**
+
+R: Você pode encontrar o ID mais preciso e atualizado pesquisando no **windrose steam db**. Atualmente, o App ID para o servidor dedicado é **4129620**.
+
+**P: Por que meu servidor não está aparecendo na lista pública?**
+
+R: Isso geralmente se deve a problemas de encaminhamento de portas. Certifique-se de que seu roteador está encaminhando corretamente o tráfego para a máquina host e que o Firewall do Windows não está bloqueando a conexão. Além disso, verifique se `IsPasswordProtected` está configurado corretamente em seu arquivo de configuração.
+
+**P: Como faço para resetar o mundo do meu servidor?**
+
+R: Para iniciar um mundo novo, navegue até a pasta `Saved` no diretório do seu servidor e exclua a pasta `World`. Na próxima vez que você iniciar o servidor, ele gerará um mapa completamente novo com base nos algoritmos de geração da versão atual.

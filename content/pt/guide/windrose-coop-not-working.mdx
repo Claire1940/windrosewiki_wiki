@@ -1,0 +1,113 @@
+export const metadata = {
+  title: "Windrose Coop não está funcionando: Correções e Guia de Multiplayer 2026",
+  description: "Solucione problemas de multiplayer no Windrose, corrija erros de sincronização de missões e entenda as mecânicas de saque em nosso guia completo de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Windrose+Coop+Fixes",
+  date: "2026-04-25",
+  author: "Equipe Wiki do Windrose"
+}
+
+Navegar pelos mares abertos é sempre melhor com amigos, mas encontrar uma situação em que o **coop do Windrose não está funcionando** como pretendido pode afundar rapidamente o seu ânimo. Esteja você lutando para se conectar ao lobby de um amigo ou descobrindo que o progresso da sua missão não está sincronizando corretamente, entender as mecânicas subjacentes desta aventura pirata é fundamental. Frequentemente, o que parece ser um bug relacionado ao **coop do Windrose não funcionar** é, na verdade, um mal-entendido sobre como o jogo lida com dados vinculados ao personagem e progressão específica do mapa.
+
+Neste guia, detalharemos as etapas técnicas de solução de problemas para reunir sua tripulação novamente, enquanto explicamos as maneiras únicas como Windrose lida com saques, receitas e reputação de facção no multiplayer. Ao final deste artigo, você não apenas terá corrigido seus problemas de conectividade, mas também terá aprendido como explorar as mecânicas multijogador para se tornar a frota pirata mais poderosa do oceano em 2026.
+
+## Resolução de problemas do Coop do Windrose que não está funcionando
+
+Antes de mergulhar nas mecânicas complexas do jogo, é importante descartar falhas técnicas padrão. A maioria dos problemas de conectividade no Windrose decorre de configurações de firewall, versões incompatíveis ou dessincronização do servidor. Se você notar que o **coop do Windrose não está funcionando**, comece com a seguinte lista de verificação para identificar a causa raiz.
+
+| Tipo de Problema | Sintoma | Correção Principal |
+| :--- | :--- | :--- |
+| **Tempo de Conexão Esgotado** | Incapaz de entrar no lobby de um amigo | Verifique se ambos os jogadores estão na mesma versão do jogo. |
+| **Lobby Não Visível** | O jogo do amigo não aparece na lista | Verifique as configurações de privacidade da Steam/Plataforma e defina como 'Público' ou 'Apenas Amigos'. |
+| **Dessincronização (Desync)** | Jogadores veem posições diferentes do navio | Use um host de servidor dedicado como o G-Portal para melhor estabilidade. |
+| **Bloqueio de Firewall** | O jogo falha ao iniciar serviços online | Adicione o Windrose à lista de permissões do Firewall do Windows. |
+
+Se estas etapas básicas não resolverem o problema, certifique-se de que sua conexão com a internet está estável. O Windrose depende de uma arquitetura peer-to-peer ou servidor-cliente que requer uma velocidade de upload consistente. Se o host tiver uma conexão fraca, toda a experiência cooperativa será prejudicada.
+
+> **Aviso:** Sempre faça backup do arquivo de salvamento do seu personagem antes de tentar entrar em um servidor com muitos mods, pois a corrupção de dados pode ocorrer ocasionalmente se os mods do host não coincidirem com os seus.
+
+## Entendendo a Dessincronização de Saques e Missões
+
+Uma reclamação comum dos jogadores é que os saques ou as missões estão "quebrados" no multiplayer. No entanto, o Windrose utiliza um sistema muito específico que vincula certos progressos ao seu personagem e outros progressos ao mapa. Se você se juntar a um amigo e descobrir que os baús estão vazios, não é necessariamente um caso de **coop do Windrose não funcionar**; é provável que o sistema de ID exclusivo do jogo esteja em ação.
+
+### Saque Vinculado ao Personagem
+O saque no Windrose é gerado especificamente para o seu personagem quando você visita um Ponto de Interesse (PDI). Cada PDI tem um ID exclusivo. Se você já explorou um PDI específico em seu próprio mapa solo e saqueou seus baús principais, esses mesmos baús aparecerão vazios quando você visitar aquele PDI no mapa de um amigo. O jogo lembra que seu personagem já "reivindicou" as recompensas associadas àquele ID de localização específico.
+
+### Progressão de Missão
+As missões também são específicas do personagem. Você não pode simplesmente entrar no mundo de um jogador veterano e receber automaticamente crédito pelos objetivos concluídos por ele. Para obter crédito por uma missão compartilhada, você deve estar ativamente carregado na sessão de jogo quando o objetivo for concluído. Se você entrar após uma missão ser finalizada, precisará completá-la em seu próprio mapa ou em uma sessão diferente onde a missão ainda esteja ativa.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/kzhL0huVi8g"
+    title="Mecânicas do Windrose que eu gostaria de saber no primeiro dia"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Reputação de Facção e Progressão do Mapa
+
+Enquanto o saque e as missões seguem o personagem, a reputação da facção segue o mapa. Esta é uma distinção crítica para jogadores que pensam que seu **coop do Windrose não está funcionando** porque sua reputação mudou.
+
+Quando você carrega no mapa de um amigo, você herda o favor que aquele mapa tem com várias facções. Isso cria uma oportunidade poderosa para trocar mundos rapidamente. Se você está focando na Facção A no seu mapa e seu amigo está focando na Facção B no dele, vocês podem pular nos jogos um do outro para comprar itens exclusivos que, de outra forma, não teriam acesso.
+
+| Recurso | Vinculado a | Comportamento no Coop |
+| :--- | :--- | :--- |
+| **Receitas** | Personagem | Desbloqueadas instantaneamente ao tocar em um item que você não conhece. |
+| **Favor da Facção** | Mapa | Compartilhado por todos que estão jogando naquele mapa específico. |
+| **Equipamento** | Personagem | Todas as armaduras, armas e melhorias de navio viajam com você. |
+| **Saque de PDI** | Personagem/ID | Uma vez que um ID de PDI específico é saqueado, ele permanece saqueado para aquele personagem. |
+
+## Maximizando Recompensas no Multiplayer
+
+Depois de resolver qualquer problema com o **coop do Windrose não funcionando**, você pode começar a usar as mecânicas do jogo a seu favor. O multiplayer é significativamente mais lucrativo do que o jogo solo se você usar as estratégias corretas.
+
+### O Truque de Abordagem
+Ao se envolver em combate naval, não se limite a afundar seus inimigos. Em vez disso, cause dano até que fiquem incapacitados e, então, aborde-os. No multiplayer, cada jogador que estiver no navio abordado quando ele for conquistado recebe uma recompensa monetária completa. Enquanto o saque físico dos destroços do navio é dado a apenas uma pessoa, o pagamento em ouro é duplicado para cada membro da tripulação presente. Esta é a maneira mais rápida de farmar moedas em 2026.
+
+### Receitas Compartilhadas
+Um dos melhores benefícios do coop é o compartilhamento de receitas. Se qualquer jogador soltar um item ou tocar em uma receita de uma peça de armadura, arma ou parte de navio, todos os jogadores próximos que ainda não possuírem essa receita a desbloquearão instantaneamente. Isso permite que um grupo de amigos preencha rapidamente seus registros de criação trocando itens entre si.
+
+> **💡 Dica:** Use tochas como "migalhas de pão" em minas. Como os inimigos não podem pular, você também pode construir pequenas plataformas para ficar fora de alcance enquanto os ataca com segurança de cima.
+
+## Manutenção Avançada de Navios e Combate
+
+Um jogo cooperativo eficiente requer manter sua frota em perfeitas condições. Você pode encontrar mais detalhes na [Página Oficial do Windrose na Steam](https://store.steampowered.com/app/Windrose) sobre patches recentes, mas as mecânicas principais de reparo de navios permanecem consistentes.
+
+### Reparos Instantâneos
+Em vez de desperdiçar kits de reparo caros enquanto estiver no mar, sempre vá para um cais quando possível. Ao clicar no botão de reparo em qualquer cais, você pode restaurar totalmente a vida do seu navio por um custo fixo de 20 madeiras, independentemente de quanto dano foi sofrido. Esta é uma economia massiva de recursos para viagens longas.
+
+### Estratégia de Combate: Mire na Popa
+No combate navio a navio, o posicionamento é tudo. Sempre tente manobrar sua embarcação atrás do inimigo. Atingir a "traseira" ou popa de um navio inimigo resulta em dano crítico, indicado por números de dano amarelos. Em 2026, builds de alto nível podem frequentemente afundar navios de nível médio em uma única salva de tiros focando nessas zonas de acerto crítico.
+
+| Método de Reparo | Custo | Velocidade | Melhor Uso |
+| :--- | :--- | :--- | :--- |
+| **Kit de Reparo** | Varia (Fabricado) | Lento (Ao longo do tempo) | Emergências no meio do combate |
+| **Reparo no Cais** | **20 Madeiras** | Instantâneo | Manutenção pós-combate |
+| **Reset de Abordagem** | Nenhum | Instantâneo | Escapar de situações esmagadoras |
+
+## Construção de Base e Gerenciamento de NPCs
+
+Sua base de operações é ancorada por sua fogueira. Um equívoco comum é que mover sua fogueira destruirá sua base, levando a relatos de que o sistema de base no **coop do Windrose não está funcionando**. Na realidade, a fogueira atua como um "centro lógico" para seus baús e NPCs.
+
+Você pode pegar e mover sua fogueira a qualquer momento sem perder suas estruturas. O único requisito é que você deve realocar manualmente seus NPCs através da interface da fogueira uma vez que ela seja colocada em sua nova localização. Isso permite que você expanda ou mude sua base conforme descobre ilhas melhores ou posições mais estratégicas no mapa.
+
+## FAQ
+
+**P: Por que meu amigo não consegue ver o saque nos baús do meu mapa?**
+
+R: Se seu amigo já visitou um PDI com o mesmo ID em seu próprio mapa ou em um servidor diferente, o saque não reaparecerá para ele. O saque está vinculado ao histórico do personagem com aquele ID de PDI específico para evitar o farm infinito.
+
+**P: O progresso da missão é transferido para o meu mundo solo?**
+
+R: Não. O progresso da missão é específico do personagem, mas você deve estar presente quando a missão for concluída para receber o crédito. Se você completar uma missão no mundo de um amigo, ela será marcada como concluída para o seu personagem, mas o estado do mundo do seu mapa solo permanecerá inalterado até que você progrida lá.
+
+**P: Como corrijo o erro "coop do Windrose não está funcionando" ao tentar entrar em um servidor?**
+
+R: A maioria dos erros de conexão é resolvida garantindo que tanto o host quanto o cliente tenham atualizado para o patch mais recente de 2026. Além disso, verifique se o host abriu as portas necessárias ou se está usando um serviço de hospedagem dedicado para ignorar as restrições da rede local.
+
+**P: Podemos compartilhar a reputação da facção?**
+
+R: Sim. A reputação da facção está ligada ao mapa. Se você se juntar a um amigo que tem alto favor com os Senhores Piratas, você poderá acessar as lojas e benefícios deles enquanto estiver jogando no mapa desse amigo.

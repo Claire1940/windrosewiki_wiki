@@ -1,0 +1,144 @@
+export const metadata = {
+  title: "SteamDB Windrose: Guide zur Einrichtung eines Dedicated Servers 2026",
+  description: "Erfahren Sie, wie Sie SteamDB Windrose-Daten nutzen, um Ihren eigenen dedizierten Server zu hosten. Schritt-für-Schritt SteamCMD-Tutorial für Piraten-Survival-Fans.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=SteamDB+Windrose+Server+Guide",
+  date: "2026-04-25",
+  author: "Windrose Wiki Team"
+}
+
+Die Einrichtung einer dedizierten Umgebung für Piraten-Survival ist der beste Weg, um ein dauerhaftes und verzögerungsfreies Erlebnis für Ihre Crew zu gewährleisten. Bei der Suche nach den notwendigen technischen Details greifen viele Spieler auf **steamdb windrose** Einträge zurück, um die spezifische App-ID zu finden, die für die Server-Bereitstellung erforderlich ist. Durch das Hosting Ihres eigenen Servers erhalten Sie die volle Kontrolle über Welteinstellungen, Spielerlimits und Update-Intervalle, was für den langfristigen Fortschritt in den tückischen Gewässern von Windrose unerlässlich ist. Dieser Leitfaden führt Sie durch den gesamten Prozess der Nutzung von **steamdb windrose** Informationen, um einen leistungsstarken dedizierten Server mit SteamCMD im Jahr 2026 zu starten.
+
+Egal, ob Sie ein erfahrener Server-Administrator oder ein erstmaliger Host sind, das Verständnis der Beziehung zwischen der Steam-Datenbank und Ihrem lokalen Rechner ist entscheidend. Dieses Tutorial deckt alles ab, von den ersten Dateidownloads bis hin zur erweiterten Konfiguration über JSON-Dateien, damit Ihr Piratenhafen rund um die Uhr online bleibt.
+
+## SteamDB und die Windrose App ID verstehen
+
+Bevor Sie mit der Installation beginnen können, müssen Sie die korrekte Anwendungskennung identifizieren. SteamDB (Steam Database) ist ein unabhängiges Tool, das jede Software auf der Steam-Plattform verfolgt. Für dedizierte Server unterscheidet sich die App-ID oft von der ID des Hauptspiels.
+
+Laut den aktuellen **steamdb windrose** Daten für 2026 erlaubt die dedizierte Serverkomponente einen anonymen Login. Das bedeutet, dass Sie das Spiel nicht zwingend auf dem Account besitzen müssen, auf dem die Server-Software läuft. Dies ist ein massiver Vorteil für diejenigen, die remote VPS-Hosting oder Sekundärrechner nutzen.
+
+| Komponente | Kennung |
+| :--- | :--- |
+| **Windrose Spiel App ID** | 2431620 (Beispiel) |
+| **Windrose Dedicated Server App ID** | **4129620** |
+| **Login-Anforderung** | Anonym |
+| **Plattform-Unterstützung** | Windows / Linux (via Proton/Wine) |
+
+## Hardware- und Systemanforderungen
+
+Das Hosting eines dedizierten Servers erfordert mehr Ressourcen als das bloße Spielen des Spiels. Da der Server die Weltphysik, das KI-Verhalten für feindliche Schiffe und die Synchronisation der Spielerdaten verarbeiten muss, ist das Erreichen der Mindesthardware-Anforderungen entscheidend für ein reibungsloses Erlebnis.
+
+| Ressource | Mindestanforderung | Empfohlen (8+ Spieler) |
+| :--- | :--- | :--- |
+| **Prozessor** | Quad-Core 3.0GHz+ | Hex-Core 3.6GHz+ |
+| **Arbeitsspeicher (RAM)** | 8 GB | 16 GB |
+| **Speicherplatz** | 10 GB SSD Platz | 20 GB NVMe SSD |
+| **Upload-Geschwindigkeit** | 5 Mbps | 20 Mbps+ |
+
+> **⚠️ Warnung:** Versuchen Sie nicht, auf derselben Maschine zu hosten und zu spielen, es sei denn, Sie verfügen über mindestens 32 GB RAM und eine High-End-Multi-Thread-CPU. Andernfalls kann es zu erheblichem "Rubber-Banding" und Abstürzen für alle verbundenen Spieler kommen.
+
+## Schritt 1: Installation von SteamCMD
+
+SteamCMD ist die Kommandozeilenversion des Steam-Clients. Es ist das Standardwerkzeug der Branche zum Herunterladen und Aktualisieren von dedizierten Serverdateien. Befolgen Sie diese Schritte, um Ihre Umgebung vorzubereiten:
+
+1.  **SteamCMD herunterladen:** Besuchen Sie die offizielle Website der Valve Developer Community und laden Sie die Windows-Version von SteamCMD herunter.
+2.  **Entpacken:** Erstellen Sie einen Ordner namens `SteamCMD` im Stammverzeichnis Ihres Laufwerks (z. B. `C:\SteamCMD`) und extrahieren Sie den Inhalt der Zip-Datei dorthin.
+3.  **Initialisierung:** Führen Sie die `steamcmd.exe` aus. Das Programm wird notwendige Updates herunterladen und Sie zu einer `Steam>` Eingabeaufforderung führen.
+
+## Schritt 2: Herunterladen der Windrose-Serverdateien
+
+Sobald SteamCMD initialisiert ist, müssen Sie die Dateien abrufen, die mit der **steamdb windrose** Server-ID verknüpft sind. Verwenden Sie die folgende Befehlsfolge im Terminal:
+
+1.  Geben Sie `login anonymous` ein und drücken Sie die Eingabetaste.
+2.  Legen Sie das Installationsverzeichnis fest, indem Sie `force_install_dir ./windrose_server/` eingeben.
+3.  Starten Sie den Download mit dem Befehl `app_update 4129620 validate`.
+
+Das "validate"-Flag ist wichtig, da es während des Download-Vorgangs auf beschädigte Dateien prüft. Sobald das Terminal "Success! App '4129620' fully installed" anzeigt, können Sie `exit` eingeben, um die Eingabeaufforderung zu schließen.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/UTVC82uINBQ"
+    title="Windrose Server Setup Made EASY | SteamCMD Windows Guide"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Schritt 3: Erster Serverstart
+
+Navigieren Sie zu Ihrem `windrose_server` Ordner. Dort finden Sie eine ausführbare Datei namens `WindroseServer.exe` und eine Batch-Datei, die normalerweise `StartServerForeground.bat` heißt.
+
+**Befolgen Sie diese Schritte für den ersten Durchlauf:**
+1.  Klicken Sie mit der rechten Maustaste auf `StartServerForeground.bat` und wählen Sie **Bearbeiten**.
+2.  Stellen Sie sicher, dass die Pfade korrekt sind, und führen Sie die Batch-Datei aus.
+3.  Warten Sie, bis die Konsole die Weltdateien generiert hat. Sie werden "Collector Loading" und "Event" Protokolle sehen.
+4.  Sobald die Welt generiert wurde, drücken Sie `Strg + C` im Konsolenfenster, um den Server sicher herunterzufahren. Dieser Schritt ist erforderlich, um die Konfigurations-JSON-Dateien zu erstellen.
+
+## Schritt 4: Konfigurieren der Servereinstellungen
+
+Navigieren Sie nach dem ersten Herunterfahren in das Verzeichnis `Saved/Config` innerhalb Ihres Serverordners. Hier finden Sie die Datei `ServerDescription.json`. In dieser Datei definieren Sie die Identität Ihres Servers.
+
+| Parameter | Beschreibung | Empfohlene Einstellung |
+| :--- | :--- | :--- |
+| **ServerName** | Der im Server-Browser angezeigte Name. | Ihr Community-Name |
+| **MaxPlayerCount** | Gesamtzahl der verfügbaren Slots. | **8 bis 16** |
+| **Password** | Für öffentlichen Zugang leer lassen. | **Sicher Alphanumerisch** |
+| **IsPasswordProtected** | Aktiviert/Deaktiviert die Passwortabfrage. | true / false |
+| **InviteCode** | Ein eindeutiger Code für Direktverbindungen. | **Automatisch generiert** |
+
+> **💡 Tipp:** Behalten Sie immer ein Backup Ihres `InviteCode`. In Windrose ist dieser Code oft der zuverlässigste Weg für Freunde, Ihren Server zu finden, wenn der globale Browser eine hohe Auslastung aufweist.
+
+## Abschnitt 5: Netzwerkkonfiguration und Port-Weiterleitung
+
+Damit Spieler außerhalb Ihres lokalen Netzwerks beitreten können, müssen Sie bestimmte Ports an Ihrem Router und in der Windows-Firewall öffnen. Dies ist der Punkt, an dem die meisten Server-Hosts auf Probleme stoßen.
+
+1.  **Windows Firewall:** Erstellen Sie eine neue eingehende Regel sowohl für TCP- als auch für UDP-Protokolle.
+2.  **Router-Einstellungen:** Loggen Sie sich in das Gateway Ihres Routers ein und navigieren Sie zum Bereich Port-Weiterleitung (Port Forwarding).
+3.  **Freizugebende Ports:** Standardmäßig nutzt Windrose in der Regel Ports im Bereich von **7777-7778** sowie **27015** für Steam-Abfragen.
+
+Konsultieren Sie die Dokumentation Ihres spezifischen Router-Herstellers, um sicherzustellen, dass die interne IP Ihres Server-Rechners korrekt auf diese Ports gemappt ist.
+
+## Erweiterte Anpassung: Die zweite Konfigurationsdatei
+
+Wie in fortgeschrittenen Diskussionen zum **steamdb windrose** Setup erwähnt, gibt es eine zweite, detailliertere Konfigurationsdatei, die erstellt werden kann, um Gameplay-Mechaniken zu manipulieren. Diese Datei ermöglicht Anpassungen an:
+*   Ressourcen-Respawn-Raten.
+*   Schwierigkeitsskalierung der Gegner-KI.
+*   Loot-Dropprozenten.
+*   Länge des Tag/Nacht-Zyklus.
+
+Um diese Änderungen zu implementieren, müssen Sie eine neue JSON-Datei basierend auf den Vorlagen im `README`- oder Dokumentationsordner des Servers erstellen. Kopieren Sie die Beispiel-JSON-Struktur, ändern Sie die Werte nach Ihren Wünschen und speichern Sie sie im Konfigurationsordner.
+
+## Wartung Ihres Windrose-Servers
+
+Es ist wichtig, Ihren Server auf dem neuesten Stand zu halten, um die Kompatibilität zu gewährleisten. Wann immer die Entwickler einen Patch veröffentlichen, wird Ihr Server wahrscheinlich als "Inkompatibel" angezeigt, bis Sie die Dateien aktualisieren.
+
+**Der Update-Prozess:**
+1.  Schließen Sie die Server-Konsole.
+2.  Öffnen Sie SteamCMD.
+3.  Führen Sie `login anonymous` aus.
+4.  Führen Sie `app_update 4129620` aus.
+5.  Starten Sie nach Abschluss Ihre Server-Batch-Datei neu.
+
+Sie können dies automatisieren, indem Sie eine "Update.bat"-Datei erstellen, die diese Befehle enthält und so eine Ein-Klick-Wartung ermöglicht.
+
+Weitere Informationen zu Spiel-Updates und Spielerstatistiken finden Sie auf der [offiziellen Windrose Steam-Seite](https://store.steampowered.com/app/2431620/Windrose/) in den neuesten Entwickler-Logs.
+
+## FAQ
+
+**F: Warum können meine Freunde meinen Server nicht im Browser sehen?**
+
+A: Dies liegt meist an Problemen mit der Port-Weiterleitung. Stellen Sie sicher, dass die Ports 7777 und 27015 sowohl für TCP als auch für UDP weitergeleitet werden. Überprüfen Sie außerdem doppelt, ob Ihre Windows-Firewall die `WindroseServer.exe` nicht blockiert.
+
+**F: Muss ich eine zweite Kopie des Spiels kaufen, um zu hosten?**
+
+A: Nein. Durch die Verwendung der **steamdb windrose** App ID (4129620) und den Login als "anonymous" in SteamCMD können Sie den Server hosten, ohne eine zusätzliche Lizenz erwerben zu müssen.
+
+**F: Wie ändere ich die Weltkarte?**
+
+A: Die Weltgenerierung erfolgt beim ersten Start. Wenn Sie eine neue Welt beginnen möchten, müssen Sie den Ordner `Saved` in Ihrem Serververzeichnis löschen. Beim nächsten Start wird ein neuer zufälliger Seed generiert.
+
+**F: Kann ich dies auf einem Linux-Server ausführen?**
+
+A: Obwohl die nativen Dateien für Windows sind, betreiben viele Hosts den dedizierten Windrose-Server erfolgreich auf Linux-Distributionen unter Verwendung von Proton oder Wine. Die Einrichtung ist jedoch deutlich komplexer und erfordert möglicherweise zusätzliche Abhängigkeiten wie `lib32gcc`.
