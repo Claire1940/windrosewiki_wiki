@@ -1,0 +1,105 @@
+export const metadata = {
+  title: "Windrose Structure Unstable: Guia de Estabilidade de Construção 2026",
+  description: "Aprenda a corrigir o erro windrose structure unstable com nosso guia completo sobre integridade estrutural, níveis de materiais e mecânicas de suporte.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Windrose+Structure+Unstable+Guide",
+  date: "2026-04-26",
+  author: "Equipe Wiki Windrose"
+}
+
+Dominar a arte da construção de bases é essencial para a sobrevivência no mundo gerado proceduralmente de Windrose. No entanto, muitos jogadores acabam encontrando o frustrante aviso **windrose structure unstable** ao tentar construir fortalezas ambiciosas ou torres de vigia altas. Este erro ocorre quando o motor de física do jogo detecta que um componente de construção carece de suporte suficiente do solo ou de um elemento de fundação. Entender por que uma notificação de **windrose structure unstable** aparece é o primeiro passo para criar uma base segura que possa resistir aos elementos e a ataques inimigos. Neste guia, detalharemos as mecânicas de integridade estrutural, examinaremos como diferentes materiais influenciam a estabilidade e forneceremos etapas práticas para garantir que suas obras-primas arquitetônicas permaneçam de pé durante os desafios mais difíceis de 2026.
+
+## Entendendo a Integridade Estrutural em Windrose
+
+O sistema de construção em Windrose opera em uma lógica de "fluxo de suporte". Cada peça que você coloca—seja um piso, parede ou telhado—calcula sua distância de uma fonte "aterrada". Uma fonte aterrada é tipicamente uma peça de fundação colocada diretamente no terreno ou um pilar ancorado em uma face rochosa.
+
+À medida que você constrói mais longe desses pontos aterrados, a integridade estrutural de cada peça subsequente diminui. Quando o valor da integridade cai para zero, você recebe a mensagem **windrose structure unstable**, e a peça não poderá ser colocada ou desmoronará pouco tempo depois.
+
+### O Cálculo de Suporte
+A estabilidade é calculada com base em dois fatores principais:
+1.  **Suporte Vertical:** Quantas peças existem entre o componente atual e o solo.
+2.  **Alcance Horizontal:** Quão longe uma peça se estende lateralmente a partir de uma viga de suporte vertical ou parede.
+
+| Tipo de Componente | Valor de Estabilidade Base | Extensão Horizontal Máxima | Limite Vertical (Madeira) |
+| :--- | :--- | :--- | :--- |
+| **Fundação** | 100% (Aterrado) | N/A | N/A |
+| **Pilar/Viga** | 95% | 1 Peça | 6 Peças |
+| **Painel de Piso** | 90% | 2 Peças | N/A |
+| **Seção de Parede** | 90% | 1 Peça | 5 Peças |
+
+> **💡 Dica:** Sempre comece sua construção com uma Fundação de Pedra, se possível. A pedra fornece um valor de base "aterrada" muito maior do que a madeira, permitindo estruturas mais altas antes que a instabilidade se instale.
+
+## Solucionando o Erro Windrose Structure Unstable
+
+Quando você vê o texto **windrose structure unstable** aparecendo na sua tela, geralmente é um sinal de que sua expansão horizontal excedeu a força de seus suportes verticais. Para corrigir isso, você deve reforçar o caminho de volta ao solo.
+
+### 1. Adicionando Pilares Verticais
+A solução mais comum para a instabilidade é a colocação de pilares. Em Windrose, os pilares atuam como condutos de alta resistência para a integridade estrutural. Se um piso estiver ficando vermelho ou aparecendo como instável, colocar um pilar diretamente abaixo dele (conectando-o ao piso inferior ou ao solo) resetará o cálculo de estabilidade para aquele ponto específico.
+
+### 2. Utilizando Vigas Transversais
+Vigas horizontais são frequentemente negligenciadas, mas são vitais para grandes salas abertas. Se você estiver construindo um salão amplo e as peças centrais do teto estiverem acionando o erro **windrose structure unstable**, coloque vigas atravessando o vão de parede a parede. Isso distribui o peso e permite que o motor de física calcule o suporte de dois lados em vez de apenas um.
+
+### 3. Melhorias de Nível de Material
+Conforme você progride no jogo, desbloqueará materiais de níveis mais altos. Esses materiais possuem diferentes perfis de "peso" e "resistência".
+
+| Nível do Material | Peso | Força de Suporte | Resistência à Deterioração |
+| :--- | :--- | :--- | :--- |
+| **Palha** | Ultra-leve | Baixa | Muito Baixa |
+| **Madeira** | Leve | Média | Média |
+| **Madeira Reforçada** | Médio | Alta | Alta |
+| **Pedra** | Pesado | Muito Alta | Excelente |
+| **Pedra com Reforço de Ferro** | Muito Pesado | Máxima | Máxima |
+
+## Técnicas Avançadas de Construção para 2026
+
+Para evitar o problema de **windrose structure unstable** em construções mais complexas, como postos avançados em encostas de montanhas ou conexões de pontes entre ilhas, você deve usar táticas de engenharia avançada.
+
+### O Método "Esqueleto"
+Antes de colocar paredes ou elementos decorativos, construa o "esqueleto" de sua estrutura usando pilares e vigas. Isso permite testar a altura e largura máximas de sua construção sem desperdiçar recursos em painéis que podem desabar. Se o esqueleto estiver estável, a "pele" (paredes e pisos) quase sempre também estará.
+
+### Pontos de Ancoragem
+Em Windrose, você pode frequentemente "encaixar" peças de construção em objetos naturais do ambiente, como árvores grandes ou faces de penhascos. Estes agem como pontos de aterramento secundários. Se estiver construindo uma torre alta, tente construí-la adjacente a um penhasco para que possa ancorar ocasionalmente uma viga horizontal na rocha. Isso reseta o valor de estabilidade para 100% naquela altura, permitindo efetivamente construir infinitamente alto, desde que você tenha uma âncora natural.
+
+> **⚠️ Aviso:** Tenha cuidado ao ancorar em árvores. Se a árvore for derrubada por um jogador ou destruída por uma tempestade, qualquer parte de sua base que dependa dela para estabilidade desabará imediatamente.
+
+## Sinergias de Materiais e Gerenciamento de Peso
+
+Uma das nuances da mecânica **windrose structure unstable** é o gerenciamento de peso. Materiais mais pesados, como a Pedra, fornecem mais suporte, mas também exigem mais suporte das camadas abaixo deles.
+
+1.  **Construção com Base Pesada:** Sempre use Pedra para os dois primeiros andares de um edifício alto.
+2.  **Telhado Leve:** Use Palha ou Madeira para os telhados. Usar Pedra para um telhado em um edifício com paredes de madeira é uma maneira garantida de causar instabilidade.
+3.  **Reforço de Ferro:** No final do jogo, a Madeira com Reforço de Ferro é sua melhor amiga. Ela tem o peso da madeira, mas a força estrutural da pedra, tornando-a o material ideal para longas pontes horizontais.
+
+Para mais informações sobre a coleta desses materiais, confira a [Comunidade Oficial de Windrose no Steam](https://steamcommunity.com/app/windrose) para as notas de atualização mais recentes e projetos feitos por jogadores.
+
+## Manutenção Estrutural e Fatores Ambientais
+
+Em 2026, Windrose introduziu padrões climáticos mais dinâmicos que podem afetar o status de **windrose structure unstable**. Ventos fortes durante tempestades tropicais ou neve pesada em biomas do norte adicionam "estresse" aos componentes de sua construção.
+
+*   **Estresse de Tempestade:** Durante um furacão, a estabilidade de todas as peças cai de 10 a 15%. Um edifício que está "no limite" da estabilidade em tempo limpo pode desabar durante uma tempestade.
+*   **Reparando Fundações:** Se sua fundação sofrer danos em combate ou por deterioração, cada peça acima dela perde estabilidade. Mantenha suas fundações com 100% de integridade para garantir que o restante da estrutura permaneça seguro.
+
+| Condição Climática | Impacto na Estabilidade | Contramedida Recomendada |
+| :--- | :--- | :--- |
+| **Limpo** | 0% | Suportes Padrão |
+| **Ventos Fortes** | -10% | Adicionar Reforço Diagonal |
+| **Neve Pesada** | -5% (Carga de Peso) | Usar Telhados Inclinados |
+| **Tempestade com Raios** | -15% | Âncoras de Ferro / Hastes de Aterramento |
+
+## FAQ
+
+**P: Por que minha peça quebra imediatamente mesmo tendo uma parede abaixo dela?**
+
+R: Isso geralmente acontece porque a própria parede não está devidamente aterrada. Verifique as peças abaixo da parede. Se houver uma pequena lacuna entre a parede inferior e o terreno, toda a pilha vertical é considerada "flutuante" e eventualmente acionará o erro **windrose structure unstable**.
+
+**P: Posso usar móveis para aumentar a estabilidade?**
+
+R: Não, móveis e bancadas de trabalho são considerados "decorações" e não contribuem para a integridade estrutural de um edifício. Na verdade, colocar muitas bancadas pesadas em um piso instável pode acelerar seu colapso.
+
+**P: Quão longe posso construir horizontalmente antes de precisar de um pilar?**
+
+R: Para pisos de Madeira padrão, você pode normalmente estender duas peças para fora de uma parede ou pilar suportado. Na terceira peça, você quase certamente encontrará o aviso **windrose structure unstable**. Usar Madeira Reforçada ou Vigas com Reforço de Ferro pode estender isso para quatro ou cinco peças.
+
+**P: O erro "windrose structure unstable" afeta a construção de navios?**
+
+R: A construção de navios usa um sistema ligeiramente diferente de "Flutuabilidade vs. Peso", mas a lógica central permanece. Se você construir mastros ou conveses superiores demais sem suporte de casco suficiente, não receberá um erro de estabilidade, mas o navio pode virar ou sofrer danos estruturais constantes ao navegar.
